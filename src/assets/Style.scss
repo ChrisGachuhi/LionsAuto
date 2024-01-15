@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0 0.3rem;
   font-family: CircularStd;
   color: #343434;
 }
@@ -71,8 +71,8 @@
       margin-bottom: 0.25rem;
     }
 
-    ul.menuOpen{
-        display: block;
+    ul.menuOpen {
+      display: block;
     }
 
     li {
@@ -85,6 +85,84 @@
 
     .hamburger-menu {
       display: block;
+    }
+  }
+}
+
+.Section {
+  // background-color: aqua;
+  padding: 0 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .contact-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 3.5rem;
+
+    span {
+      color: #c5c6cd;
+      font-size: 1.5rem;
+      //   font-weight: 500;
+    }
+    span:nth-child(2),
+    span:nth-child(3) {
+      color: #343434;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+
+    span:nth-child(4) {
+      color: #2a2a2a;
+      font-size: 2.5rem;
+      margin: 1rem 0;
+    }
+    p{
+        margin-top: 2rem;
+        color: #8A919B;
+        font-size: 1.5rem;
+    }
+
+    span:nth-child(6) {
+      color: #2a2a2a;
+    }
+  }
+
+  .form-submit {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    color: #858585;
+
+    input {
+      height: 40px;
+      width: 400px;
+      font-size: 1rem;
+      padding: 1.5rem;
+      border: none;
+      border-bottom: solid 2px #ebebeb;
+    }
+
+    input:nth-child(4) {
+      height: 0.2rem;
+    }
+
+    textarea {
+      height: 120px;
+      padding: 1.5rem;
+      font-size: 1rem;
+      margin-top: 0.25rem;
+      border: none;
+      border-bottom: solid 2px #ebebeb;
+    }
+    button {
+      border: none;
+      margin: 1rem 0;
+      padding: 1rem 0;
+      font-weight: 500;
+      font-size: 1.25rem;
     }
   }
 }
