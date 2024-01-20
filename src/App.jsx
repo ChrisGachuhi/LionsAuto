@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./assets/Style.scss";
 import "@vetixy/circular-std";
+// eslint-disable-next-line no-unused-vars
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import {

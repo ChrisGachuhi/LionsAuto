@@ -96,6 +96,15 @@
   justify-content: space-between;
   align-items: center;
 
+  @media screen and (max-width: 768px) {
+    padding: 0 1rem;
+  }
+}
+
+.Form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
   .contact-center {
     display: flex;
     flex-direction: column;
@@ -119,10 +128,10 @@
       font-size: 2.5rem;
       margin: 1rem 0;
     }
-    p{
-        margin-top: 2rem;
-        color: #8A919B;
-        font-size: 1.5rem;
+    p {
+      margin-top: 2rem;
+      color: #8a919b;
+      font-size: 1.5rem;
     }
 
     span:nth-child(6) {
@@ -163,6 +172,436 @@
       padding: 1rem 0;
       font-weight: 500;
       font-size: 1.25rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+
+    .form-submit {
+      padding: 1rem 0;
+
+      button {
+        margin: 0;
+        margin-top: 2rem;
+        padding: 1rem 0;
+      }
+    }
+
+    .contact-center {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      line-height: 3.5rem;
+
+      span {
+        font-size: 1.25rem;
+      }
+      span:nth-child(2),
+      span:nth-child(3) {
+        font-size: 2.5rem;
+      }
+
+      span:nth-child(4) {
+        color: #2a2a2a;
+        font-size: 1.5rem;
+        margin: 0;
+      }
+      p {
+        margin-top: 0.75rem;
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+.Footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  .column {
+    height: 50%;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+
+    li {
+      list-style-type: none;
+      margin: 0.5rem 0;
+
+      a {
+        text-decoration: none;
+      }
+    }
+  }
+
+  // .address {
+  //   grid-column: 1 / 2;
+  //   font-size: 1.25rem;
+  // }
+  // .quick-links {
+  //   grid-column: 2 / 3;
+  // }
+  // .useful-contact {
+  //   grid-column: 3 / 4;
+  // }
+  // .get-in-touch {
+  //   grid-column: 4 / 5;
+  // }
+  span {
+    // grid-column: 1 / 5;
+    text-align: center;
+    margin-top: 50px;
+    padding: 2rem 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.Home {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "Landing"
+    "Benefits"
+    "Solutions"
+    "Partners"
+    "Features"
+    "Services";
+
+  .landing {
+    grid-area: Landing;
+  }
+  .benefits {
+    grid-area: Benefits;
+  }
+  .solutions {
+    grid-area: Solutions;
+  }
+  .partners {
+    grid-area: Partners;
+  }
+  .features {
+    grid-area: Features;
+  }
+  .services {
+    grid-area: Services;
+  }
+
+  // .landing{
+
+  // }
+
+  .benefits {
+    padding: 6rem 0;
+    display: grid;
+    grid-template-areas:
+      "title title title"
+      "tracking analysis replay"
+      "alerts mapping reports";
+    gap: 1rem;
+    justify-content: center;
+
+    .title {
+      grid-area: title;
+      text-align: center;
+      font-size: 3rem;
+    }
+    .tracking {
+      grid-area: tracking;
+    }
+    .anlaysis {
+      grid-area: anlaysis;
+    }
+    .replay {
+      grid-area: replay;
+    }
+    .alerts {
+      grid-area: alerts;
+    }
+    .mapping {
+      grid-area: mapping;
+    }
+    .reports {
+      grid-area: reports;
+    }
+
+    .benefit {
+      height: fit-content;
+      width: 22rem;
+      padding: 3rem 1rem;
+      border: solid 1px gray;
+
+      h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+      }
+    }
+  }
+
+  .solutions {
+    padding: 6rem 0;
+    display: grid;
+    grid-template-areas:
+      "track"
+      "load"
+      "fuel"
+      "generator"
+      "mining"
+      "battery";
+    gap: 6rem;
+
+    .solution {
+      height: fit-content;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // gap: 10px;
+
+      .image,
+      .description {
+        height: 100%;
+        width: 50%;
+      }
+
+      img {
+        border-radius: 2rem;
+        height: 30rem;
+      }
+
+      .description {
+        padding: 2rem;
+        h3 {
+          font-size: 2.25rem;
+          margin-bottom: 0.5rem;
+        }
+        p {
+          font-size: 1.3rem;
+          margin-bottom: 2rem;
+          line-height: 2rem;
+        }
+
+        button {
+          border: none;
+          padding: 0.8rem 2.4rem;
+          border-radius: 2rem;
+          font-size: 1.2rem;
+        }
+      }
+    }
+
+    .track {
+      grid-area: track;
+    }
+    .load {
+      grid-area: load;
+      flex-direction: row-reverse;
+    }
+    .fuel {
+      grid-area: fuel;
+    }
+    .generator {
+      grid-area: generator;
+      flex-direction: row-reverse;
+    }
+    .mining {
+      grid-area: mining;
+    }
+    .battery {
+      grid-area: battery;
+      flex-direction: row-reverse;
+    }
+  }
+
+  .partners {
+    padding: 6rem 0;
+    display: grid;
+    grid-template-areas:
+      "partner"
+      "stats";
+    gap: 5rem;
+
+    .partner {
+      grid-area: partner;
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      object-fit: contain;
+      gap: 2rem;
+
+      img {
+        border: solid 1px black;
+        border-radius: 50%;
+      }
+      img:nth-of-type(even) {
+        height: 120px;
+        width: 120px;
+      }
+    }
+    .stats {
+      grid-area: stats;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+
+      .stat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span {
+          font-size: 4rem;
+          color: red;
+        }
+        span:nth-of-type(2) {
+          font-size: 1.5rem;
+          color: black;
+        }
+      }
+    }
+  }
+
+  .features {
+    padding: 6rem 0;
+    display: grid;
+    grid-template-areas:
+      "title playback alerts"
+      "tracking apps multiple";
+    gap: 2rem;
+    justify-content: center;
+
+    h2 {
+      grid-area: title;
+      width: 18rem;
+    }
+    .playback {
+      grid-area: playback;
+    }
+    .alerts {
+      grid-area: alerts;
+    }
+    .tracking {
+      grid-area: tracking;
+    }
+    .apps {
+      grid-area: apps;
+    }
+    .multiple {
+      grid-area: multiple;
+    }
+
+    .playback {
+      img {
+        height: 50px;
+      }
+    }
+
+    h2 {
+      font-size: 2.25rem;
+    }
+    .card {
+      height: fit-content;
+      width: 18rem;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2rem;
+      border: solid 1px gray;
+
+      img {
+        height: 5rem;
+      }
+
+      h3 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+      // .arrow{
+      //   font-size: 60px;
+      // }
+    }
+  }
+
+  .services {
+    padding: 6rem 0;
+    display: grid;
+    grid-template-areas: "title features";
+    gap: 1rem;
+    justify-content: center;
+
+    .title {
+      width: 25rem;
+      padding: 5rem 0.5rem;
+      grid-area: title;
+
+      span {
+        color: #858585;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+
+      h2 {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+
+        span {
+          font-size: 3rem;
+          font-weight: 100;
+          color: black;
+        }
+      }
+      p {
+        font-size: 1.1rem;
+        margin: 2.5rem 0;
+        line-height: 1.5rem;
+      }
+      button {
+        padding: 0.8rem 2rem;
+        border: none;
+        border-radius: 3rem;
+        font-size: 1rem;
+      }
+    }
+
+    .features {
+      width: 40rem;
+      grid-area: features;
+      // background-color: aqua;
+      display: grid;
+      grid-template-areas:
+        "visibility cloud"
+        "theft .";
+      gap: 20px;
+
+      .feature {
+        width: 15rem;
+        padding: 2rem 1rem;
+        border: solid 1px black;
+
+        .icon {
+          font-size: 4rem;
+          color: red;
+          margin-bottom: 1rem;
+        }
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+        }
+        p {
+          font-size: 1.15rem;
+          line-height: 2rem;
+        }
+      }
     }
   }
 }

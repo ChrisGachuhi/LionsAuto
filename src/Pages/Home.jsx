@@ -1,8 +1,394 @@
+import playback from "../assets/icons/playback.svg";
+import alerts from "../assets/icons/alerts.svg";
+import tracking from "../assets/icons/tracking.svg";
+import apps from "../assets/icons/apps.svg";
+import multiple from "../assets/icons/multiple.svg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faArrowRight,
+  faBars,
+  faCloud,
+  faLock,
+} from "@fortawesome/free-solid-svg-icons";
 
 export const Home = () => {
   return (
-      <div className="Page Home">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quia aperiam error numquam, qui minus porro animi iure similique harum tempore consectetur voluptate laborum dolore quas eaque eum totam explicabo excepturi temporibus incidunt pariatur. Eius eveniet sapiente, consequuntur necessitatibus ut sint vitae voluptatem sed, id, provident consectetur! Doloremque eos, molestias laudantium doloribus aperiam harum tempora esse, expedita saepe quos ut officia assumenda vel molestiae ullam omnis! Veritatis reiciendis minima quasi adipisci asperiores dolores quae quo quos fugit amet enim repellendus, sint aspernatur architecto maxime pariatur voluptatem nostrum debitis molestiae nesciunt exercitationem error cum. Facere vero nesciunt, expedita omnis, ut, natus eius aliquam nulla cupiditate quasi exercitationem voluptate dolores ratione fugiat libero odit quia excepturi! Nobis voluptas ab, tempore distinctio voluptatibus consequuntur consectetur vel saepe nihil totam soluta et veniam ipsum quia sint, ea odio? Rerum tenetur, quibusdam dolore, blanditiis nobis voluptatum omnis est et necessitatibus eos fuga esse consequuntur sunt sed exercitationem dolorum ab delectus voluptate facere repellat, harum atque doloribus quaerat incidunt! Officia, quia harum! Eius quo similique quidem laboriosam omnis. Voluptas culpa quis, tenetur magnam ipsam commodi animi sapiente dolorem ducimus quam et cupiditate repellat voluptatum, placeat, facere explicabo veritatis? Quod minima autem labore asperiores libero eligendi accusamus modi voluptate, dolore ipsa ab ex quia dolor cumque incidunt sequi voluptates, eaque impedit quis consectetur. Expedita sed ex incidunt a blanditiis. Unde voluptas assumenda dolor corrupti reiciendis, animi magnam aliquid dolorum praesentium perferendis rem. Quaerat placeat ut molestias error assumenda qui incidunt eos repellat ea dolores veniam asperiores maiores sequi, nemo quod sit id est magnam iusto praesentium ratione eligendi tempore cum. Quod consectetur nobis modi magnam unde eos perspiciatis neque, eaque sequi pariatur provident odit, praesentium minus earum autem nemo, quos impedit vero at obcaecati porro perferendis officia! Accusamus porro hic quaerat, molestiae iste pariatur mollitia deserunt temporibus enim doloremque ea perspiciatis, minima repellat consectetur atque placeat quo ducimus aliquam. Neque explicabo repellendus iure ipsum architecto consequuntur cumque temporibus rem? Enim corporis cum obcaecati dolor tempora consequuntur, nihil illo aut fuga optio, eos, aliquam nobis necessitatibus impedit explicabo dolorum. Harum totam rem sit tempora recusandae saepe laudantium, iure quasi sed voluptas, ut porro voluptatem quo, quis optio voluptates placeat reprehenderit? Ex, debitis vel! Sapiente in omnis, qui dolores molestias architecto fugit vitae repellendus explicabo totam alias quia id voluptas, dolore odit unde sit laudantium non laborum dolorum harum commodi dignissimos, ullam aspernatur. Laudantium alias modi doloremque explicabo aliquam ea atque quos molestiae praesentium voluptatibus cupiditate, ut voluptate qui, sint nobis veniam quidem magni, culpa porro velit. Illo, explicabo. Harum nihil, cum minus error ex eaque, animi aliquid autem, excepturi nisi tenetur eligendi voluptatum delectus placeat repellendus dignissimos! Deserunt fuga, voluptatem reprehenderit, tempore a error dicta corrupti quasi, consequuntur qui natus asperiores inventore. Eligendi, veniam aperiam vero voluptates nulla laboriosam corporis officiis perspiciatis obcaecati provident inventore voluptatibus. Cumque eum quasi veniam fuga incidunt voluptate, optio veritatis! Debitis fugit magni expedita, ullam vero voluptatum. Fuga, dolore veniam nostrum maxime ullam aperiam tempora illo? Repellendus debitis, alias ratione suscipit iusto ipsa magnam, voluptatem, velit voluptas eaque esse ea beatae tenetur similique nemo! Perferendis dignissimos beatae voluptatem recusandae magnam, dolore ex laborum quia eum commodi accusantium amet porro at quos tempora suscipit mollitia cum officia placeat. Aperiam ut laboriosam nisi, consequuntur id tempore fugit quia blanditiis ducimus ratione. Mollitia, quo iusto expedita sapiente omnis minus pariatur rerum voluptas odit nisi explicabo modi vel recusandae aut accusamus minima maiores nihil quis assumenda quod! Eaque voluptas magni excepturi placeat quidem consequatur possimus accusamus magnam repudiandae enim impedit tempore rerum praesentium eos laboriosam, illo est sint! A similique nobis suscipit fuga cupiditate. Facere similique doloribus inventore dolores! Molestiae vel fuga aliquam laboriosam, eos ad, nemo deserunt dignissimos doloremque maiores magni hic animi cupiditate, provident saepe a recusandae quisquam vero eligendi officiis! In cumque quo tempora, ipsam tempore fugit ut ullam quia. Quo, at? Consequatur, voluptatibus adipisci repellat impedit nobis cum iste quasi, libero pariatur nulla laudantium! Maxime tempore nisi, aperiam nemo est possimus totam id dignissimos reprehenderit? Quas ipsa dolore placeat voluptatem illum autem sequi, velit cumque. Dolorem saepe cupiditate culpa. Velit, quasi minus! Laborum ducimus adipisci nam, cum laboriosam, rerum dignissimos accusamus aliquam, doloribus error suscipit sint eaque. Quibusdam, laboriosam, a delectus voluptate libero quas maiores perferendis distinctio saepe, ipsam eaque in soluta sunt minima. Nesciunt accusantium ipsam perferendis quos voluptatibus doloribus atque deserunt, laboriosam autem, animi eum esse. Tempore labore est a, possimus nemo, laborum quibusdam sequi natus vero nisi iusto repudiandae eveniet minus nihil quod accusamus facere atque dolor dolorum sunt eum! Ducimus cum nemo rerum alias temporibus ratione incidunt voluptatem eligendi. Ducimus corrupti perspiciatis, fugiat iusto inventore magni praesentium voluptate sequi, doloribus, at cumque odio aut et sunt incidunt totam ab aliquid! Facilis dolorum velit alias quibusdam distinctio laudantium reprehenderit numquam, vel aspernatur! Veniam velit, quia consequatur cum nihil, rem ab deserunt blanditiis laborum beatae rerum adipisci in aspernatur quidem perferendis corrupti praesentium, reiciendis eligendi fugit! Placeat ducimus, eius numquam assumenda voluptates quibusdam quaerat fugit incidunt vitae quos necessitatibus quam nemo ab commodi quae pariatur atque nisi? Saepe, animi quaerat at quisquam voluptates harum quidem cum reiciendis, nisi nemo tempora accusantium obcaecati laudantium rem vitae possimus! Voluptates hic illum nam quasi? Veniam aspernatur architecto quaerat illo, rerum ratione voluptates qui. Earum quasi non deserunt! Blanditiis facere rem magni aliquam ratione officia sit culpa mollitia deleniti voluptatum tempore odit veritatis maxime totam dolorem numquam impedit porro consequatur molestias quo perferendis, amet nemo illo quasi. Quidem ullam id architecto dolore iste, in mollitia culpa magnam praesentium asperiores sequi iure debitis delectus ea? Reiciendis a quia pariatur magnam dolores, atque est mollitia eos doloremque libero, exercitationem voluptates, quaerat dolorum dicta? Dicta voluptates fuga itaque eaque, adipisci odio iusto illo nesciunt recusandae reprehenderit rem, sapiente velit quis. Natus temporibus repellendus laudantium optio accusantium. Quisquam voluptatibus recusandae debitis reprehenderit accusantium exercitationem labore praesentium beatae quaerat cum eius adipisci sequi consectetur maxime quos eligendi, at molestias saepe inventore totam consequuntur! Sequi expedita sapiente dicta autem sed itaque nam aliquid eaque. Minus at nemo harum dolor, cupiditate amet earum in corporis consequuntur necessitatibus, error ipsum doloremque molestias autem maxime molestiae. Pariatur necessitatibus aut quam sint sunt qui obcaecati repudiandae temporibus! Esse velit corrupti veniam! Autem qui nihil officiis libero provident veritatis nobis ipsum similique temporibus sequi ex possimus, molestias unde enim, aliquam labore id. Ratione nobis natus incidunt sit! Culpa sed voluptatum quos placeat temporibus, atque illo incidunt quis eum quam repellendus iure. Voluptate molestiae ullam facilis facere iusto architecto reprehenderit sunt. Aut voluptas magni eaque amet earum saepe nisi, autem illum vitae iure obcaecati ducimus. Alias provident eius, ipsam quia tempore explicabo repellendus? Repellat cum alias fugiat eum aut repellendus. Corporis optio accusantium esse sapiente minus perferendis eligendi, sunt autem dolore quia corrupti asperiores. Vitae numquam quibusdam doloribus libero possimus! Reprehenderit eius ipsum voluptatem ab molestiae a veritatis repellat, nulla excepturi, expedita cum in et est, quas dolor nemo esse odio vel. Repellat, similique harum quasi blanditiis eum a ad velit nihil, sunt unde, minus reprehenderit optio tempore dolore animi quis itaque? Doloremque laudantium nesciunt sunt tempore molestias impedit quasi beatae, similique facilis commodi aspernatur vitae dolore quod odio obcaecati sapiente aut nostrum reiciendis fugit numquam voluptas quae at explicabo. Repellat similique assumenda neque praesentium. Eaque natus provident nulla, dolore quo ad cupiditate et architecto accusamus amet neque, expedita autem eum ea officia officiis laborum, magni hic vel aliquam error. Quidem cupiditate corrupti, sed ad rerum similique cum voluptas, suscipit officiis in id voluptate minus dignissimos voluptatem omnis consequatur odit nihil repudiandae saepe? Doloribus, dicta. Saepe neque itaque dolore minus nisi voluptatibus laudantium repudiandae sequi, quas ducimus impedit unde, vitae, repellat veniam eos maiores ipsam aliquam sunt quo? Debitis voluptatem sapiente, aperiam magnam consequuntur nam veniam maxime repudiandae quis nihil, tempora quisquam vel, at molestias deleniti neque eos alias ipsam? Praesentium, aspernatur quisquam cupiditate consectetur laborum impedit dolorum velit, rem est amet tempora, ad saepe tenetur aliquid obcaecati laboriosam! Magnam, laboriosam consectetur? Consectetur cupiditate quae ipsa soluta, quis esse animi magni similique voluptatem magnam voluptatibus temporibus corporis, reprehenderit eos sequi autem eligendi velit sunt labore, totam aliquid beatae quidem ipsum praesentium! Dolorum ipsum eaque doloribus iste omnis explicabo qui corrupti praesentium. Nobis ipsam aspernatur nesciunt distinctio assumenda officiis corporis accusantium quo! Quis minima ab maxime corporis porro facere nobis. Odio laborum consequatur dolor eius, saepe, tenetur assumenda labore fugiat, molestiae mollitia omnis? Rerum iure expedita quia inventore, minima accusamus corporis voluptates modi amet eligendi a quibusdam, et eum voluptatum neque fuga minus. Dicta nobis, cum cupiditate tempora tenetur aliquam porro provident ratione. Sapiente maxime quas possimus minus accusantium enim alias adipisci blanditiis totam perferendis eos nisi laudantium placeat vero, praesentium, voluptas beatae harum? Veritatis numquam itaque quisquam qui dolore quaerat nemo tempore ex ab porro atque totam explicabo velit suscipit laudantium sunt sequi perspiciatis asperiores, quidem aut quod. Voluptate excepturi repellendus, reprehenderit quae nihil itaque. Perspiciatis eos molestiae molestias ratione eum laborum deleniti vitae quaerat saepe modi, nisi harum hic nesciunt necessitatibus eveniet blanditiis, provident quasi obcaecati? Provident culpa rerum praesentium eveniet adipisci eius iure perferendis, voluptas voluptates cupiditate eaque autem neque, labore error laborum saepe maiores debitis beatae tenetur nisi facere rem? Facere sunt minima culpa tenetur saepe natus minus velit modi exercitationem iure dicta nobis optio, odit ipsam obcaecati expedita deleniti laudantium maxime excepturi. Inventore dicta beatae tempore soluta eaque nam, officia asperiores ut dolores quia fuga nobis, magni iste laboriosam recusandae labore rerum eligendi quibusdam neque placeat voluptas dolorem. Unde aliquam tenetur id maiores. Consequatur tempora animi quas sint asperiores facere rerum ad aut molestias. Velit placeat rerum cum, quis iusto dolore quaerat provident. Veritatis neque itaque impedit. Asperiores deleniti voluptate totam, quo ipsa repellendus fuga fugit quis magnam recusandae quam, voluptates natus dolor accusamus maiores, qui inventore unde impedit aspernatur architecto officia rerum. Pariatur deserunt est ab, eligendi in aspernatur ducimus, libero nam cupiditate cum maxime cumque, temporibus expedita? Nulla corrupti consequuntur molestias error dolore sint ducimus ex cupiditate a at, itaque, culpa eius tempore fugiat minima quia adipisci aliquam neque vel sequi, quod quis placeat! Rerum officiis ipsa, odio inventore, earum in porro corporis fugiat quia labore commodi sequi. Eius eos quas ipsam blanditiis sunt deserunt sit minus harum placeat velit! Quaerat tempore consequatur libero rerum quae incidunt eveniet! Perferendis et eum at quasi quis sint, natus corporis porro harum incidunt quae voluptates facilis eligendi. Quae ad vero excepturi quisquam repudiandae consectetur repellendus, cupiditate ducimus, dicta id, iure earum temporibus? In quasi iusto quidem reprehenderit nostrum nesciunt voluptate placeat! Eos aliquam ea, hic officia asperiores eius quibusdam possimus quis dolor fuga, placeat excepturi ratione earum, assumenda exercitationem maiores quas dignissimos! Facere voluptatum at unde veniam quod beatae, assumenda dolor ipsa iusto iste illum quas debitis ut est optio voluptatibus dolorem! Quisquam a similique, dicta quia tenetur consequatur quasi voluptate quibusdam sequi doloribus officia porro. Minus cum voluptates error, dicta culpa quas facilis! Dolore dicta alias error aperiam! Culpa nesciunt cum enim non laborum. Eligendi omnis deleniti, voluptates repudiandae expedita quos quod numquam! Excepturi quae nostrum fugit libero facere nemo voluptate molestias, tenetur ipsam doloremque, a debitis repellat eum dolores fuga! Maiores rerum quod sunt nostrum reprehenderit, impedit incidunt assumenda voluptatibus ex voluptate? Impedit odio tempora nisi nihil rem assumenda voluptates eaque, amet delectus totam est incidunt mollitia pariatur quos alias reprehenderit quis. Dolorem enim sapiente maxime quasi debitis tempore, totam recusandae deleniti facilis eligendi hic labore itaque ullam ex maiores explicabo, voluptates magni. Illum consequuntur laboriosam molestias ipsum quisquam doloremque, in aspernatur cum explicabo dicta animi hic, ratione non incidunt, iure officia ducimus maxime cumque at a. Facilis ab, vel eligendi vero, cupiditate laboriosam voluptas laborum consequatur sequi numquam veniam voluptates architecto ut illo. Nostrum veniam magni eos alias impedit officiis quia, sunt explicabo recusandae repellendus unde eveniet nam ipsa possimus dolorem quos rem sit culpa molestiae in deleniti, ex id optio. Incidunt voluptas totam libero unde sint accusamus a inventore quaerat non assumenda nihil sed, doloribus delectus! Incidunt voluptatum, aperiam debitis, maiores delectus sit quis quidem libero facilis blanditiis animi. Voluptates architecto eos hic fuga adipisci quisquam earum ab sit nulla, mollitia laborum optio veritatis praesentium tempora culpa et aut eveniet, sint vel vitae consectetur. Est cumque consectetur eos, ipsa perspiciatis aut eum esse optio odit provident magni deleniti! Fugiat dolore nostrum ratione aliquam nulla id esse suscipit, perspiciatis architecto fuga ex commodi est non blanditiis nesciunt cupiditate ipsum magni, tempore minima laborum fugit a! Eius, dolor ab earum voluptas deserunt minima ipsa saepe natus laudantium, asperiores veritatis quibusdam facere necessitatibus, repudiandae pariatur debitis excepturi rem accusamus corrupti soluta. Necessitatibus ut, eos repudiandae quisquam fuga reprehenderit cum neque ducimus doloremque alias nisi optio explicabo vitae qui sunt expedita corporis molestias error sapiente rerum a, earum voluptatem similique! Magnam tempora nulla rerum illo? Cupiditate unde vitae minima nisi recusandae neque rerum. Aperiam est cumque accusamus ratione et repudiandae qui doloremque eveniet magni ab omnis alias, fugit ut maxime nihil vero commodi distinctio labore harum iusto molestias libero sed quibusdam laudantium? Consectetur eius earum consequuntur unde, illo vel aliquam beatae facilis aliquid, impedit provident, recusandae dignissimos quam quod rerum laboriosam eaque veniam laudantium. Vero quo velit ipsam eaque, esse reiciendis officiis est qui nulla, nihil consequatur consectetur iste similique minima sapiente commodi consequuntur molestiae illo suscipit! Fugit veniam eius est id ipsam a quasi, excepturi aliquam sapiente sint, commodi, itaque dolores. Aperiam blanditiis illo repellat accusantium quibusdam nesciunt voluptas eum asperiores distinctio in consectetur sed deleniti nobis, animi magnam vitae cupiditate. Ipsa amet laboriosam, cumque sit dolorem reprehenderit odit nesciunt culpa? Reiciendis mollitia maiores optio similique harum eum quisquam distinctio beatae sint. Quae, molestias consectetur. Dolorum libero facilis excepturi. Deserunt adipisci fuga, recusandae, quas id maxime ducimus corporis accusantium quam omnis, repellat temporibus ea sint quasi perferendis? Repellendus facere libero magnam corporis tempore neque, dolorem eos officia voluptate nam doloremque odio sequi quod, cupiditate fuga quia sint possimus, magni modi explicabo. Alias, iste voluptatem aut reiciendis non ab? Officiis quo corporis ipsam voluptates perferendis ipsa fugiat porro totam dolorem alias accusantium quisquam quaerat temporibus, obcaecati necessitatibus, unde dolorum repudiandae! Laborum recusandae commodi incidunt vitae tenetur? Eius perspiciatis at molestias. Odit enim commodi nam ex nostrum vero deserunt omnis eum aliquam, labore nesciunt temporibus, voluptas dolor esse repellat debitis nulla? Doloremque reprehenderit adipisci repellat cupiditate quia voluptatibus vitae repudiandae ea accusantium saepe. Corrupti, consequatur reprehenderit. Esse unde nobis, voluptate non architecto quo quibusdam dolores consectetur a repellat recusandae adipisci soluta voluptatem rem alias! Mollitia quaerat nostrum sequi ducimus et aspernatur consequatur voluptate illo! Aliquam quam tempora illo unde magnam asperiores eius similique a esse temporibus ex laborum, nemo rerum repellendus. Quia nisi enim praesentium, non nihil impedit quidem. Provident non, nulla quisquam ducimus, id expedita aperiam dicta dolorem laborum quam veniam ipsam iusto dolor delectus autem tenetur quibusdam debitis libero numquam cum quod distinctio. Fuga, cum mollitia quae, quibusdam expedita aut, perferendis sit id recusandae similique natus possimus fugiat accusantium iure rerum illum minus officia qui vero cumque. Quia quasi modi culpa veritatis! Nemo dolores quo dignissimos ad est, pariatur dolore error sint sapiente, iure temporibus id! Aperiam exercitationem sit suscipit sint error iure voluptatibus recusandae illum ullam, iusto id deleniti voluptate, ducimus perspiciatis accusamus doloremque nobis impedit! Quas, quaerat? Eos corporis commodi ab! Accusantium sapiente, temporibus atque neque iste repudiandae asperiores odit. Eius facere quod delectus temporibus dolores alias consequuntur maiores quisquam modi suscipit ut voluptatem libero eos magni perferendis atque nemo aliquid enim sequi minima unde, sunt, quidem, commodi tempore. Facere veritatis labore reprehenderit corporis soluta maiores quibusdam quaerat maxime tenetur necessitatibus recusandae ipsa saepe at sequi, accusamus, voluptate delectus vitae itaque officiis numquam. Enim nihil vitae molestiae ullam consectetur nobis sed laudantium exercitationem dolore beatae! Non ullam facere, eligendi molestiae ipsum repellendus pariatur laboriosam aperiam illo repellat soluta laudantium a sequi voluptate numquam, quod quam ratione in tenetur, obcaecati eius nobis nam praesentium vero! Recusandae, obcaecati natus. Aspernatur consequuntur iste deserunt illum voluptatibus dicta alias dolorem consequatur dolore itaque maxime aliquam sint reiciendis illo esse similique nulla libero, exercitationem blanditiis voluptatem ipsa, quam numquam ex. Eum sint repellat quibusdam autem officia totam aperiam sit nam? Nemo laborum sed sit atque harum, iusto vitae, expedita similique dolorum aut quisquam velit cum veniam voluptatibus nesciunt ut deleniti totam blanditiis deserunt maiores, corrupti unde officiis voluptate commodi! Minus eos qui debitis animi porro tempore id, et iure facere omnis. Officiis autem harum maiores doloribus eveniet beatae praesentium hic impedit, neque voluptatum reprehenderit numquam animi molestiae ipsum et consectetur aut recusandae maxime, ipsa, delectus asperiores esse nam. Adipisci beatae quos omnis ratione? Beatae harum minus placeat totam inventore architecto. Officia aperiam voluptate dolor eaque reprehenderit blanditiis, ullam quibusdam, provident atque repudiandae reiciendis! Maiores magnam consequuntur atque, fugiat consequatur error iure rem magni voluptatum ipsam quibusdam odio eum eos beatae molestias minima provident vero temporibus. Quisquam beatae ullam neque nihil omnis, cupiditate minus aut numquam, officia sint eos, animi facere totam explicabo cum quasi odit ab. Illum, veniam neque. Dignissimos inventore tenetur dolores, dolore quidem placeat temporibus nesciunt labore, quasi nam a atque voluptates itaque, recusandae expedita molestiae aliquam impedit ducimus autem qui quas cumque laborum similique corrupti! Voluptatum accusamus error quisquam laboriosam non molestiae optio quia distinctio ab. Eveniet incidunt, voluptatem harum sed asperiores nesciunt a. Veritatis, laborum dolorum. Natus vero corporis beatae. Modi explicabo soluta distinctio vel, nobis nihil, dicta velit possimus odio, dolorem sit illum qui? Quaerat atque similique quisquam molestias ab quo, assumenda non nesciunt repudiandae sapiente quidem necessitatibus molestiae fuga laborum quasi? Ab, assumenda doloribus iste doloremque blanditiis labore fuga ratione pariatur quae cumque quibusdam, laborum officia, ex sit ut vitae dolor quasi repellendus tenetur eveniet eligendi ipsum possimus quidem reiciendis? Consequatur atque obcaecati nobis dolore maiores quis illum dolor molestiae, quae cum omnis neque in unde tempore cupiditate fugit dolores voluptatem suscipit, eius, perferendis aspernatur inventore! Ex alias quo neque libero quos numquam, dolor magni quis. Voluptatibus velit accusamus earum architecto molestias, quasi asperiores provident aliquam vitae cumque id, autem dolor sit aut odit soluta pariatur amet exercitationem minima praesentium iure distinctio hic omnis consequatur. Consequuntur, quis! Rem non accusantium sapiente nam iure labore deserunt dolores ducimus, eligendi maxime amet rerum hic laborum corporis qui nulla! Repellendus veniam illum dicta fugit. Doloribus, voluptatibus laudantium sapiente debitis ipsum molestiae obcaecati adipisci! Illum libero a laudantium, veritatis quaerat voluptatibus iste. Quibusdam aliquid maxime quia laborum dolore aspernatur, nostrum ratione, esse dolores doloribus eius numquam? Quos at eveniet cupiditate? Repellat sapiente sequi deserunt beatae magni, non, doloribus atque soluta aliquid aut mollitia illum temporibus ipsum ipsam molestiae suscipit ut corrupti eos velit. Nulla, omnis odio nam tenetur a quisquam asperiores accusamus error voluptates iste non aliquam dignissimos fugiat illo sed eius repellendus ut quos temporibus aliquid et id. Autem reiciendis repudiandae veritatis nulla perferendis cum quisquam magnam? Quas optio ipsa molestias, natus aut officiis laudantium quibusdam consequuntur. Debitis pariatur delectus in architecto at ad, autem fugit error adipisci accusamus impedit aperiam sunt consequuntur, quibusdam reprehenderit voluptatum quaerat, ex incidunt alias repellat iste minima ipsa a est. Eveniet, blanditiis nulla delectus impedit, totam, vero doloremque rerum eius adipisci incidunt id atque dolorum consectetur quam ab laborum quia! Natus rem provident quo, at rerum corrupti deserunt culpa accusantium. Tempora expedita doloribus cupiditate velit laudantium pariatur nisi dicta deleniti provident numquam quaerat inventore maxime qui eveniet odio, asperiores molestias. Iste nemo sint iusto maxime eligendi necessitatibus earum velit odit ipsam perspiciatis eius saepe distinctio asperiores laboriosam quos, excepturi veniam, amet facere animi iure eos totam culpa. Reiciendis incidunt laborum, amet cupiditate similique expedita recusandae magni reprehenderit eius possimus atque est nemo provident repudiandae voluptatibus iste ratione hic totam earum, necessitatibus quaerat nostrum! Architecto, debitis! Iure, culpa? Saepe possimus eius consequatur harum nobis, vel doloremque sed quia tenetur mollitia maxime autem eveniet blanditiis neque deleniti deserunt nam accusamus voluptatibus nesciunt perspiciatis, sit aut, repellendus dolores labore! Molestias, a. Pariatur error amet, consectetur odit velit soluta fugit ducimus voluptatem mollitia a. Error adipisci vel, libero quis veritatis ea accusantium labore, expedita quae placeat harum, tempora ut odit. Nesciunt ad fuga aliquam vitae sint eos consectetur, quia est atque corrupti iste fugiat voluptate perferendis dolore nemo optio laboriosam suscipit id? Est molestiae sequi dignissimos sint ratione iure, reprehenderit voluptatem quod ex eum similique esse, dolorem maxime quidem. Laboriosam doloremque eos in tenetur esse dicta nisi molestias non ullam voluptatum hic voluptatibus explicabo, a nesciunt molestiae soluta, placeat commodi eligendi, omnis nam! Nam eveniet, voluptatum earum quidem voluptatem reiciendis hic dolores sit assumenda, unde dolore, accusamus officiis at tempora dignissimos ad? Fuga non illo quaerat reprehenderit similique, ab facere. Est perspiciatis ut harum adipisci, nostrum minima placeat consequuntur inventore, quod earum hic maiores quam. Cum, nostrum repellat aspernatur ex, cupiditate enim sunt, quo neque libero nam quia minima ea maxime. Veniam pariatur est quae, repellat suscipit quam magnam laudantium repudiandae ullam nulla maiores, atque voluptate tempore earum aperiam ipsa corporis eum. Illo nemo enim voluptates eum in, officia labore accusantium voluptatum soluta quis unde fuga adipisci numquam incidunt quasi totam similique sapiente, architecto dolor at? Dolor animi porro consequuntur eum vitae quia dolores neque quaerat pariatur, nihil natus repudiandae qui quas exercitationem? Itaque corporis velit nulla neque, praesentium harum enim et veniam eaque facilis eius fugiat, iste quod architecto excepturi. Eum similique autem dolor labore officiis? Ad necessitatibus quibusdam, cupiditate ratione dolor officia animi aliquid accusamus sit reprehenderit quo minus architecto tempore quidem delectus, praesentium nostrum molestias saepe? Iste, obcaecati deserunt! Mollitia nisi voluptates, hic magni iusto saepe quod, perspiciatis est animi quos omnis nemo blanditiis incidunt autem officia eaque fuga quidem expedita reiciendis itaque? Vel quis sint blanditiis sapiente, minus dolorum atque ut accusantium mollitia odit dolorem eligendi repudiandae quia quasi amet obcaecati, placeat et magnam laboriosam eaque quam necessitatibus ex cumque! Similique laborum, fuga aliquam dolorem tempora totam mollitia culpa at. Iure saepe eius laboriosam libero, sit est accusantium minus ab amet atque. Itaque, sint, dolorem alias magni reprehenderit nemo id dolore, ea iure aliquid reiciendis. Eligendi, animi. Accusantium, ut quis qui consectetur itaque voluptatum, aut totam soluta labore minus deserunt, culpa dolorum. Velit autem error vitae quisquam quibusdam, voluptas accusamus deleniti possimus voluptatem animi quidem inventore repudiandae deserunt iusto assumenda pariatur adipisci veniam voluptatibus quos. Quae animi facilis est saepe libero quis, cumque ex, magni, tempora officiis odio fugit temporibus necessitatibus excepturi aliquid aut dolorum doloremque nulla tenetur distinctio voluptate? Reiciendis voluptatem numquam rem ducimus quia eius facere commodi minima corrupti modi qui natus perferendis laboriosam atque molestiae quae, similique laudantium dolore a autem sed possimus. Impedit blanditiis incidunt, dolor consectetur unde, eveniet numquam dicta molestiae quae doloremque possimus similique dolorem velit, omnis molestias magni maiores! Reprehenderit, blanditiis eos laborum possimus reiciendis harum et porro eius, odio earum magnam cumque deserunt, eaque quis fugiat dignissimos. Voluptatibus sunt aliquam delectus officia eos animi eligendi facilis ullam sapiente, ad assumenda recusandae tempora molestias, maiores minima saepe quos veniam blanditiis repudiandae repellat atque accusantium omnis dolor vel. Vero quibusdam quis reiciendis velit, porro repellendus voluptates aperiam non, cumque illum hic culpa tempore deleniti ut animi ullam facilis. Fugit officia voluptatibus accusamus dolorum! Eius magni odit, ipsum doloremque blanditiis libero at. Deserunt, aliquid! Ut eius vero, magnam autem doloribus tempora atque iste reiciendis temporibus esse adipisci alias commodi voluptate delectus veritatis nostrum aperiam nulla? Voluptatibus consectetur dicta, deleniti autem odit fugit, ratione sit quia a est, aperiam iste nemo quibusdam id assumenda illum earum quaerat dolor dolorum? Nihil magni praesentium aperiam, inventore ut ipsum at sapiente deleniti enim, illo nesciunt alias soluta rerum debitis molestias incidunt beatae doloremque culpa! Itaque temporibus molestias velit perspiciatis ipsam reiciendis aut nam repellendus at odit quod ad quae sed tempore sequi cumque, quibusdam dolor quam eligendi quas tenetur veritatis nisi unde. Tempora, error odit odio quae, dignissimos repudiandae delectus explicabo facilis libero quo omnis rem possimus! Sequi accusantium deleniti temporibus veniam dolorem ullam non ducimus labore cumque excepturi vero, corporis repudiandae dolorum harum sint vel ab. Quos illo facere quae consectetur dolorum, totam ea nobis alias doloremque maxime expedita adipisci odit natus porro provident veniam animi dolor fugit, est officiis in officia! Nemo, laudantium molestiae quae quisquam ratione perferendis obcaecati accusantium. Molestiae facere aperiam ducimus perferendis atque blanditiis veritatis, est suscipit incidunt saepe maiores soluta sequi alias necessitatibus quod? Voluptatibus asperiores quasi doloremque modi facere quisquam tempora laborum, libero quaerat voluptate, eos nihil voluptates doloribus sit in? Consequuntur perferendis at ea voluptates facere, fuga veritatis quas distinctio molestiae tempora omnis facilis ut delectus dolores? Minima placeat sapiente recusandae adipisci quibusdam quasi doloremque explicabo accusantium impedit qui minus vel itaque possimus optio vero, nemo ipsa dignissimos nostrum! Totam atque similique possimus explicabo quidem quia vel animi molestias assumenda culpa nisi voluptas tempore debitis cupiditate ut aliquid voluptates dolorem esse itaque, eos blanditiis suscipit? Numquam temporibus fugiat ut distinctio, laudantium assumenda quisquam corrupti facere dicta, quaerat blanditiis, saepe perspiciatis! Saepe consequatur impedit quia animi rerum magnam esse necessitatibus expedita. Temporibus natus nesciunt quibusdam sequi quae ut totam, accusantium rem fuga ducimus repellat nemo quidem fugit cum quas porro aliquam. Impedit pariatur adipisci, exercitationem nam dicta facere fugiat officiis beatae corrupti cupiditate inventore minus, rerum, distinctio nihil consectetur libero veritatis vel sint? Nostrum repellat, vel cum praesentium quas fugit sit neque sint optio molestiae quo esse iusto modi? Sint rerum vitae amet perspiciatis possimus maxime doloremque soluta, nulla sunt ipsa aut, ullam magni reiciendis deleniti molestias, dolor provident. Aliquam aspernatur animi veniam hic sapiente nulla ratione voluptatibus ut architecto rerum incidunt minima quas cum, iste consequuntur corrupti similique reprehenderit? Nam, ducimus adipisci alias maxime enim quaerat! Sunt, fuga aut. Doloribus doloremque incidunt voluptate impedit ipsa maiores excepturi quaerat tenetur, reprehenderit quas et facilis accusantium recusandae dolore voluptatum, veritatis quisquam quia ea velit sit repellat, earum inventore! Fugit libero ad culpa voluptatem corporis accusantium, modi pariatur neque dignissimos enim illum quasi, ipsam omnis repellendus placeat doloribus veritatis iste magni natus. Quo laudantium sapiente asperiores omnis ad nisi esse officia totam sed, iste debitis, sunt iure eveniet et, doloribus dolor consequuntur nesciunt molestiae! Corrupti ea, dolorum deserunt consequatur culpa quae officiis neque dolore voluptatum doloribus consequuntur impedit quibusdam suscipit voluptatem unde, delectus eum dicta tempore, provident blanditiis minima fugiat? Optio, aspernatur! Aut eius pariatur consequatur accusantium ipsa? Corrupti fugiat quam adipisci nulla beatae ad, ex quidem laboriosam optio, doloribus cumque at nemo illo voluptatum quaerat ipsam magnam repellat accusantium velit quod nostrum, officiis blanditiis similique. Quae, magnam! Aliquid, iste labore, molestias eos deleniti temporibus corporis nisi itaque inventore cumque rerum ipsam repellendus, repudiandae odio rem? Non id dolorem quia quam, molestiae iure. Nobis, ipsam culpa atque quo nesciunt et fugiat similique non, provident dolorum necessitatibus perspiciatis. Enim odio, illo veritatis fugit eaque hic consequatur tenetur unde recusandae corrupti dicta odit deleniti maiores nulla architecto blanditiis voluptates dolor necessitatibus porro ipsam ducimus voluptas voluptatum! Repellendus hic voluptas quis, esse nihil accusamus, soluta incidunt quam nemo nesciunt est, necessitatibus ducimus quibusdam minus aliquid beatae expedita facilis! Aspernatur tempore, eos quidem soluta provident optio molestiae iste sint at velit tenetur fugiat hic, ipsum voluptas, temporibus voluptatem? Velit a error nesciunt. Quibusdam voluptatem doloribus inventore dolorum maiores ipsam voluptas nulla molestiae necessitatibus autem praesentium neque beatae placeat facere sed sint possimus alias modi, sunt, cum amet. Tenetur nam distinctio perferendis aliquam maxime facilis reiciendis cupiditate adipisci, quidem ipsa? Dignissimos quo, aut, voluptatem voluptatum vero aliquam alias animi ducimus eaque natus at suscipit molestias enim ipsum nemo corrupti ipsa, doloribus mollitia? Odio pariatur maxime deleniti porro adipisci molestias beatae minima a assumenda voluptate officia voluptas laborum debitis, et temporibus nesciunt unde, itaque ad placeat labore aspernatur libero necessitatibus. Voluptas atque neque quia, fugiat odio natus iure impedit beatae laboriosam. Veritatis dicta quos dolorem adipisci nostrum odio dolor omnis hic, nisi perferendis illum maxime! Quos minus nulla qui fugiat distinctio aliquid blanditiis necessitatibus est! Fugiat ad praesentium fuga inventore. Dolores, vel velit! Nobis explicabo labore earum odit quisquam quo omnis, nam tempora libero atque repellendus, veritatis quas dolorem. Repudiandae, asperiores iste? Velit fugit vero odio, maiores itaque distinctio, dolorum exercitationem quidem, sit tempora molestias ipsam quos consequatur doloremque! Nisi perferendis numquam possimus expedita, soluta quis harum fuga aliquam in! Architecto fuga, distinctio minus eaque aliquam exercitationem similique et dignissimos porro modi labore enim magni itaque odio deleniti saepe illum. Officia eaque eos, inventore similique rerum sequi perferendis laudantium voluptatum quo reprehenderit doloremque nisi rem placeat expedita iure distinctio, delectus necessitatibus commodi quae, a repellendus. Nostrum pariatur mollitia, perferendis quisquam laboriosam explicabo non commodi quia ut illum qui eveniet sed aspernatur cupiditate! Maxime cupiditate quibusdam, facilis sequi repudiandae omnis deleniti odio accusamus minima fugiat perferendis quas quisquam est porro voluptates ipsam, eum eos animi, obcaecati ratione. Dolores aut quam corrupti necessitatibus architecto nesciunt dolorem esse quos saepe unde. Ratione exercitationem omnis, adipisci deserunt blanditiis voluptate maiores deleniti id tenetur illo, est quasi velit. Quae error quibusdam earum dolorum deserunt, amet temporibus dolorem, impedit, dolore doloremque rerum minus velit eligendi fuga quidem ipsam culpa quam ipsa beatae tempora aperiam voluptate id iste. Animi ad explicabo deleniti pariatur, dolore recusandae mollitia neque quo provident labore commodi dignissimos modi ullam at ea in facilis, soluta fugiat natus ab delectus alias exercitationem nisi accusantium? Officia odit earum aspernatur, odio maxime sed dolor magni iure, quia corporis repellat veritatis, quis quam sunt error accusamus veniam doloremque harum? Labore voluptates mollitia impedit provident sequi eius nemo est, odio repellendus ratione quo assumenda deleniti, pariatur architecto harum soluta cum voluptatibus fugit exercitationem quae laboriosam dolor. Quibusdam est necessitatibus perspiciatis quam soluta vitae sed ab natus dolore ducimus ea deleniti minima aspernatur nobis voluptatum consectetur corrupti harum fugiat expedita ut rerum tenetur, praesentium quasi! Suscipit minus, fuga voluptates nulla ducimus quas dolor, repellat odit maiores quos officia dolorem. Repellendus eum dicta neque quae exercitationem numquam praesentium commodi nemo sed illum. Qui, aspernatur est. Quis, repudiandae. Voluptatem enim aliquam dolore dignissimos! Qui quaerat delectus velit nesciunt aliquam id voluptate doloremque facilis autem, consectetur odio tempora. Officia minus rerum officiis quo. Cum aut amet in! Molestiae quae dolor fuga sunt dolores, ipsa doloremque praesentium! Fugit, ipsam dolor laudantium suscipit dolorum nobis ea obcaecati ut aut officia quasi harum, nulla delectus, quisquam ipsa. Numquam repellendus blanditiis obcaecati nemo iste est id quo, necessitatibus cumque molestiae, quidem eaque reprehenderit laborum! Vel, odio. Voluptatem dignissimos harum mollitia aliquam eius hic quae enim, officiis iusto asperiores deserunt natus! Assumenda tempora optio fugit laudantium enim explicabo animi placeat, molestiae minus vel nulla facilis maiores nisi et facere excepturi. Ipsam nisi possimus, dolore aperiam saepe cum quisquam nihil ab, veritatis ipsum beatae quos velit, commodi sed eaque suscipit totam maiores aliquam sit magni harum. Quaerat aliquam atque dolorem officiis? Asperiores, sequi! Nobis soluta quaerat ipsa voluptatem delectus ratione nihil dolorum deleniti harum consectetur officiis corporis fugiat temporibus mollitia explicabo recusandae, voluptate, incidunt quam? Ipsa provident quidem officiis consequuntur earum consequatur eaque, nam laborum veritatis ab ipsam unde temporibus odit sunt similique rem sequi voluptatibus at repellat! Ab porro magnam numquam sunt ipsam odio harum laboriosam aperiam explicabo dolorum, quod rem aut ducimus fugit? Inventore totam laboriosam aperiam, officiis, quas velit incidunt voluptas unde voluptatum vel cupiditate, nemo sed delectus iusto ad magni! Amet temporibus repellendus facere dolor voluptate vero soluta quas aut beatae dicta eos quis quidem corrupti officiis at, mollitia voluptatum cum labore dolore ut veniam. Optio quidem eaque itaque alias et. Commodi ullam maiores officiis at illo unde mollitia dignissimos. Ea modi commodi accusamus iusto aut ratione rem, laboriosam temporibus earum nam officiis adipisci odit ullam ad natus minima. Alias minus quibusdam quae iste sunt! Reprehenderit quibusdam placeat est quidem, totam iusto iure, nobis ex in, quasi ipsum dolores ratione vel nostrum. Dolores minima nihil id quidem, quo ex expedita reprehenderit fuga quibusdam ratione nobis repudiandae necessitatibus facilis maxime itaque nostrum iusto. Fugit, minima? Necessitatibus assumenda, ipsam provident optio placeat, dolores quo dolor nemo iste delectus debitis deleniti ab animi esse eaque blanditiis repellat accusamus voluptate. Iusto sequi est similique, officia quae voluptatibus nulla, iure a sit ducimus harum. Dolorem impedit optio autem non, perspiciatis, eveniet nulla placeat assumenda repudiandae animi accusantium, temporibus reiciendis. Optio odio minima labore numquam ad ullam et, inventore id corporis molestias possimus quis excepturi ipsa, magnam impedit asperiores sapiente doloribus. Veniam ut sequi quod! Eius quidem, eum odio sequi nisi dolore veritatis iure sed distinctio. Assumenda fugiat sint earum itaque libero rerum quia totam quisquam expedita quo nesciunt quam fugit asperiores aliquid nemo architecto, ea consectetur esse dolor officiis? Autem fugit recusandae exercitationem. Eius quidem asperiores illo labore quisquam voluptatibus unde reprehenderit eaque? Voluptate, a? Nesciunt explicabo maxime excepturi enim facere veritatis! Culpa quos aliquam vero natus nulla alias molestias assumenda impedit quia recusandae amet optio nobis corporis obcaecati quas mollitia fugit voluptas similique accusantium esse ad accusamus, iure modi. Iste nulla consequuntur assumenda tempore odit maxime nemo quod nostrum, eaque placeat consequatur accusantium aut ipsum, debitis dolor, perspiciatis saepe nisi nesciunt deleniti praesentium! Deleniti aliquam ratione eaque nesciunt. Quo, et excepturi reprehenderit dicta quibusdam, magnam autem asperiores facere, eveniet expedita similique necessitatibus. Reprehenderit animi magni explicabo natus consectetur cumque similique alias voluptate! Voluptates impedit aliquid ratione tempore asperiores repudiandae molestiae quidem qui quisquam. Iure est in magni debitis itaque totam, sed, dolores minima voluptates doloribus quam atque, molestiae exercitationem corrupti deserunt libero modi. Velit temporibus soluta, ducimus ut, quia itaque vero odio labore nam hic, error autem. Hic soluta, adipisci est, laboriosam corrupti itaque id modi dolores minus delectus nostrum. Voluptatibus distinctio provident error ad atque, exercitationem excepturi hic minus? Accusamus deserunt, rem deleniti dicta aspernatur accusantium delectus itaque nam recusandae? Numquam maxime autem magnam, odit vitae tempore fuga ab reiciendis? Quam laborum quae commodi voluptate ea labore autem accusantium sunt, officia minima ipsam esse voluptatem? A modi et quis. Quo, quod, non eum nostrum, repellat a mollitia beatae error ut eligendi magnam odio repudiandae quasi nulla id! Illo amet necessitatibus quasi, dolore, explicabo quos quae, facere sapiente reprehenderit debitis totam dolor id? Consequuntur optio atque deserunt repellat numquam architecto officia ea earum consectetur enim itaque, aliquid iure reiciendis animi, sapiente officiis odit cupiditate ex delectus. Molestiae quasi aliquid corporis placeat labore excepturi, architecto rerum dolorem, velit neque atque! Omnis excepturi deleniti quaerat, dolore eum praesentium quos magnam voluptatem animi laboriosam, perferendis suscipit, cum aliquam. Voluptate delectus consequuntur vero voluptatem perferendis consequatur tempora veritatis explicabo quae repellendus itaque fugit, magni accusantium. Impedit veniam voluptatum et consectetur quo molestias, quas mollitia? Error voluptates maxime aliquam corporis. Magnam, recusandae inventore! Ea accusamus sunt nisi est eum ipsam at nostrum esse facere, placeat, error sapiente dolorem accusantium corporis autem! Eos debitis nesciunt earum possimus dolor minima nulla voluptatibus voluptatum, hic iste vero amet error molestiae quo explicabo ab, aliquam fugit ullam harum mollitia repellendus porro deleniti rem ut! Voluptatibus labore quia veritatis ratione enim? Quis odio doloribus aperiam ex amet veritatis porro tenetur illo adipisci recusandae ab natus nam deserunt doloremque facere, velit nihil? Quibusdam harum dolorem error deserunt assumenda! Labore architecto amet sequi quasi voluptas perspiciatis tempora eius veniam iure. Dolorem, minima odio! Optio qui odit, doloremque numquam cum eveniet ea ullam harum ab libero. Perferendis, sed? Libero quos ipsa veritatis quas. Fuga beatae exercitationem possimus excepturi nihil tempore, reiciendis dolore. Sint natus saepe, doloribus, possimus ullam atque quam harum ducimus autem in odio voluptates totam aliquid porro excepturi cupiditate quis numquam accusamus doloremque at, illum minima fugit velit. Sit amet similique beatae unde obcaecati enim nostrum, laboriosam error et expedita nihil non nobis dolorem delectus mollitia voluptate quaerat corrupti voluptas nesciunt eos, iusto ut, qui sed. Voluptate tempore sunt numquam quia nemo consectetur sapiente earum. Explicabo ex, alias dolores, blanditiis quia repudiandae optio saepe tenetur eius quae consequatur vitae nobis laborum aliquam eligendi fuga perferendis molestias porro voluptatem vel quaerat enim rerum at illo? Quaerat aliquam, fugiat optio inventore voluptatum alias eaque est impedit vero dicta temporibus explicabo, delectus magni animi eius et, iste atque. Beatae voluptate numquam in, ipsa quam tenetur voluptatum a architecto quis blanditiis, soluta ut officia debitis nobis sequi ad quae delectus praesentium provident. Tenetur distinctio recusandae possimus sequi, blanditiis rerum, quos veritatis voluptate dolorem numquam qui, natus ipsam rem cupiditate facilis? Facere labore vel ex nesciunt cupiditate, praesentium nisi similique aliquid pariatur explicabo tempora quas animi vero fuga voluptates! Adipisci nostrum odio quod aliquam numquam tenetur quam corporis architecto quidem soluta temporibus, minima dicta laborum. Aperiam repellat dolor nobis odit repudiandae.
+    <div className="Page Home">
+      <div className="landing"></div>
+
+      <div className="benefits">
+        <h2 className="title">Benefits of Vehicle Tracking</h2>
+
+        <div className="benefit tracking">
+          <h3>Tracking of Vehicles</h3>
+          <p>
+            Track individual drivers by measuring their driving pattern
+            exceptions such as over-speeding, idling etc. Tracking an individual
+            driver helps in customizing the dedicated training program to ensure
+            safe driving environment by following all government guidelines.
+          </p>
+        </div>
+
+        <div className="benefit analysis">
+          <h3>Powerful Analysis Tools</h3>
+          <p>
+            Lions Auto vehicle tracking solution provides detail analysis tools
+            to gives businesses the ability to easily monitor vehicles and
+            equipment. We offers detailed field reporting and our Fleet tracking
+            dashboard shows fleet data in a single location.
+          </p>
+        </div>
+
+        <div className="benefit replay">
+          <h3>Animated Map Replay</h3>
+          <p>
+            Lions Auto vehicle tracking solution provides Animated map history
+            playback so that you can retrace a vehicles route on a map screen
+            for a chosen date and time. You can view full animation of the route
+            where your fleet travelled during a time interval.
+          </p>
+        </div>
+
+        <div className="benefit alerts">
+          <h3>Customizable Alerts</h3>
+          <p>
+            Lions Auto vehicle tracking solution very easy to use and
+            customizable as per your tracking requirement. Lions Auto&#39;s
+            alerts feature to make you aware of exceptions in real time tracking
+            of your fleet.
+          </p>
+        </div>
+
+        <div className="benefit mapping">
+          <h3>Real-Time Mapping</h3>
+          <p>
+            Our GPS vehicle tracking solutions help you manage routes for your
+            delivery management. You will get route violation alerts if the
+            route is not followed by the driver.
+          </p>
+        </div>
+
+        <div className="benefit reports">
+          <h3>Driver Behavior Reports</h3>
+          <p>
+            Our GPS vehicle tracking solutions help you manage all the driver
+            information of your fleet and also assign drivers and get driver
+            specific reports to your inbox everyday.
+          </p>
+        </div>
+      </div>
+
+      <div className="solutions">
+        <div className="solution track">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+          <div className="description">
+            <h3>Lions Auto Vehicle Tracking Software</h3>
+            <p>
+              Using Lions Auto Vehicle Tracking Software you will be able to
+              manage multiple fleets, plan efficient routes, monitor driver
+              behaviors, and do so much more with Lions Auto&#39;s fleet
+              management platform. Lions Auto&#39;s practical features will
+              simplify fleet management and give you a competitive edge over
+              others. Lions Auto&#39;s tacking software is cost-effictive and
+              easy to use
+            </p>
+            <button>Know More</button>
+          </div>
+        </div>
+
+        <div className="solution load">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+          <div className="description">
+            <h3>Lions Auto Load Monitoring Solution</h3>
+            <p>
+              For many types of trucks, knowing the loaded weight is important
+              for operating safely and maximizing payload whilst avoiding fines
+              for overloading. According to the complexity of in motion load
+              weight calculation, our approach is more stable, inexpensive &
+              good precision than other methods. In this solution, load weight
+              calculated based on monitoring truck suspension changes with a
+              matched sensor by vehicle suspension type mechanism.
+            </p>
+            <button>Know More</button>
+          </div>
+        </div>
+
+        <div className="solution fuel">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+          <div className="description">
+            <h3>Lions Auto Fuel Monitoring Solution</h3>
+            <p>
+              Fuel costs can amount up to 30% of all fleet management expenses,
+              therefore affecting operating costs and company&#39;s profit in
+              general. Lions Auto GPS tracking and telematics platform can help
+              you cope with the major challenges related to fuel monitoring and
+              management in the most user-friendly way.
+            </p>
+            <button>Know More</button>
+          </div>
+        </div>
+
+        <div className="solution generator">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+          <div className="description">
+            <h3>Lions Auto Generator Monitoring Solution</h3>
+            <p>
+              We install sensors and smart devices, on the generator, that
+              monitor various parameters such as – power generated, battery
+              voltage, run hours, fuel level, etc. A gateway device then
+              communicates these readings to our central server over the
+              internet. The gateway works on GPRS, Wireless or Ethernet
+              technology. You can then log onto the web application and view
+              generator parameters, create reports – anywhere – and any time.
+              Typical reports include generator status, fuel and maintenance
+              reports etc.
+            </p>
+            <button>Know More</button>
+          </div>
+        </div>
+
+        <div className="solution mining">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+          <div className="description">
+            <h3>Lions Auto Mining Equipment Monitoring</h3>
+            <p>
+              Monitoring of fuel consumption and operation modes of mining and
+              quarrying equipment (rock trucks, bulldozers, crawler tractors,
+              loaders, power units) allows to reduce operation costs, prevent
+              fuel theft and equipment breakdown. The main feature of
+              Technoton’s solutions for quarry equipment is using DFM Marine
+              fuel flow meters, which were designed for equipment with fuel
+              consumption up to 4000 L/h.
+            </p>
+            <button>Know More</button>
+          </div>
+        </div>
+
+        <div className="solution battery">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+          <div className="description">
+            <h3>Lions Auto Portable Lithium-ion Battery Solution</h3>
+            <p>
+              The Speedotrack72V 30Ah portable battery pack is a compact, safe
+              and economical lithium-ion battery pack. This standalone battery
+              pack was designed for electric scooters, with high-power NMC
+              lithium-ion cells. No additional equipment is needed for the safe
+              operation of this battery pack. In extreme operating conditions,
+              the integrated BMS disconnects the battery from the system. This
+              ensures safe operation and protects the battery pack against short
+              circuits, over-charge, over discharge, over current, over
+              temperature and under temperature events.
+            </p>
+            <button>Know More</button>
+          </div>
+        </div>
+      </div>
+
+      <div className="partners">
+        <div className="partner">
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Tata-Motors-Logo_02.png?fit=82%2C82&ssl=1"
+            alt=""
+          />
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Tata-Motors-Logo_02.png?fit=82%2C82&ssl=1"
+            alt=""
+          />
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Tata-Motors-Logo_02.png?fit=82%2C82&ssl=1"
+            alt=""
+          />
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Tata-Motors-Logo_02.png?fit=82%2C82&ssl=1"
+            alt=""
+          />
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Tata-Motors-Logo_02.png?fit=82%2C82&ssl=1"
+            alt=""
+          />
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Tata-Motors-Logo_02.png?fit=82%2C82&ssl=1"
+            alt=""
+          />
+        </div>
+
+        <div className="stats">
+          <p className="stat">
+            <span>18+</span>
+            <span>Language</span>
+          </p>
+
+          <p className="stat">
+            <span>502+</span>
+            <span>Partners</span>
+          </p>
+
+          <p className="stat">
+            <span>13+</span>
+            <span>Years</span>
+          </p>
+
+          <p className="stat">
+            <span>703+</span>
+            <span>Devices</span>
+          </p>
+
+          <p className="stat">
+            <span>114+</span>
+            <span>Countries</span>
+          </p>
+
+          <p className="stat">
+            <span>50+</span>
+            <span>Developers</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="features">
+        <h2>Easy to Use Vehicle Tracking Software</h2>
+
+        <div className="card playback">
+          <img src={playback} alt="" />
+          <h3>Monthly History Playback</h3>
+          <p>
+            Among Lions Auto&#39;s features is the Animated Map Replay option
+            that allows you to retrace a vehicle&#39;s route on a map screen for
+            a chosen date and time.
+          </p>
+          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+        </div>
+
+        <div className="card alerts">
+          <img src={alerts} alt="" />
+          <h3>Real-Time Alerts</h3>
+          <p>
+            Customize Lions Auto alerts feature to make you aware of exceptions
+            — in real time.
+          </p>
+          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+        </div>
+
+        <div className="card tracking">
+          <img src={tracking} alt="" />
+          <h3>Real-Time Tracking</h3>
+          <p>
+            One of the major benefits of GPS tracking is that a business can
+            view vehicle progress in real time.
+          </p>
+          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+        </div>
+
+        <div className="card apps">
+          <img src={apps} alt="" />
+          <h3>Mobile Apps</h3>
+          <p>
+            Lions Auto vehicle tracking solution is mobile friendly and cross
+            platform supported track your fleet where ever it goes.
+          </p>
+          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+        </div>
+
+        <div className="card multiple">
+          <img src={multiple} alt="" />
+          <h3>Monitor Multiple Vehicles</h3>
+          <p>
+            Monitoring Multiple vehicle using Lions Auto is very easy, user
+            friendly and cost effective.
+          </p>
+          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+        </div>
+      </div>
+
+      <div className="services">
+        <div className="title">
+          <span>FEATURES</span>
+          <h2>
+            Our Features & <br />
+            <span>Services</span>
+          </h2>
+          <p>
+            Lions Auto Vehicle Tracking Solutions combine sophisticated GPS
+            tracking technology with flexible, advanced mapping and reporting
+            software.
+          </p>
+          <p>
+            A GPS-enabled Vehicle Tracking Device is installed on each vehicle
+            to collect and transmit tracking data via a cellular and satellite
+            network, whichever works best for your operations.
+          </p>
+          <p>
+            The device then delivers the data to the Lions Auto hosted
+            application, which you can access through the Web at any time.
+          </p>
+
+          <button>Get Started</button>
+        </div>
+
+        <div className="features">
+          <div className="feature visibility">
+            <FontAwesomeIcon className="icon" icon={faBars} />
+            <h3>Real Time Visibility</h3>
+            <p>
+              Monitoring your fleet allows you to know where your fleet is every
+              time. you can only manage what you can see!
+            </p>
+            <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+          </div>
+
+          <div className="feature cloud">
+            <FontAwesomeIcon className="icon" icon={faLock} />
+            <h3>Private Saas Cloud</h3>
+            <p>
+              Lions Auto&#39;s GPS tracking is streamed to our own private SaaS
+              Cloud. Together with our specialised technicians and fleet system
+              you are able to monitor 24/7.
+            </p>
+            <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+          </div>
+
+          <div className="feature theft">
+            <FontAwesomeIcon className="icon" icon={faCloud} />
+            <h3>Prevent Fuel Theft</h3>
+            <p>
+              Our reliable fuel chart, combined with Google Earth and Google
+              Street View will simplify the process of monitoring when and where
+              your driver fills the fuel tank.
+            </p>
+            <FontAwesomeIcon className="arrow" icon={faArrowRight} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
