@@ -309,7 +309,6 @@
 }
 
 .Home {
-  height: 100%;
   display: grid;
   grid-template-areas:
     "Landing"
@@ -637,7 +636,6 @@
 }
 
 .Business {
-  height: 100%;
   display: grid;
   grid-template-areas:
     "landing"
@@ -795,8 +793,188 @@
         }
       }
     }
-    .opportunity:nth-of-type(odd){
+    .opportunity:nth-of-type(odd) {
       flex-direction: row-reverse;
     }
   }
 }
+
+.Software {
+  display: grid;
+  grid-template-areas:
+    "landing"
+    "gps"
+    "school"
+    "hospital"
+    "hotel";
+
+  .landing {
+    grid-area: landing;
+  }
+  .gps {
+    grid-area: gps;
+  }
+  .school {
+    grid-area: school;
+  }
+  .hospital {
+    grid-area: hospital;
+  }
+  .hotel {
+    grid-area: hotel;
+  }
+
+  .landing {
+    padding: 6rem 0;
+    display: grid;
+    grid-template-areas:
+      "title"
+      "navigation"
+      "description";
+    gap: 1rem;
+    justify-content: center;
+
+    .title {
+      text-align: center;
+      padding-bottom: 3rem;
+
+      h1 {
+        font-size: 3.5rem;
+        padding: 1rem 0 0 0;
+      }
+      span {
+        font-size: 1.25rem;
+        color: gray;
+      }
+    }
+
+    .navigation {
+      text-align: center;
+      margin-bottom: 2rem;
+
+      a {
+        margin: 2rem 0.5rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        padding: 0.9rem 3rem;
+        border-radius: 3rem;
+        background-color: green;
+        color: #fff;
+      }
+
+      a:nth-of-type(even) {
+        background-color: #fff;
+        border: solid 2px green;
+        color: green;
+      }
+    }
+
+    p {
+      width: 86%;
+      margin-left: 7%;
+      text-align: center;
+      padding: 0.75rem 0;
+      font-size: 1.2rem;
+
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+    }
+  }
+
+  .highlight {
+    display: flex;
+    padding: 2rem;
+
+    .image,
+    .description {
+      height: 100%;
+      width: 50%;
+    }
+
+    img {
+      border-radius: 2rem;
+      height: 30rem;
+    }
+
+    .description {
+      padding: 2rem;
+      h3 {
+        font-size: 2.25rem;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+      }
+
+      button {
+        border: none;
+        padding: 0.8rem 2.4rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .features {
+    padding: 2rem 0;
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .features-container {
+      display: grid;
+      grid-template-columns: repeat(4, 300px);
+      justify-content: center;
+      gap: 1rem;
+
+      .feature {
+        padding: 3rem 1rem 1rem 1rem;
+        border: solid 1px black;
+        flex-wrap: wrap;
+
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 2rem;
+        }
+        p {
+          font-size: 1.1rem;
+          margin-bottom: 2rem;
+          line-height: 1.8rem;
+        }
+      }
+    }
+  }
+
+  .school {
+    .highlight {
+      flex-direction: row-reverse;
+    }
+    .features-container {
+      grid-template-columns: repeat(3, 350px);
+    }
+  }
+
+  .hospital {
+    .features-container {
+      grid-template-columns: repeat(3, 350px);
+    }
+  }
+
+  .hotel {
+    .highlight {
+      flex-direction: row-reverse;
+    }
+    .features-container {
+      grid-template-columns: repeat(4, 280px);
+    }
+  }
+}
+
+

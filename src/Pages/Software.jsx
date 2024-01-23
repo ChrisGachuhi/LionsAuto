@@ -7,7 +7,7 @@ export const Software = () => {
     <div className="Page Software">
       <div className="landing">
         <div className="title">
-          <h1>Speedotrack Software Solution</h1>
+          <h1>Speedotrack Software Solution</h1> <br />
           <span>
             Mange your Fleet , School ,Hospital and Hotel operation efficiently!
           </span>

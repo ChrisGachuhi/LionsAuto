@@ -1,7 +1,7 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import { Partners } from "../Components/Partners";
+// import { Partners } from "../Components/Partners";
 
 export const Business = () => {
   return (
