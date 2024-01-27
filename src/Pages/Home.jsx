@@ -11,11 +11,43 @@ import {
   faLock,
 } from "@fortawesome/free-solid-svg-icons";
 import { Partners } from "../Components/Partners";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Home = () => {
+  const navigate = useNavigate();
   return (
     <div className="Page Home">
-      <div className="landing"></div>
+      <div className="landing">
+        <div className="title">
+          <h1>GPS Fleet Management Platform</h1>
+          <span>Award-winning GPS Tracking Software.</span>
+          <Link to={"/Contact"}>Get Started</Link>
+        </div>
+
+        <div className="image">
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Untitled-design-22.png?w=225&ssl=1"
+            alt=""
+          />
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2020/08/shoot2.png?w=312&ssl=1"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <p className="description">
+        Speedotrack Vehicle Tracking Solutions combine sophisticated GPS
+        tracking technology with flexible, advanced mapping and reporting
+        software. A GPS-enabled Vehicle Tracking Device is installed on each
+        vehicle to collect and transmit tracking data via a cellular and
+        satellite network, whichever works best for your operations. The device
+        then delivers the data to the Speedotrack hosted application, which you
+        can access through the Web at any time. You will receive real-time
+        vehicle tracking updates, including location, direction, speed, idle
+        time, start/stop and more, allowing you to manage a tighter schedule and
+        more efficient fleet.
+      </p>
 
       <div className="benefits">
         <h2 className="title">Benefits of Vehicle Tracking</h2>
@@ -98,7 +130,7 @@ export const Home = () => {
               others. Lions Auto&#39;s tacking software is cost-effictive and
               easy to use
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/GPS-Software")}>Know More</button>
           </div>
         </div>
 
@@ -120,7 +152,9 @@ export const Home = () => {
               calculated based on monitoring truck suspension changes with a
               matched sensor by vehicle suspension type mechanism.
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/Load-Monitoring")}>
+              Know More
+            </button>
           </div>
         </div>
 
@@ -140,7 +174,9 @@ export const Home = () => {
               you cope with the major challenges related to fuel monitoring and
               management in the most user-friendly way.
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/Fuel-Monitoring")}>
+              Know More
+            </button>
           </div>
         </div>
 
@@ -164,7 +200,9 @@ export const Home = () => {
               Typical reports include generator status, fuel and maintenance
               reports etc.
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/Generator-Monitoring")}>
+              Know More
+            </button>
           </div>
         </div>
 
@@ -210,7 +248,9 @@ export const Home = () => {
               circuits, over-charge, over discharge, over current, over
               temperature and under temperature events.
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/Battery-Solution")}>
+              Know More
+            </button>
           </div>
         </div>
       </div>

@@ -1,6 +1,8 @@
 
 export const Mpesa = () => {
   return (
-    <div>Mpesa</div>
+    <div className="Page Mpesa">
+      
+    </div>
   )
 }

@@ -18,7 +18,7 @@ export const Business = () => {
         </div>
 
         <div className="navigation">
-          <Link>Business Model</Link>
+        {/* in page navigation */}
           <Link>Distribution Solution</Link>
           <Link>White Label</Link>
           <Link>Lions Auto Franchising</Link>
