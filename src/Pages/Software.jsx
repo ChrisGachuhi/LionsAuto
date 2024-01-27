@@ -1,8 +1,9 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export const Software = () => {
+  const navigate = useNavigate();
   return (
     <div className="Page Software">
       <div className="landing">
@@ -13,6 +14,7 @@ export const Software = () => {
           </span>
         </div>
 
+        {/* in page navigation */}
         <div className="navigation">
           <Link>GPS Tracking Solution</Link>
           <Link>School Management</Link>
@@ -54,7 +56,7 @@ export const Software = () => {
               right place. Let’s start tracking with our advanced GPS tracking
               platform.
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/GPS-Software")}>Know More</button>
           </div>
         </div>
 
@@ -204,7 +206,9 @@ export const Software = () => {
               others. Why not utilize a complete solution as a single &
               streamlined platform .
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/School-Management")}>
+              Know More
+            </button>
           </div>
         </div>
 
@@ -308,7 +312,9 @@ export const Software = () => {
               activities like IPD, OPD, Billing, Test, Bed Management, HR
               Management etc.
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/Hospital-Management")}>
+              Know More
+            </button>
           </div>
         </div>
 
@@ -407,7 +413,9 @@ export const Software = () => {
               range of built-in features allows you to expand as your needs
               grow.
             </p>
-            <button>Know More</button>
+            <button onClick={() => navigate("/Hotel-Management")}>
+              Know More
+            </button>
           </div>
         </div>
 

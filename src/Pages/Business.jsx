@@ -1,9 +1,10 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // import { Partners } from "../Components/Partners";
 
 export const Business = () => {
+  const navigate = useNavigate()
   return (
     <div className="Page Business">
       <div className="landing">
@@ -18,7 +19,7 @@ export const Business = () => {
         </div>
 
         <div className="navigation">
-        {/* in page navigation */}
+          {/* in page navigation */}
           <Link>Distribution Solution</Link>
           <Link>White Label</Link>
           <Link>Lions Auto Franchising</Link>
@@ -135,7 +136,9 @@ export const Business = () => {
               tracking system is up to date and running. our pricing contains
               entry fee plus connection fee for every tracking unit.
             </p>
-            <button>Explore More</button>
+            <button onClick={() => navigate("/Business/Franchising")}>
+              Explore More
+            </button>
           </div>
         </div>
 
@@ -160,7 +163,9 @@ export const Business = () => {
               client. our pricing contains entry fee plus connection fee for
               every tracking unit.
             </p>
-            <button>Explore More</button>
+            <button onClick={() => navigate("/Business/White-Label")}>
+              Explore More
+            </button>
           </div>
         </div>
 
@@ -184,7 +189,9 @@ export const Business = () => {
               your bussiness smoothly. Our pricing contains entry fee plus
               connection fee for every tracking unit.
             </p>
-            <button>Explore More</button>
+            <button onClick={() => navigate("/Business/Distribution")}>
+              Explore More
+            </button>
           </div>
         </div>
       </div>

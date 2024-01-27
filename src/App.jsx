@@ -16,6 +16,20 @@ import {
 } from "./Pages";
 
 import { Navbar, Whatsapp, Form, Footer } from "./Components";
+import { GpsSoftware } from "./Pages/GpsSoftware";
+import { CloudHosted } from "./Pages/CloudHosted";
+import { SelfHosted } from "./Pages/SelfHosted";
+import { PersonalAccount } from "./Pages/PersonalAccount";
+import { LoadMonitoring } from "./Pages/LoadMonitoring";
+import { FuelMonitoring } from "./Pages/FuelMonitoring";
+import { GeneratorMonitoring } from "./Pages/GeneratorMonitoring";
+import { BatterySolution } from "./Pages/BatterySolution";
+import { Franchising } from "./Pages/Franchising";
+import { WhiteLabel } from "./Pages/WhiteLabel";
+import { Distribution } from "./Pages/Distribution";
+import { SchoolManagement } from "./Pages/SchoolManagement";
+import { HospitalManagement } from "./Pages/HospitalManagement";
+import { HotelManagement } from "./Pages/HotelManagement";
 
 function App() {
   return (
@@ -24,29 +38,31 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/GPS-Software" />
-        <Route path="/GPS-Software/Cloud-Hosted" />
-        <Route path="/GPS-Software/Self-Hosted" />
-        <Route path="/GPS-Software/Personal-Account" />
+        <Route path="/GPS-Software" element={<GpsSoftware />} />
+        <Route path="/GPS-Software/Cloud-Hosted" element={<CloudHosted />} />
+        <Route path="/GPS-Software/Self-Hosted" element={<SelfHosted />} />
+        <Route
+          path="/GPS-Software/Personal-Account"
+          element={<PersonalAccount />}
+        />
 
-        <Route path="/Load-Monitoring" />
-        <Route path="/Fuel-Monitoring" />
-        <Route path="/Generator-Monitoring" />
-        <Route path="/Battery-Solution" />
+        <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
+        <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />
+        <Route path="/Generator-Monitoring" element={<GeneratorMonitoring />} />
+        <Route path="/Battery-Solution" element={<BatterySolution />} />
 
         <Route path="/Products" element={<ProductSolutions />} />
         {/* pending products pages - recommend ommission */}
 
         <Route path="/Business" element={<Business />} />
-        <Route path="/Business/Franchising"/>
-        <Route path="/Business/White-Label"/>
-        <Route path="/Business/Distribution"/>
-
+        <Route path="/Business/Franchising" element={<Franchising />} />
+        <Route path="/Business/White-Label" element={<WhiteLabel />} />
+        <Route path="/Business/Distribution" element={<Distribution />} />
 
         <Route path="/Software" element={<Software />} />
-        <Route path="/School-Management" />
-        <Route path="/Hospital-Management" />
-        <Route path="/Hotel-Management" />
+        <Route path="/School-Management" element={<SchoolManagement />} />
+        <Route path="/Hospital-Management" element={<HospitalManagement />} />
+        <Route path="/Hotel-Management" element={<HotelManagement />} />
 
         <Route path="/Devices" element={<SupportedDevices />} />
         {/* pending device description pages - recommend ommission */}
