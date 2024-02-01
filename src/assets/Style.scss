@@ -149,8 +149,8 @@
   padding: 6rem 0;
   display: grid;
   grid-template-areas:
-    "partner"
-    "stats";
+    'partner'
+    'stats';
   gap: 5rem;
 
   .partner {
@@ -291,8 +291,8 @@
 
   @media screen and (max-width: 768px) {
     grid-template-areas:
-      "contact"
-      "input";
+      'contact'
+      'input';
 
     .contact-center {
       grid-area: contact;
@@ -400,12 +400,12 @@
 .Home {
   display: grid;
   grid-template-areas:
-    "Landing"
-    "Description"
-    "Benefits"
-    "Solutions"
-    "Features"
-    "Services";
+    'Landing'
+    'Description'
+    'Benefits'
+    'Solutions'
+    'Features'
+    'Services';
   justify-content: center;
   align-items: center;
 
@@ -497,9 +497,9 @@
     padding: 6rem 0;
     display: grid;
     grid-template-areas:
-      "title title title"
-      "tracking analysis replay"
-      "alerts mapping reports";
+      'title title title'
+      'tracking analysis replay'
+      'alerts mapping reports';
     gap: 1rem;
     justify-content: center;
 
@@ -548,12 +548,12 @@
     padding: 6rem 0;
     display: grid;
     grid-template-areas:
-      "track"
-      "load"
-      "fuel"
-      "generator"
-      "mining"
-      "battery";
+      'track'
+      'load'
+      'fuel'
+      'generator'
+      'mining'
+      'battery';
     gap: 6rem;
 
     .solution {
@@ -566,24 +566,26 @@
       .image,
       .description {
         height: 100%;
-        width: 50%;
+        width: 45%;
       }
 
       img {
+        height: 25rem;
+        width: 95%;
         border-radius: 2rem;
       }
 
       .description {
-        padding: 2rem;
+        // padding: 2rem;
         h3 {
-          font-size: 2.25rem;
-          margin-bottom: 0.5rem;
-          line-height: 3rem;
+          font-size: 2rem;
+          margin-bottom: 2rem;
         }
         p {
-          font-size: 1.3rem;
-          margin-bottom: 2rem;
-          line-height: 2rem;
+          width: 95%;
+          font-size: 1.25rem;
+          margin-bottom: 4rem;
+          line-height: 2.2rem;
         }
 
         button {
@@ -622,8 +624,8 @@
     padding: 6rem 0;
     display: grid;
     grid-template-areas:
-      "title playback alerts"
-      "tracking apps multiple";
+      'title playback alerts'
+      'tracking apps multiple';
     gap: 2rem;
     justify-content: center;
 
@@ -688,7 +690,7 @@
   .services {
     padding: 6rem 0;
     display: grid;
-    grid-template-areas: "title features";
+    grid-template-areas: 'title features';
     gap: 1rem;
     justify-content: center;
 
@@ -732,8 +734,8 @@
       // background-color: aqua;
       display: grid;
       grid-template-areas:
-        "visibility cloud"
-        "theft .";
+        'visibility cloud'
+        'theft .';
       gap: 20px;
 
       .feature {
@@ -885,7 +887,7 @@
     .services {
       padding: 6rem 0;
       display: grid;
-      grid-template-areas: "title features";
+      grid-template-areas: 'title features';
       gap: 1rem;
       justify-content: center;
 
@@ -986,9 +988,9 @@
 .Business {
   display: grid;
   grid-template-areas:
-    "landing"
-    "features"
-    "opportunities";
+    'landing'
+    'features'
+    'opportunities';
 
   .landing {
     grid-area: landing;
@@ -1004,9 +1006,9 @@
     padding: 6rem 0;
     display: grid;
     grid-template-areas:
-      "title"
-      "navigation"
-      "description";
+      'title'
+      'navigation'
+      'description';
     gap: 1rem;
     justify-content: center;
 
@@ -1078,8 +1080,8 @@
     .features-container {
       display: grid;
       grid-template-areas:
-        "reach reliability ux"
-        "technology migration start";
+        'reach reliability ux'
+        'technology migration start';
       justify-content: center;
       gap: 1rem;
 
@@ -1114,9 +1116,11 @@
       .image,
       .description {
         height: 100%;
-        width: 50%;
+        width: 45%;
 
         img {
+          height: 25rem;
+          width: 95%;
           border-radius: 2rem;
         }
 
@@ -1126,6 +1130,7 @@
         }
 
         p {
+          width: 95%;
           font-size: 1.25rem;
           margin-bottom: 4rem;
           line-height: 2.2rem;
@@ -1150,11 +1155,11 @@
 .Software {
   display: grid;
   grid-template-areas:
-    "landing"
-    "gps"
-    "school"
-    "hospital"
-    "hotel";
+    'landing'
+    'gps'
+    'school'
+    'hospital'
+    'hotel';
 
   .landing {
     grid-area: landing;
@@ -1176,9 +1181,9 @@
     padding: 6rem 0;
     display: grid;
     grid-template-areas:
-      "title"
-      "navigation"
-      "description";
+      'title'
+      'navigation'
+      'description';
     gap: 1rem;
     justify-content: center;
 
@@ -1376,9 +1381,9 @@
 .Pricing {
   display: grid;
   grid-template-areas:
-    "landing"
-    "benefits"
-    "price";
+    'landing'
+    'benefits'
+    'price';
   gap: 2rem;
 
   .landing {
@@ -1390,8 +1395,8 @@
     grid-area: benefits;
     display: grid;
     grid-template-areas:
-      "title title title title"
-      "cost overtime productivity service";
+      'title title title title'
+      'cost overtime productivity service';
     gap: 1rem;
     justify-content: center;
 
@@ -1431,8 +1436,8 @@
     grid-area: price;
     display: grid;
     grid-template-areas:
-      "title"
-      "catalogue";
+      'title'
+      'catalogue';
     gap: 1rem;
     justify-content: center;
 

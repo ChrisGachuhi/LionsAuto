@@ -1,6 +1,6 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, useNavigate } from "react-router-dom";
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link, useNavigate } from 'react-router-dom'
 // import { Partners } from "../Components/Partners";
 
 export const Business = () => {
@@ -136,7 +136,7 @@ export const Business = () => {
               tracking system is up to date and running. our pricing contains
               entry fee plus connection fee for every tracking unit.
             </p>
-            <button onClick={() => navigate("/Business/Franchising")}>
+            <button onClick={() => navigate('/Business/Franchising')}>
               Explore More
             </button>
           </div>
@@ -163,7 +163,7 @@ export const Business = () => {
               client. our pricing contains entry fee plus connection fee for
               every tracking unit.
             </p>
-            <button onClick={() => navigate("/Business/White-Label")}>
+            <button onClick={() => navigate('/Business/White-Label')}>
               Explore More
             </button>
           </div>
@@ -189,7 +189,7 @@ export const Business = () => {
               your bussiness smoothly. Our pricing contains entry fee plus
               connection fee for every tracking unit.
             </p>
-            <button onClick={() => navigate("/Business/Distribution")}>
+            <button onClick={() => navigate('/Business/Distribution')}>
               Explore More
             </button>
           </div>
@@ -198,5 +198,5 @@ export const Business = () => {
 
       {/* <Partners /> */}
     </div>
-  );
-};
+  )
+}
