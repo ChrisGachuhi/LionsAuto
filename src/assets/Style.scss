@@ -107,20 +107,24 @@
     ul {
       display: none;
       flex-direction: column;
-      width: 100%;
+      width: 95%;
       margin-bottom: 0.25rem;
+      margin-left: 2.5%;
+      li {
+        width: 100%;
+        text-align: center;
+        height: 30px;
+        padding: 1rem 0;
+        border-bottom: solid 1px gray;
+
+        a {
+          font-size: 1.2rem;
+        }
+      }
     }
 
     ul.menuOpen {
       display: block;
-    }
-
-    li {
-      width: 100%;
-      text-align: center;
-      a {
-        margin: 0.5rem 0.5rem;
-      }
     }
 
     .hamburger-menu {
@@ -291,14 +295,17 @@
 
   @media screen and (max-width: 768px) {
     grid-template-areas:
-      'contact'
-      'input';
+      'contact contact'
+      'input input';
 
     .contact-center {
+      width: 90%;
+      margin: 0 5%;
       grid-area: contact;
       span {
         font-size: 1.25rem;
       }
+
       span:nth-child(2),
       span:nth-child(3) {
         font-size: 2.5rem;
@@ -309,41 +316,24 @@
         font-size: 1.5rem;
         margin: 0;
       }
-      p {
-        margin-top: 0.75rem;
-        font-size: 1.25rem;
-      }
     }
 
     .form-submit {
       grid-area: input;
       input {
-        height: 40px;
-        width: 400px;
-        font-size: 1rem;
-        padding: 1.5rem;
-        border: none;
-        border-bottom: solid 2px #ebebeb;
+        height: 60px;
+        width: 90%;
       }
 
       input:nth-child(4) {
-        height: 0.2rem;
-      }
-
-      textarea {
-        height: 120px;
-        padding: 1.5rem;
-        font-size: 1rem;
-        margin-top: 0.25rem;
-        border: none;
-        border-bottom: solid 2px #ebebeb;
+        height: 0.5rem;
       }
       button {
-        border: none;
-        margin: 1rem 0;
-        padding: 1rem 0;
+        width: 80%;
+        margin: 3rem 10%;
+        padding: 1.5rem 0;
         font-weight: 500;
-        font-size: 1.25rem;
+        font-size: 1.5rem;
       }
     }
   }
@@ -404,6 +394,7 @@
     'Description'
     'Benefits'
     'Solutions'
+    'Partners'
     'Features'
     'Services';
   justify-content: center;
@@ -412,7 +403,7 @@
   .landing {
     grid-area: Landing;
   }
-  .description {
+  .Description {
     grid-area: Description;
   }
   .benefits {
@@ -453,7 +444,7 @@
         margin-bottom: 2rem;
       }
       span {
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         color: #929292;
       }
       a {
@@ -486,7 +477,7 @@
     }
   }
 
-  .description {
+  .Description {
     padding: 6rem 4rem 0 3rem;
     text-align: center;
     font-size: 1.1rem;
@@ -528,8 +519,8 @@
     }
 
     .benefit {
-      height: fit-content;
-      width: 22rem;
+      height: auto;
+      width: 90%;
       padding: 3rem 1rem;
       border: solid 1px gray;
 
@@ -566,7 +557,7 @@
       .image,
       .description {
         height: 100%;
-        width: 45%;
+        width: 50%;
       }
 
       img {
@@ -578,21 +569,25 @@
       .description {
         // padding: 2rem;
         h3 {
-          font-size: 2rem;
+          font-size: 2.5rem;
           margin-bottom: 2rem;
+          line-height: 3rem;
         }
         p {
-          width: 95%;
+          width: 100%;
           font-size: 1.25rem;
-          margin-bottom: 4rem;
-          line-height: 2.2rem;
+          margin-bottom: 2rem;
+          line-height: 2rem;
         }
 
-        button {
+        a {
           border: none;
           padding: 0.8rem 2.4rem;
+          background-color: rgb(9, 193, 104);
           border-radius: 2rem;
           font-size: 1.2rem;
+          text-decoration: none;
+          color: #fff;
         }
       }
     }
@@ -602,25 +597,26 @@
     }
     .load {
       grid-area: load;
-      flex-direction: row-reverse;
     }
     .fuel {
       grid-area: fuel;
     }
     .generator {
       grid-area: generator;
-      flex-direction: row-reverse;
     }
     .mining {
       grid-area: mining;
     }
     .battery {
       grid-area: battery;
+    }
+
+    .solution:nth-of-type(even) {
       flex-direction: row-reverse;
     }
   }
 
-  .features {
+  .Features {
     padding: 6rem 0;
     display: grid;
     grid-template-areas:
@@ -720,12 +716,21 @@
         margin: 2.5rem 0;
         line-height: 1.5rem;
       }
-      button {
-        padding: 0.8rem 2rem;
+
+      a {
         border: none;
-        border-radius: 3rem;
-        font-size: 1rem;
+        padding: 0.8rem 2.4rem;
+        background-color: rgb(9, 193, 104);
+        border-radius: 2rem;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: #fff;
       }
+      // background-color: rgb(9, 193, 104);
+      // padding: 0.8rem 2rem;
+      // border: none;
+      // border-radius: 3rem;
+      // font-size: 1rem;
     }
 
     .features {
@@ -760,139 +765,174 @@
     }
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 1000px) {
     .landing {
+      padding: 2rem 1rem;
+
+      .title,
+      .image {
+        width: 45%;
+      }
+
       .title {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
         h1 {
-          font-size: 4rem;
-          line-height: 5rem;
+          font-size: 4.25rem;
+          line-height: 4.5rem;
+          margin-bottom: 1.5rem;
         }
-
+        span {
+          margin-bottom: 1rem;
+        }
         a {
-          padding: 1.2rem 2.8rem;
+          padding: 1.2rem 3.5rem;
+          font-size: 1.3rem;
+        }
+      }
+
+      .image {
+        img:nth-of-type(1) {
+          left: 3rem;
+        }
+        img:nth-of-type(2) {
+          top: -5rem;
+          right: 3rem;
         }
       }
     }
 
     .description {
-      width: fit-content;
-      padding: 6rem;
+      font-size: 1.2rem;
+      line-height: 1.8rem;
     }
 
     .benefits {
-      padding: 1rem;
-      gap: 1rem;
-
       .title {
-        font-size: 2.5rem;
+        font-size: 2.75rem;
+        padding-bottom: 2rem;
       }
 
       .benefit {
-        width: 17rem;
-        padding: 2rem 1.5rem;
+        padding: 3rem 1rem;
 
+        h3 {
+          font-size: 1.5rem;
+          margin-bottom: 1rem;
+        }
         p {
-          font-size: 1.15rem;
+          font-size: 1.25rem;
+          line-height: 2rem;
         }
       }
     }
 
     .solutions {
-      padding: 5rem;
+      padding: 2rem 0;
+      gap: 2rem;
 
       .solution {
-        gap: 20px;
+        height: auto;
+        width: auto;
+
         .image,
         .description {
-          width: 48%;
+          height: 100%;
+          width: 50%;
         }
 
         img {
-          border-radius: 2rem;
-          height: 25rem;
+          height: 90%;
+          border-radius: 1rem;
         }
 
         .description {
-          padding: 0.75rem;
+          text-align: left;
           h3 {
-            font-size: 1.75rem;
-            margin-bottom: 0.75rem;
-            line-height: 2rem;
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
           }
           p {
-            font-size: 1.1rem;
-            line-height: 1.8rem;
-          }
-
-          button {
-            font-size: 1.1rem;
+            line-height: 2.2rem;
           }
         }
-      }
-
-      .track {
-        grid-area: track;
-      }
-      .load {
-        grid-area: load;
-        flex-direction: row-reverse;
-      }
-      .fuel {
-        grid-area: fuel;
-      }
-      .generator {
-        grid-area: generator;
-        flex-direction: row-reverse;
-      }
-      .mining {
-        grid-area: mining;
-      }
-      .battery {
-        grid-area: battery;
-        flex-direction: row-reverse;
       }
     }
 
-    .features {
-      padding: 3rem 0;
-      gap: 1.5rem;
+    .Features {
+      padding: 4rem 6rem;
+      display: grid;
+      grid-template-areas:
+        'title playback alerts'
+        'tracking apps multiple';
+      row-gap: 1rem;
+      column-gap: 5rem;
 
       h2 {
-        font-size: 2.25rem;
+        grid-area: title;
+        width: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .playback {
+        grid-area: playback;
+      }
+      .alerts {
+        grid-area: alerts;
+      }
+      .tracking {
+        grid-area: tracking;
+      }
+      .apps {
+        grid-area: apps;
+      }
+      .multiple {
+        grid-area: multiple;
+      }
+
+      .playback {
+        img {
+          height: 40px;
+        }
+      }
+
+      h2 {
+        font-size: 2.5rem;
       }
 
       .card {
-        width: 15rem;
-        padding: 1.5rem;
-        gap: 1.5rem;
+        height: auto;
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3rem;
+        border: solid 1px gray;
 
         img {
-          height: 3rem;
+          height: 4rem;
         }
 
         h3 {
-          font-size: 1.5rem;
+          font-size: 1.8rem;
         }
+
         p {
-          font-size: 1.1rem;
-          line-height: 1.75rem;
+          font-size: 1.2rem;
+          line-height: 2rem;
         }
       }
     }
 
     .services {
-      padding: 6rem 0;
+      padding: 0 6rem;
       display: grid;
       grid-template-areas: 'title features';
-      gap: 1rem;
+      // gap: 1rem;
       justify-content: center;
+      align-items: center;
 
       .title {
-        width: 25rem;
+        width: 100%;
         padding: 5rem 0.5rem;
         grid-area: title;
 
@@ -913,6 +953,7 @@
           }
         }
         p {
+          width: 100%;
           font-size: 1.1rem;
           margin: 2.5rem 0;
           line-height: 1.5rem;
@@ -926,30 +967,271 @@
       }
 
       .features {
-        width: 35rem;
+        width: 95%;
+        grid-area: features;
+        display: grid;
+        grid-template-areas:
+          'visibility cloud'
+          'theft .';
+        gap: 15px;
 
         .feature {
-          width: 15rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: flex-start;
-          // gap: 30px;
+          // background-color: #2a2a2a;
+          width: 90%;
+          padding: 2rem 1rem;
+          border: solid 1px black;
 
           .icon {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
+            font-size: 2rem;
+            color: red;
+            margin-bottom: 1rem;
           }
           h3 {
             font-size: 1.5rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 2rem;
           }
           p {
             font-size: 1.15rem;
             line-height: 2rem;
           }
+          .arrow {
+          }
         }
       }
+    }
+  }
+
+  @media screen and (max-width: 999px) {
+    .landing {
+      padding: 2rem 0;
+      .title {
+        margin-left: -3rem;
+
+        h1 {
+          font-size: 4rem;
+          line-height: 4.8rem;
+        }
+        a {
+          margin-top: 2.5rem;
+          padding: 1.2rem 3rem;
+        }
+      }
+
+      .image {
+        display: none;
+      }
+    }
+
+    .Description {
+      padding: 3rem 0;
+      width: 66%;
+      margin-left: calc((100% - 66%) / 2);
+      line-height: 1.8rem;
+    }
+
+    .benefits {
+      padding: 5rem 0;
+      grid-template-areas:
+        'title'
+        'tracking'
+        'analysis'
+        'replay'
+        'alerts'
+        'mapping'
+        'reports';
+      gap: 3rem;
+
+      .benefit {
+        width: 63%;
+        margin-left: calc((100% - 63%) / 2);
+        padding: 5rem 0.5rem;
+
+        h3 {
+          font-size: 1.75rem;
+        }
+        p {
+          font-size: 1.28rem;
+          line-height: 2.2rem;
+        }
+      }
+    }
+
+    .solutions {
+      width: 100%;
+      padding: 4rem 0;
+      gap: 5rem;
+
+      .solution {
+        flex-direction: column-reverse;
+        .image,
+        .description {
+          height: 50%;
+          width: 100%;
+          padding: 2rem 0;
+        }
+
+        img {
+          width: 66%;
+          margin-left: calc((100% - 66%) / 2);
+        }
+
+        .description {
+          padding: 3rem 0;
+          width: 60%;
+
+          h3 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            line-height: 3.2rem;
+          }
+
+          a {
+            padding: 1rem 3rem;
+          }
+        }
+      }
+
+      .solution:nth-of-type(even) {
+        flex-direction: column-reverse;
+      }
+    }
+
+    .Features {
+      align-items: center;
+      padding: 5rem 0;
+      grid-template-areas:
+        'title title'
+        'tracking tracking'
+        'playback alerts'
+        'apps multiple';
+      gap: 2rem;
+
+      h2 {
+        grid-area: title;
+        width: fit-content;
+      }
+      .playback {
+        grid-area: playback;
+        min-width: 80%;
+      }
+      .alerts {
+        grid-area: alerts;
+        min-width: 80%;
+      }
+      .tracking {
+        grid-area: tracking;
+        min-width: 90%;
+      }
+      .apps {
+        grid-area: apps;
+        min-width: 80%;
+      }
+      .multiple {
+        grid-area: multiple;
+        min-width: 80%;
+      }
+
+      h2 {
+        font-size: 2.5rem;
+      }
+
+      .card {
+        img {
+          height: 3.5rem;
+        }
+
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+    .services {
+      padding: 4rem 0;
+      grid-template-areas:
+        'title title'
+        'features features';
+
+      .title {
+        min-width: 100%;
+        padding: 4rem 0.5rem;
+
+        h2 {
+          font-size: 2.75rem;
+          margin-bottom: 2rem;
+
+          span {
+            font-size: 2.75rem;
+          }
+        }
+        p {
+          font-size: 1.2rem;
+        }
+
+        a {
+          border: none;
+          padding: 1rem 3rem;
+          font-size: 1.2rem;
+        }
+      }
+
+      .features {
+        min-width: 100%;
+        gap: 1rem;
+
+        .feature {
+          width: 90%;
+          padding: 2.5rem 1rem;
+
+          .cloud {
+            margin-top: 10rem;
+          }
+
+          .icon {
+            font-size: 3rem;
+            color: red;
+            margin-bottom: 1rem;
+          }
+          h3 {
+            font-size: 1.75rem;
+            margin: 1rem 0;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .landing {
+      padding: 1.5rem 0;
+      .title {
+        margin-left: 4rem;
+
+        h1 {
+          font-size: 2.5rem;
+          line-height: 3.5rem;
+        }
+        span {
+          font-size: 1.2rem;
+        }
+        a {
+          padding: 1.2rem 2.8rem;
+        }
+      }
+    }
+
+    .Description {
+      padding: 3rem 0;
+      width: 45%;
+      height: auto;
+      margin-left: 25%;
+      line-height: 1.8rem;
     }
   }
 }
@@ -1233,6 +1515,18 @@
         text-decoration: none;
         color: blue;
       }
+    }
+  }
+
+  .solution-container {
+    h2 {
+      padding: 3rem 0;
+      text-align: center;
+      font-size: 3rem;
+    }
+
+    .highlight:nth-of-type(even) {
+      flex-direction: row-reverse;
     }
   }
 

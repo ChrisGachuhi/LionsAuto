@@ -60,5 +60,5 @@ export const Partners = () => {
         </p>
       </div>
     </div>
-  );
+  )
 };

@@ -1,27 +1,26 @@
-import playback from "../assets/icons/playback.svg";
-import alerts from "../assets/icons/alerts.svg";
-import tracking from "../assets/icons/tracking.svg";
-import apps from "../assets/icons/apps.svg";
-import multiple from "../assets/icons/multiple.svg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import playback from '../assets/icons/playback.svg'
+import alerts from '../assets/icons/alerts.svg'
+import tracking from '../assets/icons/tracking.svg'
+import apps from '../assets/icons/apps.svg'
+import multiple from '../assets/icons/multiple.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faArrowRight,
   faBars,
   faCloud,
   faLock,
-} from "@fortawesome/free-solid-svg-icons";
-import { Partners } from "../Components/Partners";
-import { Link, useNavigate } from "react-router-dom";
+} from '@fortawesome/free-solid-svg-icons'
+import { Partners } from '../Components/Partners'
+import { Link } from 'react-router-dom'
 
 export const Home = () => {
-  const navigate = useNavigate();
   return (
     <div className="Page Home">
       <div className="landing">
         <div className="title">
           <h1>GPS Fleet Management Platform</h1>
           <span>Award-winning GPS Tracking Software.</span>
-          <Link to={"/Contact"}>Get Started</Link>
+          <Link to={'/Contact'}>Get Started</Link>
         </div>
 
         <div className="image">
@@ -36,7 +35,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <p className="description">
+      <p className="Description">
         Speedotrack Vehicle Tracking Solutions combine sophisticated GPS
         tracking technology with flexible, advanced mapping and reporting
         software. A GPS-enabled Vehicle Tracking Device is installed on each
@@ -130,7 +129,7 @@ export const Home = () => {
               others. Lions Auto&#39;s tacking software is cost-effictive and
               easy to use
             </p>
-            <button onClick={() => navigate("/GPS-Software")}>Know More</button>
+            <Link to={'/GPS-Software'}>Know More</Link>
           </div>
         </div>
 
@@ -152,9 +151,7 @@ export const Home = () => {
               calculated based on monitoring truck suspension changes with a
               matched sensor by vehicle suspension type mechanism.
             </p>
-            <button onClick={() => navigate("/Load-Monitoring")}>
-              Know More
-            </button>
+            <Link to={'/Load-Monitoring'}>Know More</Link>
           </div>
         </div>
 
@@ -174,9 +171,7 @@ export const Home = () => {
               you cope with the major challenges related to fuel monitoring and
               management in the most user-friendly way.
             </p>
-            <button onClick={() => navigate("/Fuel-Monitoring")}>
-              Know More
-            </button>
+            <Link to={'/Fuel-Monitoring'}>Know More</Link>
           </div>
         </div>
 
@@ -200,9 +195,7 @@ export const Home = () => {
               Typical reports include generator status, fuel and maintenance
               reports etc.
             </p>
-            <button onClick={() => navigate("/Generator-Monitoring")}>
-              Know More
-            </button>
+            <Link to={'/Generator-Monitoring'}>Know More</Link>
           </div>
         </div>
 
@@ -224,7 +217,7 @@ export const Home = () => {
               fuel flow meters, which were designed for equipment with fuel
               consumption up to 4000 L/h.
             </p>
-            <button>Know More</button>
+            <Link>Know More</Link>
           </div>
         </div>
 
@@ -248,16 +241,14 @@ export const Home = () => {
               circuits, over-charge, over discharge, over current, over
               temperature and under temperature events.
             </p>
-            <button onClick={() => navigate("/Battery-Solution")}>
-              Know More
-            </button>
+            <Link to={'/Battery-Solution'}>Know More</Link>
           </div>
         </div>
       </div>
 
       <Partners />
 
-      <div className="features">
+      <div className="Features">
         <h2>Easy to Use Vehicle Tracking Software</h2>
 
         <div className="card playback">
@@ -334,7 +325,7 @@ export const Home = () => {
             application, which you can access through the Web at any time.
           </p>
 
-          <button>Get Started</button>
+          <Link>Get Started</Link>
         </div>
 
         <div className="features">
@@ -372,5 +363,5 @@ export const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
