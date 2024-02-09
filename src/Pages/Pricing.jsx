@@ -1,12 +1,12 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const Pricing = () => {
+const Pricing = () => {
   return (
     <div className="Page Pricing">
       <div className="landing"></div>
 
-      <div className="benefits">
+      {/* <div className="benefits">
         <h2>Benefits of Lions Auto GPS Tracker</h2>
         <div className="benefit cost">
           <h3>Reduce Fuel cost</h3>
@@ -51,10 +51,10 @@ export const Pricing = () => {
           </p>
           <FontAwesomeIcon icon={faArrowRight} />
         </div>
-      </div>
+      </div> */}
 
       <div className="price">
-        <h2>Speedotrack GPS Tracker Pricing</h2>
+        <h2>LionsAuto GPS Tracker Pricing</h2>
 
         <div className="catalogue">
           <div className="option standard">
@@ -89,7 +89,7 @@ export const Pricing = () => {
           </div>
 
           <div className="option voice">
-            <span>Standard Vehicle Tracking</span>
+            <span>Fuel Monitoring</span>
             <span>Rs 2200 Yearly Subscription Charge</span>
             <span>Rs 6500</span>
             <span>
@@ -120,7 +120,7 @@ export const Pricing = () => {
           </div>
 
           <div className="option 2wheeler">
-            <span>Standard Vehicle Tracking</span>
+            <span>Driver ID</span>
             <span>Rs 2200 Yearly Subscription Charge</span>
             <span>Rs 6500</span>
             <span>
@@ -151,7 +151,7 @@ export const Pricing = () => {
           </div>
 
           <div className="option dash1">
-            <span>Standard Vehicle Tracking</span>
+            <span>Speed Governor</span>
             <span>Rs 2200 Yearly Subscription Charge</span>
             <span>Rs 6500</span>
             <span>
@@ -309,3 +309,5 @@ export const Pricing = () => {
     </div>
   );
 };
+
+export default Pricing;

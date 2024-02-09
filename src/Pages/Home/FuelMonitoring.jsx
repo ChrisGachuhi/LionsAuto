@@ -2,7 +2,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-export const FuelMonitoring = () => {
+const FuelMonitoring = () => {
   return (
     <div className="Page Business">
       <div className="landing">
@@ -248,3 +248,5 @@ export const FuelMonitoring = () => {
     </div>
   );
 };
+
+export default FuelMonitoring;

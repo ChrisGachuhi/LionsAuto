@@ -1,9 +1,8 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-export const CloudHosted = () => {
-  const navigate = useNavigate()
+const CloudHosted = () => {
   return (
     <div className="Page Software">
       <div className="landing">
@@ -254,3 +253,5 @@ export const CloudHosted = () => {
     </div>
   )
 }
+
+export default CloudHosted;

@@ -1,6 +1,8 @@
-
+import WhatsappIcon from '../assets/icons/WhatsappIcon.png'
 export const Whatsapp = () => {
   return (
-    <div>Whatsapp</div>
+    <div className="Whatsapp">
+      <img src={WhatsappIcon} alt="" />
+    </div>
   )
 }

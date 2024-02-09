@@ -9,6 +9,7 @@
   overflow: hidden;
   height: 100%;
   padding: 0 5rem;
+  // position: relative;
 
   @media screen and (max-width: 1200px) {
     padding: 0 1rem;
@@ -141,6 +142,16 @@
 
   @media screen and (max-width: 1200px) {
     padding: 0 1rem;
+  }
+}
+
+.Whatsapp {
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+
+  img {
+    height: 80px;
   }
 }
 
@@ -302,6 +313,7 @@
       width: 90%;
       margin: 0 5%;
       grid-area: contact;
+
       span {
         font-size: 1.25rem;
       }
@@ -328,6 +340,7 @@
       input:nth-child(4) {
         height: 0.5rem;
       }
+
       button {
         width: 80%;
         margin: 3rem 10%;
@@ -1240,7 +1253,7 @@
   padding: 3rem 0;
   display: grid;
   grid-template-columns: repeat(3, 350px);
-  grid-template-rows: repeat(7, 250px);
+  grid-template-rows: 250px;
   justify-content: center;
   gap: 1rem;
 
@@ -1418,8 +1431,8 @@
           line-height: 2.2rem;
         }
 
-        button {
-          border: none;
+        a {
+          text-decoration: none;
           background-color: green;
           color: #fff;
           padding: 1rem 2rem;
@@ -1439,9 +1452,9 @@
   grid-template-areas:
     'landing'
     'gps'
-    'school'
-    'hospital'
-    'hotel';
+    'fuel'
+    'driver'
+    'governor';
 
   .landing {
     grid-area: landing;
@@ -1449,14 +1462,14 @@
   .gps {
     grid-area: gps;
   }
-  .school {
-    grid-area: school;
+  .fuel {
+    grid-area: fuel;
   }
-  .hospital {
-    grid-area: hospital;
+  .driver {
+    grid-area: driver;
   }
-  .hotel {
-    grid-area: hotel;
+  .governor {
+    grid-area: governor;
   }
 
   .landing {
@@ -1557,11 +1570,13 @@
         line-height: 2rem;
       }
 
-      button {
-        border: none;
+      a {
         padding: 0.8rem 2.4rem;
-        border-radius: 2rem;
         font-size: 1.2rem;
+        text-decoration: none;
+        border-radius: 3rem;
+        color: white;
+        background-color: green;
       }
     }
   }
@@ -1599,7 +1614,7 @@
     }
   }
 
-  .school {
+  .fuel {
     .highlight {
       flex-direction: row-reverse;
     }
@@ -1608,13 +1623,13 @@
     }
   }
 
-  .hospital {
+  .driver {
     .features-container {
       grid-template-columns: repeat(3, 350px);
     }
   }
 
-  .hotel {
+  .governor {
     .highlight {
       flex-direction: row-reverse;
     }

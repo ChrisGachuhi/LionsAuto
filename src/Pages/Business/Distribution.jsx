@@ -2,7 +2,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 
-export const Distribution = () => {
+const Distribution = () => {
   return (
     <div className="Page Business">
       <div className="landing">
@@ -150,3 +150,5 @@ export const Distribution = () => {
     </div>
   )
 }
+
+export default Distribution

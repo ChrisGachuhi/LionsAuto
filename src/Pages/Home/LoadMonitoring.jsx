@@ -2,7 +2,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-export const LoadMonitoring = () => {
+const LoadMonitoring = () => {
   return (
     <div className="Page Business">
       <div className="landing">
@@ -207,3 +207,5 @@ export const LoadMonitoring = () => {
     </div>
   );
 };
+
+export default LoadMonitoring;

@@ -1,9 +1,11 @@
 import { Mpesa } from "../Components/Mpesa";
 
-export const Payment = () => {
+const Payment = () => {
   return (
     <div className="Page Payment">
       <Mpesa />
     </div>
   );
 };
+
+export default Payment;

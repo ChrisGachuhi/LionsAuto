@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link, useNavigate } from 'react-router-dom'
 // import { Partners } from "../Components/Partners";
 
-export const Business = () => {
+const Business = () => {
   const navigate = useNavigate()
   return (
     <div className="Page Business">
@@ -200,3 +200,5 @@ export const Business = () => {
     </div>
   )
 }
+
+export default Business;

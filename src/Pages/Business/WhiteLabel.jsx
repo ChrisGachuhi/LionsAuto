@@ -2,7 +2,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 
-export const WhiteLabel = () => {
+const WhiteLabel = () => {
   return (
     <div className="Page Business">
       <div className="landing">
@@ -159,3 +159,5 @@ export const WhiteLabel = () => {
     </div>
   )
 }
+
+export default WhiteLabel;

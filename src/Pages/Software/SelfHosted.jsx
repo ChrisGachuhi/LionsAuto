@@ -2,29 +2,39 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 
-export const PersonalAccount = () => {
+const SelfHosted = () => {
   return (
     <div className="Page Software">
       <div className="landing">
         <div className="title">
-          <h1>GPS Tracking Software (Personal Account)</h1> <br />
+          <h1>GPS Tracking Software (Self Hosted)</h1> <br />
           <span>Grow your business & boost up sale with Speedotrack</span>
         </div>
 
         {/* in page navigation */}
 
         <p>
-          This solution is recommended for personal use or small company.
-          Personal tracking account allows to see location of objects (vehicles,
-          family members...) in real time, instantly view historical tracks and
-          be notified about events which requires your immediate attention.
+          Self Hosted GPS Tracking Software 01 | Speedotrack GPS GPS Tracking
+          Software (Self Hosted) Grow your business & boost up sale with
+          Speedotrack Get Started NowSee live demo. shape 66 | Speedotrack
+          GPSshape 56 | Speedotrack GPS Speedotrack team developed unique GPS
+          tracking platform - tracking software which is designed to build
+          independent tracking server. GPS tracking platform is web based
+          application which can operate globally. One physical GPS tracking
+          server allows simultaneously monitor thousands of GPS trackers and
+          smartphones, display their location on map, generate reports and
+          alerts. GPS tracking platform has billing system which allows to
+          charge customers for services.
         </p>
 
         <p>
-          Generate various group reports, control devices remotely and much
-          more. System is easy to use, mobile friendly, has intuitive user
-          interface and is designed to communicate with a wide variety of GPS
-          tracking devices including mobile phones and tablets.
+          Tracking platform can be used with custom server name, logo and
+          design. Open source code allows to extend functionality and change
+          design - possibilities are endless. Tracking platform software is
+          perfect solution for companies who are getting into GPS tracking
+          business. Our product will work for you, not against you. Start your
+          own GPS tracking business and earn as much profit as possible, become
+          independent GPS service provider.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
@@ -32,7 +42,7 @@ export const PersonalAccount = () => {
 
       <div className="solution-container gps">
         <div className="features">
-          <h2>Features of GPS Personal Account Software</h2>
+          <h2>Features of GPS Self Hosted Software</h2>
           <div className="features-container">
             <div className="feature label">
               <h3>White Label</h3>
@@ -156,7 +166,7 @@ export const PersonalAccount = () => {
           </div>
         </div>
 
-        <h2>GPS Tracking Software (Personal Account)</h2>
+        <h2>GPS Tracking Software (Self Hosted)</h2>
 
         <div className="highlight">
           <div className="image">
@@ -166,14 +176,13 @@ export const PersonalAccount = () => {
             />
           </div>
           <div className="description">
-            <h3>Low Cost Tracking</h3>
+            <h3>GPS tracking platform features</h3>
             <p>
-              With Speedotrack GPS tracking Solution it is very easy to start
-              GPS tracking business at very affordable cost. We provides all
-              support to our partner like CRM solution, dedicated website and
-              marketing material to kick start GPS tracking business. With our
-              GPS tracking software you will have peace of mind and keep rest on
-              us and focus on growing your GPS tracking business.
+              Our GPS tracking is very cost effective so that anybody can start
+              their own GPS tracking business at very low investment. You can
+              explore our GPS tracking platform with demo account and know
+              silent feature of GPS tracking. In case of any doubt we are ready
+              to help you and solve your query to understand our platform.
             </p>
             <button>Know More</button>
           </div>
@@ -187,56 +196,13 @@ export const PersonalAccount = () => {
             />
           </div>
           <div className="description">
-            <h3>Track Fleet in Single Account</h3>
+            <h3>Supported GPS trackers</h3>
             <p>
-              Our GPS tracking business is smart enough so that you will be able
-              to track multiple fleet from single account. We have dedicated
-              demo account where user can login and familiar with of GPS
-              tracking platform and contact us in case of any doubt we are here
-              to help you 24/7.
-            </p>
-            <button>Know More</button>
-          </div>
-        </div>
-
-        <div className="highlight">
-          <div className="image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
-              alt=""
-            />
-          </div>
-          <div className="description">
-            <h3>Google Map Included</h3>
-            <p>
-              Google Maps with GPS Tracker shows your physical position in
-              real-time on a moving Google Map. A small application on your PC
-              uploads your GPS position periodically over either GPRS or 3G,
-              which updates your position on a moving Google Map. Our GPS
-              tracking solution comes with Google Map which make tracking of
-              fleet easier. our multiple vehicle tracking feature comes with
-              single account.
-            </p>
-            <button>Know More</button>
-          </div>
-        </div>
-
-        <div className="highlight">
-          <div className="image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
-              alt=""
-            />
-          </div>
-          <div className="description">
-            <h3>Geo-Coding Service Included</h3>
-            <p>
-              Our GPS tracking Solution comes with Geo-coding and reverse
-              geocoding. it is Geocoding is the process of converting addresses
-              (like "1600 Amphitheatre Parkway, Mountain View, CA") into
-              geographic coordinates (like latitude 37.423021 and longitude
-              -122.083739), which you can use to place markers or position the
-              map.
+              Our GPS tracking software comes with latest GPS tracking
+              technology and supports all major GPS tracking devices available
+              in the market and works seamlessly. Speedotrack tracking platform
+              software communicates with a wide variety of GPS trackers, it
+              gives more freedom to use hardware you prefer.
             </p>
             <button>Know More</button>
           </div>
@@ -245,3 +211,5 @@ export const PersonalAccount = () => {
     </div>
   )
 }
+
+export default SelfHosted;

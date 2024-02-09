@@ -1,10 +1,6 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
-export const GpsSoftware = () => {
-  const navigate = useNavigate();
-
+const GpsSoftware = () => {
   return (
     <div className="Page Business">
       <div className="landing">
@@ -128,9 +124,9 @@ export const GpsSoftware = () => {
               get ready to go GPS tracking server in less than 24 hours, no
               technical skills needed.
             </p>
-            <button onClick={() => navigate("/GPS-Software/Cloud-Hosted")}>
+            <Link to={'/GPS-Software/Cloud-Hosted'} target="_blank">
               Explore More
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -153,9 +149,9 @@ export const GpsSoftware = () => {
               platform has billing system which allows to charge customers for
               services.
             </p>
-            <button onClick={() => navigate("/GPS-Software/Self-Hosted")}>
+            <Link to={'/GPS-Software/Self-Hosted'} target="_blank">
               Explore More
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -167,7 +163,7 @@ export const GpsSoftware = () => {
             />
           </div>
           <div className="description">
-            Speedotrack GPS Software (Personal Account)
+            <h3>Speedotrack GPS Software (Personal Account)</h3>
             <p>
               This solution is recommended for personal use or small company.
               Personal tracking account allows to see location of objects
@@ -179,14 +175,16 @@ export const GpsSoftware = () => {
               communicate with a wide variety of GPS tracking devices including
               mobile phones and tablets.
             </p>
-            <button onClick={() => navigate("/GPS-Software/Personal-Account")}>
+            <Link to={'/GPS-Software/Personal-Account'} target="_blank">
               Explore More
-            </button>
+            </Link>
           </div>
         </div>
       </div>
 
       {/* <Partners /> */}
     </div>
-  );
-};
+  )
+}
+
+export default GpsSoftware;

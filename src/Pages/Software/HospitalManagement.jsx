@@ -17,9 +17,9 @@ export const HospitalManagement = () => {
 
         <p>
           Hospital Management System is mainly a system that can help any
-          Hospital activities properly and easily. Moreover the Hospital
+          Hospital activities properly and easily. Moreover, the Hospital
           management software can be used as clinical software. Also, it helps
-          to keep record and monitor the activities of any hospital. so, this is
+          to keep record and monitor the activities of any hospital. So, this is
           a complete Speedotrack Hospital Management Software is the cheapest
           and easiest solution of managing any hospital activities like IPD,
           OPD, Billing, Test, Bed Management, HR Management etc.
@@ -35,10 +35,10 @@ export const HospitalManagement = () => {
           <div className="feature reach">
             <h3>Easy to use System</h3>
             <p>
-              Speedotrack Hospital Management Software plays important role in
-              managing your Hospital Business activities or clinic as per your
-              requirement. our software gives desired output organically with a
-              specific time frame.
+              Speedotrack Hospital Management Software plays an important role
+              in managing your Hospital Business activities or clinic as per
+              your requirement. Our software gives the desired output
+              organically within a specific time frame.
             </p>
             <FontAwesomeIcon icon={faArrowRight} />
           </div>
@@ -47,7 +47,7 @@ export const HospitalManagement = () => {
             <h3>Dynamic System</h3>
             <p>
               Speedotrack Hospital Management software can speed up all of your
-              activities & reporting. Moreover, it can mange all the important
+              activities & reporting. Moreover, it can manage all the important
               documents in a certain place with a dynamic management system.
             </p>
             <FontAwesomeIcon icon={faArrowRight} />
@@ -67,7 +67,7 @@ export const HospitalManagement = () => {
           <div className="feature technology">
             <h3>Accumulative services</h3>
             <p>
-              With our software you can manage the overall services including
+              With our software, you can manage the overall services including
               medical, financial, administrative, and so on. Moreover, the
               hospital management system helps you to cover the entire system
               efficiently.
@@ -91,7 +91,7 @@ export const HospitalManagement = () => {
             <p>
               Our software ensures the best medical care service for the
               patient. Moreover, using our system, users can admit and discharge
-              the patient easily. So, there is no add”itional formality in this
+              the patient easily. So, there is no additional formality in this
               system from admission to discharge.
             </p>
             <FontAwesomeIcon icon={faArrowRight} />
@@ -121,7 +121,7 @@ export const HospitalManagement = () => {
               well as, it provides robust and reliable storage and backup
               facilities
             </p>
-            <button>Explore More</button>
+            <Link>Explore More</Link>
           </div>
         </div>
 
@@ -146,7 +146,7 @@ export const HospitalManagement = () => {
               the best. And if you have got an automatic system that may pay
               attention to relieve you to try and do alternative vital tasks.
             </p>
-            <button>Explore More</button>
+            <Link>Explore More</Link>
           </div>
         </div>
 
@@ -170,7 +170,7 @@ export const HospitalManagement = () => {
               store all hospital-related data and guarantees that your hospital
               will be error- free if you follow the procedures.
             </p>
-            <button>Explore More</button>
+            <Link>Explore More</Link>
           </div>
         </div>
 
@@ -196,7 +196,7 @@ export const HospitalManagement = () => {
               portal. So, it is the most important advantage of any hospital
               management system.
             </p>
-            <button>Explore More</button>
+            <Link>Explore More</Link>
           </div>
         </div>
 
@@ -224,7 +224,7 @@ export const HospitalManagement = () => {
               management system that may pay attention to your hospital, and
               follow your hospital’s processes.
             </p>
-            <button>Explore More</button>
+            <Link>Explore More</Link>
           </div>
         </div>
       </div>
