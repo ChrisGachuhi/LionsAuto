@@ -38,6 +38,7 @@ import Distribution from './Pages/Business/Distribution'
 import CloudHosted from './Pages/Software/CloudHosted'
 import SelfHosted from './Pages/Software/SelfHosted'
 import PersonalAccount from './Pages/Software/PersonalAccount'
+import MiningEquipment from './Pages/Home/MiningEquipment'
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
         <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />
         <Route path="/Generator-Monitoring" element={<GeneratorMonitoring />} />
+        <Route path="/Mining-Equipment-Monitoring" element={<MiningEquipment />} />
         <Route path="/GPS-Software/Cloud-Hosted" element={<CloudHosted />} />
         <Route path="/GPS-Software/Self-Hosted" element={<SelfHosted />} />
         <Route

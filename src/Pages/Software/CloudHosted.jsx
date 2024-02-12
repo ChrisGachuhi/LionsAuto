@@ -1,5 +1,6 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
 const CloudHosted = () => {
   return (
@@ -29,7 +30,7 @@ const CloudHosted = () => {
           white label GPS tracking system. To personalize software, use your
           company name, logo, domain, change colors and login page look.
           <br />
-          Please get in touch and our expert team will contact you.
+          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 
