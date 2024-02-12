@@ -1,6 +1,5 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 
 const CloudHosted = () => {
   return (
@@ -30,7 +29,7 @@ const CloudHosted = () => {
           white label GPS tracking system. To personalize software, use your
           company name, logo, domain, change colors and login page look.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
+          Please get in touch and our expert team will contact you.
         </p>
       </div>
 
@@ -161,6 +160,10 @@ const CloudHosted = () => {
         </div>
 
         <h2>GPS Tracking Software (Cloud Hosted)</h2>
+        <img
+          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+          alt=""
+        />
 
         <div className="highlight">
           <div className="image">
@@ -183,7 +186,6 @@ const CloudHosted = () => {
               pricing contains entry fee plus connection fee for every tracking
               unit.
             </p>
-            <button>Know More</button>
           </div>
         </div>
 
@@ -204,7 +206,6 @@ const CloudHosted = () => {
               dashboard. In case of any doubt we are available 24/7 to help you
               to understand our control our dashboard.
             </p>
-            <button>Know More</button>
           </div>
         </div>
 
@@ -225,7 +226,6 @@ const CloudHosted = () => {
               management tools, and software applications to access and use
               pertinent data.
             </p>
-            <button>Know More</button>
           </div>
         </div>
 
@@ -246,7 +246,6 @@ const CloudHosted = () => {
               with Solid data protection feature so that our partner focus on
               building GPS tracking business and leave rest on us.
             </p>
-            <button>Know More</button>
           </div>
         </div>
       </div>
@@ -254,4 +253,4 @@ const CloudHosted = () => {
   )
 }
 
-export default CloudHosted;
+export default CloudHosted

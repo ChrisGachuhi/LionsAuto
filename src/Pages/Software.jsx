@@ -38,7 +38,7 @@ const Software = () => {
         <div className="highlight">
           <div className="image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedorack-Vehicle-Tracking-Software_01.png?w=666&ssl=1"
               alt=""
             />
           </div>
@@ -70,6 +70,58 @@ const Software = () => {
 
           <div className="description">
             <h3>LionsAuto Speed Governor</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.
+              Ipsa nulla aut aliquam, laboriosam doloribus, voluptate dolore,
+              sint amet placeat aliquid quod necessitatibus sunt delectus iste!
+              A tempora voluptatem dignissimos esse praesentium beatae deleniti
+              suscipit eum non delectus doloribus dolore consectetur corporis
+              veniam quaerat, atque est quia explicabo tenetur autem sint
+              aspernatur?
+            </p>
+            <Link>Know More</Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="solution-container fuel">
+        <div className="highlight">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Speedotrack-Fuel-Monitoring-Solution_01.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+
+          <div className="description">
+            <h3>LionsAuto Fuel Monitoring</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.
+              Ipsa nulla aut aliquam, laboriosam doloribus, voluptate dolore,
+              sint amet placeat aliquid quod necessitatibus sunt delectus iste!
+              A tempora voluptatem dignissimos esse praesentium beatae deleniti
+              suscipit eum non delectus doloribus dolore consectetur corporis
+              veniam quaerat, atque est quia explicabo tenetur autem sint
+              aspernatur?
+            </p>
+            <Link>Know More</Link>
+          </div>
+        </div>
+      </div>
+
+      <div className="solution-container driver">
+        <div className="highlight">
+          <div className="image">
+            <img
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/07/Speedotrack-Hospital-Management-Software_01.png?w=666&ssl=1"
+              alt=""
+            />
+          </div>
+
+          <div className="description">
+            <h3>LionsAuto Driver Behavior</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.

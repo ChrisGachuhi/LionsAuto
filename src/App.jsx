@@ -18,7 +18,6 @@ import GpsSoftware from './Pages/Home/GpsSoftware'
 import LoadMonitoring from './Pages/Home/LoadMonitoring'
 import FuelMonitoring from './Pages/Home/FuelMonitoring'
 import GeneratorMonitoring from './Pages/Home/GeneratorMonitoring'
-import MiningEquipment from './Pages/Home/MiningEquipment'
 
 import GpsTracker from './Pages/Products/GpsTracker'
 import SchoolBusTracker from './Pages/Products/SchoolBusTracker'
@@ -51,10 +50,6 @@ function App() {
         <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
         <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />
         <Route path="/Generator-Monitoring" element={<GeneratorMonitoring />} />
-        <Route
-          path="/Mining-Equipment-Monitoring"
-          element={<MiningEquipment />}
-        />
         <Route path="/GPS-Software/Cloud-Hosted" element={<CloudHosted />} />
         <Route path="/GPS-Software/Self-Hosted" element={<SelfHosted />} />
         <Route

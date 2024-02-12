@@ -43,6 +43,10 @@ const SelfHosted = () => {
       <div className="solution-container gps">
         <div className="features">
           <h2>Features of GPS Self Hosted Software</h2>
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+            alt=""
+          />
           <div className="features-container">
             <div className="feature label">
               <h3>White Label</h3>
@@ -184,7 +188,6 @@ const SelfHosted = () => {
               silent feature of GPS tracking. In case of any doubt we are ready
               to help you and solve your query to understand our platform.
             </p>
-            <button>Know More</button>
           </div>
         </div>
 
@@ -204,7 +207,6 @@ const SelfHosted = () => {
               software communicates with a wide variety of GPS trackers, it
               gives more freedom to use hardware you prefer.
             </p>
-            <button>Know More</button>
           </div>
         </div>
       </div>

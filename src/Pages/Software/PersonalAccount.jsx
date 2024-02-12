@@ -33,6 +33,10 @@ const PersonalAccount = () => {
       <div className="solution-container gps">
         <div className="features">
           <h2>Features of GPS Personal Account Software</h2>
+          <img
+            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+            alt=""
+          />
           <div className="features-container">
             <div className="feature label">
               <h3>White Label</h3>
@@ -175,7 +179,6 @@ const PersonalAccount = () => {
               GPS tracking software you will have peace of mind and keep rest on
               us and focus on growing your GPS tracking business.
             </p>
-            <button>Know More</button>
           </div>
         </div>
 
@@ -195,7 +198,6 @@ const PersonalAccount = () => {
               tracking platform and contact us in case of any doubt we are here
               to help you 24/7.
             </p>
-            <button>Know More</button>
           </div>
         </div>
 
@@ -217,7 +219,6 @@ const PersonalAccount = () => {
               fleet easier. our multiple vehicle tracking feature comes with
               single account.
             </p>
-            <button>Know More</button>
           </div>
         </div>
 
@@ -238,7 +239,6 @@ const PersonalAccount = () => {
               -122.083739), which you can use to place markers or position the
               map.
             </p>
-            <button>Know More</button>
           </div>
         </div>
       </div>
