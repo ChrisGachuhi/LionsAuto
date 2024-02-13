@@ -19,6 +19,7 @@
 // Navbar Styles
 .Page {
   height: 100%;
+  max-width: 100%;
 }
 
 .active {
@@ -1224,7 +1225,7 @@
     .landing {
       padding: 1.5rem 0;
       .title {
-        margin-left: 4rem;
+        margin-left: 3rem;
 
         h1 {
           font-size: 2.5rem;
@@ -1241,10 +1242,140 @@
 
     .Description {
       padding: 3rem 0;
-      width: 45%;
+      max-width: 40%;
       height: auto;
-      margin-left: 25%;
+      margin-left: 30%;
       line-height: 1.8rem;
+    }
+
+    .benefits {
+      width: 40%;
+      margin-left: 30%;
+
+      .benefit {
+        width: 90%;
+        margin-left: 2.5%;
+      }
+    }
+
+    .solutions {
+      width: 60%;
+      margin-left: 20%;
+
+      .solution {
+        img {
+          height: 20rem;
+        }
+
+        .description {
+          padding: 1rem 0;
+        }
+      }
+    }
+
+    .Features {
+      align-items: center;
+      padding: 3rem 0;
+      grid-template-areas:
+        'title'
+        'tracking'
+        'playback'
+        'alerts'
+        'apps'
+        'multiple';
+      gap: 2rem;
+
+      h2 {
+        grid-area: title;
+        max-width: 40%;
+        margin-left: 25%;
+        font-size: 2.5rem;
+      }
+
+      .card {
+        min-width: 40%;
+        margin-left: 25%;
+        img {
+          height: 3.5rem;
+        }
+
+        h3 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.3rem;
+        }
+      }
+    }
+
+    .services {
+      padding: 3rem 0;
+      grid-template-areas:
+        'title'
+        'features';
+
+      .title {
+        min-width: 60%;
+        margin: 0 20%;
+        padding: 5rem 0;
+
+        span {
+          padding: 0 1rem;
+        }
+
+        h2 {
+          padding: 0 1rem;
+          font-size: 2.75rem;
+          margin-bottom: 2rem;
+
+          span {
+            padding: 0;
+            font-size: 2.75rem;
+          }
+        }
+        p {
+          padding: 0 1rem;
+          font-size: 1.2rem;
+        }
+
+        a {
+          border: none;
+          padding: 1rem 3rem;
+          font-size: 1.2rem;
+          margin-left: 1rem;
+        }
+      }
+
+      .features {
+        grid-template-areas:
+          'visibility'
+          'cloud'
+          'theft';
+        gap: 1rem;
+
+        .feature {
+          width: 50%;
+          margin-left: 22%;
+          padding: 2.5rem 1rem;
+
+          .cloud {
+            margin-top: 10rem;
+          }
+
+          .icon {
+            font-size: 3rem;
+            color: red;
+            margin-bottom: 1rem;
+          }
+          h3 {
+            font-size: 1.75rem;
+            margin: 1rem 0;
+          }
+          p {
+            font-size: 1.2rem;
+          }
+        }
+      }
     }
   }
 }
@@ -1252,10 +1383,10 @@
 .Product {
   padding: 3rem 0;
   display: grid;
-  grid-template-columns: repeat(3, 350px);
+  grid-template-columns: repeat(3, 300px);
   grid-template-rows: 250px;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 
   .solution {
     display: flex;
@@ -1271,12 +1402,25 @@
     }
 
     a {
+      min-width: 60%;
+      text-align: center;
       text-decoration: none;
       padding: 1rem 2rem;
       border-radius: 3rem;
       color: white;
       background-color: green;
     }
+  }
+
+  @media screen and (min-width: 1000px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 999px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 570px) {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 }
 
@@ -1305,7 +1449,6 @@
       'navigation'
       'description';
     gap: 1rem;
-    justify-content: center;
 
     .title {
       text-align: center;
@@ -1467,6 +1610,221 @@
       }
     }
   }
+
+  @media screen and (min-width: 1000px) {
+    .features {
+      .features-container {
+        row-gap: 3rem;
+        column-gap: 2rem;
+
+        .feature {
+          height: 350px;
+          width: 250px;
+
+          h3 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+          }
+          p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.8rem;
+          }
+        }
+      }
+    }
+
+    .opportunities {
+      .opportunity {
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .image {
+          width: 40%;
+        }
+        .description {
+          width: 58%;
+        }
+
+        .image,
+        .description {
+          img {
+            width: 100%;
+          }
+
+          p {
+            width: 100%;
+          }
+        }
+      }
+
+      .telematics {
+        width: 86%;
+        margin-left: 7%;
+        text-align: center;
+        padding: 0.75rem 0;
+        font-size: 1.2rem;
+
+        a {
+          text-decoration: none;
+          color: blue;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 999px) {
+    .landing {
+      padding: 0;
+
+      .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+
+        a {
+          width: 45%;
+          margin: 1rem 0.5rem;
+          padding: 1.3rem 3rem;
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .features {
+      .features-container {
+        grid-template-areas:
+          'reach'
+          'reliability'
+          'ux'
+          'technology'
+          'migration'
+          'start';
+        row-gap: 3rem;
+
+        .feature {
+          height: 250px;
+          width: 90%;
+          margin: 0 2.5%;
+        }
+      }
+    }
+
+    .opportunities {
+      .opportunity {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 2rem;
+
+        .image,
+        .description {
+          width: 90%;
+          margin: 0 2.5%;
+          height: auto;
+          img {
+            width: 100%;
+          }
+
+          p {
+            width: 100%;
+          }
+        }
+      }
+
+      .opportunity:nth-of-type(odd) {
+        flex-direction: column-reverse;
+      }
+
+      .telematics {
+        width: 86%;
+        margin-left: 7%;
+        text-align: center;
+        padding: 0.75rem 0;
+        font-size: 1.2rem;
+
+        a {
+          text-decoration: none;
+          color: blue;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 570px) {
+    .landing {
+      .navigation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        a {
+          width: 45%;
+          margin: 1rem 0.5rem;
+          padding: 1.3rem 3rem;
+          font-size: 1rem;
+        }
+      }
+
+      p {
+        width: 95%;
+        margin-left: 2.5%;
+      }
+    }
+
+    .features {
+      .features-container {
+        grid-template-areas:
+          'reach'
+          'reliability'
+          'ux'
+          'technology'
+          'migration'
+          'start';
+        row-gap: 3rem;
+
+        .feature {
+          height: 250px;
+          width: 90%;
+          margin: 0;
+        }
+      }
+    }
+
+    .opportunities {
+      .opportunity {
+        .image,
+        .description {
+          width: 90%;
+          margin: 0;
+          height: auto;
+
+          img {
+            height: auto;
+            width: 100%;
+          }
+
+          p {
+            width: 100%;
+          }
+        }
+      }
+
+      .telematics {
+        width: 86%;
+        margin-left: 7%;
+        text-align: center;
+        padding: 0.75rem 0;
+        font-size: 1.2rem;
+
+        a {
+          text-decoration: none;
+          color: blue;
+        }
+      }
+    }
+  }
 }
 
 .Software {
@@ -1494,7 +1852,7 @@
   .governor {
     grid-area: governor;
   }
-  .extras{
+  .extras {
     grid-area: extras;
   }
 
@@ -1669,16 +2027,23 @@
     }
   }
 
-  .extras{
+  .extras {
     display: grid;
     grid-template-columns: repeat(2, 400px);
     justify-content: center;
     gap: 1rem;
 
-    .extra{
+    .extra {
       min-height: 150px;
       max-width: 100%;
     }
+  }
+
+  @media screen and (min-width: 1000px) {
+  }
+  @media screen and (max-width: 999px) {
+  }
+  @media screen and (max-width: 570px) {
   }
 }
 

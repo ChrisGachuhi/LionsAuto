@@ -189,7 +189,6 @@ const Business = () => {
         </div>
       </div>
 
-      {/* <Partners /> */}
     </div>
   )
 }
