@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const LoadMonitoring = () => {
   return (
-    <div className="Page Business">
+    <div className="Page Business SubPage-Business">
       <div className="landing">
         <div className="title">
           <span>
@@ -32,6 +32,7 @@ const LoadMonitoring = () => {
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
+
       <div className="features">
         <h2>Features of Load Weight Monitoring</h2>
 

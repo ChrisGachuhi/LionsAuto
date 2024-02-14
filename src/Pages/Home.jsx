@@ -228,6 +228,9 @@ const Home = () => {
               fuel flow meters, which were designed for equipment with fuel
               consumption up to 4000 L/h.
             </p>
+            <Link to={'/Mining-Equipment-Monitoring'} target="_blank">
+              Know More
+            </Link>
           </div>
         </div>
       </div>

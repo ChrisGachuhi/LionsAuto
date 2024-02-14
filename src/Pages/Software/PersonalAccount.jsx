@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const PersonalAccount = () => {
   return (
-    <div className="Page Software">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <div className="title">
           <h1>GPS Tracking Software (Personal Account)</h1> <br />
@@ -233,8 +233,8 @@ const PersonalAccount = () => {
             <h3>Geo-Coding Service Included</h3>
             <p>
               Our GPS tracking Solution comes with Geo-coding and reverse
-              geocoding. it is Geocoding is the process of converting addresses
-              (like "1600 Amphitheatre Parkway, Mountain View, CA") into
+              geocoding. Geocoding is the process of converting addresses
+              (like &quot;1600 Amphitheatre Parkway, Mountain View, CA&quot;) into
               geographic coordinates (like latitude 37.423021 and longitude
               -122.083739), which you can use to place markers or position the
               map.

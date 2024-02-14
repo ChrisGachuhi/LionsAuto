@@ -4,13 +4,11 @@ import { Link } from 'react-router-dom'
 
 const CloudHosted = () => {
   return (
-    <div className="Page Software">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <div className="title">
           <h1>GPS Tracking Software (Cloud Hosted)</h1>
         </div>
-
-        {/* in page navigation */}
 
         <p>
           Hosted software is a great choice for GPS tracking business. It helps

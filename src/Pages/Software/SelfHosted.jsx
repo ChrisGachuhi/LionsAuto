@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const SelfHosted = () => {
   return (
-    <div className="Page Software">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <div className="title">
           <h1>GPS Tracking Software (Self Hosted)</h1> <br />
