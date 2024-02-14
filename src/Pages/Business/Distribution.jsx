@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const Distribution = () => {
   return (
-    <div className="Page Business">
+    <div className="Page Business SubPage-Business">
       <div className="landing">
         <div className="title">
           <span>

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const WhiteLabel = () => {
   return (
-    <div className="Page Business">
+    <div className="Page Business SubPage-Business">
       <div className="landing">
         <div className="title">
           <span>
@@ -119,12 +119,11 @@ const WhiteLabel = () => {
               dexterous professionals, we are engaged in providing a quality
               approved GPS Tracking System. Our vendors’ professionals
               manufacture this tracking system using superior quality components
-              and modern technology in line with industry standards.
-              Furthermore, our provided tracking system is highly acknowledged
-              in the market owing to its various quality attributes. In order to
-              offer a flawless product at client's end, this tracking system is
-              checked by our quality examiners against different quality
-              parameters.
+              and modern technology in line with industry standards. Our
+              tracking system is highly acclaimed in the market due to its
+              exceptional quality attributes. To ensure a flawless product
+              delivery to our clients, our quality examiners rigorously test
+              this tracking system against various quality parameters.
             </p>
           </div>
         </div>
@@ -140,18 +139,21 @@ const WhiteLabel = () => {
           <div className="description">
             <h3>Your brand. Our system</h3>
             <p>
-              Most GPS Tracking providers spend too much time trying to win,
-              train & support customers, So we created an easy-to-use &
-              feature-packed platform your customers will love. You'll spend
-              less time training and supporting customers, and more time growing
-              a profitable tracking business. When trying to sell to your
-              clients, you can quickly impress them with a great looking and
-              easy to use interface, that is branded as your own. The telematics
-              market can be complicated, and you don’t want to spend all your
-              time training and supporting your customers, that’s why we created
-              something that looks amazing, but is very simple to use. All our
-              clients comment they spend very little to no time training new
-              users, and are free to focus on building their tracking business.
+              Most GPS tracking providers often struggle with customer
+              acquisition, training, and support. To address this challenge, we
+              have developed a user-friendly and feature-rich platform that will
+              delight your customers. By using our platform, you can reduce the
+              time spent on customer training and support, allowing you to focus
+              on growing a successful tracking business. Impress your clients
+              with a professional and intuitive interface that reflects your
+              brand identity. In the complex telematics market, our solution
+              simplifies the user experience, enabling you to concentrate on
+              expanding your business. market can be complicated, and you don’t
+              want to spend all your time training and supporting your
+              customers, that’s why we created something that looks amazing, but
+              is very simple to use. All our clients comment they spend very
+              little to no time training new users, and are free to focus on
+              building their tracking business.
             </p>
           </div>
         </div>
@@ -160,4 +162,4 @@ const WhiteLabel = () => {
   )
 }
 
-export default WhiteLabel;
+export default WhiteLabel
