@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function SchoolBusTracker() {
   return (
-    <div className="Page Software">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <div className="title">
           <h1>GPS Tracker For School Bus</h1>
@@ -98,9 +98,8 @@ function SchoolBusTracker() {
               Route optimization is the process of determining the most
               cost-efficient route. It's more complex than simply finding the
               shortest path between two points. Using Speedotrack School bus
-              monitoring solution the school Administrator will be able to
-              monitor entire fleet of buses. A school administrator also will be
-              able to optimize the route to avoid the traffic.Both Parent and
+              monitoring solution, the school administrator will be able to
+              monitor the entire fleet of buses. They can also optimize the route to avoid traffic. Both parents and
               school authorities can monitor bus route violation, over speed
               incidents, unscheduled stops and driver information.
             </p>

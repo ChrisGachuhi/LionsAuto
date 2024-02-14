@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function AssetTracker() {
   return (
-    <div className="Page Software">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <div className="title">
           <h1>Asset Tracker Solution</h1>

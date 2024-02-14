@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function SmartCar() {
   return (
-    <div className="Page Software">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <div className="title">
           <h1>Smart Car Solution</h1>
@@ -14,9 +14,9 @@ function SmartCar() {
           We offer a wide range of dashcams using 4G/WiFi networks, such as
           front-facing camera, driver-facing camera, interior (cabin-view)
           camera, rear camera, and backup camera. If the car cameras displayed
-          cannot meet your requirements or you may need further assistance,
-          please don't hesitate to contact us. We are looking forward to working
-          with you in finding the perfect solution.
+          cannot meet your requirements or if you need further assistance,
+          please do not hesitate to contact us. We look forward to assisting you
+          in finding the perfect solution.
         </p>
 
         <p>

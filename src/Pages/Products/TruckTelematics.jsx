@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function TruckTelematics() {
   return (
-    <div className="Page Software">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <div className="title">
           <h1>Truck Telematic Solution</h1>
