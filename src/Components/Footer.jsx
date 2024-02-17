@@ -1,6 +1,6 @@
-import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
+import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -8,8 +8,8 @@ export const Footer = () => {
       <div className="column address">
         <h3>LionsAuto</h3>
         <p>
-          Speedotrack GPS Private Limited, Sector-II Market, H.E.C
-          Colony, Near Vidhan Sabha, Ranchi, Jharkhand, 834004, India
+          Speedotrack GPS Private Limited, Sector-II Market, H.E.C Colony, Near
+          Vidhan Sabha, Ranchi, Jharkhand, 834004, India
         </p>
       </div>
 
@@ -20,10 +20,10 @@ export const Footer = () => {
             <Link>FAQ</Link>
           </li>
           <li>
-            <Link to={"/Products"}>Products & Services</Link>
+            <Link to={'/Products'}>Products & Services</Link>
           </li>
           <li>
-            <Link to={"/Software"}>Software</Link>
+            <Link to={'/Software'}>Software</Link>
           </li>
           <li>
             <Link>Privacy Policy</Link>
@@ -69,5 +69,5 @@ export const Footer = () => {
 
       <span>&copy; copyright 2024 powered by Lions Auto </span>
     </footer>
-  );
-};
+  )
+}
