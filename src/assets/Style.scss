@@ -19,7 +19,7 @@
 // Navbar Styles
 .Page {
   height: 100%;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 .active {
@@ -153,6 +153,15 @@
 
   img {
     height: 80px;
+  }
+
+  @media screen and (max-width: 570px) {
+    right: -20px;
+    bottom: 80px;
+
+    img {
+      height: 70px;
+    }
   }
 }
 
@@ -1401,6 +1410,7 @@
     .Description {
       width: 55%;
       margin-left: 22%;
+      text-align: justify;
     }
 
     .benefits {
@@ -1413,8 +1423,8 @@
       }
 
       .benefit {
-        width: 80%;
-        margin-left: 7.5%;
+        width: 75%;
+        margin-left: 10%;
         padding: 2rem 0.75rem;
         h3 {
           font-size: 1.75rem;
@@ -1424,8 +1434,8 @@
 
     .solutions {
       padding: 1rem 0;
-      width: 55%;
-      margin-left: 22%;
+      width: 53%;
+      margin-left: 23.5%;
 
       .solution {
         img {
@@ -1437,11 +1447,38 @@
           h3 {
             font-size: 1.75rem;
             line-height: 2.2rem;
-            margin-bottom: .5rem;
+            margin-bottom: 0.5rem;
           }
           p {
             font-size: 1.15rem;
           }
+        }
+      }
+    }
+
+    .Features {
+      h2 {
+        grid-area: title;
+        max-width: 60%;
+        margin-left: 20%;
+        font-size: 2rem;
+      }
+
+      .card {
+        min-width: 55%;
+        margin-left: 19%;
+        padding: 1rem;
+
+        img {
+          height: 2.5rem;
+        }
+
+        h3 {
+          font-size: 1.5rem;
+        }
+
+        p {
+          font-size: 1.1rem;
         }
       }
     }
