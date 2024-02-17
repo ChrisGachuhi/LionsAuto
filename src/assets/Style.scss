@@ -341,8 +341,35 @@
   }
   @media screen and (max-width: 768px) {
     padding: 0;
+
     .contact-center {
       padding: 2rem 0;
+      line-height: 2.5rem;
+
+      span {
+        color: #c5c6cd;
+        font-size: 1.25rem;
+      }
+
+      span:nth-child(2),
+      span:nth-child(3) {
+        font-size: 2.25rem;
+      }
+
+      span:nth-child(4) {
+        font-size: 2.25rem;
+        margin: 0.5rem 0;
+      }
+
+      p {
+        margin-top: 1.5rem;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+
+      span:nth-child(6) {
+        font-size: 1.25rem;
+      }
     }
 
     .form-submit {
@@ -1479,6 +1506,45 @@
 
         p {
           font-size: 1.1rem;
+        }
+      }
+    }
+
+    .services {
+      padding: 2rem 0;
+
+      .title {
+        h2 {
+          font-size: 2.5rem;
+          margin-bottom: 2rem;
+
+          span {
+            font-size: 2.5rem;
+          }
+        }
+        p {
+          font-size: 1.1rem;
+        }
+      }
+
+      .features {
+        .feature {
+          width: 48%;
+          margin-left: 24%;
+          padding: 2.5rem 0.75rem;
+
+          .icon {
+            font-size: 2rem;
+            margin-bottom: 0.75rem;
+          }
+
+          h3 {
+            font-size: 1.5rem;
+            margin: 1rem 0;
+          }
+          p {
+            font-size: 1.1rem;
+          }
         }
       }
     }
