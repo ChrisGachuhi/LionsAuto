@@ -1375,6 +1375,77 @@
       }
     }
   }
+
+  @media screen and (max-width: 420px) {
+    .landing {
+      padding: 1.5rem 0;
+
+      .title {
+        width: 50%;
+
+        h1 {
+          font-size: 2.8rem;
+          line-height: 3.5rem;
+        }
+
+        span {
+          font-size: 1.2rem;
+        }
+
+        a {
+          padding: 1.2rem 2.8rem;
+        }
+      }
+    }
+
+    .Description {
+      width: 55%;
+      margin-left: 22%;
+    }
+
+    .benefits {
+      padding: 2rem 0;
+      width: 65%;
+      margin-left: 17%;
+
+      .title {
+        font-size: 2.2rem;
+      }
+
+      .benefit {
+        width: 80%;
+        margin-left: 7.5%;
+        padding: 2rem 0.75rem;
+        h3 {
+          font-size: 1.75rem;
+        }
+      }
+    }
+
+    .solutions {
+      padding: 1rem 0;
+      width: 55%;
+      margin-left: 22%;
+
+      .solution {
+        img {
+          height: auto;
+        }
+
+        .description {
+          padding: 1rem 0;
+          h3 {
+            font-size: 1.75rem;
+            line-height: 2.2rem;
+            margin-bottom: .5rem;
+          }
+          p {
+            font-size: 1.15rem;
+          }
+        }
+      }
+    }
+  }
 }
 
 .Product {
