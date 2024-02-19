@@ -54,7 +54,7 @@ const Software = () => {
               right place. Let’s start tracking with our advanced GPS tracking
               platform.
             </p>
-            <Link to={'/GPS-Software'}>Know More</Link>
+            <Link to={'/GPS-Software'} target='_blank'>Know More</Link>
           </div>
         </div>
       </div>
@@ -80,7 +80,7 @@ const Software = () => {
               veniam quaerat, atque est quia explicabo tenetur autem sint
               aspernatur?
             </p>
-            <Link>Know More</Link>
+            <Link to={'/Speed-Governor'} target='_blank'>Know More</Link>
           </div>
         </div>
       </div>
@@ -106,7 +106,7 @@ const Software = () => {
               veniam quaerat, atque est quia explicabo tenetur autem sint
               aspernatur?
             </p>
-            <Link>Know More</Link>
+            <Link to={'/Fuel-Monitoring'} target='_blank'>Know More</Link>
           </div>
         </div>
       </div>
@@ -132,7 +132,7 @@ const Software = () => {
               veniam quaerat, atque est quia explicabo tenetur autem sint
               aspernatur?
             </p>
-            <Link>Know More</Link>
+            <Link to={'/Driver-Behavior'} target='_blank'>Know More</Link>
           </div>
         </div>
       </div>
