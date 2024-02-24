@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function GpsTracker() {
   return (
-    <div className="Page Software SubPage-Software">
+    <div className="Page Software SubPage-Business">
       <div className="landing">
         <div className="title">
           <h1>AIS 140 GPS TRACKER</h1>
