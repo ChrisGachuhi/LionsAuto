@@ -14,27 +14,52 @@ import {
 import { Partners } from '../Components/Partners'
 import { Link } from 'react-router-dom'
 
+import {useRef, useEffect} from 'react';
+import gsap from 'gsap'
+
 const Home = () => {
+  const h1Ref = useRef()
+  const CTARef = useRef()
+  const leftImgRef = useRef()
+  const rightImgRef = useRef()
+  const spanRef = useRef()
+
+  useEffect(()=>{
+    const rightImg = rightImgRef.current
+    const leftImg = leftImgRef.current
+    const span = spanRef.current
+    const h1Tag = h1Ref.current
+    const CTA = CTARef.current    
+
+    gsap.fromTo(h1Tag,{y:250, opacity:0.5},{y:0, opacity:1, duration: 1.5, repeat:0})
+    gsap.fromTo(CTA,{ x:-150, opacity:0.7 },{x:0,opacity:1, duration:2, repeat:0})
+    gsap.fromTo( span,{opacity:0.5 },{opacity:1, duration:2.5, repeat:1}) 
+    gsap.fromTo( leftImg,{x:-500, opacity:0.4},{x:0, duration:1.5, opacity:1, repeat:0})
+    gsap.fromTo( rightImg,{x:500, opacity:0.4},{x:0, duration:1.5, opacity:1, repeat:0})
+    // gsap.fromTo(,{ },{})
+
+  },[])
   return (
     <div className="Page Home">
-      <div className="landing">
-        <div className="title">
-          <h1>GPS Fleet Management Platform</h1>
-          <span>Award-winning GPS Tracking Software.</span>
-          <Link to={'/Contact'} target="_blank">
+      <div className="landing" >
+        <div className="title" >
+          <h1 ref={h1Ref}>GPS Fleet Management Platform</h1>
+          <span ref={spanRef}>Award-winning GPS Tracking Software.</span>
+          <Link to={'/Contact'} target="_blank" ref={CTARef}>
             Get Started
           </Link>
         </div>
 
-        <div className="image">
+        <div className="image" >
           <img
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Untitled-design-22.png?w=225&ssl=1"
             alt=""
+            ref={leftImgRef}
           />
           <img
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2020/08/shoot2.png?w=312&ssl=1"
             alt=""
-          />
+            ref={rightImgRef}/>
         </div>
       </div>
 
