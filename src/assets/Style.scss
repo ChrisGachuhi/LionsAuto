@@ -1765,7 +1765,7 @@
 
   .solution-container {
     h2 {
-      padding: 2rem 0 0rem 0;
+      padding: 1rem 0;
       text-align: center;
       font-size: 2.5rem;
     }
@@ -1844,6 +1844,7 @@
       .feature {
         padding: 2rem 1rem 1rem 1rem;
         border: solid 1px black;
+        // width: 95%;
 
         h3 {
           font-size: 1.5rem;
@@ -1896,11 +1897,14 @@
 
   @media screen and (max-width: 999px) {
     gap: 2rem;
-    // .solution-container {
-    //   .highlight:nth-of-type(even) {
-    //     flex-direction: column-reverse;
-    //   }
-    // }
+    .solution-container {
+      h2 {
+        font-size: 2rem;
+      }
+      .highlight:nth-of-type(even) {
+        flex-direction: column-reverse;
+      }
+    }
 
     .navigation {
       display: flex;
@@ -1912,6 +1916,7 @@
         float: left;
       }
     }
+
     .highlight {
       flex-direction: column-reverse;
       align-items: center;
@@ -1968,13 +1973,13 @@
     }
   }
 
-  @media screen and (max-width: 1200px) {
-    .features {
-      .features-container {
-        grid-template-columns: repeat(3, 1fr);
-      }
-    }
-  }
+  // @media screen and (max-width: 1200px) {
+  //   .features {
+  //     .features-container {
+  //       grid-template-columns: repeat(3, 1fr);
+  //     }
+  //   }
+  // }
 
   @media screen and (max-width: 999px) {
     .solution-container {
@@ -2001,6 +2006,25 @@
     .features {
       .features-container {
         grid-template-columns: 1fr;
+      }
+    }
+
+    .solution-container {
+      .highlight {
+        padding: 2rem 0;
+
+        img {
+          height: 15rem;
+        }
+
+        .description {
+          h3 {
+            font-size: 1.6rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
       }
     }
   }
