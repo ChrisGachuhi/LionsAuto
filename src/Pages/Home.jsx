@@ -155,8 +155,11 @@ const Home = () => {
   return (
     <div className="Page Home">
       <div className="landing">
+        {/* <div className="background-animations">
+          <div className="floating-circle"></div>
+        </div> */}
         <div className="title">
-          <h1 ref={h1Ref}>GPS Fleet Management Platform</h1>
+          <h1 ref={h1Ref}> GPS Fleet Management Platform</h1>
           <span ref={spanRef}>Award-winning GPS Tracking Software.</span>
           <Link to={'/Contact'} target="_blank" ref={CTARef}>
             Get Started

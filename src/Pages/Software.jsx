@@ -1,6 +1,77 @@
 import { Link } from 'react-router-dom'
+import gsap from 'gsap'
+import ScrollTrigger from 'gsap/ScrollTrigger'
+import { useEffect } from 'react'
+gsap.registerPlugin(ScrollTrigger)
 
 const Software = () => {
+  useEffect(() => {
+    // for header section
+    gsap
+      .timeline()
+      .fromTo(
+        '.title',
+        { scale: 0.8, opacity: 0.5 },
+        { scale: 1, opacity: 1, duration: 1, ease: 'bounce.out' }
+      )
+    // for opportunities section
+    gsap.fromTo(
+      '.first-image',
+      { x: -100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.gps',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+    gsap.fromTo(
+      '.second-image',
+      { x: 100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.governor',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+    gsap.fromTo(
+      '.third-image',
+      { x: 100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.fuel',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+    gsap.fromTo(
+      '.fourth-image',
+      { x: -100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.driver',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+  }, [])
   return (
     <div className="Page Software">
       <div className="landing">
@@ -36,7 +107,7 @@ const Software = () => {
 
       <div className="solution-container gps">
         <div className="highlight">
-          <div className="image">
+          <div className="image first-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedorack-Vehicle-Tracking-Software_01.png?w=666&ssl=1"
               alt=""
@@ -54,14 +125,16 @@ const Software = () => {
               right place. Let’s start tracking with our advanced GPS tracking
               platform.
             </p>
-            <Link to={'/GPS-Software'} target='_blank'>Know More</Link>
+            <Link to={'/GPS-Software'} target="_blank">
+              Know More
+            </Link>
           </div>
         </div>
       </div>
 
       <div className="solution-container governor">
         <div className="highlight">
-          <div className="image">
+          <div className="image second-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/07/Speedotrack-Hospital-Management-Software_01.png?w=666&ssl=1"
               alt=""
@@ -80,14 +153,16 @@ const Software = () => {
               veniam quaerat, atque est quia explicabo tenetur autem sint
               aspernatur?
             </p>
-            <Link to={'/Speed-Governor'} target='_blank'>Know More</Link>
+            <Link to={'/Speed-Governor'} target="_blank">
+              Know More
+            </Link>
           </div>
         </div>
       </div>
 
       <div className="solution-container fuel">
         <div className="highlight">
-          <div className="image">
+          <div className="image third-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Speedotrack-Fuel-Monitoring-Solution_01.png?w=666&ssl=1"
               alt=""
@@ -106,14 +181,16 @@ const Software = () => {
               veniam quaerat, atque est quia explicabo tenetur autem sint
               aspernatur?
             </p>
-            <Link to={'/Fuel-Monitoring'} target='_blank'>Know More</Link>
+            <Link to={'/Fuel-Monitoring'} target="_blank">
+              Know More
+            </Link>
           </div>
         </div>
       </div>
 
       <div className="solution-container driver">
         <div className="highlight">
-          <div className="image">
+          <div className="image fourth-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/07/Speedotrack-Hospital-Management-Software_01.png?w=666&ssl=1"
               alt=""
@@ -132,7 +209,9 @@ const Software = () => {
               veniam quaerat, atque est quia explicabo tenetur autem sint
               aspernatur?
             </p>
-            <Link to={'/Driver-Behavior'} target='_blank'>Know More</Link>
+            <Link to={'/Driver-Behavior'} target="_blank">
+              Know More
+            </Link>
           </div>
         </div>
       </div>
@@ -140,4 +219,4 @@ const Software = () => {
   )
 }
 
-export default Software;
+export default Software

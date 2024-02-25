@@ -478,6 +478,15 @@
     padding: 2rem 2rem;
     display: flex;
     justify-content: center;
+    position: relative;
+
+    // .background-animations {
+    //   position: absolute;
+    //   z-index: -10;
+    //   background-color: yellow;
+    //   height: 100%;
+    //   width: 100%;
+    // }
 
     .title,
     .image {
@@ -2362,8 +2371,8 @@
 }
 
 .SubPage-Software {
-  .features{
-    .features-container{
+  .features {
+    .features-container {
       grid-template-columns: repeat(3, 1fr);
     }
   }
