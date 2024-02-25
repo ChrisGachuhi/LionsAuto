@@ -14,14 +14,154 @@ import {
 import { Partners } from '../Components/Partners'
 import { Link } from 'react-router-dom'
 
+import { useRef, useEffect } from 'react'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
+gsap.registerPlugin(ScrollTrigger)
+
 const Home = () => {
+  const h1Ref = useRef()
+  const CTARef = useRef()
+  const leftImgRef = useRef()
+  const rightImgRef = useRef()
+  const spanRef = useRef()
+
+  useEffect(() => {
+    const rightImg = rightImgRef.current
+    const leftImg = leftImgRef.current
+    const span = spanRef.current
+    const h1Tag = h1Ref.current
+    const CTA = CTARef.current
+
+    gsap.fromTo(
+      h1Tag,
+      { y: 250, opacity: 0.5 },
+      { y: 0, opacity: 1, duration: 1.5, repeat: 0 }
+    )
+    gsap.fromTo(
+      CTA,
+      { x: -150, opacity: 0.7 },
+      { x: 0, opacity: 1, duration: 2, repeat: 0 }
+    )
+    gsap.fromTo(
+      span,
+      { opacity: 0.5 },
+      { opacity: 1, duration: 2.5, repeat: 1 }
+    )
+    gsap.fromTo(
+      leftImg,
+      { x: -500, opacity: 0.4 },
+      { x: 0, duration: 1.5, opacity: 1, repeat: 0 }
+    )
+    gsap.fromTo(
+      rightImg,
+      { x: 500, opacity: 0.4 },
+      { x: 0, duration: 1.5, opacity: 1, repeat: 0 }
+    )
+
+    gsap.fromTo(
+      '.benefits .benefit',
+      { x: -50, opacity: 0.6 },
+      {
+        scrollTrigger: '.benefits',
+        x: 0,
+        opacity: 1,
+        duration: 1.3,
+        stagger: 0.3,
+      }
+    )
+    // animations for solutions
+    gsap.fromTo(
+      '.track .image',
+      { x: -100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.solution.track',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+    // gsap.fromTo(
+    //   '.first-link',
+    //   { y: -200 },
+    //   {
+    //     scrollTrigger: { trigger: '.solution.track', start: 'top 90%' },
+    //     y: 0,
+    //     duration: 5,
+    //   }
+    // )
+    gsap.fromTo(
+      '.load .image',
+      { x: 100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.solution.load',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+    gsap.fromTo(
+      '.fuel .image',
+      { x: -100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.solution.fuel',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+    gsap.fromTo(
+      '.generator .image',
+      { x: 100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.solution.generator',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+    gsap.fromTo(
+      '.mining .image',
+      { x: -100, opacity: 0.6 },
+      {
+        scrollTrigger: {
+          trigger: '.solution.mining',
+          start: 'top 90%',
+        },
+        x: 0,
+        opacity: 1,
+        duration: 1,
+        ease: 'back',
+      }
+    )
+  }, [])
   return (
     <div className="Page Home">
       <div className="landing">
+        {/* <div className="background-animations">
+          <div className="floating-circle"></div>
+        </div> */}
         <div className="title">
-          <h1>GPS Fleet Management Platform</h1>
-          <span>Award-winning GPS Tracking Software.</span>
-          <Link to={'/Contact'} target="_blank">
+          <h1 ref={h1Ref}> GPS Fleet Management Platform</h1>
+          <span ref={spanRef}>Award-winning GPS Tracking Software.</span>
+          <Link to={'/Contact'} target="_blank" ref={CTARef}>
             Get Started
           </Link>
         </div>
@@ -30,10 +170,12 @@ const Home = () => {
           <img
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Untitled-design-22.png?w=225&ssl=1"
             alt=""
+            ref={leftImgRef}
           />
           <img
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2020/08/shoot2.png?w=312&ssl=1"
             alt=""
+            ref={rightImgRef}
           />
         </div>
       </div>
@@ -132,7 +274,7 @@ const Home = () => {
               others. Lions Auto&#39;s tacking software is cost-effictive and
               easy to use
             </p>
-            <Link to={'/GPS-Software'} target="_blank">
+            <Link to={'/GPS-Software'} target="_blank" className="first-link">
               Know More
             </Link>
           </div>
@@ -156,7 +298,11 @@ const Home = () => {
               calculated based on monitoring truck suspension changes with a
               matched sensor by vehicle suspension type mechanism.
             </p>
-            <Link to={'/Load-Monitoring'} target="_blank">
+            <Link
+              to={'/Load-Monitoring'}
+              target="_blank"
+              className="second-link"
+            >
               Know More
             </Link>
           </div>
@@ -178,7 +324,11 @@ const Home = () => {
               you cope with the major challenges related to fuel monitoring and
               management in the most user-friendly way.
             </p>
-            <Link to={'/Fuel-Monitoring'} target="_blank">
+            <Link
+              to={'/Fuel-Monitoring'}
+              target="_blank"
+              className="third-link"
+            >
               Know More
             </Link>
           </div>
@@ -204,7 +354,11 @@ const Home = () => {
               Typical reports include generator status, fuel and maintenance
               reports etc.
             </p>
-            <Link to={'/Generator-Monitoring'} target="_blank">
+            <Link
+              to={'/Generator-Monitoring'}
+              target="_blank"
+              className="fourth-link"
+            >
               Know More
             </Link>
           </div>
@@ -228,7 +382,11 @@ const Home = () => {
               fuel flow meters, which were designed for equipment with fuel
               consumption up to 4000 L/h.
             </p>
-            <Link to={'/Mining-Equipment-Monitoring'} target="_blank">
+            <Link
+              to={'/Mining-Equipment-Monitoring'}
+              target="_blank"
+              className="fifth-link"
+            >
               Know More
             </Link>
           </div>
