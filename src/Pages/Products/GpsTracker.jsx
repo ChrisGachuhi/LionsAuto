@@ -1,11 +1,20 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 function GpsTracker() {
+  const animate = useContext(CurrentAnimationContext)
+  useEffect(() => {
+    animate.benefitsArrayAnimation('.features', '.feature')
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <h1>AIS 140 GPS TRACKER</h1>
         </div>
@@ -21,8 +30,8 @@ function GpsTracker() {
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
 
+        <h2>What is AIS 140 GPS Tracker</h2>
         <p>
-          <h2>What is AIS 140 GPS Tracker</h2>
           <img
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/AIS-140-GPS-Tracker.png?w=684&ssl=1"
             alt=""

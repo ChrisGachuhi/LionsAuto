@@ -1,11 +1,21 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 function PersonalTracker() {
+  const animate = useContext(CurrentAnimationContext)
+
+  useEffect(() => {
+    // animation for features/benefits
+    animate.benefitsArrayAnimation('.features-container', '.feature')
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <h1>Personal GPS Tracker Solution</h1>
         </div>

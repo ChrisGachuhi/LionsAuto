@@ -249,6 +249,32 @@
   }
 }
 
+// animation components
+.landing {
+  position: relative;
+
+  .background-animations {
+    position: absolute;
+    z-index: -10;
+    // background-color: yellow;
+    height: 100%;
+    width: 100%;
+  }
+  .floating-circle {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(112, 112, 243);
+    border-radius: 50%;
+  }
+
+  .larger-floating-circle {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(111, 160, 13);
+    border-radius: 50%;
+  }
+}
+
 .Form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -478,15 +504,6 @@
     padding: 2rem 2rem;
     display: flex;
     justify-content: center;
-    position: relative;
-
-    // .background-animations {
-    //   position: absolute;
-    //   z-index: -10;
-    //   background-color: yellow;
-    //   height: 100%;
-    //   width: 100%;
-    // }
 
     .title,
     .image {

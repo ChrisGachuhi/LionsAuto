@@ -1,11 +1,23 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 const SelfHosted = () => {
+  const animate = useContext(CurrentAnimationContext)
+  useEffect(() => {
+    // animation for features/benefits
+    animate.benefitsArrayAnimation('.features-container', '.feature')
+
+    animate.rightToLeftImage('.first-image', '.first-image')
+    animate.leftToRightImage('.second-image', '.second-image')
+  }, {})
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <h1>GPS Tracking Software (Self Hosted)</h1> <br />
           <span>Grow your business & boost up sale with Speedotrack</span>
@@ -173,7 +185,7 @@ const SelfHosted = () => {
         <h2>GPS Tracking Software (Self Hosted)</h2>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image first-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -192,7 +204,7 @@ const SelfHosted = () => {
         </div>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image second-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -214,4 +226,4 @@ const SelfHosted = () => {
   )
 }
 
-export default SelfHosted;
+export default SelfHosted

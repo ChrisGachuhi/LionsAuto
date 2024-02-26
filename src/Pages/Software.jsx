@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
-import { useEffect } from 'react'
-gsap.registerPlugin(ScrollTrigger)
+import { useContext, useEffect } from 'react'
+import LandingAnimation from '../Components/animated-components/LandingAnimation'
+import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 
 const Software = () => {
+  const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
     // for header section
     gsap
@@ -15,66 +17,15 @@ const Software = () => {
         { scale: 1, opacity: 1, duration: 1, ease: 'bounce.out' }
       )
     // for opportunities section
-    gsap.fromTo(
-      '.first-image',
-      { x: -100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.gps',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
-      '.second-image',
-      { x: 100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.governor',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
-      '.third-image',
-      { x: 100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.fuel',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
-      '.fourth-image',
-      { x: -100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.driver',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
+    animate.leftToRightImage('.first-image', '.gps')
+    animate.rightToLeftImage('.second-image', '.governor')
+    animate.rightToLeftImage('.third-image', '.fuel')
+    animate.leftToRightImage('.fourth-image', '.driver')
   }, [])
   return (
     <div className="Page Software">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <h1>Lions AUto Software Solution</h1> <br />
           <span>

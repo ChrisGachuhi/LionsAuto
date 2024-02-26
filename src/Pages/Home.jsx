@@ -14,13 +14,15 @@ import {
 import { Partners } from '../Components/Partners'
 import { Link } from 'react-router-dom'
 
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useContext } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-
-gsap.registerPlugin(ScrollTrigger)
+import LandingAnimation from '../Components/animated-components/LandingAnimation'
+import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 
 const Home = () => {
+  const animate = useContext(CurrentAnimationContext)
+
   const h1Ref = useRef()
   const CTARef = useRef()
   const leftImgRef = useRef()
@@ -33,6 +35,8 @@ const Home = () => {
     const span = spanRef.current
     const h1Tag = h1Ref.current
     const CTA = CTARef.current
+
+    animate.descriptionAnimation('.track .description', '.track')
 
     gsap.fromTo(
       h1Tag,
@@ -60,104 +64,19 @@ const Home = () => {
       { x: 0, duration: 1.5, opacity: 1, repeat: 0 }
     )
 
-    gsap.fromTo(
-      '.benefits .benefit',
-      { x: -50, opacity: 0.6 },
-      {
-        scrollTrigger: '.benefits',
-        x: 0,
-        opacity: 1,
-        duration: 1.3,
-        stagger: 0.3,
-      }
-    )
+    animate.benefitsArrayAnimation('.benefits', '.benefit')
+
     // animations for solutions
-    gsap.fromTo(
-      '.track .image',
-      { x: -100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.solution.track',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    // gsap.fromTo(
-    //   '.first-link',
-    //   { y: -200 },
-    //   {
-    //     scrollTrigger: { trigger: '.solution.track', start: 'top 90%' },
-    //     y: 0,
-    //     duration: 5,
-    //   }
-    // )
-    gsap.fromTo(
-      '.load .image',
-      { x: 100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.solution.load',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
-      '.fuel .image',
-      { x: -100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.solution.fuel',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
-      '.generator .image',
-      { x: 100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.solution.generator',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
-      '.mining .image',
-      { x: -100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.solution.mining',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
+    animate.leftToRightImage('.track .image', '.solution.track')
+    animate.rightToLeftImage('.load .image', '.solution.load')
+    animate.leftToRightImage('.fuel .image', '.solution.fuel')
+    animate.rightToLeftImage('.generator .image', '.solution.generator')
+    animate.leftToRightImage('.mining .image', '.solution.mining')
   }, [])
   return (
     <div className="Page Home">
       <div className="landing">
-        {/* <div className="background-animations">
-          <div className="floating-circle"></div>
-        </div> */}
+        <LandingAnimation />
         <div className="title">
           <h1 ref={h1Ref}> GPS Fleet Management Platform</h1>
           <span ref={spanRef}>Award-winning GPS Tracking Software.</span>
