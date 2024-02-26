@@ -1,11 +1,29 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 const CloudHosted = () => {
+  const animate = useContext(CurrentAnimationContext)
+  useEffect(() => {
+    // for header section
+    animate.headerAnimation()
+    // animation for features/benefits
+    animate.benefitsArrayAnimation('.features-container', '.feature')
+
+    animate.rightToLeftImage('.first-image', '.first-image')
+    animate.leftToRightImage('.second-image', '.second-image')
+    animate.rightToLeftImage('.third-image', '.third-image')
+    animate.leftToRightImage('.fourth-image', '.fourth-image')
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.solution-container', '.description')
+  }, {})
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <h1>GPS Tracking Software (Cloud Hosted)</h1>
         </div>
@@ -165,7 +183,7 @@ const CloudHosted = () => {
         />
 
         <div className="highlight">
-          <div className="image">
+          <div className="image first-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -189,7 +207,7 @@ const CloudHosted = () => {
         </div>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image second-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -209,7 +227,7 @@ const CloudHosted = () => {
         </div>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image third-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -229,7 +247,7 @@ const CloudHosted = () => {
         </div>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image fourth-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""

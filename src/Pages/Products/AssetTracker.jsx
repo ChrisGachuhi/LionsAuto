@@ -1,11 +1,22 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 function AssetTracker() {
+  const animate = useContext(CurrentAnimationContext)
+  useEffect(() => {
+    // for header section
+    animate.headerAnimation()
+    // animation for features/benefits
+    animate.benefitsArrayAnimation('.features-container', '.feature')
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <h1>Asset Tracker Solution</h1>
         </div>

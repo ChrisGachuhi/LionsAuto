@@ -1,9 +1,27 @@
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 const GpsSoftware = () => {
+  const animate = useContext(CurrentAnimationContext)
+  useEffect(() => {
+    // for header section
+    animate.headerAnimation()
+
+    animate.leftToRightImage('.whitelabel .image', '.opportunity.whitelabel')
+    animate.rightToLeftImage('.franchising .image', '.opportunity.franchising')
+    animate.rightToLeftImage(
+      '.distribution .image',
+      '.opportunity.distribution'
+    )
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.opportunities', '.description')
+  }, {})
   return (
     <div className="Page Business">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <span>
             WELCOME TO <span>LIONS AUTO</span>

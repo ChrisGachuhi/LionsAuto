@@ -47,11 +47,95 @@ import S102 from './Pages/Devices/S102'
 import VT08S from './Pages/Devices/VT08S'
 import VT05S from './Pages/Devices/VT05S'
 
+// Animation logic
+import { CurrentAnimationContext } from './Components/AnimationContext/CurrentAnimationContext'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
+
 function App() {
+  const animate = {
+    headerAnimation: () => {
+      gsap.fromTo(
+        '.title',
+        { scale: 0.8, opacity: 0.5 },
+        { scale: 1, opacity: 1, duration: 1.5, ease: 'bounce.out' }
+      )
+    },
+    descriptionAnimation: (targetParent, targetChild) => {
+      const elements = gsap.utils.selector(targetParent)(targetChild)
+      console.log(elements)
+
+      for (let i = 0; i <= elements.length; i++) {
+        gsap.fromTo(
+          elements[i],
+          { opacity: 0.8, scale: 0.8 },
+          {
+            scrollTrigger: { trigger: elements[i], start: 'top 90%' },
+            opacity: 1,
+            scale: 1,
+            duration: 1,
+          }
+        )
+      }
+    },
+    leftToRightImage: (target, triggerElement) => {
+      gsap.fromTo(
+        target,
+        { x: -100, opacity: 0.6 },
+        {
+          scrollTrigger: {
+            trigger: triggerElement,
+            start: 'top 85%',
+          },
+          x: 0,
+          opacity: 1,
+          duration: 2,
+          ease: 'back',
+        }
+      )
+    },
+    rightToLeftImage: (target, triggerElement) => {
+      gsap.fromTo(
+        target,
+        { x: 100, opacity: 0.6 },
+        {
+          scrollTrigger: {
+            trigger: triggerElement,
+            start: 'top 85%',
+          },
+          x: 0,
+          opacity: 1,
+          duration: 2,
+          ease: 'back',
+        }
+      )
+    },
+    benefitsArrayAnimation: (targetParent, targetChild) => {
+      const elements = gsap.utils.selector(targetParent)(targetChild)
+
+      for (let i = 0; i <= elements.length; i++) {
+        gsap.fromTo(
+          elements[i],
+          { opacity: 0, y: 100 },
+          {
+            scrollTrigger: { trigger: elements[i], start: 'top 90%' },
+            opacity: 1,
+            y: 0,
+            duration: 1.5,
+            ease: 'bounce.out',
+          }
+        )
+      }
+    },
+  }
   return (
     <div className="App">
       <Navbar />
+      <CurrentAnimationContext.Provider value={animate}>
+        <Routes>
+          <Route path="/" element={<Home />} />
 
+<<<<<<< HEAD
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/GPS-Software" element={<GpsSoftware />} />
@@ -104,6 +188,54 @@ function App() {
         <Route path="/VT08S-Vehicle-GPS-Tracker" element={<VT08S/>} />
         <Route path="/VT05S-Vehicle-GPS-Tracker" element={<VT05S/>} />
       </Routes>
+=======
+          <Route path="/GPS-Software" element={<GpsSoftware />} />
+          <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
+          <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />
+          <Route
+            path="/Generator-Monitoring"
+            element={<GeneratorMonitoring />}
+          />
+          <Route
+            path="/Mining-Equipment-Monitoring"
+            element={<MiningEquipment />}
+          />
+          <Route path="/GPS-Software/Cloud-Hosted" element={<CloudHosted />} />
+          <Route path="/GPS-Software/Self-Hosted" element={<SelfHosted />} />
+          <Route
+            path="/GPS-Software/Personal-Account"
+            element={<PersonalAccount />}
+          />
+          <Route path="/Products" element={<ProductSolutions />} />
+          <Route path="/AIS-140-GPS-Tracker" element={<GpsTracker />} />
+          <Route path="/School-Bus-Tracker" element={<SchoolBusTracker />} />
+          <Route
+            path="/Smart-Motorcycle-Tracker"
+            element={<MotorcycleTracker />}
+          />
+          <Route
+            path="/Intelligent-Electric-Lock"
+            element={<IntelligentLock />}
+          />
+          <Route path="/Personal-tracker" element={<PersonalTracker />} />
+          <Route path="/Asset-tracker" element={<AssetTracker />} />
+          <Route path="/Garbage-Truck-Monitoring" element={<GarbageTruck />} />
+          <Route path="/Truck-Telematics" element={<TruckTelematics />} />
+          <Route path="/Tanker-Truck-Monitoring" element={<TankerTruck />} />
+          <Route path="/Bus-Monitoring" element={<BusMonitoring />} />
+          <Route path="/Smart-Car-Devices" element={<SmartCar />} />
+          <Route path="/Business" element={<Business />} />
+          <Route path="/Business/Franchising" element={<Franchising />} />
+          <Route path="/Business/White-Label" element={<WhiteLabel />} />
+          <Route path="/Business/Distribution" element={<Distribution />} />
+          <Route path="/Software" element={<Software />} />
+          <Route path="/Devices" element={<SupportedDevices />} />
+          <Route path="/Pricing" element={<Pricing />} />
+          <Route path="/Payment" element={<Payment />} />
+          <Route path="/Contact" element={<Contact />} />
+        </Routes>
+      </CurrentAnimationContext.Provider>
+>>>>>>> 9042236b08bc58956cfd6d8716888db24518bbd0
 
       <Whatsapp />
       <Form />

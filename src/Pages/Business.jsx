@@ -4,80 +4,34 @@ import { Link } from 'react-router-dom'
 // import { Partners } from "../Components/Partners";
 import gsap from 'gsap'
 import ScrollTrigger from 'gsap/ScrollTrigger'
-import { useEffect } from 'react'
-gsap.registerPlugin(ScrollTrigger)
+import { useContext, useEffect } from 'react'
+import LandingAnimation from '../Components/animated-components/LandingAnimation'
+import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 
 const Business = () => {
+  const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
     // for header section
-    gsap
-      .timeline()
-      .fromTo(
-        '.title',
-        { scale: 0.8, opacity: 0.5 },
-        { scale: 1, opacity: 1, duration: 1, ease: 'bounce.out' }
-      )
-    // .fromTo('.link-tags', { scale: 0.8 }, { scale: 1, duration: 0.5 })
+    animate.headerAnimation()
     // for feature section
-    gsap.fromTo(
-      '.feature',
-      { x: -50, opacity: 0.6 },
-      {
-        scrollTrigger: { trigger: '.features-container', start: 'top 90%' },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        stagger: 0.3,
-      }
-    )
+    animate.benefitsArrayAnimation('.features-container', '.feature')
+
     // for opportunities section
-    gsap.fromTo(
-      '.franchising .image',
-      { x: 100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.opportunity.franchising',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
-      '.whitelabel .image',
-      { x: -100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.opportunity.whitelabel',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
-    )
-    gsap.fromTo(
+    animate.leftToRightImage('.whitelabel .image', '.opportunity.whitelabel')
+    animate.rightToLeftImage('.franchising .image', '.opportunity.franchising')
+    animate.rightToLeftImage(
       '.distribution .image',
-      { x: 100, opacity: 0.6 },
-      {
-        scrollTrigger: {
-          trigger: '.opportunity.distribution',
-          start: 'top 90%',
-        },
-        x: 0,
-        opacity: 1,
-        duration: 1,
-        ease: 'back',
-      }
+      '.opportunity.distribution'
     )
+
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.opportunities', '.description')
   }, [])
   
   return (
     <div className="Page Business">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <span>
             WELCOME TO <span>LIONS AUTO</span>

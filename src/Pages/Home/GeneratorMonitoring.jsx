@@ -1,11 +1,28 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 const GeneratorMonitoring = () => {
+  const animate = useContext(CurrentAnimationContext)
+  useEffect(() => {
+    // for header section
+    animate.headerAnimation()
+    // animation for features/benefits
+    animate.benefitsArrayAnimation('.features-container', '.feature')
+
+    animate.rightToLeftImage('.first-image', '.first-image')
+    animate.leftToRightImage('.second-image', '.second-image')
+    animate.rightToLeftImage('.third-image', '.third-image')
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.opportunities', '.description')
+  }, {})
   return (
     <div className="Page Business">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <span>
             WELCOME TO <span>LIONS AUTO</span>
@@ -74,7 +91,7 @@ const GeneratorMonitoring = () => {
 
       <div className="opportunities">
         <div className="opportunity franchising">
-          <div className="image">
+          <div className="image first-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
               alt=""
@@ -93,7 +110,7 @@ const GeneratorMonitoring = () => {
         </div>
 
         <div className="opportunity whitelabel">
-          <div className="image">
+          <div className="image second-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
               alt=""
@@ -112,7 +129,7 @@ const GeneratorMonitoring = () => {
         </div>
 
         <div className="opportunity distribution">
-          <div className="image">
+          <div className="image third-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
               alt=""

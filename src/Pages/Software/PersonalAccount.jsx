@@ -1,11 +1,29 @@
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
+import LandingAnimation from '../../Components/animated-components/LandingAnimation'
+import { useContext, useEffect } from 'react'
+import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 
 const PersonalAccount = () => {
+  const animate = useContext(CurrentAnimationContext)
+  useEffect(() => {
+    // for header section
+    animate.headerAnimation()
+    // animation for features/benefits
+    animate.benefitsArrayAnimation('.features-container', '.feature')
+
+    animate.rightToLeftImage('.first-image', '.first-image')
+    animate.leftToRightImage('.second-image', '.second-image')
+    animate.rightToLeftImage('.third-image', '.third-image')
+    animate.leftToRightImage('.fourth-image', '.fourth-image')
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.solution-container', '.description')
+  }, {})
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
+        <LandingAnimation />
         <div className="title">
           <h1>GPS Tracking Software (Personal Account)</h1> <br />
           <span>Grow your business & boost up sale with Speedotrack</span>
@@ -163,7 +181,7 @@ const PersonalAccount = () => {
         <h2>GPS Tracking Software (Personal Account)</h2>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image first-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -183,7 +201,7 @@ const PersonalAccount = () => {
         </div>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image second-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -202,7 +220,7 @@ const PersonalAccount = () => {
         </div>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image third-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -223,7 +241,7 @@ const PersonalAccount = () => {
         </div>
 
         <div className="highlight">
-          <div className="image">
+          <div className="image fourth-image">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
@@ -233,8 +251,8 @@ const PersonalAccount = () => {
             <h3>Geo-Coding Service Included</h3>
             <p>
               Our GPS tracking Solution comes with Geo-coding and reverse
-              geocoding. Geocoding is the process of converting addresses
-              (like &quot;1600 Amphitheatre Parkway, Mountain View, CA&quot;) into
+              geocoding. Geocoding is the process of converting addresses (like
+              &quot;1600 Amphitheatre Parkway, Mountain View, CA&quot;) into
               geographic coordinates (like latitude 37.423021 and longitude
               -122.083739), which you can use to place markers or position the
               map.
@@ -246,4 +264,4 @@ const PersonalAccount = () => {
   )
 }
 
-export default PersonalAccount;
+export default PersonalAccount
