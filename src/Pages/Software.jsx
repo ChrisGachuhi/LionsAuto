@@ -9,18 +9,15 @@ const Software = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
     // for header section
-    gsap
-      .timeline()
-      .fromTo(
-        '.title',
-        { scale: 0.8, opacity: 0.5 },
-        { scale: 1, opacity: 1, duration: 1, ease: 'bounce.out' }
-      )
+    animate.headerAnimation()
     // for opportunities section
     animate.leftToRightImage('.first-image', '.gps')
     animate.rightToLeftImage('.second-image', '.governor')
     animate.rightToLeftImage('.third-image', '.fuel')
     animate.leftToRightImage('.fourth-image', '.driver')
+
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.Software', '.description')
   }, [])
   return (
     <div className="Page Software">

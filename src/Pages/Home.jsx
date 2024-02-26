@@ -36,8 +36,6 @@ const Home = () => {
     const h1Tag = h1Ref.current
     const CTA = CTARef.current
 
-    animate.descriptionAnimation('.track .description', '.track')
-
     gsap.fromTo(
       h1Tag,
       { y: 250, opacity: 0.5 },
@@ -66,12 +64,15 @@ const Home = () => {
 
     animate.benefitsArrayAnimation('.benefits', '.benefit')
 
-    // animations for solutions
+    // animations for solutions images
     animate.leftToRightImage('.track .image', '.solution.track')
     animate.rightToLeftImage('.load .image', '.solution.load')
     animate.leftToRightImage('.fuel .image', '.solution.fuel')
     animate.rightToLeftImage('.generator .image', '.solution.generator')
     animate.leftToRightImage('.mining .image', '.solution.mining')
+
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.solutions', '.description')
   }, [])
   return (
     <div className="Page Home">

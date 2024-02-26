@@ -8,12 +8,16 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 const GeneratorMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
+    // for header section
+    animate.headerAnimation()
     // animation for features/benefits
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
     animate.rightToLeftImage('.first-image', '.first-image')
     animate.leftToRightImage('.second-image', '.second-image')
     animate.rightToLeftImage('.third-image', '.third-image')
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.opportunities', '.description')
   }, {})
   return (
     <div className="Page Business">

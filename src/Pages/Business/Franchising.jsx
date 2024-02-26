@@ -8,6 +8,8 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 const Franchising = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
+    // for header section
+    animate.headerAnimation()
     // animation for features/benefits
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
@@ -19,6 +21,8 @@ const Franchising = () => {
     animate.leftToRightImage('.sixth-image', '.sixth-image')
     animate.rightToLeftImage('.seventh-image', '.seventh-image')
     animate.leftToRightImage('.eigth-image', '.eigth-image')
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.opportunities', '.description')
   }, {})
   return (
     <div className="Page Business SubPage-Software">

@@ -12,13 +12,7 @@ const Business = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
     // for header section
-    gsap
-      .timeline()
-      .fromTo(
-        '.title',
-        { scale: 0.8, opacity: 0.5 },
-        { scale: 1, opacity: 1, duration: 1, ease: 'bounce.out' }
-      )
+    animate.headerAnimation()
     // for feature section
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
@@ -29,6 +23,9 @@ const Business = () => {
       '.distribution .image',
       '.opportunity.distribution'
     )
+
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.opportunities', '.description')
   }, [])
   return (
     <div className="Page Business">

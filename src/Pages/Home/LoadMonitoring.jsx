@@ -8,6 +8,8 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 const LoadMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
+    // for header section
+    animate.headerAnimation()
     // animation for features/benefits
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
@@ -17,6 +19,8 @@ const LoadMonitoring = () => {
     animate.leftToRightImage('.fourth-image', '.fourth-image')
     animate.rightToLeftImage('.fifth-image', '.fifth-image')
     animate.leftToRightImage('.sixth-image', '.sixth-image')
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.opportunities', '.description')
   }, {})
   return (
     <div className="Page Business SubPage-Business">

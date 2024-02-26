@@ -8,6 +8,8 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 function AssetTracker() {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
+    // for header section
+    animate.headerAnimation()
     // animation for features/benefits
     animate.benefitsArrayAnimation('.features-container', '.feature')
   }, [])

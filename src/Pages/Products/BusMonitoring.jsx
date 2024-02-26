@@ -8,6 +8,8 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 function BusMonitoring() {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
+    // for header section
+    animate.headerAnimation()
     // animation for features/benefits
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
@@ -15,6 +17,8 @@ function BusMonitoring() {
     animate.leftToRightImage('.second-image', '.second-image')
     animate.rightToLeftImage('.third-image', '.third-image')
     animate.leftToRightImage('.fourth-image', '.fourth-image')
+    // animations for solutions descriptions
+    animate.descriptionAnimation('.solution-container', '.description')
   }, {})
   return (
     <div className="Page Software SubPage-Software">

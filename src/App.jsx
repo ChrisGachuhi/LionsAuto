@@ -47,19 +47,29 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 function App() {
   const animate = {
-    descriptionAnimation: (target, triggerElement) => {
+    headerAnimation: () => {
       gsap.fromTo(
-        target,
-        { opacity: 0.3 },
-        {
-          scrollTrigger: {
-            trigger: triggerElement,
-            start: 'top 80%',
-          },
-          duration: 5,
-          opacity: 1,
-        }
+        '.title',
+        { scale: 0.8, opacity: 0.5 },
+        { scale: 1, opacity: 1, duration: 1.5, ease: 'bounce.out' }
       )
+    },
+    descriptionAnimation: (targetParent, targetChild) => {
+      const elements = gsap.utils.selector(targetParent)(targetChild)
+      console.log(elements)
+
+      for (let i = 0; i <= elements.length; i++) {
+        gsap.fromTo(
+          elements[i],
+          { opacity: 0.8, scale: 0.8 },
+          {
+            scrollTrigger: { trigger: elements[i], start: 'top 90%' },
+            opacity: 1,
+            scale: 1,
+            duration: 1,
+          }
+        )
+      }
     },
     leftToRightImage: (target, triggerElement) => {
       gsap.fromTo(

@@ -9,7 +9,11 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 function GpsTracker() {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
+    // for header section
+    animate.headerAnimation()
+
     animate.benefitsArrayAnimation('.features', '.feature')
+    // animations for solutions descriptions
   }, [])
   return (
     <div className="Page Software SubPage-Software">
