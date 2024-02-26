@@ -134,61 +134,6 @@ function App() {
       <CurrentAnimationContext.Provider value={animate}>
         <Routes>
           <Route path="/" element={<Home />} />
-
-<<<<<<< HEAD
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/GPS-Software" element={<GpsSoftware />} />
-        <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
-        <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />
-        <Route path="/Generator-Monitoring" element={<GeneratorMonitoring />} />
-        <Route
-          path="/Mining-Equipment-Monitoring"
-          element={<MiningEquipment />}
-        />
-        <Route path="/GPS-Software/Cloud-Hosted" element={<CloudHosted />} />
-        <Route path="/GPS-Software/Self-Hosted" element={<SelfHosted />} />
-        <Route
-          path="/GPS-Software/Personal-Account"
-          element={<PersonalAccount />}
-        />
-        <Route path="/Products" element={<ProductSolutions />} />
-        <Route path="/AIS-140-GPS-Tracker" element={<GpsTracker />} />
-        <Route path="/School-Bus-Tracker" element={<SchoolBusTracker />} />
-        <Route
-          path="/Smart-Motorcycle-Tracker"
-          element={<MotorcycleTracker />}
-        />
-        <Route
-          path="/Intelligent-Electric-Lock"
-          element={<IntelligentLock />}
-        />
-        <Route path="/Personal-tracker" element={<PersonalTracker />} />
-        <Route path="/Asset-tracker" element={<AssetTracker />} />
-        <Route path="/Garbage-Truck-Monitoring" element={<GarbageTruck />} />
-        <Route path="/Truck-Telematics" element={<TruckTelematics />} />
-        <Route path="/Tanker-Truck-Monitoring" element={<TankerTruck />} />
-        <Route path="/Bus-Monitoring" element={<BusMonitoring />} />
-        <Route path="/Smart-Car-Devices" element={<SmartCar />} />
-        <Route path="/Business" element={<Business />} />
-        <Route path="/Business/Franchising" element={<Franchising />} />
-        <Route path="/Business/White-Label" element={<WhiteLabel />} />
-        <Route path="/Business/Distribution" element={<Distribution />} />
-        <Route path="/Software" element={<Software />} />
-        <Route path="/Devices" element={<SupportedDevices />} />
-        <Route path="/Pricing" element={<Pricing />} />
-        <Route path="/Payment" element={<Payment />} />
-        <Route path="/Contact" element={<Contact />} />
-
-        <Route path="/FMB120-Vehicle-GPS-Tracker" element={<FMB120 />} />
-        <Route path="/FMB920-Vehicle-GPS-Tracker" element={<FMB920 />} />
-        <Route path="/FMB125-Vehicle-GPS-Tracker" element={<FMB125 />} />
-        <Route path="/S102-GPS-Tracker" element={<S102/>} />
-        <Route path="/GT06N-GPS-Tracker" element={<GT06N/>} />
-        <Route path="/VT08S-Vehicle-GPS-Tracker" element={<VT08S/>} />
-        <Route path="/VT05S-Vehicle-GPS-Tracker" element={<VT05S/>} />
-      </Routes>
-=======
           <Route path="/GPS-Software" element={<GpsSoftware />} />
           <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
           <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />
@@ -233,9 +178,16 @@ function App() {
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Payment" element={<Payment />} />
           <Route path="/Contact" element={<Contact />} />
+
+          <Route path="/FMB120-Vehicle-GPS-Tracker" element={<FMB120 />} />
+          <Route path="/FMB920-Vehicle-GPS-Tracker" element={<FMB920 />} />
+          <Route path="/FMB125-Vehicle-GPS-Tracker" element={<FMB125 />} />
+          <Route path="/S102-GPS-Tracker" element={<S102 />} />
+          <Route path="/GT06N-GPS-Tracker" element={<GT06N />} />
+          <Route path="/VT08S-Vehicle-GPS-Tracker" element={<VT08S />} />
+          <Route path="/VT05S-Vehicle-GPS-Tracker" element={<VT05S />} />
         </Routes>
       </CurrentAnimationContext.Provider>
->>>>>>> 9042236b08bc58956cfd6d8716888db24518bbd0
 
       <Whatsapp />
       <Form />
