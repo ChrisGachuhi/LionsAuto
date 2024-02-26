@@ -74,6 +74,7 @@ const Business = () => {
       }
     )
   }, [])
+  
   return (
     <div className="Page Business">
       <div className="landing">

@@ -1684,6 +1684,68 @@
   }
 }
 
+.SubPage-Device {
+  .Features {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    justify-content: center;
+    gap: 20px;
+
+    h2 {
+      grid-column: 1 / span 2;
+      text-align: center;
+    }
+
+    .feature {
+      padding: 20px;
+    }
+  }
+
+  .Performance {
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: center;
+    gap: 10px;
+
+    h3 {
+      grid-column: 1 / span 4;
+      text-align: center;
+    }
+
+    .parameter {
+      padding: 10px;
+      text-align: center;
+      p {
+        padding: 10px 0;
+      }
+
+      p:nth-of-type(1) {
+        background-color: lightblue;
+        color: #fff;
+      }
+    }
+  }
+
+  .Functions {
+    h3 {
+      text-align: center;
+    }
+
+    p {
+      width: 80%;
+      margin: auto;
+      border-bottom: solid 1px #2a2a2a;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    p:nth-of-type(1) {
+      border-top: solid 1px #2a2a2a;
+    }
+  }
+}
+
 .Software {
   padding: 2rem 0;
   display: grid;

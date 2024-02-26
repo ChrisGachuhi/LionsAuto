@@ -39,6 +39,13 @@ import CloudHosted from './Pages/Software/CloudHosted'
 import SelfHosted from './Pages/Software/SelfHosted'
 import PersonalAccount from './Pages/Software/PersonalAccount'
 import MiningEquipment from './Pages/Home/MiningEquipment'
+import FMB120 from './Pages/Devices/FMB120'
+import FMB125 from './Pages/Devices/FMB125'
+import FMB920 from './Pages/Devices/FMB920'
+import GT06N from './Pages/Devices/GT06N'
+import S102 from './Pages/Devices/S102'
+import VT08S from './Pages/Devices/VT08S'
+import VT05S from './Pages/Devices/VT05S'
 
 function App() {
   return (
@@ -51,7 +58,10 @@ function App() {
         <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
         <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />
         <Route path="/Generator-Monitoring" element={<GeneratorMonitoring />} />
-        <Route path="/Mining-Equipment-Monitoring" element={<MiningEquipment />} />
+        <Route
+          path="/Mining-Equipment-Monitoring"
+          element={<MiningEquipment />}
+        />
         <Route path="/GPS-Software/Cloud-Hosted" element={<CloudHosted />} />
         <Route path="/GPS-Software/Self-Hosted" element={<SelfHosted />} />
         <Route
@@ -85,6 +95,14 @@ function App() {
         <Route path="/Pricing" element={<Pricing />} />
         <Route path="/Payment" element={<Payment />} />
         <Route path="/Contact" element={<Contact />} />
+
+        <Route path="/FMB120-Vehicle-GPS-Tracker" element={<FMB120 />} />
+        <Route path="/FMB920-Vehicle-GPS-Tracker" element={<FMB920 />} />
+        <Route path="/FMB125-Vehicle-GPS-Tracker" element={<FMB125 />} />
+        <Route path="/S102-GPS-Tracker" element={<S102/>} />
+        <Route path="/GT06N-GPS-Tracker" element={<GT06N/>} />
+        <Route path="/VT08S-Vehicle-GPS-Tracker" element={<VT08S/>} />
+        <Route path="/VT05S-Vehicle-GPS-Tracker" element={<VT05S/>} />
       </Routes>
 
       <Whatsapp />
