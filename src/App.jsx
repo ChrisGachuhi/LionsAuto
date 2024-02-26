@@ -50,7 +50,6 @@ import VT05S from './Pages/Devices/VT05S'
 // Animation logic
 import { CurrentAnimationContext } from './Components/AnimationContext/CurrentAnimationContext'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 function App() {
   const animate = {
@@ -128,6 +127,7 @@ function App() {
       }
     },
   }
+
   return (
     <div className="App">
       <Navbar />
