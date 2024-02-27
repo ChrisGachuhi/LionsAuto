@@ -3,6 +3,7 @@
   padding: 0;
   font-family: CircularStd;
   color: #343434;
+  background-color: #fbfcfe;
 }
 
 .App {
@@ -30,10 +31,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
   position: sticky;
   top: 0;
-  background-color: #fff;
   z-index: 100;
 
   .logo {
@@ -56,6 +56,7 @@
         padding: 0.5rem;
         border-radius: 0.5rem;
         font-size: 1.2rem;
+        color: #363636;
       }
       a:not(.active):hover {
         background-color: aquamarine;
@@ -209,7 +210,7 @@
       align-items: center;
       span {
         font-size: 4rem;
-        color: red;
+        color: #fd4355;
       }
       span:nth-of-type(2) {
         font-size: 1.5rem;
@@ -288,13 +289,13 @@
     line-height: 3.5rem;
 
     span {
-      color: #c5c6cd;
+      color: #c0c0c8;
       font-size: 1.5rem;
     }
 
     span:nth-child(2),
     span:nth-child(3) {
-      color: #343434;
+      color: #2a2a2a;
       font-size: 3rem;
       font-weight: 700;
     }
@@ -307,12 +308,12 @@
 
     p {
       margin-top: 2rem;
-      color: #8a919b;
+      color: #8a919c;
       font-size: 1.5rem;
     }
 
     span:nth-child(6) {
-      color: #2a2a2a;
+      color: #313131;
     }
   }
 
@@ -320,7 +321,7 @@
     display: flex;
     flex-direction: column;
     padding: 2.5rem 1.5rem;
-    color: #858585;
+    color: #7c7c7c;
     border: solid 1px black;
 
     input {
@@ -559,6 +560,7 @@
       justify-content: space-between;
 
       h1 {
+        color: #33496c;
         font-size: 4rem;
         line-height: 4.5rem;
         margin-bottom: 2rem;
@@ -602,6 +604,7 @@
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.75rem;
+    color: #6e7a8f;
   }
 
   .benefits {
@@ -618,6 +621,7 @@
       grid-area: title;
       text-align: center;
       font-size: 2.5rem;
+      color: #284166;
     }
     .tracking {
       grid-area: tracking;
@@ -639,16 +643,18 @@
     }
 
     .benefit {
+      background-color: #fcfcfc;
       padding: 2.5rem 1rem;
-      border: solid 1px gray;
+      border: solid 2px #f3f7fe;
 
       h3 {
         font-size: 1.5rem;
-        margin-bottom: 1rem;
+        color: #334867;
       }
       p {
         font-size: 1.1rem;
         line-height: 1.75rem;
+        color: #758192;
       }
     }
   }
@@ -689,12 +695,14 @@
         h3 {
           font-size: 1.75rem;
           margin-bottom: 0.75rem;
+          color: #294267;
         }
         p {
           width: 100%;
           font-size: 1.1rem;
           margin-bottom: 2rem;
           line-height: 2rem;
+          color: #989da7;
         }
 
         a {
@@ -772,6 +780,7 @@
       display: flex;
       align-items: center;
       font-size: 2rem;
+      color: #264065;
     }
     .card {
       // height: fit-content;
@@ -789,10 +798,12 @@
 
       h3 {
         font-size: 1.5rem;
+        color: #394f71;
       }
       p {
         font-size: 1.1rem;
         line-height: 2rem;
+        color: #9b9fa9;
       }
       // .arrow{
       //   font-size: 60px;
@@ -813,7 +824,7 @@
       grid-area: title;
 
       span {
-        color: #858585;
+        color: #c3c3cb;
         font-size: 1.2rem;
         margin-bottom: 0.5rem;
       }
@@ -821,11 +832,12 @@
       h2 {
         font-size: 2.5rem;
         margin-bottom: 2rem;
+        color: #444444;
 
         span {
           font-size: 2.5rem;
           font-weight: 100;
-          color: black;
+          color: #4b4b4b;
         }
       }
 
@@ -833,6 +845,7 @@
         font-size: 1.1rem;
         margin: 2rem 0;
         line-height: 1.5rem;
+        color: #6b6d73;
       }
 
       a {
@@ -874,10 +887,12 @@
         h3 {
           font-size: 1.5rem;
           margin-bottom: 1rem;
+          color: #383838;
         }
         p {
           font-size: 1.1rem;
           line-height: 2rem;
+          color: #9b9fa9;
         }
       }
     }
