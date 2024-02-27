@@ -13,7 +13,6 @@ import {
 } from '@fortawesome/free-solid-svg-icons'
 import { Partners } from '../Components/Partners'
 import { Link } from 'react-router-dom'
-
 import { useRef, useEffect, useContext } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -74,6 +73,7 @@ const Home = () => {
     // animations for solutions descriptions
     animate.descriptionAnimation('.solutions', '.description')
   }, [])
+
   return (
     <div className="Page Home">
       <div className="landing">
