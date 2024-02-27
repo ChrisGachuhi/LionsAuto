@@ -1,4 +1,27 @@
+import { useRef } from 'react'
+import emailjs from 'emailjs-com'
+
 export const Form = () => {
+  const form = useRef()
+
+  const handleForm = e => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+        publicKey: 'YOUR_PUBLIC_KEY',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!')
+        },
+        error => {
+          console.log('FAILED...', error.text)
+          console.log(form)
+        }
+      )
+  }
+
   return (
     <div className="Section Form">
       <div className="contact-center">
@@ -11,7 +34,7 @@ export const Form = () => {
         <span>+254 712345678</span>
       </div>
 
-      <form className="form-submit">
+      <form className="form-submit" ref={form} onSubmit={handleForm}>
         <input type="text" placeholder="Your Name*" required />
         <input type="email" placeholder="Email Address*" required />
         <input type="text" placeholder="Phone number" required />
@@ -20,5 +43,5 @@ export const Form = () => {
         <button type="submit">Send Message</button>
       </form>
     </div>
-  );
-};
+  )
+}

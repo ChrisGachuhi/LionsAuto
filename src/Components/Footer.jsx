@@ -1,3 +1,4 @@
+import { faFacebookF, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
@@ -51,18 +52,24 @@ export const Footer = () => {
         <ul>
           <li>
             <Link>
-              <FontAwesomeIcon icon={faEnvelope} />
+              <FontAwesomeIcon icon={faEnvelope} className="icon" />
               info@lionsauto.co.ke
             </Link>
             <br />
             <Link>
-              <FontAwesomeIcon icon={faPhone} />
+              <FontAwesomeIcon icon={faPhone} className="icon" />
               +254 712345678
             </Link>
           </li>
 
-          <li>
-            <Link></Link>
+          <li className="socials">
+            <Link to={'https://facebook.com/LionsAuto'} target="_blank">
+              <FontAwesomeIcon icon={faFacebookF} className="icon" />
+            </Link>
+
+            <Link to={'https://x.com/LionsautoKE'} target="_blank">
+              <FontAwesomeIcon icon={faXTwitter} className="icon" />
+            </Link>
           </li>
         </ul>
       </div>

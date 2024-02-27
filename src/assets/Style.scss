@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: CircularStd;
-  color: #343434;
+  // color: #343434;
   background-color: #fbfcfe;
 }
 
@@ -152,6 +152,11 @@
   position: fixed;
   right: 30px;
   bottom: 100px;
+
+  a {
+    color: teal;
+    font-size: 50px;
+  }
 
   img {
     height: 80px;
@@ -351,6 +356,8 @@
       padding: 1rem 0;
       font-weight: 500;
       font-size: 1.25rem;
+      background-color: green;
+      color: #fff;
     }
   }
 
@@ -464,15 +471,31 @@
     height: 100%;
     padding: 1.5rem 1rem;
     font-size: 1.1rem;
-    border: solid 1px black;
+    // border: solid 1px black;
+
+    h3 {
+      font-size: 1.5rem;
+      color: #272a33;
+      margin-bottom: 15px;
+    }
 
     li {
       list-style-type: none;
       margin: 0.5rem 0;
+      line-height: 30px;
+      // display: flex;
 
       a {
         text-decoration: none;
+        color: #23262f;
+        .icon {
+          margin-right: 15px;
+        }
       }
+    }
+
+    .socials a {
+      font-size: 20px;
     }
   }
 
@@ -880,8 +903,8 @@
         border: solid 1px black;
 
         .icon {
-          font-size: 3rem;
-          color: red;
+          font-size: 2.75rem;
+          color: #fd4355;
           margin-bottom: 2rem;
         }
         h3 {
@@ -1719,29 +1742,53 @@
 .SubPage-Device {
   .Features {
     display: grid;
-    grid-template-columns: repeat(2, 600px);
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 20px;
 
     h2 {
       grid-column: 1 / span 2;
       text-align: center;
+      font-size: 2.65rem;
+      color: #243e64;
+      font-weight: 500;
     }
 
     .feature {
       padding: 20px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+
+      .icon {
+        background-color: #94e3fa;
+        color: #fefefe;
+        font-size: 24px;
+        padding: 20px;
+        height: 100%;
+      }
+      span {
+        background-color: #effafe;
+        padding: 20px;
+        width: 80%;
+        height: 100%;
+        color: #637086;
+      }
     }
   }
 
   .Performance {
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 10px;
 
     h3 {
       grid-column: 1 / span 4;
       text-align: center;
+      font-size: 2.5rem;
+      font-weight: 500;
+      color: #3b5173;
     }
 
     .parameter {
@@ -1752,8 +1799,13 @@
       }
 
       p:nth-of-type(1) {
-        background-color: lightblue;
-        color: #fff;
+        border: solid 2px #8fe1f2;
+        color: #4e4e4e;
+      }
+
+      p:nth-of-type(2) {
+        color: #6b6d73;
+        font-weight: 100;
       }
     }
   }
@@ -1761,19 +1813,21 @@
   .Functions {
     h3 {
       text-align: center;
+      color: #243e64;
     }
 
     p {
-      width: 80%;
+      width: 90%;
       margin: auto;
-      border-bottom: solid 1px #2a2a2a;
+      border-bottom: solid 1px #cac8c9;
       padding: 10px;
       display: flex;
       justify-content: space-between;
+      color: #2d4569;
     }
 
     p:nth-of-type(1) {
-      border-top: solid 1px #2a2a2a;
+      border-top: solid 1px #cac8c9;
     }
   }
 }
