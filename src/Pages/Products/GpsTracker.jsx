@@ -16,7 +16,7 @@ function GpsTracker() {
     // animations for solutions descriptions
   }, [])
   return (
-    <div className="Page Software SubPage-Software">
+    <div className="Page Software SubPage-Business">
       <div className="landing">
         <LandingAnimation />
         <div className="title">

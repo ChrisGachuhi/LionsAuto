@@ -2,8 +2,6 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 // import { Partners } from "../Components/Partners";
-import gsap from 'gsap'
-import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useContext, useEffect } from 'react'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
@@ -27,6 +25,7 @@ const Business = () => {
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
   }, [])
+
   return (
     <div className="Page Business">
       <div className="landing">
