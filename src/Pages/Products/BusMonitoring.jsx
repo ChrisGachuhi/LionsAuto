@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
+import SvgWrapper from '../../Components/SvgWrapper'
 
 function BusMonitoring() {
   const animate = useContext(CurrentAnimationContext)
@@ -13,9 +14,9 @@ function BusMonitoring() {
     // animation for features/benefits
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
-    animate.rightToLeftImage('.first-image', '.first-image')
+    animate.rightToLeftImage('.target-img', '.first-image')
     animate.leftToRightImage('.second-image', '.second-image')
-    animate.rightToLeftImage('.third-image', '.third-image')
+    animate.rightToLeftImage('.target-img', '.third-image')
     animate.leftToRightImage('.fourth-image', '.fourth-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
@@ -116,7 +117,9 @@ function BusMonitoring() {
 
         <div className="highlight">
           <div className="image first-image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
             />
@@ -158,7 +161,9 @@ function BusMonitoring() {
 
         <div className="highlight">
           <div className="image third-image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
               alt=""
             />
