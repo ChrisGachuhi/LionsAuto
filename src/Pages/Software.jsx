@@ -24,7 +24,7 @@ const Software = () => {
       <div className="landing">
         <LandingAnimation />
         <div className="title">
-          <h1>Lions AUto Software Solution</h1> <br />
+          <h1>Lions Auto Software Solution</h1> <br />
           <span>
             Mange your Fleet , Fuel ,Drivers and Speed Governor operation
             efficiently!
@@ -120,14 +120,11 @@ const Software = () => {
           <div className="description">
             <h3>LionsAuto Fuel Monitoring</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.
-              Ipsa nulla aut aliquam, laboriosam doloribus, voluptate dolore,
-              sint amet placeat aliquid quod necessitatibus sunt delectus iste!
-              A tempora voluptatem dignissimos esse praesentium beatae deleniti
-              suscipit eum non delectus doloribus dolore consectetur corporis
-              veniam quaerat, atque est quia explicabo tenetur autem sint
-              aspernatur?
+              Fuel costs can amount up to 30% of all fleet management expenses,
+              therefore affecting operating costs and company's profit in
+              general. Lions Auto GPS tracking and telematics platform can help
+              you cope with the major challenges related to fuel monitoring and
+              management in the most user-friendly way.
             </p>
             <Link to={'/Fuel-Monitoring'} target="_blank">
               Know More

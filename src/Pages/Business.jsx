@@ -21,7 +21,6 @@ const Business = () => {
       '.distribution .image',
       '.opportunity.distribution'
     )
-
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
   }, [])
