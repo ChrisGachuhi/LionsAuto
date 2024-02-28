@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
+import SvgWrapper from '../../Components/SvgWrapper'
 
 const GpsSoftware = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -10,7 +11,7 @@ const GpsSoftware = () => {
     animate.headerAnimation()
 
     animate.leftToRightImage('.whitelabel .image', '.opportunity.whitelabel')
-    animate.rightToLeftImage('.franchising .image', '.opportunity.franchising')
+    animate.rightToLeftImage('.target-img', '.opportunity.franchising')
     animate.rightToLeftImage(
       '.distribution .image',
       '.opportunity.distribution'
@@ -123,7 +124,9 @@ const GpsSoftware = () => {
       <div className="opportunities">
         <div className="opportunity franchising">
           <div className="image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Cloud-Hosted_01.png?w=666&ssl=1"
               alt=""
             />

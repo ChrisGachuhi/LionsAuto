@@ -57,7 +57,7 @@ function App() {
       gsap.fromTo(
         '.title',
         { scale: 0.8, opacity: 0.5 },
-        { scale: 1, opacity: 1, duration: 1.5, ease: 'bounce.out' }
+        { scale: 1, opacity: 1, duration: 1.5, ease: 'back' }
       )
     },
     descriptionAnimation: (targetParent, targetChild) => {
@@ -121,7 +121,7 @@ function App() {
             opacity: 1,
             y: 0,
             duration: 1.5,
-            ease: 'bounce.out',
+            ease: 'back',
           }
         )
       }

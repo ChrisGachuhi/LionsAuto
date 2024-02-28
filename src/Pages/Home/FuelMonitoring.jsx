@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
+import SvgWrapper from '../../Components/SvgWrapper'
 
 const FuelMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -13,9 +14,9 @@ const FuelMonitoring = () => {
     // animation for features/benefits
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
-    animate.rightToLeftImage('.first-image', '.first-image')
+    animate.rightToLeftImage('.target-img', '.first-image')
     animate.leftToRightImage('.second-image', '.second-image')
-    animate.rightToLeftImage('.third-image', '.third-image')
+    animate.rightToLeftImage('.target-img', '.third-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
   }, {})
@@ -192,7 +193,9 @@ const FuelMonitoring = () => {
 
         <div className="opportunity franchising">
           <div className="image first-image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Cloud-Hosted_01.png?w=666&ssl=1"
               alt=""
             />
@@ -229,7 +232,9 @@ const FuelMonitoring = () => {
 
         <div className="opportunity franchising">
           <div className="image third-image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
               alt=""
             />

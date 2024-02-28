@@ -4,6 +4,7 @@ import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useContext, useEffect } from 'react'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
+import SvgWrapper from '../Components/SvgWrapper'
 
 const Software = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -12,8 +13,8 @@ const Software = () => {
     animate.headerAnimation()
     // for opportunities section
     animate.leftToRightImage('.first-image', '.gps')
-    animate.rightToLeftImage('.second-image', '.governor')
-    animate.rightToLeftImage('.third-image', '.fuel')
+    animate.rightToLeftImage('.target-img', '.governor')
+    animate.rightToLeftImage('.target-img', '.fuel')
     animate.leftToRightImage('.fourth-image', '.driver')
 
     // animations for solutions descriptions
@@ -82,8 +83,10 @@ const Software = () => {
 
       <div className="solution-container governor">
         <div className="highlight">
-          <div className="image second-image">
+          <div className="image second-image ">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/07/Speedotrack-Hospital-Management-Software_01.png?w=666&ssl=1"
               alt=""
             />
@@ -111,7 +114,9 @@ const Software = () => {
       <div className="solution-container fuel">
         <div className="highlight">
           <div className="image third-image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Speedotrack-Fuel-Monitoring-Solution_01.png?w=666&ssl=1"
               alt=""
             />

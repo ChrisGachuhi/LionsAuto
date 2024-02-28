@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
+import SvgWrapper from '../../Components/SvgWrapper'
 
 function SmartCar() {
   const animate = useContext(CurrentAnimationContext)
@@ -14,9 +15,9 @@ function SmartCar() {
     animate.benefitsArrayAnimation('.features-container', '.feature')
 
     animate.leftToRightImage('.second-image', '.second-image')
-    animate.rightToLeftImage('.third-image', '.third-image')
+    animate.rightToLeftImage('.target-img', '.third-image')
     animate.leftToRightImage('.fourth-image', '.fourth-image')
-    animate.rightToLeftImage('.fifth-image', '.fifth-image')
+    animate.rightToLeftImage('.target-img', '.fifth-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
   }, {})
@@ -206,7 +207,9 @@ function SmartCar() {
 
         <div className="highlight">
           <div className="image third-image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/02/Smart-Car-Solution_Highly-Integrated-Design_01.png?w=666&ssl=1"
               alt=""
             />
@@ -244,7 +247,9 @@ function SmartCar() {
 
         <div className="highlight">
           <div className="image fifth-image">
+            <SvgWrapper />
             <img
+              className="target-img"
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/02/Smart-Car-Solution_Panic-Button_01.png?w=666&ssl=1"
               alt=""
             />
