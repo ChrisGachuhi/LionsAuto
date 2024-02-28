@@ -125,6 +125,19 @@ function App() {
           }
         )
       }
+
+      elements.forEach(element => {
+        element.onmouseenter = () => {
+          gsap.to(element, {
+            backgroundColor: 'purple',
+            ease: 'power2.out',
+            duration: 0.5,
+          })
+        }
+        element.onmouseleave = () => {
+          gsap.to(element, { backgroundColor: 'transparent' })
+        }
+      })
     },
   }
 
