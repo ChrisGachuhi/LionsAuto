@@ -15,6 +15,7 @@ function GpsTracker() {
     animate.benefitsArrayAnimation('.features', '.feature')
     // animations for solutions descriptions
   }, [])
+
   return (
     <div className="Page Software SubPage-Business">
       <div className="landing">
@@ -152,6 +153,7 @@ function GpsTracker() {
               alt=""
             />
           </div>
+          
           <div className="description">
             <h4>AIS 140 GPS FOR TRUCK</h4>
             <p>
