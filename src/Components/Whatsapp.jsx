@@ -1,8 +1,12 @@
-import WhatsappIcon from '../assets/icons/WhatsappIcon.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom'
 export const Whatsapp = () => {
   return (
     <div className="Whatsapp">
-      <img src={WhatsappIcon} alt="" />
+      <Link to={'https://wa.me/254721738849'}>
+        <FontAwesomeIcon icon={faWhatsapp}/>
+      </Link>
     </div>
   )
 }

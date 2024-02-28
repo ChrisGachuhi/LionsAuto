@@ -26,40 +26,40 @@ function VT05S() {
       <div className="Features">
         <h2>Features of VT05S</h2>
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
           <span>Portable installation without any process with Magnet</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
           <span>Real time positioning track your vehicle anywhere</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
           <span>Applicable to any kind of cars,no cars limit option</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
           <span>
             Movement sensation alarm, over speed alarm, vibration alarm
           </span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
           <span>Built-in MIC, Listen to live sounds remotely</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
           <span>IP67 waterproof</span>
         </div>
       </div>
 
       <div className="Performance">
-        <h3>Performance & Parameter of FMB120</h3>
+        <h3>Performance & Parameter of VT05S</h3>
 
         <div className="parameter">
           <p>Product Type</p>

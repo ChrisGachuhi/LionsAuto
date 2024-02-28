@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -65,6 +64,8 @@ function LandingAnimation() {
     <div className="background-animations">
       <div className="floating-circle"></div>
       <div className="larger-floating-circle"></div>
+
+      {/* <div className="testcontainer">dhdhdhd</div> */}
     </div>
   )
 }
