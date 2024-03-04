@@ -274,6 +274,17 @@ p {
   }
 }
 
+.feature:hover > *,
+.benefit:hover > * {
+  color: white !important;
+}
+
+// removing background color for benefit h3 and p
+.benefit > *,
+.feature > * {
+  background-color: transparent;
+}
+
 // animation components
 .landing {
   position: relative;
@@ -303,12 +314,16 @@ p {
 
   .background-animations {
     position: absolute;
-    // <<<<<<< Ericks_magic-)
-    //     z-index: 0;
-    // =======
-    //     z-index: -1;
-    //     // background-color: yellow;
-    // >>>>>>> main
+// <<<<<<< Ericks_magic-)
+
+// =======
+//     // <<<<<<< Ericks_magic-)
+//     //     z-index: 0;
+//     // =======
+//     //     z-index: -1;
+//     //     // background-color: yellow;
+//     // >>>>>>> main
+// >>>>>>> main
     height: 100%;
     width: 100%;
     .floating-circle {
@@ -406,6 +421,9 @@ p {
     padding: 2.5rem 1.5rem;
     color: #7c7c7c;
     border: solid 1px black;
+    position: relative;
+    z-index: 1;
+    background-color: transparent;
 
     input {
       height: 40px;
@@ -1624,6 +1642,9 @@ p {
       text-align: center;
       padding: 0.75rem 0;
       font-size: 1.2rem;
+      position: relative;
+      z-index: 1;
+      background-color: transparent;
 
       a {
         text-decoration: none;
