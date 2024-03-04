@@ -30,24 +30,24 @@ function FMB120() {
       <div className="Features">
         <h2>Features of FMB120</h2>
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>Digital Input/Output for remote monitoring and control</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>Allows device to work without external power source</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>
             1-Wire® interface to monitor temperature data and RFID/iButton tags
           </span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>
             1-Bluetooth for external devices and Low Energy sensors Wire®
             interface to monitor temperature data and RFID/iButton tags

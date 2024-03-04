@@ -69,7 +69,7 @@ const ProductSolutions = () => {
           alt=""
         />
         <Link to={'/Intelligent-Electric-Lock'} target="_blank">
-          Intelligent Electric Lock
+          Electronic Cargo Tracking
         </Link>
       </div>
 

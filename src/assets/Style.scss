@@ -41,7 +41,8 @@ p {
 }
 
 .active {
-  background-color: aqua;
+  border-bottom: solid 1px #2bae49;
+  border-radius: 0.2rem;
 }
 
 .navbar {
@@ -70,13 +71,13 @@ p {
         display: block;
         text-decoration: none;
         margin: 0 0.5rem;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        font-size: 1.2rem;
+        padding: 0.3rem 0.5rem;
+        // border-radius: 0.5rem;
+        font-size: 1.1rem;
         color: #363636;
       }
       a:not(.active):hover {
-        background-color: aquamarine;
+        border-bottom: solid 1px #2bae49;
       }
     }
   }
@@ -171,7 +172,7 @@ p {
   bottom: 100px;
 
   a {
-    color: teal;
+    color: #2bae49;
     font-size: 50px;
   }
 
@@ -191,7 +192,7 @@ p {
 
 .Mpesa {
   height: 60vh;
-  background-color: #2a2a2a;
+  background-color: #2bae49;
 }
 
 .Partners {
@@ -313,7 +314,16 @@ p {
 
   .background-animations {
     position: absolute;
+// <<<<<<< Ericks_magic-)
 
+// =======
+//     // <<<<<<< Ericks_magic-)
+//     //     z-index: 0;
+//     // =======
+//     //     z-index: -1;
+//     //     // background-color: yellow;
+//     // >>>>>>> main
+// >>>>>>> main
     height: 100%;
     width: 100%;
     .floating-circle {
@@ -326,7 +336,7 @@ p {
     .larger-floating-circle {
       height: 15px;
       width: 15px;
-      background-color: rgb(111, 160, 13);
+      background-color: #2bae49;
       border-radius: 50%;
     }
   }
@@ -442,7 +452,7 @@ p {
       padding: 1rem 0;
       font-weight: 500;
       font-size: 1.25rem;
-      background-color: green;
+      background-color: #2bae49;
       color: #fff;
     }
   }
@@ -683,7 +693,7 @@ p {
         text-decoration: none;
         padding: 1.2rem 3.5rem;
         border-radius: 3rem;
-        background-color: green;
+        background-color: #2bae49;
         color: #fff;
         font-weight: 500;
         font-size: 1.2rem;
@@ -813,7 +823,7 @@ p {
         a {
           border: none;
           padding: 0.8rem 2.4rem;
-          background-color: rgb(9, 193, 104);
+          background-color: #2bae49;
           border-radius: 2rem;
           font-size: 1rem;
           text-decoration: none;
@@ -1433,7 +1443,7 @@ p {
       padding: 1rem 2rem;
       border-radius: 3rem;
       color: white;
-      background-color: green;
+      background-color: #2bae49;
     }
   }
 
@@ -1481,7 +1491,7 @@ p {
 
       span {
         span {
-          color: green;
+          color: #2bae49;
         }
       }
 
@@ -1506,14 +1516,14 @@ p {
         text-decoration: none;
         padding: 0.9rem 2.5rem;
         border-radius: 3rem;
-        background-color: green;
+        background-color: #2bae49;
         color: #fff;
       }
 
       a:nth-of-type(even) {
         background-color: #fff;
-        border: solid 2px green;
-        color: green;
+        border: solid 2px #2bae49;
+        color: #2bae49;
       }
     }
 
@@ -1526,7 +1536,8 @@ p {
 
       a {
         text-decoration: none;
-        color: blue;
+        color: #2bae49;
+        background: transparent;
       }
     }
   }
@@ -1613,7 +1624,7 @@ p {
 
         a {
           text-decoration: none;
-          background-color: green;
+          background-color: #2bae49;
           color: #fff;
           padding: 0.9rem 2rem;
           border-radius: 3rem;
@@ -1637,7 +1648,7 @@ p {
 
       a {
         text-decoration: none;
-        color: blue;
+        color: #2bae49;
       }
     }
   }
@@ -1874,6 +1885,7 @@ p {
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     gap: 20px;
+    padding: 4rem 0;
 
     h2 {
       grid-column: 1 / span 2;
@@ -1888,6 +1900,7 @@ p {
       height: 30px;
       display: flex;
       align-items: center;
+      justify-content: center;
 
       .icon {
         background-color: #94e3fa;
@@ -1911,6 +1924,7 @@ p {
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     gap: 10px;
+    // padding: 2rem 0;
 
     h3 {
       grid-column: 1 / span 4;
@@ -1940,6 +1954,8 @@ p {
   }
 
   .Functions {
+    padding: 4rem 0;
+
     h3 {
       text-align: center;
       color: #243e64;
@@ -1957,6 +1973,17 @@ p {
 
     p:nth-of-type(1) {
       border-top: solid 1px #cac8c9;
+    }
+  }
+
+  @media screen and (max-width: 820px) {
+    .Features {
+      grid-template-columns: 1fr;
+      margin: auto;
+
+      h2{
+        grid-column: 1;
+      }
     }
   }
 }
@@ -2024,14 +2051,14 @@ p {
         text-decoration: none;
         padding: 0.9rem 3rem;
         border-radius: 3rem;
-        background-color: green;
+        background-color: #2bae49;
         color: #fff;
       }
 
       a:nth-of-type(even) {
         background-color: #fff;
-        border: solid 2px green;
-        color: green;
+        border: solid 2px #2bae49;
+        color: #2bae49;
       }
     }
 
@@ -2108,7 +2135,7 @@ p {
         text-decoration: none;
         border-radius: 3rem;
         color: white;
-        background-color: green;
+        background-color: #2bae49;
       }
     }
   }

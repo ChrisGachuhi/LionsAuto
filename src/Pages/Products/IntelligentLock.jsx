@@ -25,7 +25,7 @@ function IntelligentLock() {
       <div className="landing">
         <LandingAnimation />
         <div className="title">
-          <h1>Intelligent GPS Electronic Lock</h1>
+          <h1>Electronic Cargo Tracking</h1>
         </div>
 
         <p>
