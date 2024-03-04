@@ -30,27 +30,27 @@ function FMB125() {
       <div className="Features">
         <h2>Features of FMB120</h2>
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>Bluetooth for external devices and Low Energy sensors</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>Allows device to work without external power source</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>CAN data reading from vehicles and specialized transport</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>External GNSS antenna extends mounting options</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
+          <FontAwesomeIcon className='icon' icon={faArrowRight} />
           <span>Dual SIM – significantly reduce roaming costs</span>
         </div>
 
