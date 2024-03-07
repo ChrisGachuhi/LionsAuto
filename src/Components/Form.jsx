@@ -43,7 +43,7 @@ export const Form = () => {
     <div className="Section Form">
       <div className="contact-center">
         <span>CONTACT US</span>
-        <span>Don't Hesitate to</span>
+        <span>Don&39;t Hesitate to</span>
         <span>Contact us for any</span>
         <span>Information</span>
 
@@ -55,32 +55,32 @@ export const Form = () => {
         <input
           type="text"
           placeholder="Your Name*"
-          value={clientName} // Bind value and onChange for controlled input
+          value={clientName}
           onChange={e => setClientName(e.target.value)}
           required
         />
         <input
           type="email"
           placeholder="Email Address*"
-          value={clientEmail} // Bind value and onChange for controlled input
+          value={clientEmail}
           onChange={e => setClientEmail(e.target.value)}
           required
         />
         <input
           type="text"
           placeholder="Phone number"
-          value={clientPhone} // Bind value and onChange for controlled input
+          value={clientPhone}
           onChange={e => setClientPhone(e.target.value)}
         />
         <input
           type="text"
           placeholder="Product Interested"
-          value={clientProduct} // Bind value and onChange for controlled input
+          value={clientProduct}
           onChange={e => setClientProduct(e.target.value)}
         />
         <textarea
           placeholder="Your Message"
-          value={clientMessage} // Bind value and onChange for controlled input
+          value={clientMessage}
           onChange={e => setClientMessage(e.target.value)}
         ></textarea>
         <button type="submit">Send Message</button>
