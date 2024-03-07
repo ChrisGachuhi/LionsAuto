@@ -1,32 +1,49 @@
-import { useRef } from 'react'
-import emailjs from 'emailjs-com'
+import { useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 export const Form = () => {
-  const form = useRef()
+  const [clientName, setClientName] = useState('')
+  const [clientEmail, setClientEmail] = useState('')
+  const [clientProduct, setClientProduct] = useState('')
+  const [clientPhone, setClientPhone] = useState('')
+  const [clientMessage, setClientMessage] = useState('')
 
-  const handleForm = e => {
+  const handleForm = async e => {
     e.preventDefault()
 
-    emailjs
-      .sendForm('service_0137d8m', 'template_4xfe1u9', form.current, {
-        publicKey: 'Lqec2_aqS-ZJvQX_H',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!')
-        },
-        error => {
-          console.log('FAILED...', error.text)
-          console.log(form)
-        }
-      )
+    try {
+      const serviceId = 'service_0137d8m'
+      const templateId = 'template_4xfe1u9'
+      const publicKey = 'Lqec2_aqS-ZJvQX_H'
+
+      const templateParams = {
+        from_name: clientName,
+        from_email: clientEmail,
+        to_name: 'LionsAuto',
+        clientPhone,
+        clientProduct,
+        message: clientMessage,
+      }
+
+      await emailjs.send(serviceId, templateId, templateParams, publicKey)
+
+      // console.log('SUCCESS!')
+
+      setClientName('')
+      setClientEmail('')
+      setClientProduct('')
+      setClientPhone('')
+      setClientMessage('')
+    } catch (err) {
+      console.log(err.message)
+    }
   }
 
   return (
     <div className="Section Form">
       <div className="contact-center">
         <span>CONTACT US</span>
-        <span>Don&#39;t Hesitate to</span>
+        <span>Don't Hesitate to</span>
         <span>Contact us for any</span>
         <span>Information</span>
 
@@ -34,12 +51,38 @@ export const Form = () => {
         <span>+254 712345678</span>
       </div>
 
-      <form className="form-submit" ref={form} onSubmit={handleForm}>
-        <input type="text" placeholder="Your Name*" required />
-        <input type="email" placeholder="Email Address*" required />
-        <input type="text" placeholder="Phone number" required />
-        <input type="text" placeholder="Product Interested" required />
-        <textarea name="" id="" placeholder="Your Message"></textarea>
+      <form className="form-submit" onSubmit={handleForm}>
+        <input
+          type="text"
+          placeholder="Your Name*"
+          value={clientName} // Bind value and onChange for controlled input
+          onChange={e => setClientName(e.target.value)}
+          required
+        />
+        <input
+          type="email"
+          placeholder="Email Address*"
+          value={clientEmail} // Bind value and onChange for controlled input
+          onChange={e => setClientEmail(e.target.value)}
+          required
+        />
+        <input
+          type="text"
+          placeholder="Phone number"
+          value={clientPhone} // Bind value and onChange for controlled input
+          onChange={e => setClientPhone(e.target.value)}
+        />
+        <input
+          type="text"
+          placeholder="Product Interested"
+          value={clientProduct} // Bind value and onChange for controlled input
+          onChange={e => setClientProduct(e.target.value)}
+        />
+        <textarea
+          placeholder="Your Message"
+          value={clientMessage} // Bind value and onChange for controlled input
+          onChange={e => setClientMessage(e.target.value)}
+        ></textarea>
         <button type="submit">Send Message</button>
       </form>
     </div>

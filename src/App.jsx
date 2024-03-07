@@ -62,7 +62,7 @@ function App() {
     },
     descriptionAnimation: (targetParent, targetChild) => {
       const elements = gsap.utils.selector(targetParent)(targetChild)
-      console.log(elements)
+      // console.log(elements)
 
       for (let i = 0; i <= elements.length; i++) {
         gsap.fromTo(
