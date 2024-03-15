@@ -33,7 +33,10 @@ export const Partners = () => {
         />
       </div>
 
-        <ScrollTrigger onEnter={()=>setCountState(true)} onExit={()=>setCountState(false)}>
+        <ScrollTrigger 
+        onEnter={()=>setCountState(true)} 
+        // onExit={()=>setCountState(false)}
+        >
       <div className="stats">
         <p className="stat">
           <span>{
