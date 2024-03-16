@@ -12,7 +12,7 @@ function GT06N() {
           <br />
 
           <h1>GT06N GPS Tracking Device</h1>
-          <span>Grow your business & boost up sale with Speedotrack</span>
+          <span>Grow your business & boost up sale with LionsAuto</span>
         </div>
 
         <p>

@@ -12,7 +12,7 @@ function S102() {
           <br />
 
           <h1>S102-Vehicle GPS Tracker</h1>
-          <span>Grow your business & boost up sale with Speedotrack</span>
+          <span>Grow your business & boost up sale with LionsAuto</span>
         </div>
 
         <p>

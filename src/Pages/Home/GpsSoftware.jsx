@@ -41,12 +41,12 @@ const GpsSoftware = () => {
         </div>
 
         <p>
-          Speedotrack GPS Software Solutions combine sophisticated GPS tracking
+          LionsAuto GPS Software Solutions combine sophisticated GPS tracking
           technology with flexible, advanced mapping and reporting software. A
           GPS-enabled Vehicle Tracking Device is installed on each vehicle to
           collect and transmit tracking data via a cellular and satellite
           network, whichever works best for your operations. The device then
-          delivers the data to the Speedotrack hosted application, which you can
+          delivers the data to the LionsAuto hosted application, which you can
           access through the Web at any time. You will receive real-time vehicle
           tracking updates, including location, direction, speed, idle time,
           start/stop and more, allowing you to manage a tighter schedule and
@@ -133,11 +133,11 @@ const GpsSoftware = () => {
           </div>
 
           <div className="description">
-            <h3>Speedotrack GPS Software (Cloud Hosted)</h3>
+            <h3>LionsAuto GPS Software (Cloud Hosted)</h3>
             <p>
               Hosted software is a great choice for GPS tracking business. It
               helps to avoid extra expenses when hosting GPS tracking software
-              in own server. Server with software resides in Speedotrack Data
+              in own server. Server with software resides in LionsAuto Data
               Center and we undertake all technical aspects, while you will be
               able to concentrate on your core business. Our team will prepare
               server with software for you, support your service, ensure
@@ -159,9 +159,9 @@ const GpsSoftware = () => {
             />
           </div>
           <div className="description">
-            <h3>Speedotrack GPS Software (Self Hosted)</h3>
+            <h3>LionsAuto GPS Software (Self Hosted)</h3>
             <p>
-              Speedotrack team developed unique GPS tracking platform - tracking
+              LionsAuto team developed unique GPS tracking platform - tracking
               software which is designed to build independent tracking server.
               GPS tracking platform is web based application which can operate
               globally. One physical GPS tracking server allows simultaneously
@@ -184,7 +184,7 @@ const GpsSoftware = () => {
             />
           </div>
           <div className="description">
-            <h3>Speedotrack GPS Software (Personal Account)</h3>
+            <h3>LionsAuto GPS Software (Personal Account)</h3>
             <p>
               This solution is recommended for personal use or small company.
               Personal tracking account allows to see location of objects

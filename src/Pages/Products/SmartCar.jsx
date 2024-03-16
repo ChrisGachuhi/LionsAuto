@@ -179,7 +179,7 @@ function SmartCar() {
           </div>
         </div> */}
 
-        <h2>Speedotrack Smart Car Solution</h2>
+        <h2>LionsAuto Smart Car Solution</h2>
         <img
           src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
           alt=""

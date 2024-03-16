@@ -38,10 +38,10 @@ function TruckTelematics() {
         </p>
 
         <p>
-          Truck telematics solution by Speedotrack is aimed on monitoring cargo
+          Truck telematics solution by LionsAuto is aimed on monitoring cargo
           status and performance of a freight truck and helps to improve fleet
           management system of a business. By equipping trucks with
-          Speedotrack’s telematics hardware, fleet manage/company owner gets an
+          LionsAuto’s telematics hardware, fleet manage/company owner gets an
           opportunity to:
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
@@ -187,12 +187,12 @@ function TruckTelematics() {
           <div className="description">
             <h3>Location Tracking</h3>
             <p>
-              Speedotrack Vehicle Tracking Solutions combine sophisticated GPS
+              LionsAuto Vehicle Tracking Solutions combine sophisticated GPS
               tracking technology with flexible, advanced mapping and reporting
               software. A GPS-enabled Vehicle Tracking Device is installed on
               each vehicle to collect and transmit tracking data via a cellular
               and satellite network, whichever works best for your operations.
-              The device then delivers the data to the Speedotrack hosted
+              The device then delivers the data to the LionsAuto hosted
               application, which you can access through the Web at any time.
             </p>
           </div>

@@ -12,7 +12,7 @@ function FMB920() {
           <br />
 
           <h1>FMB920-Vehicle GPS Tracker</h1>
-          <span>Grow your business & boost up sale with Speedotrack</span>
+          <span>Grow your business & boost up sale with LionsAuto</span>
         </div>
 
         <p>
@@ -30,24 +30,24 @@ function FMB920() {
       <div className="Features">
         <h2>Features of FMB120</h2>
         <div className="feature">
-          <FontAwesomeIcon className='icon' icon={faArrowRight} />
+          <FontAwesomeIcon className="icon" icon={faArrowRight} />
           <span>Bluetooth for external devices and Low Energy sensors</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon className='icon' icon={faArrowRight} />
+          <FontAwesomeIcon className="icon" icon={faArrowRight} />
           <span>
             Crash detection functionality working according accelerometer data
           </span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon className='icon' icon={faArrowRight} />
+          <FontAwesomeIcon className="icon" icon={faArrowRight} />
           <span>Allows device to work without external power source</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon className='icon' icon={faArrowRight} />
+          <FontAwesomeIcon className="icon" icon={faArrowRight} />
           <span>
             Allows reading CAN bus data from vehicle ECU via Bluetooth
           </span>

@@ -39,8 +39,8 @@ const Franchising = () => {
           {/* <span>Vehicle Load Monitoring Solution</span> */}
         </div>
         <p>
-          Start your own vehicle tracking business – franchise the Speedotrack
-          GPS platform. Don’t miss the opportunity to franchise the most user
+          Start your own vehicle tracking business – franchise the LionsAuto GPS
+          platform. Don’t miss the opportunity to franchise the most user
           friendly GPS tracking platform on the market. Start making money from
           day one.
           <br />

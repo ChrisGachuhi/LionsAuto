@@ -56,10 +56,9 @@ p {
   z-index: 100;
 
   .logo {
-    font-size: 1.5rem;
-    margin: 1rem 0;
-    font-weight: bold;
-    text-decoration: none;
+    img {
+      height: 4rem;
+    }
     // display: inline-block;
   }
 
@@ -477,7 +476,7 @@ p {
     }
 
     .form-submit {
-      width:100%;
+      width: 100%;
       padding: 3rem 4rem;
     }
   }
@@ -895,8 +894,6 @@ p {
       grid-area: multiple;
     }
 
-    
-
     h2 {
       width: 18rem;
       display: flex;
@@ -986,8 +983,6 @@ p {
       // font-size: 1rem;
     }
 
-    
-
     .features {
       width: 1fr;
       grid-area: features;
@@ -998,10 +993,9 @@ p {
         'theft .';
       gap: 10px;
 
-      .feature:hover{
-        background-color: #2bae49;  
+      .feature:hover {
+        background-color: #2bae49;
       }
-      
 
       .feature {
         width: 18rem;
@@ -2371,7 +2365,6 @@ p {
     align-items: center;
     border: solid 1px black;
     text-decoration: none;
-   
 
     .image {
       height: 60%;

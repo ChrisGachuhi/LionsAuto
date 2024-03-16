@@ -12,7 +12,7 @@ function VT05S() {
           <br />
 
           <h1>VT05S-Vehicle GPS Tracker</h1>
-          <span>Grow your business & boost up sale with Speedotrack</span>
+          <span>Grow your business & boost up sale with LionsAuto</span>
         </div>
 
         <p>
@@ -26,34 +26,34 @@ function VT05S() {
       <div className="Features">
         <h2>Features of VT05S</h2>
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
+          <FontAwesomeIcon icon={faArrowRight} className="icon" />
           <span>Portable installation without any process with Magnet</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
+          <FontAwesomeIcon icon={faArrowRight} className="icon" />
           <span>Real time positioning track your vehicle anywhere</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
+          <FontAwesomeIcon icon={faArrowRight} className="icon" />
           <span>Applicable to any kind of cars,no cars limit option</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
+          <FontAwesomeIcon icon={faArrowRight} className="icon" />
           <span>
             Movement sensation alarm, over speed alarm, vibration alarm
           </span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
+          <FontAwesomeIcon icon={faArrowRight} className="icon" />
           <span>Built-in MIC, Listen to live sounds remotely</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} className='icon'/>
+          <FontAwesomeIcon icon={faArrowRight} className="icon" />
           <span>IP67 waterproof</span>
         </div>
       </div>

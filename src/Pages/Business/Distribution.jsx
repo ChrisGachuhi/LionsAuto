@@ -36,12 +36,12 @@ const Distribution = () => {
         </div>
 
         <p>
-          Speedotrack distribution solution is the easiest way to start your GPS
+          LionsAuto distribution solution is the easiest way to start your GPS
           tracking Business at very low investment . You can become distributor
           of our international brand Speedorack GPS which is one of the leading
           GPS tracking software. You will get Wholesale price if you become
-          distributor of Speedotrack GPS so that to maximize your profit on per
-          sale. If you become Speedotrack distributor partner you will get 24/7
+          distributor of LionsAuto GPS so that to maximize your profit on per
+          sale. If you become LionsAuto distributor partner you will get 24/7
           support on any issue to run your business smoothly. our pricing
           contains entry fee plus connection fee for every tracking unit.
           <br />
@@ -56,7 +56,7 @@ const Distribution = () => {
           <div className="feature reach">
             <h3>We offer fair prices</h3>
             <p>
-              Speedotrack provides fair and optimum price to our distributor to
+              LionsAuto provides fair and optimum price to our distributor to
               maximize their profit. The more connected devices, the lower the
               unit cost for you.
             </p>
@@ -66,7 +66,7 @@ const Distribution = () => {
           <div className="feature reliability">
             <h3>We provide support</h3>
             <p>
-              Distributor are our real backbone of Speedotrack therefore We
+              Distributor are our real backbone of LionsAuto therefore We
               provide reliable round-the-clock tech support to all partners. And
               we solve problems quickly.
             </p>
@@ -124,9 +124,9 @@ const Distribution = () => {
           </div>
 
           <div className="description">
-            <h3>Partner of Speedotrack GPS</h3>
+            <h3>Partner of LionsAuto GPS</h3>
             <p>
-              Speedotrack GPS a leading provider of GPS vehicle tracking systems
+              LionsAuto GPS a leading provider of GPS vehicle tracking systems
               aims at offering innovative and cost-effective vehicle tracking
               solutions comprising of hardware as well as software. GPS tracking
               solution is a unique way for companies and individuals to monitor

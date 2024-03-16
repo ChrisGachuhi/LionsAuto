@@ -42,12 +42,12 @@ const Software = () => {
         </div>
 
         <p>
-          Speedotrack Vehicle Tracking Solutions combine sophisticated GPS
+          LionsAuto Vehicle Tracking Solutions combine sophisticated GPS
           tracking technology with flexible, advanced mapping and reporting
           software. A GPS-enabled Vehicle Tracking Device is installed on each
           vehicle to collect and transmit tracking data via a cellular and
           satellite network, whichever works best for your operations. The
-          device then delivers the data to the Speedotrack hosted application,
+          device then delivers the data to the LionsAuto hosted application,
           which you can access through the Web at any time. You will receive
           real-time vehicle tracking updates, including location, direction,
           speed, idle time, start/stop and more, allowing you to manage a
@@ -67,8 +67,8 @@ const Software = () => {
           <div className="description">
             <h3>LionsAuto GPS Software</h3>
             <p>
-              Speedotrack support our partners & distributors by providing GPS
-              tracking system and fleet management system. All Speedotrack
+              LionsAuto support our partners & distributors by providing GPS
+              tracking system and fleet management system. All LionsAuto
               applications can be white-labeled and customized depending on your
               business needs. So, if you want to start your own white label GPS
               tracking business or expand the existing one—you’ve come to the

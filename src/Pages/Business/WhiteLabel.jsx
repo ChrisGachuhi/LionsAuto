@@ -36,7 +36,7 @@ const WhiteLabel = () => {
 
         <p>
           Are you already in the vehicle tracking business but want to bring the
-          best to your customers? Speedotrack white label platform might be just
+          best to your customers? LionsAuto white label platform might be just
           what you need. Advanced, reliable and incredibly user friendly GPS
           vehicle tracking system. With your brand on the merchandise.
         </p>
@@ -69,7 +69,7 @@ const WhiteLabel = () => {
           <div className="feature reliability">
             <h3>Customer Support</h3>
             <p>
-              Speedotrack customer support is awesome for their White Label
+              LionsAuto customer support is awesome for their White Label
               Business Partner and we are available for your 24/7 for any help.
               We provide reliable round-the-clock tech support and maintenance
               of the system.
@@ -80,7 +80,7 @@ const WhiteLabel = () => {
           <div className="feature technology">
             <h3>Customized Modules</h3>
             <p>
-              Speedotrack GPS tracking platform is very flexible, In case of any
+              LionsAuto GPS tracking platform is very flexible, In case of any
               customize module we are commited to deliver it.In need of a new
               feature? We will evaluate together the benefits and agree on the
               roadmap to implement it.
@@ -110,7 +110,7 @@ const WhiteLabel = () => {
           <div className="description">
             <h3>Customized Platform</h3>
             <p>
-              At Speedotrack, we often get requests from enterprise clients who
+              At LionsAuto, we often get requests from enterprise clients who
               are looking to develop GPS solutions for tracking the location of
               vehicles, people, or assets. Because this is quite a frequent
               project request, we decided to build our own customizable GPS

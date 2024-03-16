@@ -37,8 +37,8 @@ const FuelMonitoring = () => {
         <p>
           Fuel costs can amount up to 30% of all fleet management expenses,
           therefore affecting operating costs and company’s profit in general.
-          Among the major fuel related challenges experts define: Speedotrack
-          GPS tracking and telematics platform can help you cope with the major
+          Among the major fuel related challenges experts define: LionsAuto GPS
+          tracking and telematics platform can help you cope with the major
           challenges related to fuel monitoring and management in the most
           user-friendly way.
           <br />
@@ -62,7 +62,7 @@ const FuelMonitoring = () => {
           </div>
 
           <div className="feature reliability">
-            <h3>Speedotrack Cloud</h3>
+            <h3>LionsAuto Cloud</h3>
             <p>
               Maintenance optimization help to minimize the downtime while
               providing the most effective use of systems in order to secure the
@@ -75,7 +75,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Useful graphs</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -86,7 +86,7 @@ const FuelMonitoring = () => {
           <div className="feature ux">
             <h3>Regular Reports</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -97,7 +97,7 @@ const FuelMonitoring = () => {
           <div className="feature ux">
             <h3>User-Friendly</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -108,7 +108,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Cross-Platform</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -119,7 +119,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Fuel Monitoring</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -130,7 +130,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Air Notification</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -141,7 +141,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Remote Engine Shutdown</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -152,7 +152,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Fuel Graph Monitoring</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -163,7 +163,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Prevent Fuel Theft</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -174,7 +174,7 @@ const FuelMonitoring = () => {
           <div className="feature technology">
             <h3>Managed 24/7 Monitoring</h3>
             <p>
-              Speedotrack Bus Monitoring Solution help to measure load of
+              LionsAuto Bus Monitoring Solution help to measure load of
               passenger inside the bus so that it will help to know the owner
               weather driver violating the Government law for overloading the
               passenger vehicle or any traffic law.
@@ -205,7 +205,7 @@ const FuelMonitoring = () => {
             <h3>Fuel Calibration</h3>
             <p>
               Fuel tank calibration is essential in order to create an accurate
-              fuel chart for each vehicle. A well-trained Speedotrack technician
+              fuel chart for each vehicle. A well-trained LionsAuto technician
               who is versed in the correct safety procedures will be dispatched
               to perform the fuel tank calibration.
             </p>
@@ -243,7 +243,7 @@ const FuelMonitoring = () => {
           <div className="description">
             <h3>Fill Parameters</h3>
             <p>
-              All parameters are entered into the Speedotrack’s fleet system
+              All parameters are entered into the LionsAuto’s fleet system
               allowing you to view the completed fuel chart. As you learn more
               and better understand the fuel tank and fuel consumption
               parameters, your fuel chart will reflect more accurate records.
@@ -252,7 +252,7 @@ const FuelMonitoring = () => {
         </div>
 
         <p className="telematics">
-          Truck telematics solution by Speedotrack is aimed on monitoring cargo
+          Truck telematics solution by LionsAuto is aimed on monitoring cargo
           status and performance of a freight truck and helps to improve fleet
           management system of a business. Truck telematics helps to reduce
           expenses on vehicle maintenance by using predictive maintenance
@@ -261,7 +261,7 @@ const FuelMonitoring = () => {
           consumable items when they are really actually worn out, rather than
           using schedule-based approach. Fuel tank calibration is essential in
           order to create an accurate fuel chart for each vehicle. A
-          well-trained Speedotrack technician who is versed in the correct
+          well-trained LionsAuto technician who is versed in the correct
           safety procedures will be dispatched to perform the fuel tank
           calibration.
           <br />

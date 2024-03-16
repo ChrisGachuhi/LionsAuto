@@ -25,7 +25,7 @@ function AssetTracker() {
           Have you ever worried about the security safety of your house and
           belongings in the event that the house is empty without anyone in? Or
           have you ever come across trespasses like your house, office, or
-          garage is robbed by someone unfriendly? Then, Speedotrack Asset
+          garage is robbed by someone unfriendly? Then, LionsAuto Asset
           Tracker Solution is for you to safe guard your asset—It is your own
           DIY home security alarm and very easy to setup and use.
           <br />
@@ -35,7 +35,7 @@ function AssetTracker() {
 
       <div className="solution-container gps">
         <div className="features">
-          <h2>Benefits of Speedotrack Asset Tracker</h2>
+          <h2>Benefits of LionsAuto Asset Tracker</h2>
           <div className="features-container">
             <div className="feature label">
               <h3>GPS+LBS positioning</h3>
@@ -50,7 +50,7 @@ function AssetTracker() {
             <div className="feature access">
               <h3>Listen-in Surrounding</h3>
               <p>
-                Speedotrack Asset Tracking solution allows you to Listen to the
+                LionsAuto Asset Tracking solution allows you to Listen to the
                 surroundings by sending a text message via your phone to know
                 any problem around your asset to take any further action.
               </p>
@@ -71,7 +71,7 @@ function AssetTracker() {
             <div className="feature software">
               <h3>IPX5 Water Proof</h3>
               <p>
-                Speedotrack Personal Tracker is Water proof with IPX5 Global
+                LionsAuto Personal Tracker is Water proof with IPX5 Global
                 Standard to ensure stable operation in tough environment
                 especially in rainy season for smooth tracking.
               </p>
@@ -81,7 +81,7 @@ function AssetTracker() {
             <div className="feature management">
               <h3>10,000mAh Battery</h3>
               <p>
-                Speedotrack Personal Tracker comes with long lasting battery
+                LionsAuto Personal Tracker comes with long lasting battery
                 capacity so that you have no need to frequent charging. Which
                 result solid tracking for long duration for your asset.
               </p>
@@ -101,7 +101,7 @@ function AssetTracker() {
             <div className="feature easy">
               <h3>Strong Magnet</h3>
               <p>
-                Speedotrack Personal tracker comes with Strong magnetic cover so
+                LionsAuto Personal tracker comes with Strong magnetic cover so
                 that you can easily mount it on any vehicle or on an any asset
                 and track your asset wherever you go.
               </p>
@@ -121,7 +121,7 @@ function AssetTracker() {
             <div className="feature easy">
               <h3>Multiple Tracking</h3>
               <p>
-                Speedotrack personal Tracking device offers multiple tracking.
+                LionsAuto personal Tracking device offers multiple tracking.
                 you can track using sending SMS, using Mobile App and via web
                 app also.
               </p>

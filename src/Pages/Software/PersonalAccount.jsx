@@ -27,7 +27,7 @@ const PersonalAccount = () => {
         <LandingAnimation />
         <div className="title">
           <h1>GPS Tracking Software (Personal Account)</h1> <br />
-          <span>Grow your business & boost up sale with Speedotrack</span>
+          <span>Grow your business & boost up sale with LionsAuto</span>
         </div>
 
         {/* in page navigation */}
@@ -193,7 +193,7 @@ const PersonalAccount = () => {
           <div className="description">
             <h3>Low Cost Tracking</h3>
             <p>
-              With Speedotrack GPS tracking Solution it is very easy to start
+              With LionsAuto GPS tracking Solution it is very easy to start
               GPS tracking business at very affordable cost. We provides all
               support to our partner like CRM solution, dedicated website and
               marketing material to kick start GPS tracking business. With our

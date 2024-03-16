@@ -25,16 +25,16 @@ const SelfHosted = () => {
         <LandingAnimation />
         <div className="title">
           <h1>GPS Tracking Software (Self Hosted)</h1> <br />
-          <span>Grow your business & boost up sale with Speedotrack</span>
+          <span>Grow your business & boost up sale with LionsAuto</span>
         </div>
 
         {/* in page navigation */}
 
         <p>
-          Self Hosted GPS Tracking Software 01 | Speedotrack GPS GPS Tracking
+          Self Hosted GPS Tracking Software 01 | LionsAuto GPS GPS Tracking
           Software (Self Hosted) Grow your business & boost up sale with
-          Speedotrack Get Started NowSee live demo. shape 66 | Speedotrack
-          GPSshape 56 | Speedotrack GPS Speedotrack team developed unique GPS
+          LionsAuto Get Started NowSee live demo. shape 66 | LionsAuto
+          GPSshape 56 | LionsAuto GPS LionsAuto team developed unique GPS
           tracking platform - tracking software which is designed to build
           independent tracking server. GPS tracking platform is web based
           application which can operate globally. One physical GPS tracking
@@ -222,7 +222,7 @@ const SelfHosted = () => {
             <p>
               Our GPS tracking software comes with latest GPS tracking
               technology and supports all major GPS tracking devices available
-              in the market and works seamlessly. Speedotrack tracking platform
+              in the market and works seamlessly. LionsAuto tracking platform
               software communicates with a wide variety of GPS trackers, it
               gives more freedom to use hardware you prefer.
             </p>

@@ -30,14 +30,14 @@ function BusMonitoring() {
         </div>
 
         <p>
-          Speedotrack Bus monitoring system includes monitoring of technical
+          LionsAuto Bus monitoring system includes monitoring of technical
           condition of fleet, tracking real route of buses, monitoring driving
           behavior, additionally, the system allows to plan maintenance based on
-          actual condition of the equipment. Speedotrack Monitoring system for
-          bus can significantly reduce fuel costs and operating costs by
-          optimizing routes, preventing downtime and minimizing draining of
-          precious fuel. Monitoring system is suitable for city transport,
-          inter-city buses, school buses, shuttle buses, airport buses etc.
+          actual condition of the equipment. LionsAuto Monitoring system for bus
+          can significantly reduce fuel costs and operating costs by optimizing
+          routes, preventing downtime and minimizing draining of precious fuel.
+          Monitoring system is suitable for city transport, inter-city buses,
+          school buses, shuttle buses, airport buses etc.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
@@ -72,7 +72,7 @@ function BusMonitoring() {
             <div className="feature business">
               <h3>Load measurement</h3>
               <p>
-                Speedotrack Bus Monitoring Solution help to measure load of
+                LionsAuto Bus Monitoring Solution help to measure load of
                 passenger inside the bus so that it will help to know the owner
                 weather driver violating the Government law for overloading the
                 passenger vehicle or any traffic law.
@@ -105,9 +105,9 @@ function BusMonitoring() {
             <div className="feature easy">
               <h3>Easy Installation</h3>
               <p>
-                Speedotrack Bus Monitoring Solution is easy to install and
-                setup. You will get all essential support from Speedotrack from
-                installation to live tracking. using Speedotrack GPS solution is
+                LionsAuto Bus Monitoring Solution is easy to install and setup.
+                You will get all essential support from LionsAuto from
+                installation to live tracking. using LionsAuto GPS solution is
                 very simple and also cost effective.
               </p>
               <FontAwesomeIcon icon={faArrowRight} />
@@ -127,13 +127,13 @@ function BusMonitoring() {
           <div className="description">
             <h3>Fuel Calibration</h3>
             <p>
-              Using Speedotrack Bus Monitoring Solution you will be ale to
-              measure Precise measurement of remaining fuel in tank and fuel
+              Using LionsAuto Bus Monitoring Solution you will be ale to measure
+              Precise measurement of remaining fuel in tank and fuel
               consumption, sending data to dashboard. This would be helpful to
               know actual mileage of bus or your Bus driver doing any misleading
-              activity behind you. Speedotrack Bus monitoring Solution helped
-              many customer in India and Abroad to reduce their operating cost
-              and maximize their revenue.
+              activity behind you. LionsAuto Bus monitoring Solution helped many
+              customer in India and Abroad to reduce their operating cost and
+              maximize their revenue.
             </p>
           </div>
         </div>
@@ -175,9 +175,9 @@ function BusMonitoring() {
               the condition of in-service equipment in order to estimate when
               maintenance should be performed. This approach promises cost
               savings over routine or time-based preventive maintenance, because
-              tasks are performed only when warranted. Speedotrack Bus
-              Monitoring Solution helps to reduce your maintenance cost and help
-              to maximise your profit with its maintance alert.
+              tasks are performed only when warranted. LionsAuto Bus Monitoring
+              Solution helps to reduce your maintenance cost and help to
+              maximise your profit with its maintance alert.
             </p>
           </div>
         </div>
@@ -192,14 +192,14 @@ function BusMonitoring() {
           <div className="description">
             <h3>Operation Monitoring</h3>
             <p>
-              Using Speedotrack Bus Monitoring Solution you can track and
-              optimize overall operation time of your Bus. You can use
-              intelligent route replay. You can use Geo fencing feature which
-              will alert you if Bus cross fencing area decided by you. Yuu can
-              use Location Geo-tagging to tag place co-ordinates (latitude and
-              longitude), bearings, altitude, distances, or even place names.
-              The best part of is you will get real time over speeding alert if
-              your bus driver cross standard speed limit.
+              Using LionsAuto Bus Monitoring Solution you can track and optimize
+              overall operation time of your Bus. You can use intelligent route
+              replay. You can use Geo fencing feature which will alert you if
+              Bus cross fencing area decided by you. Yuu can use Location
+              Geo-tagging to tag place co-ordinates (latitude and longitude),
+              bearings, altitude, distances, or even place names. The best part
+              of is you will get real time over speeding alert if your bus
+              driver cross standard speed limit.
             </p>
           </div>
         </div>
