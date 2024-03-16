@@ -15,13 +15,14 @@ import { Partners } from '../Components/Partners'
 import { Link } from 'react-router-dom'
 import { useRef, useEffect, useContext } from 'react'
 import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
+// import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../Components/SvgWrapper'
 import { element } from 'prop-types'
 
 const Home = () => {
+  
   const animate = useContext(CurrentAnimationContext)
 
   const h1Ref = useRef()

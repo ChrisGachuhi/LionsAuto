@@ -4,6 +4,7 @@
   font-family: CircularStd;
   // color: #343434;
   background-color: #fbfcfe;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -59,7 +60,14 @@ p {
     margin: 1rem 0;
     font-weight: bold;
     text-decoration: none;
+    // display: inline-block;
   }
+
+  // .logo-image{
+  //   height: 100% !important;
+  //   width: 100%;
+  //   background-color:yellow;
+  // }
 
   ul {
     display: flex;
@@ -193,6 +201,7 @@ p {
 .Mpesa {
   height: 60vh;
   background-color: #2bae49;
+  // display: flex;
 }
 
 .Partners {
@@ -292,8 +301,8 @@ p {
   .testcontainer {
     height: 100%;
     width: 100%;
-    background-image: url(./icons/titlesvg.svg);
-    background-position: left;
+    // background-image: url(./icons/titlesvg.svg);
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     // background-attachment: fixed;
@@ -314,16 +323,16 @@ p {
 
   .background-animations {
     position: absolute;
-// <<<<<<< Ericks_magic-)
+    // <<<<<<< Ericks_magic-)
 
-// =======
-//     // <<<<<<< Ericks_magic-)
-//     //     z-index: 0;
-//     // =======
-//     //     z-index: -1;
-//     //     // background-color: yellow;
-//     // >>>>>>> main
-// >>>>>>> main
+    // =======
+    //     // <<<<<<< Ericks_magic-)
+    //     //     z-index: 0;
+    //     // =======
+    //     //     z-index: -1;
+    //     //     // background-color: yellow;
+    //     // >>>>>>> main
+    // >>>>>>> main
     height: 100%;
     width: 100%;
     .floating-circle {
@@ -417,6 +426,8 @@ p {
 
   .form-submit {
     display: flex;
+    width: 85%;
+    height: 90%;
     flex-direction: column;
     padding: 2.5rem 1.5rem;
     color: #7c7c7c;
@@ -466,7 +477,7 @@ p {
     }
 
     .form-submit {
-      width: 70%;
+      width:100%;
       padding: 3rem 4rem;
     }
   }
@@ -546,7 +557,7 @@ p {
     }
 
     .form-submit {
-      width: 100%;
+      width: 80%;
       padding: 3rem 0;
 
       input {
@@ -884,11 +895,7 @@ p {
       grid-area: multiple;
     }
 
-    // .playback {
-    //   img {
-    //     height: 50px;
-    //   }
-    // }
+    
 
     h2 {
       width: 18rem;
@@ -979,6 +986,8 @@ p {
       // font-size: 1rem;
     }
 
+    
+
     .features {
       width: 1fr;
       grid-area: features;
@@ -988,6 +997,11 @@ p {
         'visibility cloud'
         'theft .';
       gap: 10px;
+
+      .feature:hover{
+        background-color: #2bae49;  
+      }
+      
 
       .feature {
         width: 18rem;
@@ -1981,7 +1995,7 @@ p {
       grid-template-columns: 1fr;
       margin: auto;
 
-      h2{
+      h2 {
         grid-column: 1;
       }
     }
@@ -2356,6 +2370,8 @@ p {
     justify-content: center;
     align-items: center;
     border: solid 1px black;
+    text-decoration: none;
+   
 
     .image {
       height: 60%;
@@ -2373,18 +2389,22 @@ p {
     p {
       height: 40%;
       width: 100%;
-      background-color: pink;
+      // background-color: pink;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      margin-left: 5%;
+      background-color: transparent;
 
       span {
         font-size: 0.9rem;
         font-weight: 600;
+        background-color: transparent;
       }
       span:nth-of-type(2) {
         font-size: 0.8rem;
         font-weight: 400;
+        background-color: transparent;
       }
     }
   }

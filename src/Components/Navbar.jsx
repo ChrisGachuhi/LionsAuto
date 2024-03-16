@@ -8,8 +8,15 @@ export const Navbar = () => {
 
   return (
     <nav className="navbar">
+      {/* <img src="../assets/icons/updated-images/lions-logo.jpeg" alt="" /> */}
+     
+
       <Link to={"/"} className="logo">
-        LOGO
+        {/* <div className="logo-image">
+          
+
+        </div> */}
+        logo
       </Link>
 
       <ul className = {menuIsOpen ? 'menuOpen' : ''}>

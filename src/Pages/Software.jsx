@@ -5,6 +5,7 @@ import { useContext, useEffect } from 'react'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../Components/SvgWrapper'
+import { HashLink } from 'react-router-hash-link'
 
 const Software = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -34,10 +35,10 @@ const Software = () => {
 
         {/* in page navigation */}
         <div className="navigation">
-          <Link>GPS Tracking Solution</Link>
-          <Link>Fuel Monitoring</Link>
-          <Link>Driver Behavior</Link>
-          <Link>Speed Governor</Link>
+          <HashLink to="#GPS-tracking">GPS Tracking Solution</HashLink>
+          <HashLink to="#fuel-monitoring">Fuel Monitoring</HashLink>
+          <HashLink to="#driver-behavior">Driver Behavior</HashLink>
+          <HashLink to="#speed-governor">Speed Governor</HashLink>
         </div>
 
         <p>
@@ -54,7 +55,7 @@ const Software = () => {
         </p>
       </div>
 
-      <div className="solution-container gps">
+      <div className="solution-container gps" id="GPS-tracking">
         <div className="highlight">
           <div className="image first-image">
             <img
@@ -81,7 +82,7 @@ const Software = () => {
         </div>
       </div>
 
-      <div className="solution-container governor">
+      <div className="solution-container governor" id="speed-governor">
         <div className="highlight">
           <div className="image second-image ">
             <SvgWrapper />
@@ -111,7 +112,7 @@ const Software = () => {
         </div>
       </div>
 
-      <div className="solution-container fuel">
+      <div className="solution-container fuel" id="fuel-monitoring">
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
@@ -138,7 +139,7 @@ const Software = () => {
         </div>
       </div>
 
-      <div className="solution-container driver">
+      <div className="solution-container driver" id="driver-behavior">
         <div className="highlight">
           <div className="image fourth-image">
             <img

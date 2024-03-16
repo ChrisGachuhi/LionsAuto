@@ -6,6 +6,7 @@ import { useContext, useEffect } from 'react'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../Components/SvgWrapper'
+import { HashLink } from 'react-router-hash-link'
 
 const Business = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -45,9 +46,15 @@ const Business = () => {
 
         <div className="navigation">
           {/* in page navigation */}
-          <Link className="link-tags">Distribution Solution</Link>
-          <Link className="link-tags">White Label</Link>
-          <Link className="link-tags">Lions Auto Franchising</Link>
+          <HashLink className="link-tags" to="#distribution">
+            Distribution Solution
+          </HashLink>
+          <HashLink className="link-tags" to="#whitelabel">
+            White Label
+          </HashLink>
+          <HashLink className="link-tags" to="#franchising">
+            Lions Auto Franchising
+          </HashLink>
         </div>
 
         <p>
@@ -140,7 +147,7 @@ const Business = () => {
       </div>
 
       <div className="opportunities">
-        <div className="opportunity franchising trigger-left">
+        <div className="opportunity franchising trigger-left" id="franchising">
           <div className="image img-left">
             <SvgWrapper />
             <img
@@ -167,7 +174,7 @@ const Business = () => {
           </div>
         </div>
 
-        <div className="opportunity whitelabel trigger-left">
+        <div className="opportunity whitelabel trigger-left" id="whitelabel">
           <div className="image img-left">
             <img
               src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/White-Label-Business_01.png?w=666&ssl=1"
@@ -192,7 +199,7 @@ const Business = () => {
           </div>
         </div>
 
-        <div className="opportunity distribution">
+        <div className="opportunity distribution" id="distribution">
           <div className="image">
             <SvgWrapper />
             <img
