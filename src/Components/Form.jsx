@@ -27,8 +27,6 @@ export const Form = () => {
 
       await emailjs.send(serviceId, templateId, templateParams, publicKey)
 
-      // console.log('SUCCESS!')
-
       setClientName('')
       setClientEmail('')
       setClientProduct('')
