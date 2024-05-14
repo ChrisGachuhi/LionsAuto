@@ -19,7 +19,7 @@ import gsap from 'gsap'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../Components/SvgWrapper'
-import { element } from 'prop-types'
+// import { element } from 'prop-types'
 
 const Home = () => {
   

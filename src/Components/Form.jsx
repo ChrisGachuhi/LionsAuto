@@ -41,7 +41,7 @@ export const Form = () => {
     <div className="Section Form">
       <div className="contact-center">
         <span>CONTACT US</span>
-        <span>Don&39;t Hesitate to</span>
+        <span>Don&apos;t Hesitate to</span>
         <span>Contact us for any</span>
         <span>Information</span>
 

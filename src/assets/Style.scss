@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   font-family: CircularStd;
-  // color: #343434;
-  background-color: #fbfcfe;
   scroll-behavior: smooth;
 }
 
@@ -25,6 +23,7 @@ p {
 }
 
 .App {
+  background-color: #fbfcfe;
   overflow: hidden;
   height: 100%;
   padding: 0 5rem;
@@ -180,20 +179,20 @@ p {
 
   a {
     color: #2bae49;
-    font-size: 50px;
+    font-size: 70px;
   }
 
-  img {
-    height: 80px;
-  }
+  // img {
+  //   height: 100px;
+  // }
 
   @media screen and (max-width: 570px) {
     right: -20px;
     bottom: 80px;
 
-    img {
-      height: 70px;
-    }
+    // img {
+    //   height: 70px;
+    // }
   }
 }
 
@@ -383,6 +382,7 @@ p {
     left: 10%;
   }
 }
+
 .Form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -436,6 +436,7 @@ p {
     background-color: transparent;
 
     input {
+      background-color: transparent;
       height: 40px;
       width: 400px;
       font-size: 1rem;
@@ -449,6 +450,7 @@ p {
     }
 
     textarea {
+      background-color: transparent;
       height: 120px;
       padding: 1.5rem;
       font-size: 1rem;
@@ -2508,6 +2510,49 @@ p {
       .catalogue {
         grid-template-columns: 1fr;
       }
+    }
+  }
+}
+
+.Contact {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  // border: solid 1px;
+
+  .card {
+    height: 15rem;
+    width: 20rem;
+    padding: 2rem 1rem;
+    border: solid #243e64;
+    color: #334867;
+    text-align: center;
+    font-size: 40px;
+
+    h3 {
+      font-size: 26px;
+      margin: 2rem 0 1rem 0;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 2rem;
+    }
+  }
+
+  .socials {
+    p {
+      display: flex;
+      justify-content: center;
+      font-size: 24px;
+      gap: 20px;
+    }
+
+    p:nth-of-type(1) {
+      font-size: 18px;
+      margin-bottom: 0.75rem;
     }
   }
 }
