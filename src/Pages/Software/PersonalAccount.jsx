@@ -64,7 +64,6 @@ const PersonalAccount = () => {
                 White Label business opportunity with less investment and it is
                 cost effective to grow your profit.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -74,7 +73,6 @@ const PersonalAccount = () => {
                 frameworks, management tools, and software applications to
                 access and use pertinent data
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -84,7 +82,6 @@ const PersonalAccount = () => {
                 solution you can easily build Profitable GPS tracking business
                 with your own with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -94,7 +91,6 @@ const PersonalAccount = () => {
                 are one of the market leader in this segment used by many client
                 in India and abroad.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -104,7 +100,6 @@ const PersonalAccount = () => {
                 partner so that our partner can run and manage GPS tracking
                 business smoothly and focus on building new sales.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -114,7 +109,6 @@ const PersonalAccount = () => {
                 smoothly and will help you increase you revenue and focus on
                 customer relationship with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature update">
@@ -124,7 +118,6 @@ const PersonalAccount = () => {
                 with latest cutting edge GPS tracking technology so that our
                 partner should competitive enough as per GPS market.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature language">
@@ -134,7 +127,6 @@ const PersonalAccount = () => {
                 major languages so that our partner should not feel any
                 difficulty to use and manage their GPS tracking business.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature backup">
@@ -144,7 +136,6 @@ const PersonalAccount = () => {
                 on equal interval of time and we provided automatic backup
                 feature with our GPS tracking software.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature devices">
@@ -154,7 +145,6 @@ const PersonalAccount = () => {
                 technology and supports all major GPS tracking devices avilable
                 in the market and works seamlessly.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature os">
@@ -164,7 +154,6 @@ const PersonalAccount = () => {
                 end user should not have any difficulty to run and mange their
                 GPS tracking business via App or desktop.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature server">
@@ -174,7 +163,6 @@ const PersonalAccount = () => {
                 solid server uptime with 99.99% uptime so that our partner focus
                 on business building and keep rest on us.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>
@@ -186,19 +174,19 @@ const PersonalAccount = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/mining-equipment.jpg"
               alt=""
             />
           </div>
           <div className="description">
             <h3>Low Cost Tracking</h3>
             <p>
-              With LionsAuto GPS tracking Solution it is very easy to start
-              GPS tracking business at very affordable cost. We provides all
-              support to our partner like CRM solution, dedicated website and
-              marketing material to kick start GPS tracking business. With our
-              GPS tracking software you will have peace of mind and keep rest on
-              us and focus on growing your GPS tracking business.
+              With LionsAuto GPS tracking Solution it is very easy to start GPS
+              tracking business at very affordable cost. We provides all support
+              to our partner like CRM solution, dedicated website and marketing
+              material to kick start GPS tracking business. With our GPS
+              tracking software you will have peace of mind and keep rest on us
+              and focus on growing your GPS tracking business.
             </p>
           </div>
         </div>
@@ -206,7 +194,7 @@ const PersonalAccount = () => {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/tracking-software.jpg"
               alt=""
             />
           </div>
@@ -227,7 +215,7 @@ const PersonalAccount = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/maps.jpg"
               alt=""
             />
           </div>
@@ -248,7 +236,7 @@ const PersonalAccount = () => {
         <div className="highlight">
           <div className="image fourth-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/geo-fencing.jpg"
               alt=""
             />
           </div>

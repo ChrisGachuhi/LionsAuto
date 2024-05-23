@@ -33,15 +33,15 @@ const SelfHosted = () => {
         <p>
           Self Hosted GPS Tracking Software 01 | LionsAuto GPS GPS Tracking
           Software (Self Hosted) Grow your business & boost up sale with
-          LionsAuto Get Started NowSee live demo. shape 66 | LionsAuto
-          GPSshape 56 | LionsAuto GPS LionsAuto team developed unique GPS
-          tracking platform - tracking software which is designed to build
-          independent tracking server. GPS tracking platform is web based
-          application which can operate globally. One physical GPS tracking
-          server allows simultaneously monitor thousands of GPS trackers and
-          smartphones, display their location on map, generate reports and
-          alerts. GPS tracking platform has billing system which allows to
-          charge customers for services.
+          LionsAuto Get Started NowSee live demo. shape 66 | LionsAuto GPSshape
+          56 | LionsAuto GPS LionsAuto team developed unique GPS tracking
+          platform - tracking software which is designed to build independent
+          tracking server. GPS tracking platform is web based application which
+          can operate globally. One physical GPS tracking server allows
+          simultaneously monitor thousands of GPS trackers and smartphones,
+          display their location on map, generate reports and alerts. GPS
+          tracking platform has billing system which allows to charge customers
+          for services.
         </p>
 
         <p>
@@ -72,7 +72,6 @@ const SelfHosted = () => {
                 White Label business opportunity with less investment and it is
                 cost effective to grow your profit.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -82,7 +81,6 @@ const SelfHosted = () => {
                 frameworks, management tools, and software applications to
                 access and use pertinent data
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -92,7 +90,6 @@ const SelfHosted = () => {
                 solution you can easily build Profitable GPS tracking business
                 with your own with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -102,7 +99,6 @@ const SelfHosted = () => {
                 are one of the market leader in this segment used by many client
                 in India and abroad.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -112,7 +108,6 @@ const SelfHosted = () => {
                 partner so that our partner can run and manage GPS tracking
                 business smoothly and focus on building new sales.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -122,7 +117,6 @@ const SelfHosted = () => {
                 smoothly and will help you increase you revenue and focus on
                 customer relationship with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature update">
@@ -132,7 +126,6 @@ const SelfHosted = () => {
                 with latest cutting edge GPS tracking technology so that our
                 partner should competitive enough as per GPS market.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature language">
@@ -142,7 +135,6 @@ const SelfHosted = () => {
                 major languages so that our partner should not feel any
                 difficulty to use and manage their GPS tracking business.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature backup">
@@ -152,7 +144,6 @@ const SelfHosted = () => {
                 on equal interval of time and we provided automatic backup
                 feature with our GPS tracking software.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature devices">
@@ -162,7 +153,6 @@ const SelfHosted = () => {
                 technology and supports all major GPS tracking devices avilable
                 in the market and works seamlessly.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature os">
@@ -172,7 +162,6 @@ const SelfHosted = () => {
                 end user should not have any difficulty to run and mange their
                 GPS tracking business via App or desktop.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature server">
@@ -182,7 +171,6 @@ const SelfHosted = () => {
                 solid server uptime with 99.99% uptime so that our partner focus
                 on business building and keep rest on us.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>
@@ -194,7 +182,7 @@ const SelfHosted = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
               alt=""
             />
           </div>
@@ -213,7 +201,7 @@ const SelfHosted = () => {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/mining-equipment.jpg"
               alt=""
             />
           </div>

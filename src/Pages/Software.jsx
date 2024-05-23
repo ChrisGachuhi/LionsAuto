@@ -59,7 +59,7 @@ const Software = () => {
         <div className="highlight">
           <div className="image first-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedorack-Vehicle-Tracking-Software_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/tracking-software.jpg"
               alt=""
             />
           </div>
@@ -88,7 +88,7 @@ const Software = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/07/Speedotrack-Hospital-Management-Software_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/speed-governor.jpg"
               alt=""
             />
           </div>
@@ -143,7 +143,7 @@ const Software = () => {
         <div className="highlight">
           <div className="image fourth-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/07/Speedotrack-Hospital-Management-Software_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/driver-behavior.jpg"
               alt=""
             />
           </div>

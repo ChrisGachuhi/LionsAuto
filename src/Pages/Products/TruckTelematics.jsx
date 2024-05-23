@@ -40,9 +40,9 @@ function TruckTelematics() {
         <p>
           Truck telematics solution by LionsAuto is aimed on monitoring cargo
           status and performance of a freight truck and helps to improve fleet
-          management system of a business. By equipping trucks with
-          LionsAuto’s telematics hardware, fleet manage/company owner gets an
-          opportunity to:
+          management system of a business. By equipping trucks with LionsAuto’s
+          telematics hardware, fleet manage/company owner gets an opportunity
+          to:
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
@@ -126,7 +126,7 @@ function TruckTelematics() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/fuel-sensors.jpg"
               alt=""
             />
           </div>
@@ -163,7 +163,7 @@ function TruckTelematics() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/White-label.jpg"
               alt=""
             />
           </div>
@@ -179,10 +179,7 @@ function TruckTelematics() {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/02/Truck-Telematic-Solution_Location-Tracking_01.png?w=666&ssl=1"
-              alt=""
-            />
+            <img src="/src/assets/images/updatedimages/maps.jpg" alt="" />
           </div>
           <div className="description">
             <h3>Location Tracking</h3>

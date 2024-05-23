@@ -135,7 +135,7 @@ function TankerTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/Advanced-fleet-management.jpg"
               alt=""
             />
           </div>
@@ -156,7 +156,7 @@ function TankerTruck() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Tracking-Progress_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
               alt=""
             />
           </div>
@@ -181,7 +181,7 @@ function TankerTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/maps.jpg"
               alt=""
             />
           </div>

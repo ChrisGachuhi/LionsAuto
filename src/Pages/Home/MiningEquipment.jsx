@@ -60,7 +60,6 @@ function MiningEquipment() {
                 runtime tracking so that end user can track machine efficiency
                 and plan their further activity to improve machine efficiency.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -70,7 +69,6 @@ function MiningEquipment() {
                 control feature so that end user can track and locate their
                 mining equipment in real time and mange their work force.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -80,7 +78,6 @@ function MiningEquipment() {
                 customer can reduce their fuel consumption and maximize their
                 revenue with our sensor installation in fuel tank.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -91,7 +88,6 @@ function MiningEquipment() {
                 can reduce their fuel consumption and maximize their revenue
                 with our sensor installation in fuel tank.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -102,7 +98,6 @@ function MiningEquipment() {
                 can know over load on mining equipment and avoid and penalty due
                 to overload by traffic law.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -113,7 +108,6 @@ function MiningEquipment() {
                 installation of all useful feature. we will also provide 24/7
                 support in case of ant doubt or query.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>
@@ -129,7 +123,7 @@ function MiningEquipment() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/fuel-theft-prevention.jpg"
               alt=""
             />
           </div>
@@ -148,10 +142,7 @@ function MiningEquipment() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
-              alt=""
-            />
+            <img src="/src/assets/images/updatedimages/operations.png" alt="" />
           </div>
           <div className="description">
             <h3>Operating Parameter</h3>
@@ -169,7 +160,7 @@ function MiningEquipment() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
               alt=""
             />
           </div>

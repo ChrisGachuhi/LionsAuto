@@ -68,7 +68,6 @@ function GarbageTruck() {
                 will helps to increase efficiency & time management planning of
                 your Garbage collection operation.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -79,7 +78,6 @@ function GarbageTruck() {
                 unload it for further filling .This will help to increase the
                 efficiency of garbage collection operation.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -90,7 +88,6 @@ function GarbageTruck() {
                 it helps in fuel theft detection and also provide control to
                 activate vehicle equipment remotely.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -101,7 +98,6 @@ function GarbageTruck() {
                 level drops it will send SMS alert to predefined phone number
                 and activate siren.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -112,7 +108,6 @@ function GarbageTruck() {
                 phone number. It will help to monitor efficiency of your
                 operation
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -123,7 +118,6 @@ function GarbageTruck() {
                 after complete installation. we are available 24/7 for our
                 valuable customer.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>
@@ -139,7 +133,7 @@ function GarbageTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
               alt=""
             />
           </div>
@@ -160,7 +154,7 @@ function GarbageTruck() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Tracking-Progress_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
               alt=""
             />
           </div>
@@ -185,7 +179,7 @@ function GarbageTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/driver-behavior.jpg"
               alt=""
             />
           </div>

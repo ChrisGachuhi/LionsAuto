@@ -63,7 +63,6 @@ const GeneratorMonitoring = () => {
               also monitor the generator location to help prevent theft of the
               generator.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
           </div>
 
           <div className="feature reliability">
@@ -74,7 +73,6 @@ const GeneratorMonitoring = () => {
               visits and workforce. Companies can monitor generator location and
               prevent theft.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
           </div>
 
           <div className="feature technology">
@@ -85,7 +83,6 @@ const GeneratorMonitoring = () => {
               in spares, consumables, and support. OEMs will be able to roll out
               their own generator monitoring solutions.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
           </div>
         </div>
       </div>
@@ -96,7 +93,7 @@ const GeneratorMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/electrical-performance.png"
               alt=""
             />
           </div>
@@ -115,7 +112,7 @@ const GeneratorMonitoring = () => {
         <div className="opportunity whitelabel">
           <div className="image second-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/electrical-maintenance.png"
               alt=""
             />
           </div>
@@ -136,7 +133,7 @@ const GeneratorMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Mining-Equipment-Monitoring-Solution_03.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
               alt=""
             />
           </div>
