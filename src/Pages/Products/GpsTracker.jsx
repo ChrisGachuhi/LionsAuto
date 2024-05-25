@@ -153,7 +153,7 @@ function GpsTracker() {
               alt=""
             />
           </div>
-          
+
           <div className="description">
             <h4>AIS 140 GPS FOR TRUCK</h4>
             <p>

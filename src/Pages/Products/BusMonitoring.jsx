@@ -120,7 +120,7 @@ function BusMonitoring() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/fuel-monitoring2.jpg"
               alt=""
             />
           </div>
@@ -141,7 +141,7 @@ function BusMonitoring() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Dangerous-Driving_02.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/speed-governor.jpg"
               alt=""
             />
           </div>
@@ -164,7 +164,7 @@ function BusMonitoring() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/crm.webp"
               alt=""
             />
           </div>
@@ -185,7 +185,7 @@ function BusMonitoring() {
         <div className="highlight">
           <div className="image fourth-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Operation-Management_03.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/White-label.jpg"
               alt=""
             />
           </div>

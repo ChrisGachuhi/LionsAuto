@@ -62,7 +62,6 @@ const CloudHosted = () => {
                 White Label business opportunity with less investment and it is
                 cost effective to grow your profit.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -72,7 +71,6 @@ const CloudHosted = () => {
                 frameworks, management tools, and software applications to
                 access and use pertinent data
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -82,7 +80,6 @@ const CloudHosted = () => {
                 solution you can easily build Profitable GPS tracking business
                 with your own with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -92,7 +89,6 @@ const CloudHosted = () => {
                 are one of the market leader in this segment used by many client
                 in India and abroad.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -102,7 +98,6 @@ const CloudHosted = () => {
                 partner so that our partner can run and manage GPS tracking
                 business smoothly and focus on building new sales.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -112,7 +107,6 @@ const CloudHosted = () => {
                 smoothly and will help you increase you revenue and focus on
                 customer relationship with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature update">
@@ -122,7 +116,6 @@ const CloudHosted = () => {
                 with latest cutting edge GPS tracking technology so that our
                 partner should competitive enough as per GPS market.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature language">
@@ -132,7 +125,6 @@ const CloudHosted = () => {
                 major languages so that our partner should not feel any
                 difficulty to use and manage their GPS tracking business.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature backup">
@@ -142,7 +134,6 @@ const CloudHosted = () => {
                 on equal interval of time and we provided automatic backup
                 feature with our GPS tracking software.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature devices">
@@ -152,7 +143,6 @@ const CloudHosted = () => {
                 technology and supports all major GPS tracking devices avilable
                 in the market and works seamlessly.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature os">
@@ -162,7 +152,6 @@ const CloudHosted = () => {
                 end user should not have any difficulty to run and mange their
                 GPS tracking business via App or desktop.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature server">
@@ -172,7 +161,6 @@ const CloudHosted = () => {
                 solid server uptime with 99.99% uptime so that our partner focus
                 on business building and keep rest on us.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>
@@ -188,7 +176,7 @@ const CloudHosted = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
               alt=""
             />
           </div>
@@ -211,10 +199,7 @@ const CloudHosted = () => {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
-              alt=""
-            />
+            <img src="/src/assets/images/updatedimages/crm.webp" alt="" />
           </div>
           <div className="description">
             <h3>Control Panel</h3>
@@ -234,7 +219,7 @@ const CloudHosted = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/web-development.webp"
               alt=""
             />
           </div>
@@ -254,7 +239,7 @@ const CloudHosted = () => {
         <div className="highlight">
           <div className="image fourth-image">
             <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/04/Speedotrack-GPS-Software-Personal-Account_01.png?w=666&ssl=1"
+              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
               alt=""
             />
           </div>
