@@ -198,8 +198,20 @@ p {
 
 .Mpesa {
   height: 60vh;
-  background-color: #2bae49;
-  // display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .payment-details {
+    height: 80%;
+    width: 80%;
+    font-size: 30px;
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+  }
 }
 
 .Partners {
@@ -1825,8 +1837,14 @@ p {
   .solution-container {
     .features {
       .features-container {
-        grid-template-columns: repeat(4, 1fr);
-        gap: 15px;
+        // grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-wrap: wrap;
+        gap: 3%;
+        .feature {
+          margin-bottom: 20px;
+          width: 19%;
+        }
       }
     }
 
@@ -1866,13 +1884,13 @@ p {
   }
 
   @media screen and (max-width: 999px) {
-    .features {
-      .features-container {
-        grid-template-columns: repeat(2, 1fr);
+    // .features {
+    //   .features-container {
+    //     grid-template-columns: repeat(2, 1fr);
 
-        width: 100%;
-      }
-    }
+    //     width: 100%;
+    //   }
+    // }
     .opportunities {
       width: 100%;
       img {
@@ -1882,13 +1900,13 @@ p {
   }
 
   @media screen and (max-width: 570px) {
-    .features {
-      width: 100%;
-      .features-container {
-        grid-template-columns: 1fr;
-        width: 100%;
-      }
-    }
+    // .features {
+    //   width: 100%;
+    //   .features-container {
+    //     grid-template-columns: 1fr;
+    //     width: 100%;
+    //   }
+    // }
     .opportunities {
       width: 100%;
 
