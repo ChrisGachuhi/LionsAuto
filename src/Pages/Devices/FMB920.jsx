@@ -1,5 +1,5 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function FMB920() {
   return (
@@ -54,9 +54,10 @@ function FMB920() {
         </div>
       </div>
 
+      
       <div className="Performance">
         <h3>Performance & Parameter of FMB920</h3>
-
+      
         <div className="parameter">
           <p>Product Type</p>
           <p>Vehicle GPS Tracker</p>

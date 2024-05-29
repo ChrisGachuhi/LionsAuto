@@ -1,5 +1,3 @@
-import { faHamburger } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function GT06N() {
   return (
@@ -28,7 +26,6 @@ function GT06N() {
         <h2>Features of GT06N</h2>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>Remote cut-off (petrol/power)</h4>
           <span>
             Compel the vehicle to stop by breaking off the fuel connection
@@ -36,7 +33,6 @@ function GT06N() {
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>Built-in 450mAh battery</h4>
           <span>
             High capacity Li-ion battery ensuring sufficient power supply{' '}
@@ -44,13 +40,11 @@ function GT06N() {
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>ACC detection for ignition status</h4>
           <span>Be aware of the ignition status whenever you need </span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>SOS emergency call</h4>
           <span>
             Thumb sized button allowing urgent call during an emergency case{' '}
@@ -58,7 +52,6 @@ function GT06N() {
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>Configurable tracking modes</h4>
           <span>
             Configurable tracking modes Location uploaded following fixed
@@ -67,7 +60,6 @@ function GT06N() {
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>Multiple alarms</h4>
           <span>
             Instant alert for vibration, overspeed. power off, geo-fence{' '}
@@ -75,7 +67,6 @@ function GT06N() {
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>Tracked by: SMS, APP, Web</h4>
           <span>
             Reports location in real time through different interfaces{' '}
@@ -83,7 +74,6 @@ function GT06N() {
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faHamburger} />
           <h4>Voice monitoring</h4>
           <span>It enables you to listen to the surroundings </span>
         </div>

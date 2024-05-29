@@ -1,4 +1,3 @@
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
@@ -17,7 +16,7 @@ function GpsTracker() {
   }, [])
 
   return (
-    <div className="Page Software SubPage-Business">
+    <div className="Page Software SubPage-Software">
       <div className="landing">
         <LandingAnimation />
         <div className="title">
@@ -35,12 +34,14 @@ function GpsTracker() {
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
 
-        <h2>What is AIS 140 GPS Tracker</h2>
+        <div className="title">
+          <h2>What is AIS 140 GPS Tracker</h2>
+        </div>
+        <img
+          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/AIS-140-GPS-Tracker.png?w=684&ssl=1"
+          alt=""
+        />
         <p>
-          <img
-            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/AIS-140-GPS-Tracker.png?w=684&ssl=1"
-            alt=""
-          />
           <br />
           The transport system the government of India as designed an
           Intelligent Transport System (ITS) under the Automotive Industry

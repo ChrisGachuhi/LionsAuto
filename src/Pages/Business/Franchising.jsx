@@ -1,5 +1,3 @@
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
@@ -36,7 +34,6 @@ const Franchising = () => {
           <br />
 
           <h1>Franchising Opportunity</h1>
-          {/* <span>Vehicle Load Monitoring Solution</span> */}
         </div>
         <p>
           Start your own vehicle tracking business – franchise the LionsAuto GPS
