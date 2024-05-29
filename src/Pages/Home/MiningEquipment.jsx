@@ -19,7 +19,7 @@ function MiningEquipment() {
     animate.rightToLeftImage('.target-img', '.third-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">

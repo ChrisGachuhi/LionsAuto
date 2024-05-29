@@ -20,7 +20,7 @@ function TruckTelematics() {
     animate.leftToRightImage('.fourth-image', '.fourth-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -59,7 +59,6 @@ function TruckTelematics() {
                 user to plan their activity to increase the efficiency of
                 operation.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -69,7 +68,6 @@ function TruckTelematics() {
                 telematic solution helps our client to monitor their fuel
                 consumption and fuel theft to grow their profit.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -79,7 +77,6 @@ function TruckTelematics() {
                 monitor fuel consumption per operation and helps them to track
                 fuel theft happening behind their back.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -89,7 +86,6 @@ function TruckTelematics() {
                 truck telematic solution helps our end user to monitor engine
                 health and prevent any major maintenance in future.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -99,7 +95,6 @@ function TruckTelematics() {
                 to over load and load condition for highway to avoid penalty by
                 violating government traffic rules & regulation.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -110,7 +105,6 @@ function TruckTelematics() {
                 installation of essential feature of load monitoring. we will
                 also provide 24/7
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

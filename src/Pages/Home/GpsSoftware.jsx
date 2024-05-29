@@ -18,7 +18,7 @@ const GpsSoftware = () => {
     )
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Business">
       <div className="landing">
@@ -66,8 +66,7 @@ const GpsSoftware = () => {
               player in India as well as abroad. Our GPS tracking system track
               thousand of units in Europe, Asia and Africa at this moment.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
+              </div>
 
           <div className="feature reliability">
             <h3>Solid Reliability</h3>
@@ -76,8 +75,7 @@ const GpsSoftware = () => {
               perfected all parts of the process. The result is the new
               generation Lions Auto GPS tracking platform.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
+              </div>
 
           <div className="feature ux">
             <h3>Awesome UX</h3>
@@ -86,8 +84,7 @@ const GpsSoftware = () => {
               used all your customer&#39;s experience to build a product that
               has everything they need. And we got rid of all the nerdy stuff.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
+              </div>
 
           <div className="feature technology">
             <h3>New Technology</h3>
@@ -96,8 +93,7 @@ const GpsSoftware = () => {
               cost and increase your revenue. our constant maintenance, it will
               last and serve your customer for many years to come.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
+              </div>
 
           <div className="feature migration">
             <h3>Easy Migration</h3>
@@ -106,8 +102,7 @@ const GpsSoftware = () => {
               hasitating. No need to worry we can migrate you existing customer
               with no downtime and in very short span of time.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
+              </div>
 
           <div className="feature start">
             <h3>Easy to start</h3>
@@ -116,8 +111,7 @@ const GpsSoftware = () => {
               migrating your existing customer on our GPS tracking platform we
               will do it seamlessly without any down time.
             </p>
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
+              </div>
         </div>
       </div> */}
 

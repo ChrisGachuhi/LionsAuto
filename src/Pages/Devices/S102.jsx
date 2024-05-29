@@ -27,34 +27,28 @@ function S102() {
         <h2>Features of FMB120</h2>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
           <span>Portable installation without any process with Magnet</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
           <span>Real time positioning track your vehicle anywhere</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
           <span>Applicable to any kind of cars,no cars limit option</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
           <span>
             Movement sensation alarm, over speed alarm, vibration alarm
           </span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
           <span>Built-in MIC, Listen to live sounds remotely</span>
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
           <span>IP67 waterproof</span>
         </div>
       </div>

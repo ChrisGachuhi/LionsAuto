@@ -77,7 +77,6 @@ function GpsTracker() {
                 ways. Either there any alternatives to be made there is a
                 regulation form for the same too.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -88,7 +87,6 @@ function GpsTracker() {
                 vehicle, which route has to be taken and helpful to fuel
                 optimization and cost effective and time saving.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -98,7 +96,6 @@ function GpsTracker() {
                 solution you can easily build Profitable GPS tracking business
                 with your own with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -109,7 +106,6 @@ function GpsTracker() {
                 driver information of your fleet and also assign drivers and get
                 driver specific reports to your inbox everyday.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -120,7 +116,6 @@ function GpsTracker() {
                 a right route in right time. This is done to ensure that the
                 shortest and less fuel path for the vehicle.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -131,7 +126,6 @@ function GpsTracker() {
                 system makes a simple bridge connection between vehicle and
                 service station.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature update">
@@ -141,7 +135,6 @@ function GpsTracker() {
                 AIS 140 GPS tracker verifies the assertion of crew an in the
                 proper segment of transportation mode and helps to reduce cost.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

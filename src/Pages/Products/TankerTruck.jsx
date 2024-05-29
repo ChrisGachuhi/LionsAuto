@@ -20,7 +20,7 @@ function TankerTruck() {
     animate.leftToRightImage('.fourth-image', '.fourth-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -64,7 +64,6 @@ function TankerTruck() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -75,7 +74,6 @@ function TankerTruck() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -86,7 +84,6 @@ function TankerTruck() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -97,7 +94,6 @@ function TankerTruck() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -108,7 +104,6 @@ function TankerTruck() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -119,7 +114,6 @@ function TankerTruck() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

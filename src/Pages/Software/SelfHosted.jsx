@@ -18,7 +18,7 @@ const SelfHosted = () => {
     animate.leftToRightImage('.second-image', '.second-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">

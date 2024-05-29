@@ -45,7 +45,6 @@ function MotorcycleTracker() {
                 Our WeTrack2 (ET200) GPS vehicle tracker is Small in size
                 allowing covert & easy mounting on any vehicle.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -54,7 +53,6 @@ function MotorcycleTracker() {
                 Our GPS vehicle tracker comes with optimum battery performance.
                 it never drain out of the battery .
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -63,7 +61,6 @@ function MotorcycleTracker() {
                 Our GPS vehicle tracker Reports location in real time through
                 different interfaces and inform end user.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -72,7 +69,6 @@ function MotorcycleTracker() {
                 Our GPS tracker send Instant alert for vibration, overspeed,
                 power cutoff and also comes with geo-fence feature.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -81,7 +77,6 @@ function MotorcycleTracker() {
                 Our tracking solution comes with Location uploaded following
                 fixed distance, time interval, preset cornering.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -90,7 +85,6 @@ function MotorcycleTracker() {
                 Our vehicle tracking solution comes with ignition status
                 notification so that whenever you need to know status.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature update">
@@ -99,7 +93,6 @@ function MotorcycleTracker() {
                 Our vehicle tracking solution comes with Compel the vehicle to
                 stop by breaking off the fuel connection.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature language">
@@ -108,7 +101,6 @@ function MotorcycleTracker() {
                 Our vehicle tracking solution comes with easy installation on
                 any vehicle with our expert technician .
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

@@ -19,7 +19,7 @@ const GeneratorMonitoring = () => {
     animate.rightToLeftImage('.target-img', '.third-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Business">
       <div className="landing">

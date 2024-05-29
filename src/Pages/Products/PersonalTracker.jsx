@@ -46,7 +46,6 @@ function PersonalTracker() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -57,7 +56,6 @@ function PersonalTracker() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -68,7 +66,6 @@ function PersonalTracker() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -79,7 +76,6 @@ function PersonalTracker() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -90,7 +86,6 @@ function PersonalTracker() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -101,7 +96,6 @@ function PersonalTracker() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

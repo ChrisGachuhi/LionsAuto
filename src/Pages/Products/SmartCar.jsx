@@ -20,7 +20,7 @@ function SmartCar() {
     animate.rightToLeftImage('.target-img', '.fifth-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -64,8 +64,7 @@ function SmartCar() {
                 White Label business opportunity with less investment and it is
                 cost effective to grow your profit.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature access">
               <h3>API Access</h3>
@@ -74,8 +73,7 @@ function SmartCar() {
                 frameworks, management tools, and software applications to
                 access and use pertinent data
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature business">
               <h3>GPS Business</h3>
@@ -84,8 +82,7 @@ function SmartCar() {
                 solution you can easily build Profitable GPS tracking business
                 with your own with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature software">
               <h3>GPS Software</h3>
@@ -94,8 +91,7 @@ function SmartCar() {
                 are one of the market leader in this segment used by many client
                 in India and abroad.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature management">
               <h3>Manage GPS Business</h3>
@@ -104,8 +100,7 @@ function SmartCar() {
                 partner so that our partner can run and manage GPS tracking
                 business smoothly and focus on building new sales.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature easy">
               <h3>Easy to Manage</h3>
@@ -114,8 +109,7 @@ function SmartCar() {
                 smoothly and will help you increase you revenue and focus on
                 customer relationship with our 24/7 support.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature update">
               <h3>Updated Software</h3>
@@ -124,8 +118,7 @@ function SmartCar() {
                 with latest cutting edge GPS tracking technology so that our
                 partner should competitive enough as per GPS market.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature language">
               <h3>30+ Languages</h3>
@@ -134,8 +127,7 @@ function SmartCar() {
                 major languages so that our partner should not feel any
                 difficulty to use and manage their GPS tracking business.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature backup">
               <h3>Automatic backups</h3>
@@ -144,8 +136,7 @@ function SmartCar() {
                 on equal interval of time and we provided automatic backup
                 feature with our GPS tracking software.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature devices">
               <h3>Supported Devices</h3>
@@ -154,8 +145,7 @@ function SmartCar() {
                 technology and supports all major GPS tracking devices avilable
                 in the market and works seamlessly.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature os">
               <h3>Android and iOS</h3>
@@ -164,8 +154,7 @@ function SmartCar() {
                 end user should not have any difficulty to run and mange their
                 GPS tracking business via App or desktop.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
 
             <div className="feature server">
               <h3>99.99% Server up-time</h3>
@@ -174,8 +163,7 @@ function SmartCar() {
                 solid server uptime with 99.99% uptime so that our partner focus
                 on business building and keep rest on us.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </div>
+                  </div>
           </div>
         </div> */}
 

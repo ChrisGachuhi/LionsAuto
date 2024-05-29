@@ -1,5 +1,3 @@
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
@@ -19,7 +17,7 @@ function SchoolBusTracker() {
     animate.rightToLeftImage('.target-img', '.third-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -51,7 +49,6 @@ function SchoolBusTracker() {
                 Assign route for all bus and store all stoppage details in our
                 software. New Driver can easily drive according it.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -60,7 +57,6 @@ function SchoolBusTracker() {
                 Allocate students for separate bus route wise & stoppage wise.
                 Transport manager can easily get report of seat availability.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -69,7 +65,6 @@ function SchoolBusTracker() {
                 We also provide RFID Attendance system for school bus. Parents
                 get automatic SMS notification when their child board .
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -78,7 +73,6 @@ function SchoolBusTracker() {
                 Live monitor your students and driver activity using our NDVR,
                 or store it for further use.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -87,7 +81,6 @@ function SchoolBusTracker() {
                 Now parents also get Estimate Arrival time of school bus in
                 their mobile app
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -96,7 +89,6 @@ function SchoolBusTracker() {
                 Collect your school bus fee online by using our school
                 management software.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

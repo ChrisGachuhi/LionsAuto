@@ -25,9 +25,9 @@ function AssetTracker() {
           Have you ever worried about the security safety of your house and
           belongings in the event that the house is empty without anyone in? Or
           have you ever come across trespasses like your house, office, or
-          garage is robbed by someone unfriendly? Then, LionsAuto Asset
-          Tracker Solution is for you to safe guard your asset—It is your own
-          DIY home security alarm and very easy to setup and use.
+          garage is robbed by someone unfriendly? Then, LionsAuto Asset Tracker
+          Solution is for you to safe guard your asset—It is your own DIY home
+          security alarm and very easy to setup and use.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
@@ -44,7 +44,6 @@ function AssetTracker() {
                 LBS is less precise when compared to GPS because the device
                 estimates its position in the area of the cell tower.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -54,7 +53,6 @@ function AssetTracker() {
                 surroundings by sending a text message via your phone to know
                 any problem around your asset to take any further action.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -65,7 +63,6 @@ function AssetTracker() {
                 time or periodically. Allow the location to be pin pointed in
                 the real time or periodically.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -75,7 +72,6 @@ function AssetTracker() {
                 Standard to ensure stable operation in tough environment
                 especially in rainy season for smooth tracking.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -85,7 +81,6 @@ function AssetTracker() {
                 capacity so that you have no need to frequent charging. Which
                 result solid tracking for long duration for your asset.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -95,7 +90,6 @@ function AssetTracker() {
                 lasting battery capacity so that you have no need to frequent
                 charging and device provide solid tracking.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -105,7 +99,6 @@ function AssetTracker() {
                 that you can easily mount it on any vehicle or on an any asset
                 and track your asset wherever you go.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -115,17 +108,15 @@ function AssetTracker() {
                 alert Once the device is disassembled or tempered, you will get
                 instant alert on your device .
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
               <h3>Multiple Tracking</h3>
               <p>
-                LionsAuto personal Tracking device offers multiple tracking.
-                you can track using sending SMS, using Mobile App and via web
-                app also.
+                LionsAuto personal Tracking device offers multiple tracking. you
+                can track using sending SMS, using Mobile App and via web app
+                also.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

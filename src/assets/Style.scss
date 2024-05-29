@@ -166,33 +166,21 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  // @media screen and (max-width: 1200px) {
-  //   padding: 0 1rem;
-  // }
 }
 
 .Whatsapp {
   position: fixed;
-  right: 30px;
+  right: 20px;
   bottom: 100px;
 
   a {
     color: #2bae49;
-    font-size: 70px;
+    font-size: 60px;
   }
 
-  // img {
-  //   height: 100px;
-  // }
-
   @media screen and (max-width: 570px) {
-    right: -20px;
-    bottom: 80px;
-
-    // img {
-    //   height: 70px;
-    // }
+    right: 10px;
+    bottom: 60px;
   }
 }
 
@@ -206,11 +194,9 @@ p {
     height: 80%;
     width: 80%;
     font-size: 30px;
-    // background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // align-items: center;
   }
 }
 
@@ -490,7 +476,7 @@ p {
     }
 
     .form-submit {
-      width: 100%;
+      width: 80%;
       padding: 3rem 4rem;
     }
   }
@@ -570,7 +556,7 @@ p {
     }
 
     .form-submit {
-      width: 80%;
+      width: 100%;
       padding: 3rem 0;
 
       input {
@@ -2548,7 +2534,6 @@ p {
   justify-content: center;
   align-items: center;
   gap: 30px;
-  // border: solid 1px;
 
   .card {
     height: 15rem;
@@ -2582,5 +2567,9 @@ p {
       font-size: 18px;
       margin-bottom: 0.75rem;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
   }
 }

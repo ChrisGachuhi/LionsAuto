@@ -19,7 +19,7 @@ function IntelligentLock() {
     animate.rightToLeftImage('.target-img', '.third-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -69,7 +69,6 @@ function IntelligentLock() {
                 operated by rechargeable batteries. our GPS Electronic lock
                 comes with good battery backup.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -79,7 +78,6 @@ function IntelligentLock() {
                 attaching the unit to the container door frame and track it with
                 our software dashboard.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -89,7 +87,6 @@ function IntelligentLock() {
                 will get notification in case if someone cut the lock rope or
                 open the back case cover.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -99,7 +96,6 @@ function IntelligentLock() {
                 door open/closed, temperature high/low, battery charge level,
                 location status, etc.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -109,7 +105,6 @@ function IntelligentLock() {
                 Geo-fencing function raises notifcations when a container has
                 entered or left a location.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -119,7 +114,6 @@ function IntelligentLock() {
                 keeps you informed about your fleet and changes in movement of
                 your fleet.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature update">
@@ -129,7 +123,6 @@ function IntelligentLock() {
                 information is saved to the memory and later transmitted once
                 the unit is back in cellular coverage.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature language">
@@ -139,7 +132,6 @@ function IntelligentLock() {
                 provide multiple monitoring platform, which include web based
                 tracking software and App.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature backup">
@@ -150,7 +142,6 @@ function IntelligentLock() {
                 client with cutting edge technology. It reduces latency and
                 response time.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature devices">
@@ -161,7 +152,6 @@ function IntelligentLock() {
                 defined areas. Its unique design will enable 24/7 protection of
                 your cargo efficiently.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature os">
@@ -172,7 +162,6 @@ function IntelligentLock() {
                 at your fingertips at all times, including any irregularities or
                 breaches.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature server">
@@ -183,7 +172,6 @@ function IntelligentLock() {
                 increase delivery operation efficiency and satisfy your
                 customers needs.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

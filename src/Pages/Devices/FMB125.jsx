@@ -55,7 +55,6 @@ function FMB125() {
         </div>
 
         <div className="feature">
-          <FontAwesomeIcon icon={faArrowRight} />
           <span>RS232/RS485 serial communication interfaces</span>
         </div>
       </div>

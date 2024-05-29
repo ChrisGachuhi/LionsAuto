@@ -20,7 +20,7 @@ function BusMonitoring() {
     animate.leftToRightImage('.fourth-image', '.fourth-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -55,7 +55,6 @@ function BusMonitoring() {
                 individual driver helps in customizing the dedicated training
                 program to ensure safe driving environment.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature access">
@@ -66,7 +65,6 @@ function BusMonitoring() {
                 the desired results at the lowest possible costs, considering
                 all possible constraints.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature business">
@@ -77,7 +75,6 @@ function BusMonitoring() {
                 weather driver violating the Government law for overloading the
                 passenger vehicle or any traffic law.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature software">
@@ -88,7 +85,6 @@ function BusMonitoring() {
                 connections. It helps to interchange the standard fuel meter of
                 a vehicle in order to detect and prevent fuel theft.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature management">
@@ -99,7 +95,6 @@ function BusMonitoring() {
                 features, security alerts — businesses are finding creative ways
                 to make use of these virtual boundaries.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
 
             <div className="feature easy">
@@ -110,7 +105,6 @@ function BusMonitoring() {
                 installation to live tracking. using LionsAuto GPS solution is
                 very simple and also cost effective.
               </p>
-              <FontAwesomeIcon icon={faArrowRight} />
             </div>
           </div>
         </div>

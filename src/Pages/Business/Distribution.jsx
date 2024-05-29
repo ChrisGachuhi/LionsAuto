@@ -20,7 +20,7 @@ const Distribution = () => {
 
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Business SubPage-Software">
       <div className="landing">

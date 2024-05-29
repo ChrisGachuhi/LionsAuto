@@ -1,5 +1,5 @@
-import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Pricing = () => {
   return (
@@ -16,8 +16,7 @@ const Pricing = () => {
             analyze and optimize routes leading to lower fuel costs and less
             vehicle maintenance.
           </p>
-          <FontAwesomeIcon icon={faArrowRight} />
-        </div>
+          </div>
 
         <div className="benefit overtime">
           <h3>Eliminate Overtime</h3>
@@ -27,8 +26,7 @@ const Pricing = () => {
             alerts will keep you in communication with your mobile workforce at
             all times.
           </p>
-          <FontAwesomeIcon icon={faArrowRight} />
-        </div>
+          </div>
 
         <div className="benefit productivity">
           <h3>Fleet Productivity</h3>
@@ -38,8 +36,7 @@ const Pricing = () => {
             giving you the opportunity to complete more jobs each day and
             improve productivity.
           </p>
-          <FontAwesomeIcon icon={faArrowRight} />
-        </div>
+          </div>
 
         <div className="benefit service">
           <h3>Customer Service</h3>
@@ -49,8 +46,7 @@ const Pricing = () => {
             giving you the opportunity to complete more jobs each day and
             improve productivity.
           </p>
-          <FontAwesomeIcon icon={faArrowRight} />
-        </div>
+          </div>
       </div> */}
 
       <div className="price">
@@ -307,7 +303,7 @@ const Pricing = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Pricing;
+export default Pricing

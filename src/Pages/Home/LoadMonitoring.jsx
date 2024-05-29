@@ -22,7 +22,7 @@ const LoadMonitoring = () => {
     animate.leftToRightImage('.sixth-image', '.sixth-image')
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
-  }, {})
+  }, [])
   return (
     <div className="Page Business SubPage-Business">
       <div className="landing">
