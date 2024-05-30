@@ -1,11 +1,13 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
-// import { Partners } from "../Components/Partners";
 import { useContext, useEffect } from 'react'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../Components/SvgWrapper'
 import { HashLink } from 'react-router-hash-link'
+
+import franchising from '/src/assets/images/updatedimages/franchising.jpg'
+import whitelabel from '/src/assets/images/updatedimages/White-label.jpg'
+import distribution from '/src/assets/images/updatedimages/Advanced-fleet-management.jpg'
 
 const Business = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -145,7 +147,7 @@ const Business = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/franchising.jpg"
+              src={franchising}
               alt=""
             />
           </div>
@@ -170,7 +172,7 @@ const Business = () => {
         <div className="opportunity whitelabel trigger-left" id="whitelabel">
           <div className="image img-left">
             <img
-              src="/src/assets/images/updatedimages/White-label.jpg"
+              src={whitelabel}
               alt=""
             />
           </div>
@@ -197,7 +199,7 @@ const Business = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/Advanced-fleet-management.jpg"
+              src={distribution}
               alt=""
             />
           </div>

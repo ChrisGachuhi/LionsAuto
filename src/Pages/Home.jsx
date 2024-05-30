@@ -5,12 +5,7 @@ import tracking from '../assets/icons/tracking.svg'
 import apps from '../assets/icons/apps.svg'
 import multiple from '../assets/icons/multiple.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {
-  faArrowRight,
-  faBars,
-  faCloud,
-  faLock,
-} from '@fortawesome/free-solid-svg-icons'
+import { faBars, faCloud, faLock } from '@fortawesome/free-solid-svg-icons'
 import { Partners } from '../Components/Partners'
 import { Link } from 'react-router-dom'
 import { useRef, useEffect, useContext } from 'react'
@@ -20,6 +15,12 @@ import LandingAnimation from '../Components/animated-components/LandingAnimation
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../Components/SvgWrapper'
 // import { element } from 'prop-types'
+
+import trackvehicle from '/src/assets/images/updatedimages/track-vehicle.jpg'
+import loadmonitoring from '/src/assets/images/updatedimages/load-monitoring.jpg'
+import fuelmonitoring from '/src/assets/images/updatedimages/fuel-monitoring2.jpg'
+import generatormonitoring from '/src/assets/images/updatedimages/generator-monitoring.jpg'
+import miningtools from '/src/assets/images/updatedimages/mining-tools.jpg'
 
 const Home = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -180,10 +181,7 @@ const Home = () => {
       <div className="solutions">
         <div className="solution track">
           <div className="image">
-            <img
-              src="/src/assets/images/updatedimages/track-vehicle.jpg"
-              alt=""
-            />
+            <img src={trackvehicle} alt="" />
           </div>
           <div className="description">
             <h3>Lions Auto Vehicle Tracking Software</h3>
@@ -205,11 +203,7 @@ const Home = () => {
         <div className="solution load">
           <div className="image">
             <SvgWrapper />
-            <img
-              src="/src/assets/images/updatedimages/load-monitoring.jpg"
-              alt=""
-              className="target-img"
-            />
+            <img src={loadmonitoring} alt="" className="target-img" />
           </div>
           <div className="description">
             <h3>Lions Auto Load Monitoring Solution</h3>
@@ -236,7 +230,7 @@ const Home = () => {
           <div className="image">
             <img
               id="whyme"
-              src="/src/assets/images/updatedimages/fuel-monitoring2.jpg"
+              src={fuelmonitoring}
               alt=""
             />
           </div>
@@ -264,7 +258,7 @@ const Home = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/generator-monitoring.jpg"
+              src={generatormonitoring}
               alt=""
             />
           </div>
@@ -294,7 +288,7 @@ const Home = () => {
         <div className="solution mining">
           <div className="image">
             <img
-              src="/src/assets/images/updatedimages/mining-tools.jpg"
+              src={miningtools}
               alt=""
             />
           </div>
@@ -333,7 +327,6 @@ const Home = () => {
             that allows you to retrace a vehicle&#39;s route on a map screen for
             a chosen date and time.
           </p>
-          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
         </div>
 
         <div className="card alerts">
@@ -343,7 +336,6 @@ const Home = () => {
             Customize Lions Auto alerts feature to make you aware of exceptions
             — in real time.
           </p>
-          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
         </div>
 
         <div className="card tracking">
@@ -353,7 +345,6 @@ const Home = () => {
             One of the major benefits of GPS tracking is that a business can
             view vehicle progress in real time.
           </p>
-          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
         </div>
 
         <div className="card apps">
@@ -363,7 +354,6 @@ const Home = () => {
             Lions Auto vehicle tracking solution is mobile friendly and cross
             platform supported track your fleet where ever it goes.
           </p>
-          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
         </div>
 
         <div className="card multiple">
@@ -373,7 +363,6 @@ const Home = () => {
             Monitoring Multiple vehicle using Lions Auto is very easy, user
             friendly and cost effective.
           </p>
-          <FontAwesomeIcon className="arrow" icon={faArrowRight} />
         </div>
       </div>
 
@@ -410,7 +399,6 @@ const Home = () => {
               Monitoring your fleet allows you to know where your fleet is every
               time. you can only manage what you can see!
             </p>
-            <FontAwesomeIcon className="arrow" icon={faArrowRight} />
           </div>
 
           <div className="feature cloud">
@@ -421,7 +409,6 @@ const Home = () => {
               Cloud. Together with our specialised technicians and fleet system
               you are able to monitor 24/7.
             </p>
-            <FontAwesomeIcon className="arrow" icon={faArrowRight} />
           </div>
 
           <div className="feature theft">
@@ -432,7 +419,6 @@ const Home = () => {
               Street View will simplify the process of monitoring when and where
               your driver fills the fuel tank.
             </p>
-            <FontAwesomeIcon className="arrow" icon={faArrowRight} />
           </div>
         </div>
       </div>

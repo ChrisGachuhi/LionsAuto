@@ -4,6 +4,13 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
+import whitelabel from '/src/assets/images/updatedimages/White-label.jpg'
+import trackingsoftware from '/src/assets/images/updatedimages/tracking-software.jpg'
+import franchising from '/src/assets/images/updatedimages/franchising.jpg'
+
+
+
+
 const GpsSoftware = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
@@ -55,73 +62,13 @@ const GpsSoftware = () => {
         </p>
       </div>
 
-      {/* <div className="features">
-        <h2>Features Lions Auto of Business Model</h2>
-
-        <div className="features-container">
-          <div className="feature reach">
-            <h3>Worldwide Reach</h3>
-            <p>
-              Lions Auto GPS tracking platform is one of the oldest market
-              player in India as well as abroad. Our GPS tracking system track
-              thousand of units in Europe, Asia and Africa at this moment.
-            </p>
-              </div>
-
-          <div className="feature reliability">
-            <h3>Solid Reliability</h3>
-            <p>
-              After more than 10 years in the GPS tracking business, we
-              perfected all parts of the process. The result is the new
-              generation Lions Auto GPS tracking platform.
-            </p>
-              </div>
-
-          <div className="feature ux">
-            <h3>Awesome UX</h3>
-            <p>
-              Fleet management is done by machines, but controlled by humans. We
-              used all your customer&#39;s experience to build a product that
-              has everything they need. And we got rid of all the nerdy stuff.
-            </p>
-              </div>
-
-          <div className="feature technology">
-            <h3>New Technology</h3>
-            <p>
-              Lions Auto uses latest GPS tracking technology to optimize your
-              cost and increase your revenue. our constant maintenance, it will
-              last and serve your customer for many years to come.
-            </p>
-              </div>
-
-          <div className="feature migration">
-            <h3>Easy Migration</h3>
-            <p>
-              Looking to migrate your existing customer on our new platform but
-              hasitating. No need to worry we can migrate you existing customer
-              with no downtime and in very short span of time.
-            </p>
-              </div>
-
-          <div className="feature start">
-            <h3>Easy to start</h3>
-            <p>
-              Either it is new onboarding on Lions Auto GPS tracking or
-              migrating your existing customer on our GPS tracking platform we
-              will do it seamlessly without any down time.
-            </p>
-              </div>
-        </div>
-      </div> */}
-
       <div className="opportunities">
         <div className="opportunity franchising">
           <div className="image">
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/White-label.jpg"
+              src={franchising}
               alt=""
             />
           </div>
@@ -148,7 +95,7 @@ const GpsSoftware = () => {
         <div className="opportunity whitelabel">
           <div className="image">
             <img
-              src="/src/assets/images/updatedimages/tracking-software.jpg"
+              src={trackingsoftware}
               alt=""
             />
           </div>
