@@ -3,6 +3,14 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import franchisingImage from '../../assets/images/updatedimages/franchising.jpg'
+import brandingImage from '../../assets/images/updatedimages/branding.jpg'
+import techSupportImage from '../../assets/images/updatedimages/tech-support.jpg'
+import trackingSoftwareImage from '../../assets/images/updatedimages/tracking-software.jpg'
+import trackingVehicleImage from '../../assets/images/updatedimages/tracking-vehicle.jpg'
+import webDevelopmentImage from '../../assets/images/updatedimages/web-development.webp'
+import crmImage from '../../assets/images/updatedimages/crm.webp'
+import marketingMaterialImage from '../../assets/images/updatedimages/marketing-material.jpg'
 
 const Franchising = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -87,7 +95,7 @@ const Franchising = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/franchising.jpg"
+              src={franchisingImage}
               alt=""
             />
           </div>
@@ -109,7 +117,7 @@ const Franchising = () => {
 
         <div className="opportunity whitelabel">
           <div className="image second-image">
-            <img src="/src/assets/images/updatedimages/branding.jpg" alt="" />
+            <img src={brandingImage} alt="" />
           </div>
 
           <div className="description">
@@ -129,7 +137,7 @@ const Franchising = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/tech-support.jpg"
+              src={techSupportImage}
               alt=""
             />
           </div>
@@ -150,7 +158,7 @@ const Franchising = () => {
         <div className="opportunity distribution">
           <div className="image fourth-image">
             <img
-              src="/src/assets/images/updatedimages/tracking-software.jpg"
+              src={trackingSoftwareImage}
               alt=""
             />
           </div>
@@ -169,7 +177,7 @@ const Franchising = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
+              src={trackingVehicleImage}
               alt=""
             />
           </div>
@@ -190,7 +198,7 @@ const Franchising = () => {
         <div className="opportunity distribution">
           <div className="image sixth-image">
             <img
-              src="/src/assets/images/updatedimages/web-development.webp"
+              src={webDevelopmentImage}
               alt=""
             />
           </div>
@@ -210,7 +218,7 @@ const Franchising = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/crm.webp"
+              src={crmImage}
               alt=""
             />
           </div>
@@ -231,7 +239,7 @@ const Franchising = () => {
         <div className="opportunity distribution">
           <div className="image eigth-image">
             <img
-              src="/src/assets/images/updatedimages/marketing-material.jpg"
+              src={marketingMaterialImage}
               alt=""
             />
           </div>

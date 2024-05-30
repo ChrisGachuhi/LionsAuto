@@ -4,6 +4,10 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import fuelMonitoringImage from '../../assets/images/updatedimages/fuel-monitoring2.jpg'
+import speedGovernorImage from '../../assets/images/updatedimages/speed-governor.jpg'
+import crmImage from '../../assets/images/updatedimages/crm.webp'
+import whiteLabelImage from '../../assets/images/updatedimages/White-label.jpg'
 
 function BusMonitoring() {
   const animate = useContext(CurrentAnimationContext)
@@ -113,7 +117,7 @@ function BusMonitoring() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/fuel-monitoring2.jpg"
+              src={fuelMonitoringImage}
               alt=""
             />
           </div>
@@ -134,7 +138,7 @@ function BusMonitoring() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="/src/assets/images/updatedimages/speed-governor.jpg"
+              src={speedGovernorImage}
               alt=""
             />
           </div>
@@ -157,7 +161,7 @@ function BusMonitoring() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/crm.webp"
+              src={crmImage}
               alt=""
             />
           </div>
@@ -178,7 +182,7 @@ function BusMonitoring() {
         <div className="highlight">
           <div className="image fourth-image">
             <img
-              src="/src/assets/images/updatedimages/White-label.jpg"
+              src={whiteLabelImage}
               alt=""
             />
           </div>

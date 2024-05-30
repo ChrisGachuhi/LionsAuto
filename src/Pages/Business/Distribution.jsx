@@ -5,6 +5,11 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
+// Import images
+import trackingVehicleImage from '../../assets/images/updatedimages/tracking-vehicle.jpg'
+import miningEquipmentImage from '../../assets/images/updatedimages/mining-equipment.jpg'
+import fleetManagementImage from '../../assets/images/updatedimages/Advanced-fleet-management.jpg'
+
 const Distribution = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
@@ -87,11 +92,7 @@ const Distribution = () => {
         <div className="opportunity franchising">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
-              alt=""
-            />
+            <img className="target-img" src={trackingVehicleImage} alt="" />
           </div>
 
           <div className="description">
@@ -113,10 +114,7 @@ const Distribution = () => {
 
         <div className="opportunity whitelabel">
           <div className="image second-image">
-            <img
-              src="/src/assets/images/updatedimages/mining-equipment.jpg"
-              alt=""
-            />
+            <img src={miningEquipmentImage} alt="" />
           </div>
 
           <div className="description">
@@ -138,11 +136,7 @@ const Distribution = () => {
         <div className="opportunity distribution">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/Advanced-fleet-management.jpg"
-              alt=""
-            />
+            <img className="target-img" src={fleetManagementImage} alt="" />
           </div>
 
           <div className="description">

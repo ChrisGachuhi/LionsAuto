@@ -1,9 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import fuelSensorsImage from '/src/assets/images/updatedimages/fuel-sensors.jpg'
+import whiteLabelImage from '/src/assets/images/updatedimages/White-label.jpg'
+import mapsImage from '/src/assets/images/updatedimages/maps.jpg'
 
 function TruckTelematics() {
   const animate = useContext(CurrentAnimationContext)
@@ -119,7 +121,7 @@ function TruckTelematics() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/fuel-sensors.jpg"
+              src={fuelSensorsImage}
               alt=""
             />
           </div>
@@ -156,7 +158,7 @@ function TruckTelematics() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/White-label.jpg"
+              src={whiteLabelImage}
               alt=""
             />
           </div>
@@ -172,7 +174,7 @@ function TruckTelematics() {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img src="/src/assets/images/updatedimages/maps.jpg" alt="" />
+            <img src={mapsImage} alt="" />
           </div>
           <div className="description">
             <h3>Location Tracking</h3>

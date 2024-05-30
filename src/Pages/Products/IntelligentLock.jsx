@@ -1,9 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import whiteLabelImage from '/src/assets/images/updatedimages/White-label.jpg'
+import driverBehaviorImage from '/src/assets/images/updatedimages/driver-behavior.jpg'
+import crmImage from '/src/assets/images/updatedimages/crm.webp'
 
 function IntelligentLock() {
   const animate = useContext(CurrentAnimationContext)
@@ -186,7 +188,7 @@ function IntelligentLock() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/White-label.jpg"
+              src={whiteLabelImage}
               alt=""
             />
           </div>
@@ -208,7 +210,7 @@ function IntelligentLock() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="/src/assets/images/updatedimages/driver-behavior.jpg"
+              src={driverBehaviorImage}
               alt=""
             />
           </div>
@@ -231,7 +233,7 @@ function IntelligentLock() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/crm.webp"
+              src={crmImage}
               alt=""
             />
           </div>

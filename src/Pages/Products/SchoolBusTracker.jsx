@@ -3,6 +3,9 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import geoFencingImage from '/src/assets/images/updatedimages/geo-fencing.jpg'
+import responsibleParentImage from '/src/assets/images/updatedimages/responsible-parent.jpg'
+import trackingVehicleImage from '/src/assets/images/updatedimages/tracking-vehicle.jpg'
 
 function SchoolBusTracker() {
   const animate = useContext(CurrentAnimationContext)
@@ -100,7 +103,7 @@ function SchoolBusTracker() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/geo-fencing.jpg"
+              src={geoFencingImage}
               alt=""
             />
           </div>
@@ -108,7 +111,7 @@ function SchoolBusTracker() {
             <h3>Route Optimization</h3>
             <p>
               Route optimization is the process of determining the most
-              cost-efficient route. It's more complex than simply finding the
+              cost-efficient route. It&apos;s more complex than simply finding the
               shortest path between two points. Using LionsAuto School bus
               monitoring solution, the school administrator will be able to
               monitor the entire fleet of buses. They can also optimize the
@@ -122,7 +125,7 @@ function SchoolBusTracker() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="/src/assets/images/updatedimages/responsible-parent.jpg"
+              src={responsibleParentImage}
               alt=""
             />
           </div>
@@ -148,7 +151,7 @@ function SchoolBusTracker() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
+              src={trackingVehicleImage}
               alt=""
             />
           </div>

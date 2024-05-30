@@ -1,9 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import advancedFleetManagementImg from '/src/assets/images/updatedimages/Advanced-fleet-management.jpg'
+import trackingVehicleImg from '/src/assets/images/updatedimages/tracking-vehicle.jpg'
+import mapsImg from '/src/assets/images/updatedimages/maps.jpg'
 
 function TankerTruck() {
   const animate = useContext(CurrentAnimationContext)
@@ -128,7 +130,7 @@ function TankerTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/Advanced-fleet-management.jpg"
+              src={advancedFleetManagementImg}
               alt=""
             />
           </div>
@@ -149,7 +151,7 @@ function TankerTruck() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
+              src={trackingVehicleImg}
               alt=""
             />
           </div>
@@ -174,7 +176,7 @@ function TankerTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/maps.jpg"
+              src={mapsImg}
               alt=""
             />
           </div>

@@ -1921,6 +1921,7 @@ p {
     }
 
     .feature {
+      height: 2rem;
       padding: 20px;
       display: flex;
       align-items: center;
@@ -1932,6 +1933,7 @@ p {
         font-size: 24px;
         padding: 20px;
         height: 100%;
+        width: auto;
       }
       span {
         background-color: #effafe;
@@ -2009,7 +2011,7 @@ p {
         grid-column: 1;
       }
 
-      .feature{
+      .feature {
         flex-direction: column;
       }
     }
@@ -2023,6 +2025,17 @@ p {
   }
 
   @media screen and (max-width: 680px) {
+    .Features {
+      .feature {
+        height: auto;
+        .icon {
+          display: none;
+        }
+        span{
+          height: auto;
+        }
+      }
+    }
   }
 }
 

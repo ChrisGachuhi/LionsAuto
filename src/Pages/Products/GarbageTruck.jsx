@@ -4,6 +4,9 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import fuelTankMonitoringImage from '/src/assets/images/updatedimages/fuel-tank-monitoring.jpg'
+import trackingVehicleImage from '/src/assets/images/updatedimages/tracking-vehicle.jpg'
+import driverBehaviorImage from '/src/assets/images/updatedimages/driver-behavior.jpg'
 
 function GarbageTruck() {
   const animate = useContext(CurrentAnimationContext)
@@ -132,7 +135,7 @@ function GarbageTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
+              src={fuelTankMonitoringImage}
               alt=""
             />
           </div>
@@ -153,7 +156,7 @@ function GarbageTruck() {
         <div className="highlight">
           <div className="image second-image">
             <img
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
+              src={trackingVehicleImage}
               alt=""
             />
           </div>
@@ -178,7 +181,7 @@ function GarbageTruck() {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/driver-behavior.jpg"
+              src={driverBehaviorImage}
               alt=""
             />
           </div>

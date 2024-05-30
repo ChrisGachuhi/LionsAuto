@@ -4,6 +4,9 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import franchisingImage from '/src/assets/images/updatedimages/franchising.jpg'
+import advancedFleetManagementImage from '/src/assets/images/updatedimages/Advanced-fleet-management.jpg'
+import webDevelopmentImage from '/src/assets/images/updatedimages/web-development.webp'
 
 const WhiteLabel = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -98,7 +101,7 @@ const WhiteLabel = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/franchising.jpg"
+              src={franchisingImage}
               alt=""
             />
           </div>
@@ -122,7 +125,7 @@ const WhiteLabel = () => {
         <div className="opportunity whitelabel">
           <div className="image second-image">
             <img
-              src="/src/assets/images/updatedimages/Advanced-fleet-management.jpg"
+              src={advancedFleetManagementImage}
               alt=""
             />
           </div>
@@ -149,7 +152,7 @@ const WhiteLabel = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/web-development.webp"
+              src={webDevelopmentImage}
               alt=""
             />
           </div>

@@ -10,7 +10,7 @@ import { HashLink } from 'react-router-hash-link'
 import trackingsoftware from '/src/assets/images/updatedimages/tracking-software.jpg'
 import speedgovernor from '/src/assets/images/updatedimages/speed-governor.jpg'
 import driverbehaviour from '/src/assets/images/updatedimages/driver-behavior.jpg'
-// import fuelmonitoring from 'https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Speedotrack-Fuel-Monitoring-Solution_01.png?w=666&ssl=1'
+// import fuelmonitoring from 
 
 const Software = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -63,10 +63,7 @@ const Software = () => {
       <div className="solution-container gps" id="GPS-tracking">
         <div className="highlight">
           <div className="image first-image">
-            <img
-              src={trackingsoftware}
-              alt=""
-            />
+            <img src={trackingsoftware} alt="" />
           </div>
 
           <div className="description">
@@ -91,11 +88,7 @@ const Software = () => {
         <div className="highlight">
           <div className="image second-image ">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={speedgovernor}
-              alt=""
-            />
+            <img className="target-img" src={speedgovernor} alt="" />
           </div>
 
           <div className="description">
@@ -123,7 +116,7 @@ const Software = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src={fuelmonitoring}
+              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Speedotrack-Fuel-Monitoring-Solution_01.png?w=666&ssl=1"
               alt=""
             />
           </div>
@@ -147,10 +140,7 @@ const Software = () => {
       <div className="solution-container driver" id="driver-behavior">
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src={driverbehaviour}
-              alt=""
-            />
+            <img src={driverbehaviour} alt="" />
           </div>
 
           <div className="description">
