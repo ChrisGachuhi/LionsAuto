@@ -5,6 +5,10 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
+import electricalPerformanceImg from '/src/assets/images/updatedimages/electrical-performance.png'
+import electricalMaintenanceImg from '/src/assets/images/updatedimages/electrical-maintenance.png'
+import fuelTankMonitoringImg from '/src/assets/images/updatedimages/fuel-tank-monitoring.jpg'
+
 const GeneratorMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
@@ -92,8 +96,8 @@ const GeneratorMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/electrical-performance.png"
-              alt=""
+              src={electricalPerformanceImg}
+              alt="Electrical Performance"
             />
           </div>
 
@@ -110,10 +114,7 @@ const GeneratorMonitoring = () => {
 
         <div className="opportunity whitelabel">
           <div className="image second-image">
-            <img
-              src="/src/assets/images/updatedimages/electrical-maintenance.png"
-              alt=""
-            />
+            <img src={electricalMaintenanceImg} alt="Electrical Maintenance" />
           </div>
 
           <div className="description">
@@ -132,8 +133,8 @@ const GeneratorMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
-              alt=""
+              src={fuelTankMonitoringImg}
+              alt="Fuel Tank Monitoring"
             />
           </div>
 

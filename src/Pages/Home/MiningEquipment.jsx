@@ -5,6 +5,11 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
+// Import images
+import fuelTheftPreventionImg from '../../assets/images/updatedimages/fuel-theft-prevention.jpg'
+import operationsImg from '../../assets/images/updatedimages/operations.png'
+import fuelTankMonitoringImg from '../../assets/images/updatedimages/fuel-tank-monitoring.jpg'
+
 function MiningEquipment() {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
@@ -120,11 +125,7 @@ function MiningEquipment() {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/fuel-theft-prevention.jpg"
-              alt=""
-            />
+            <img className="target-img" src={fuelTheftPreventionImg} alt="" />
           </div>
           <div className="description">
             <h3>Fuel Consumption Control</h3>
@@ -141,7 +142,7 @@ function MiningEquipment() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img src="/src/assets/images/updatedimages/operations.png" alt="" />
+            <img src={operationsImg} alt="" />
           </div>
           <div className="description">
             <h3>Operating Parameter</h3>
@@ -157,11 +158,7 @@ function MiningEquipment() {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
-              alt=""
-            />
+            <img className="target-img" src={fuelTankMonitoringImg} alt="" />
           </div>
           <div className="description">
             <h3>Data for Reports</h3>

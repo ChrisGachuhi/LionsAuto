@@ -1,12 +1,18 @@
+import React, { useContext, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
-import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
+// Importing images
+import fuelSensorsImage from '../../assets/images/updatedimages/fuel-sensors.jpg'
+import whiteLabelImage from '../../assets/images/updatedimages/White-label.jpg'
+import trackingVehicleImage from '../../assets/images/updatedimages/tracking-vehicle.jpg'
+
 const FuelMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
+
   useEffect(() => {
     // for header section
     animate.headerAnimation()
@@ -19,6 +25,7 @@ const FuelMonitoring = () => {
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
   }, [])
+
   return (
     <div className="Page Business SubPage-Business">
       <div className="landing">
@@ -28,11 +35,9 @@ const FuelMonitoring = () => {
             WELCOME TO <span>LIONS AUTO</span>
           </span>
           <br />
-
           <h1>Fuel Monitoring Solution</h1>
           {/* <span>Vehicle Load Monitoring Solution</span> */}
         </div>
-
         <p>
           Fuel costs can amount up to 30% of all fleet management expenses,
           therefore affecting operating costs and company’s profit in general.
@@ -47,7 +52,6 @@ const FuelMonitoring = () => {
 
       <div className="features">
         <h2>Task of Fuel Monitoring Solution</h2>
-
         <div className="features-container">
           <div className="feature reach">
             <h3>Robust GPS Tracking</h3>
@@ -183,8 +187,8 @@ const FuelMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/fuel-sensors.jpg"
-              alt=""
+              src={fuelSensorsImage}
+              alt="Fuel Sensors"
             />
           </div>
 
@@ -201,10 +205,7 @@ const FuelMonitoring = () => {
 
         <div className="opportunity franchising">
           <div className="image second-image">
-            <img
-              src="/src/assets/images/updatedimages/White-label.jpg"
-              alt=""
-            />
+            <img src={whiteLabelImage} alt="White Label" />
           </div>
 
           <div className="description">
@@ -222,8 +223,8 @@ const FuelMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
-              alt=""
+              src={trackingVehicleImage}
+              alt="Tracking Vehicle"
             />
           </div>
 

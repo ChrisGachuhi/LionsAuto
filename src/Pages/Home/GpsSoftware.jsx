@@ -7,9 +7,7 @@ import SvgWrapper from '../../Components/SvgWrapper'
 import whitelabel from '/src/assets/images/updatedimages/White-label.jpg'
 import trackingsoftware from '/src/assets/images/updatedimages/tracking-software.jpg'
 import franchising from '/src/assets/images/updatedimages/franchising.jpg'
-
-
-
+import trackingVehicle from '/src/assets/images/updatedimages/tracking-vehicle.jpg' // Added import for tracking-vehicle.jpg
 
 const GpsSoftware = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -66,11 +64,7 @@ const GpsSoftware = () => {
         <div className="opportunity franchising">
           <div className="image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={franchising}
-              alt=""
-            />
+            <img className="target-img" src={franchising} alt="" />
           </div>
 
           <div className="description">
@@ -94,10 +88,7 @@ const GpsSoftware = () => {
 
         <div className="opportunity whitelabel">
           <div className="image">
-            <img
-              src={trackingsoftware}
-              alt=""
-            />
+            <img src={trackingsoftware} alt="" />
           </div>
           <div className="description">
             <h3>LionsAuto GPS Software (Self Hosted)</h3>
@@ -120,7 +111,7 @@ const GpsSoftware = () => {
         <div className="opportunity distribution">
           <div className="image">
             <img
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
+              src={trackingVehicle} // Updated the src attribute to use the imported variable
               alt=""
             />
           </div>
