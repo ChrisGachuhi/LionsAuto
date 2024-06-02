@@ -56,16 +56,9 @@ p {
 
   .logo {
     img {
-      width: 16rem;
+      width: 10rem;
     }
-    // display: inline-block;
   }
-
-  // .logo-image{
-  //   height: 100% !important;
-  //   width: 100%;
-  //   background-color:yellow;
-  // }
 
   ul {
     display: flex;
@@ -78,7 +71,6 @@ p {
         text-decoration: none;
         margin: 0 0.5rem;
         padding: 0.3rem 0.5rem;
-        // border-radius: 0.5rem;
         font-size: 1.1rem;
         color: #363636;
       }
@@ -89,9 +81,9 @@ p {
   }
 
   .hamburger-menu {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     position: absolute;
-    top: 1.75rem;
+    top: 2.75rem;
     right: 1rem;
     display: none;
   }
@@ -103,7 +95,7 @@ p {
       li {
         a {
           padding: 0.5rem;
-          font-size: 1.1rem;
+          font-size: 0.8rem;
         }
       }
     }
@@ -114,6 +106,10 @@ p {
 
     .logo {
       font-size: 1rem;
+
+      img {
+        width: 30%;
+      }
     }
 
     ul {
