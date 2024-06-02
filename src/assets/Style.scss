@@ -23,10 +23,11 @@ p {
 }
 
 .App {
-  background-color: #fbfcfe;
+  // background-color: #fbfcfe;
+  background-color: #fcfcfd;
   overflow: hidden;
   height: 100%;
-  padding: 0 5rem;
+  padding: 0 3.5rem;
   // position: relative;
 
   @media screen and (max-width: 768px) {
@@ -49,14 +50,13 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
   position: sticky;
   top: 0;
   z-index: 100;
 
   .logo {
     img {
-      height: 4rem;
+      width: 16rem;
     }
     // display: inline-block;
   }
@@ -143,7 +143,9 @@ p {
         text-align: center;
         height: 30px;
         padding: 1rem 0;
-        border-bottom: solid 1px gray;
+        box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
 
         a {
           font-size: 1.2rem;
@@ -217,7 +219,9 @@ p {
 
     img {
       min-width: 100%;
-      border: solid 1px black;
+      box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
+      -webkit-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
+      -moz-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
       border-radius: 5px;
     }
     // img:nth-of-type(even) {
@@ -278,11 +282,6 @@ p {
     }
   }
 }
-
-// .feature:hover > *,
-// .benefit:hover > * {
-//   color: white !important;
-// }
 
 // removing background color for benefit h3 and p
 .benefit > *,
@@ -384,7 +383,7 @@ p {
 .Form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 4rem 0;
+  padding: 4rem;
 
   .contact-center {
     display: flex;
@@ -422,13 +421,16 @@ p {
   }
 
   .form-submit {
+    border-radius: 5px;
     display: flex;
     width: 85%;
     height: 90%;
     flex-direction: column;
     padding: 2.5rem 1.5rem;
     color: #7c7c7c;
-    border: solid 1px black;
+    box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 10px 16px -4px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
     position: relative;
     z-index: 1;
     background-color: transparent;
@@ -458,12 +460,14 @@ p {
     }
     button {
       border: none;
-      margin: 1rem 0;
-      padding: 1rem 0;
+      width: 75%;
+      margin: 1.5rem auto 0;
+      padding: 1.25rem 0;
       font-weight: 500;
       font-size: 1.25rem;
       background-color: #2bae49;
       color: #fff;
+      border-radius: 5px;
     }
   }
 
@@ -478,6 +482,9 @@ p {
     .form-submit {
       width: 80%;
       padding: 3rem 4rem;
+      button {
+        width: 90%;
+      }
     }
   }
   @media screen and (max-width: 768px) {
@@ -568,7 +575,7 @@ p {
 }
 
 .Footer {
-  padding: 4rem 0;
+  padding: 5rem 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -577,7 +584,6 @@ p {
     height: 100%;
     padding: 1.5rem 1rem;
     font-size: 1.1rem;
-    // border: solid 1px black;
 
     h3 {
       font-size: 1.5rem;
@@ -741,8 +747,12 @@ p {
       'title title title'
       'tracking analysis replay'
       'alerts mapping reports';
-    gap: 1rem;
+    gap: 1.5rem;
     justify-content: center;
+
+    div {
+      border-radius: 7px;
+    }
 
     .title {
       grid-area: title;
@@ -772,7 +782,9 @@ p {
     .benefit {
       background-color: #fcfcfc;
       padding: 2.5rem 1rem;
-      border: solid 2px #f3f7fe;
+      box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+      -webkit-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+      -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
 
       h3 {
         font-size: 1.5rem;
@@ -802,7 +814,7 @@ p {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 10px;
+      gap: 3rem;
 
       .image {
         height: 100%;
@@ -882,8 +894,12 @@ p {
     grid-template-areas:
       'title playback alerts'
       'tracking apps multiple';
-    gap: 1rem;
+    gap: 3rem;
     justify-content: center;
+
+    div {
+      border-radius: 7px;
+    }
 
     h2 {
       grid-area: title;
@@ -908,7 +924,7 @@ p {
       width: 18rem;
       display: flex;
       align-items: center;
-      font-size: 2rem;
+      font-size: 3rem;
       color: #264065;
     }
     .card {
@@ -919,7 +935,9 @@ p {
       flex-direction: column;
       align-items: flex-start;
       gap: 1rem;
-      border: solid 1px gray;
+      box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+      -webkit-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+      -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
 
       img {
         height: 3rem;
@@ -941,15 +959,19 @@ p {
   }
 
   .services {
-    padding: 4rem 0;
+    padding: 5rem 0;
     display: grid;
     grid-template-areas: 'title features';
-    gap: 1rem;
+    gap: 3rem;
     justify-content: center;
+
+    div {
+      border-radius: 7px;
+    }
 
     .title {
       width: 25rem;
-      padding: 5rem 0.5rem;
+      padding: 5rem 0.25rem;
       grid-area: title;
 
       span {
@@ -959,12 +981,12 @@ p {
       }
 
       h2 {
-        font-size: 2.5rem;
+        font-size: 3rem;
         margin-bottom: 2rem;
         color: #444444;
 
         span {
-          font-size: 2.5rem;
+          font-size: 3rem;
           font-weight: 100;
           color: #4b4b4b;
         }
@@ -996,7 +1018,6 @@ p {
     .features {
       width: 1fr;
       grid-area: features;
-      // background-color: aqua;
       display: grid;
       grid-template-areas:
         'visibility cloud'
@@ -1004,13 +1025,15 @@ p {
       gap: 10px;
 
       .feature:hover {
-        background-color: #2bae49;
+        background-color: #fafefb;
       }
 
       .feature {
         width: 18rem;
         padding: 2rem 1rem;
-        border: solid 1px black;
+        box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+        -webkit-box-shadow: 2px 7px 15px -4px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
 
         .icon {
           font-size: 2.75rem;
@@ -1458,8 +1481,8 @@ p {
       min-width: 60%;
       text-align: center;
       text-decoration: none;
-      padding: 1rem 2rem;
-      border-radius: 3rem;
+      padding: 1rem;
+      border-radius: 5px;
       color: white;
       background-color: #2bae49;
     }
@@ -1533,7 +1556,7 @@ p {
         font-size: 1.1rem;
         text-decoration: none;
         padding: 0.9rem 2.5rem;
-        border-radius: 3rem;
+        border-radius: 10px;
         background-color: #2bae49;
         color: #fff;
       }
@@ -1576,8 +1599,11 @@ p {
       gap: 1rem;
 
       .feature {
+        border-radius: 5px;
         padding: 3rem 1rem 1rem 1rem;
-        border: solid 1px black;
+        box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+        -webkit-box-shadow: 0px 7px 15px -4px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
 
         h3 {
           font-size: 1.5rem;
@@ -1782,6 +1808,7 @@ p {
       }
     }
   }
+
   @media screen and (max-width: 600px) {
     .landing {
       .navigation {
@@ -2031,7 +2058,7 @@ p {
         .icon {
           display: none;
         }
-        span{
+        span {
           height: auto;
         }
       }
@@ -2408,8 +2435,11 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
+    box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0px 7px 15px -4px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
     text-decoration: none;
+    border-radius: 5px;
 
     .image {
       height: 60%;
@@ -2463,6 +2493,10 @@ p {
     'benefits'
     'price';
   gap: 2rem;
+
+  div {
+    border-radius: 5px;
+  }
 
   .landing {
     grid-area: landing;
@@ -2535,7 +2569,9 @@ p {
 
     .option {
       width: 100%;
-      border: solid 1px black;
+      box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+      -webkit-box-shadow: 0px 7px 15px -4px rgba(0, 0, 0, 0.35);
+      -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
       padding: 1rem 0;
       display: flex;
       flex-direction: column;
@@ -2567,10 +2603,13 @@ p {
     height: 15rem;
     width: 20rem;
     padding: 2rem 1rem;
-    border: solid #243e64;
+    box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px 6px 17px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
     color: #334867;
     text-align: center;
     font-size: 40px;
+    border-radius: 5px;
 
     h3 {
       font-size: 26px;
