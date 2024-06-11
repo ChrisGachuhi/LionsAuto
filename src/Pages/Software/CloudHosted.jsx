@@ -5,6 +5,11 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
+import geofencing from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import dashboard from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import api from '/src/assets/images/updatedimages/API-pic.jpg'
+import dataprotection from '/src/assets/images/updatedimages/training-pic.jpg'
+
 const CloudHosted = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
@@ -173,11 +178,7 @@ const CloudHosted = () => {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
-              alt=""
-            />
+            <img className="target-img" src={geofencing} alt="" />
           </div>
           <div className="description">
             <h3>White label GPS Tracking Software</h3>
@@ -198,7 +199,7 @@ const CloudHosted = () => {
 
         <div className="highlight">
           <div className="image second-image">
-            <img src="/src/assets/images/updatedimages/crm.webp" alt="" />
+            <img src={dashboard} alt="" />
           </div>
           <div className="description">
             <h3>Control Panel</h3>
@@ -216,11 +217,7 @@ const CloudHosted = () => {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/web-development.webp"
-              alt=""
-            />
+            <img className="target-img" src={api} alt="" />
           </div>
           <div className="description">
             <h3>API Integration</h3>
@@ -237,10 +234,7 @@ const CloudHosted = () => {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src="/src/assets/images/updatedimages/fuel-tank-monitoring.jpg"
-              alt=""
-            />
+            <img src={dataprotection} alt="" />
           </div>
           <div className="description">
             <h3>Data Protection</h3>

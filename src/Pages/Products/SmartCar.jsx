@@ -3,8 +3,8 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import driverBehaviorImg from '/src/assets/images/updatedimages/driver-behavior.jpg'
-import whiteLabelImg from '/src/assets/images/updatedimages/White-label.jpg'
+import driverBehaviorImg from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import whiteLabelImg from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
 
 function SmartCar() {
   const animate = useContext(CurrentAnimationContext)
@@ -62,10 +62,7 @@ function SmartCar() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src={driverBehaviorImg}
-              alt=""
-            />
+            <img src={driverBehaviorImg} alt="" />
           </div>
           <div className="description">
             <h3>Driving Behavior Monitoring</h3>
@@ -103,10 +100,7 @@ function SmartCar() {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src={whiteLabelImg}
-              alt=""
-            />
+            <img src={whiteLabelImg} alt="" />
           </div>
           <div className="description">
             <h3>Event Video to Cloud</h3>

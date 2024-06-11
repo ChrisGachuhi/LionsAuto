@@ -4,9 +4,9 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import franchisingImage from '/src/assets/images/updatedimages/franchising.jpg'
-import advancedFleetManagementImage from '/src/assets/images/updatedimages/Advanced-fleet-management.jpg'
-import webDevelopmentImage from '/src/assets/images/updatedimages/web-development.webp'
+import franchisingImage from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
+import advancedFleetManagementImage from '/src/assets/images/updatedimages/savings.jpg'
+import webDevelopmentImage from '/src/assets/images/updatedimages/branding-pic.jpg'
 
 const WhiteLabel = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -99,11 +99,7 @@ const WhiteLabel = () => {
         <div className="opportunity franchising">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={franchisingImage}
-              alt=""
-            />
+            <img className="target-img" src={franchisingImage} alt="" />
           </div>
 
           <div className="description">
@@ -124,10 +120,7 @@ const WhiteLabel = () => {
 
         <div className="opportunity whitelabel">
           <div className="image second-image">
-            <img
-              src={advancedFleetManagementImage}
-              alt=""
-            />
+            <img src={advancedFleetManagementImage} alt="" />
           </div>
 
           <div className="description">
@@ -150,11 +143,7 @@ const WhiteLabel = () => {
         <div className="opportunity distribution">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={webDevelopmentImage}
-              alt=""
-            />
+            <img className="target-img" src={webDevelopmentImage} alt="" />
           </div>
 
           <div className="description">

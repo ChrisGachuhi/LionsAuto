@@ -6,9 +6,9 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 
 // Import images
-import trackingVehicleImage from '../../assets/images/updatedimages/tracking-vehicle.jpg'
-import miningEquipmentImage from '../../assets/images/updatedimages/mining-equipment.jpg'
-import fleetManagementImage from '../../assets/images/updatedimages/Advanced-fleet-management.jpg'
+import trackingVehicleImage from '../../assets/images/updatedimages/speed-monitoring-pic.jpg'
+import miningEquipmentImage from '../../assets/images/updatedimages/vehicles-pic.jpg'
+import fleetManagementImage from '../../assets/images/updatedimages/savings.jpg'
 
 const Distribution = () => {
   const animate = useContext(CurrentAnimationContext)

@@ -5,9 +5,9 @@ import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentA
 import SvgWrapper from '../Components/SvgWrapper'
 import { HashLink } from 'react-router-hash-link'
 
-import franchising from '/src/assets/images/updatedimages/franchising.jpg'
-import whitelabel from '/src/assets/images/updatedimages/White-label.jpg'
-import distribution from '/src/assets/images/updatedimages/Advanced-fleet-management.jpg'
+import franchising from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
+import whitelabel from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import distribution from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
 
 const Business = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -145,11 +145,7 @@ const Business = () => {
         <div className="opportunity franchising trigger-left" id="franchising">
           <div className="image img-left">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={franchising}
-              alt=""
-            />
+            <img className="target-img" src={franchising} alt="" />
           </div>
 
           <div className="description ">
@@ -171,10 +167,7 @@ const Business = () => {
 
         <div className="opportunity whitelabel trigger-left" id="whitelabel">
           <div className="image img-left">
-            <img
-              src={whitelabel}
-              alt=""
-            />
+            <img src={whitelabel} alt="" />
           </div>
           <div className="description">
             <h3>White Label Business</h3>
@@ -197,11 +190,7 @@ const Business = () => {
         <div className="opportunity distribution" id="distribution">
           <div className="image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={distribution}
-              alt=""
-            />
+            <img className="target-img" src={distribution} alt="" />
           </div>
           <div className="description">
             <h3>Distribution Solution</h3>

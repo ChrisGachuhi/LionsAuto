@@ -5,6 +5,9 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
+import supportedGPS from '/src/assets/images/updatedimages/training-pic.jpg'
+import geofencing from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+
 const SelfHosted = () => {
   const animate = useContext(CurrentAnimationContext)
   useEffect(() => {
@@ -179,11 +182,7 @@ const SelfHosted = () => {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/tracking-vehicle.jpg"
-              alt=""
-            />
+            <img className="target-img" src={geofencing} alt="" />
           </div>
           <div className="description">
             <h3>GPS tracking platform features</h3>
@@ -199,10 +198,7 @@ const SelfHosted = () => {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src="/src/assets/images/updatedimages/mining-equipment.jpg"
-              alt=""
-            />
+            <img src={supportedGPS} alt="" />
           </div>
           <div className="description">
             <h3>Supported GPS trackers</h3>

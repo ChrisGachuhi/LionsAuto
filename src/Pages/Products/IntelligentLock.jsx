@@ -3,9 +3,9 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import whiteLabelImage from '/src/assets/images/updatedimages/White-label.jpg'
-import driverBehaviorImage from '/src/assets/images/updatedimages/driver-behavior.jpg'
-import crmImage from '/src/assets/images/updatedimages/crm.webp'
+import whiteLabelImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import driverBehaviorImage from '/src/assets/images/updatedimages/cellular-connectivity.jpg'
+import crmImage from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
 
 function IntelligentLock() {
   const animate = useContext(CurrentAnimationContext)
@@ -186,11 +186,7 @@ function IntelligentLock() {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={whiteLabelImage}
-              alt=""
-            />
+            <img className="target-img" src={whiteLabelImage} alt="" />
           </div>
           <div className="description">
             <h3>Easy to Manage</h3>
@@ -209,10 +205,7 @@ function IntelligentLock() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src={driverBehaviorImage}
-              alt=""
-            />
+            <img src={driverBehaviorImage} alt="" />
           </div>
           <div className="description">
             <h3>Cellular Connectivity</h3>
@@ -231,11 +224,7 @@ function IntelligentLock() {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={crmImage}
-              alt=""
-            />
+            <img className="target-img" src={crmImage} alt="" />
           </div>
           <div className="description">
             <h3>Internal Logging</h3>

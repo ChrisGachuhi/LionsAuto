@@ -4,6 +4,10 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
+import lowcost from '/src/assets/images/updatedimages/savings.jpg'
+import dashboard from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import geofencing from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import maps from '/src/assets/images/updatedimages/maps.jpg'
 
 const PersonalAccount = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -171,11 +175,7 @@ const PersonalAccount = () => {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/mining-equipment.jpg"
-              alt=""
-            />
+            <img className="target-img" src={lowcost} alt="" />
           </div>
           <div className="description">
             <h3>Low Cost Tracking</h3>
@@ -192,10 +192,7 @@ const PersonalAccount = () => {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src="/src/assets/images/updatedimages/tracking-software.jpg"
-              alt=""
-            />
+            <img src={dashboard} alt="" />
           </div>
           <div className="description">
             <h3>Track Fleet in Single Account</h3>
@@ -212,11 +209,7 @@ const PersonalAccount = () => {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="/src/assets/images/updatedimages/maps.jpg"
-              alt=""
-            />
+            <img className="target-img" src={maps} alt="" />
           </div>
           <div className="description">
             <h3>Google Map Included</h3>
@@ -234,10 +227,7 @@ const PersonalAccount = () => {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src="/src/assets/images/updatedimages/geo-fencing.jpg"
-              alt=""
-            />
+            <img src={geofencing} alt="" />
           </div>
           <div className="description">
             <h3>Geo-Coding Service Included</h3>

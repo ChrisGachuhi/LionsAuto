@@ -4,9 +4,10 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import fuelTankMonitoringImage from '/src/assets/images/updatedimages/fuel-tank-monitoring.jpg'
-import trackingVehicleImage from '/src/assets/images/updatedimages/tracking-vehicle.jpg'
-import driverBehaviorImage from '/src/assets/images/updatedimages/driver-behavior.jpg'
+import fuelTankMonitoringImage from '/src/assets/images/updatedimages/savings.jpg'
+import trackingVehicleImage from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import driverBehaviorImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import predictivemaintenance from '/src/assets/images/updatedimages/training-pic.jpg'
 
 function GarbageTruck() {
   const animate = useContext(CurrentAnimationContext)
@@ -133,11 +134,7 @@ function GarbageTruck() {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={fuelTankMonitoringImage}
-              alt=""
-            />
+            <img className="target-img" src={fuelTankMonitoringImage} alt="" />
           </div>
           <div className="description">
             <h3>Resource Optimization</h3>
@@ -155,10 +152,7 @@ function GarbageTruck() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src={trackingVehicleImage}
-              alt=""
-            />
+            <img src={trackingVehicleImage} alt="" />
           </div>
           <div className="description">
             <h3>Tracking Progress</h3>
@@ -179,11 +173,7 @@ function GarbageTruck() {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={driverBehaviorImage}
-              alt=""
-            />
+            <img className="target-img" src={driverBehaviorImage} alt="" />
           </div>
           <div className="description">
             <h3>Live Tracking</h3>
@@ -204,10 +194,7 @@ function GarbageTruck() {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Predecive-Maintenance_01.png?w=666&ssl=1"
-              alt=""
-            />
+            <img src={predictivemaintenance} alt="" />
           </div>
           <div className="description">
             <h3>Predictive Maintenance</h3>

@@ -5,9 +5,9 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
-import electricalPerformanceImg from '/src/assets/images/updatedimages/electrical-performance.png'
-import electricalMaintenanceImg from '/src/assets/images/updatedimages/electrical-maintenance.png'
-import fuelTankMonitoringImg from '/src/assets/images/updatedimages/fuel-tank-monitoring.jpg'
+import electricalPerformanceImg from '/src/assets/images/updatedimages/generator-pic.jpg'
+import electricalMaintenanceImg from '/src/assets/images/updatedimages/savings.jpg'
+import fuelTankMonitoringImg from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
 
 const GeneratorMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)

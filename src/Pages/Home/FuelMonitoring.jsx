@@ -6,9 +6,9 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 
 // Importing images
-import fuelSensorsImage from '../../assets/images/updatedimages/fuel-sensors.jpg'
-import whiteLabelImage from '../../assets/images/updatedimages/White-label.jpg'
-import trackingVehicleImage from '../../assets/images/updatedimages/tracking-vehicle.jpg'
+import fuelSensorsImage from '../../assets/images/updatedimages/fuel-mngmt-pic.jpg'
+import whiteLabelImage from '../../assets/images/updatedimages/branding-pic.jpg'
+import trackingVehicleImage from '../../assets/images/updatedimages/fuel-monitoring2.jpg'
 
 const FuelMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)

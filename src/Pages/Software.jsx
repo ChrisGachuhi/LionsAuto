@@ -7,10 +7,11 @@ import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentA
 import SvgWrapper from '../Components/SvgWrapper'
 import { HashLink } from 'react-router-hash-link'
 
-import trackingsoftware from '/src/assets/images/updatedimages/tracking-software.jpg'
-import speedgovernor from '/src/assets/images/updatedimages/speed-governor.jpg'
-import driverbehaviour from '/src/assets/images/updatedimages/driver-behavior.jpg'
-// import fuelmonitoring from 
+import trackingsoftware from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import speedgovernor from '/src/assets/images/updatedimages/speed-monitoring-pic.jpg'
+import driverbehaviour from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import fuelmonitoring from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
+// import fuelmonitoring from
 
 const Software = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -114,11 +115,7 @@ const Software = () => {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Speedotrack-Fuel-Monitoring-Solution_01.png?w=666&ssl=1"
-              alt=""
-            />
+            <img className="target-img" src={fuelmonitoring} alt="" />
           </div>
 
           <div className="description">

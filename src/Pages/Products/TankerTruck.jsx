@@ -3,9 +3,10 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import advancedFleetManagementImg from '/src/assets/images/updatedimages/Advanced-fleet-management.jpg'
-import trackingVehicleImg from '/src/assets/images/updatedimages/tracking-vehicle.jpg'
-import mapsImg from '/src/assets/images/updatedimages/maps.jpg'
+import advancedFleetManagementImg from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
+import trackingVehicleImg from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import mapsImg from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import predictivemaintenance from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
 
 function TankerTruck() {
   const animate = useContext(CurrentAnimationContext)
@@ -150,10 +151,7 @@ function TankerTruck() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src={trackingVehicleImg}
-              alt=""
-            />
+            <img src={trackingVehicleImg} alt="" />
           </div>
           <div className="description">
             <h3>Tracking Progress</h3>
@@ -174,11 +172,7 @@ function TankerTruck() {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={mapsImg}
-              alt=""
-            />
+            <img className="target-img" src={mapsImg} alt="" />
           </div>
           <div className="description">
             <h3>Live Tracking</h3>
@@ -199,10 +193,7 @@ function TankerTruck() {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Predecive-Maintenance_01.png?w=666&ssl=1"
-              alt=""
-            />
+            <img src={predictivemaintenance} alt="" />
           </div>
           <div className="description">
             <h3>Predictive Maintenance</h3>
