@@ -5,7 +5,7 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 import geoFencingImage from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import responsibleParentImage from '/src/assets/images/updatedimages/responsible-parent.jpg'
-import trackingVehicleImage from '/src/assets/images/updatedimages/tracking-vehicle.jpg'
+import trackingVehicleImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 
 function SchoolBusTracker() {
   const animate = useContext(CurrentAnimationContext)
@@ -101,18 +101,14 @@ function SchoolBusTracker() {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={geoFencingImage}
-              alt=""
-            />
+            <img className="target-img" src={geoFencingImage} alt="" />
           </div>
           <div className="description">
             <h3>Route Optimization</h3>
             <p>
               Route optimization is the process of determining the most
-              cost-efficient route. It&apos;s more complex than simply finding the
-              shortest path between two points. Using LionsAuto School bus
+              cost-efficient route. It&apos;s more complex than simply finding
+              the shortest path between two points. Using LionsAuto School bus
               monitoring solution, the school administrator will be able to
               monitor the entire fleet of buses. They can also optimize the
               route to avoid traffic. Both parents and school authorities can
@@ -124,10 +120,7 @@ function SchoolBusTracker() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src={responsibleParentImage}
-              alt=""
-            />
+            <img src={responsibleParentImage} alt="" />
           </div>
           <div className="description">
             <h3>Alerts for Parents</h3>
@@ -149,11 +142,7 @@ function SchoolBusTracker() {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={trackingVehicleImage}
-              alt=""
-            />
+            <img className="target-img" src={trackingVehicleImage} alt="" />
           </div>
           <div className="description">
             <h3>Compliant Driving</h3>

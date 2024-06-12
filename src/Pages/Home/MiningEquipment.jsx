@@ -6,8 +6,8 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 
 // Import images
-import fuelTheftPreventionImg from '../../assets/images/updatedimages/fuel-theft-prevention.jpg'
-import operationsImg from '../../assets/images/updatedimages/operations.png'
+import fuelTheftPreventionImg from '../../assets/images/updatedimages/fuel-mngmt-pic.jpg'
+import operationsImg from '../../assets/images/updatedimages/dashboard-pic.jpg'
 import fuelTankMonitoringImg from '../../assets/images/updatedimages/fuel-tank-monitoring.jpg'
 
 function MiningEquipment() {

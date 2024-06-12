@@ -19,8 +19,9 @@ import SvgWrapper from '../Components/SvgWrapper'
 import trackvehicle from '/src/assets/images/updatedimages/track-vehicle.jpg'
 import loadmonitoring from '/src/assets/images/updatedimages/load-monitoring.jpg'
 import fuelmonitoring from '/src/assets/images/updatedimages/fuel-monitoring2.jpg'
-import generatormonitoring from '/src/assets/images/updatedimages/generator-monitoring.jpg'
+import generatormonitoring from '/src/assets/images/updatedimages/generator-monitoring (2).jpg'
 import miningtools from '/src/assets/images/updatedimages/mining-tools.jpg'
+import miningtruck from '/src/assets/images/updatedimages/mining-trucks-pic.jpg'
 
 const Home = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -228,11 +229,7 @@ const Home = () => {
 
         <div className="solution fuel">
           <div className="image">
-            <img
-              id="whyme"
-              src={fuelmonitoring}
-              alt=""
-            />
+            <img id="whyme" src={fuelmonitoring} alt="" />
           </div>
           <div className="description">
             <h3>Lions Auto Fuel Monitoring Solution</h3>
@@ -256,11 +253,7 @@ const Home = () => {
         <div className="solution generator">
           <div className="image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={generatormonitoring}
-              alt=""
-            />
+            <img className="target-img" src={generatormonitoring} alt="" />
           </div>
           <div className="description">
             <h3>Lions Auto Generator Monitoring Solution</h3>
@@ -287,10 +280,7 @@ const Home = () => {
 
         <div className="solution mining">
           <div className="image">
-            <img
-              src={miningtools}
-              alt=""
-            />
+            <img src={miningtruck} alt="" />
           </div>
           <div className="description">
             <h3>Lions Auto Mining Equipment Monitoring</h3>

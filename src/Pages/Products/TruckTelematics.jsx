@@ -3,9 +3,10 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import fuelSensorsImage from '/src/assets/images/updatedimages/fuel-sensors.jpg'
-import whiteLabelImage from '/src/assets/images/updatedimages/White-label.jpg'
-import mapsImage from '/src/assets/images/updatedimages/maps.jpg'
+import fuelSensorsImage from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
+import whiteLabelImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import mapsImage from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import loadmonitoringpic from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
 
 function TruckTelematics() {
   const animate = useContext(CurrentAnimationContext)
@@ -119,11 +120,7 @@ function TruckTelematics() {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={fuelSensorsImage}
-              alt=""
-            />
+            <img className="target-img" src={fuelSensorsImage} alt="" />
           </div>
           <div className="description">
             <h3>Fuel Volume Monitoring</h3>
@@ -138,10 +135,7 @@ function TruckTelematics() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/02/Truck-Telematic-Solution_Axle-Load-Monitoring_01.png?w=666&ssl=1"
-              alt=""
-            />
+            <img src={loadmonitoringpic} alt="" />
           </div>
           <div className="description">
             <h3>Axle Load Monitoring</h3>
@@ -156,11 +150,7 @@ function TruckTelematics() {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={whiteLabelImage}
-              alt=""
-            />
+            <img className="target-img" src={whiteLabelImage} alt="" />
           </div>
           <div className="description">
             <h3>Engine Monitoring</h3>

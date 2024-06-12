@@ -4,11 +4,12 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import trackingVehicleImage from '/src/assets/images/updatedimages/tracking-vehicle.jpg'
-import loadRestrictionImage from '/src/assets/images/updatedimages/load-restriction.png'
-import dumpTruckImage from '/src/assets/images/updatedimages/dump-truck.png'
-import garbageTruckImage from '/src/assets/images/updatedimages/garbage-truck.jpg'
-import speedGovernorImage from '/src/assets/images/updatedimages/speed-governor.jpg'
+import trackingVehicleImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import loadRestrictionImage from '/src/assets/images/updatedimages/speed-monitoring-pic.jpg'
+import dumpTruckImage from '/src/assets/images/updatedimages/dump-truck.jpg'
+import garbageTruckImage from '/src/assets/images/updatedimages/garbage-truck-pic.jpg'
+import speedGovernorImage from '/src/assets/images/updatedimages/savings.jpg'
+import vehiclebalancepic from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
 
 const LoadMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -54,7 +55,9 @@ const LoadMonitoring = () => {
           mechanism. Then these data received by tracker device and send for
           server after combined with location and other truck status data.{' '}
           <br />
-          <Link to="/contact">Please get in touch and our expert team will contact you.</Link>
+          <Link to="/contact">
+            Please get in touch and our expert team will contact you.
+          </Link>
         </p>
       </div>
 
@@ -112,11 +115,7 @@ const LoadMonitoring = () => {
         <div className="opportunity franchising">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={trackingVehicleImage}
-              alt=""
-            />
+            <img className="target-img" src={trackingVehicleImage} alt="" />
           </div>
 
           <div className="description">
@@ -130,10 +129,7 @@ const LoadMonitoring = () => {
 
         <div className="opportunity franchising">
           <div className="image second-image">
-            <img
-              src={loadRestrictionImage}
-              alt=""
-            />
+            <img src={loadRestrictionImage} alt="" />
           </div>
 
           <div className="description">
@@ -150,11 +146,7 @@ const LoadMonitoring = () => {
         <div className="opportunity franchising">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={dumpTruckImage}
-              alt=""
-            />
+            <img className="target-img" src={dumpTruckImage} alt="" />
           </div>
 
           <div className="description">
@@ -170,10 +162,7 @@ const LoadMonitoring = () => {
 
         <div className="opportunity franchising">
           <div className="image fourth-image">
-            <img
-              src={garbageTruckImage}
-              alt=""
-            />
+            <img src={garbageTruckImage} alt="" />
           </div>
 
           <div className="description">
@@ -192,7 +181,7 @@ const LoadMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDABQODxIPDRQSEBIXFRQYHjIhHhwcHj0sLiQySUBMS0dARkVQWnNiUFVtVkVGZIhlbXd7gYKBTmCNl4x9lnN+gXz/2wBDARUXFx4aHjshITt8U0ZTfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAHmAtQDASIAAhEBAxEB/8QAGwAAAQUBAQAAAAAAAAAAAAAAAQACAwQFBgf/xAA/EAABBAEDAgQFAgUCBQQDAAMBAAIDEQQSITEFQRMiUWEUMnGBkQZCFSMzUqEkckNTYpKxNILR4RZEwWOi8f/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACcRAQEAAgICAgMBAAMBAQEAAAABAhEDIRIxE0EiMlFhBEJxIxSB/9oADAMBAAIRAxEAPwDqUCU1xTS5Wg6wjqUVogpgSgkEkESSV7JIAoJWigEjSCKASCKRQARSATqQZqcChSBQDw9IvUaVpBJrtBxTEkwVo2gkghtK0EkAbT2uTEUjSakg4qMFHUgJrStYvVOtMw/IynSenosmP9Rz6/Px7KbZFzG11zn9gm37rFx+pumaHB6mOXIdi4j6JecK42NZrkS9YUmXOzfWdKZ/EX185v6p7hadBqtBzlgHqMlbPd+U0dRk/c91/VPY03SUFifxB5Hzuv6pDqEnd5/KNjTdAT6WAOov/vd+U5vUXuHmkLa90TsXpuWleyxH5kjWhwe4g97UZ6hJ2e4fdF6E79NsoFYnx8tfO6/qm/xCU7azf1RsabqSwTny/wDMd+UR1B5HzO/KNjTdTwFz3xspPzu/Kc3PeDu8/lLZ6ZfXiT1F6zFe6o4vydRN2FSWbq10bSCehSaLDaRb8wSIRaPMEJW2lOBUYPunggH3QinPNMVO91Zm2YqvdVCOuikXWmnlBAOJ2S1UECmlAElMujYRSpAdX02f4jDY79w2KsvYJI3MdwRSwuhZOicwk7P4+q3+FBuQyIzDO9hHBTAtbr2PpkbM3h2xWOrlIe6KaimQjZBJK0AkkEkAUkrS5SMErSSQCSS4STBWiEEkgR3KJKCSASQKCIQCSSQQBSQSQHoTjZQSSWiCRSATZJ...(line too long; chars omitted)"
+              src={vehiclebalancepic}
               alt="Vehicle Balance Monitoring"
             />
           </div>
@@ -210,10 +199,7 @@ const LoadMonitoring = () => {
 
         <div className="opportunity franchising">
           <div className="image sixth-image">
-            <img
-              src={speedGovernorImage}
-              alt=""
-            />
+            <img src={speedGovernorImage} alt="" />
           </div>
 
           <div className="description">

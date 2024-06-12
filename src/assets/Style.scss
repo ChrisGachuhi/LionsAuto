@@ -1451,6 +1451,13 @@ p {
   }
 }
 
+.feature {
+  border: transparent 0px !important;
+  box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 8px 7px 15px -4px rgba(0, 0, 0, 0.35);
+}
+
 .Product {
   padding: 3rem 0;
   display: grid;

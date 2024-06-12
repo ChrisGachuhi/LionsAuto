@@ -3,13 +3,13 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import franchisingImage from '../../assets/images/updatedimages/franchising.jpg'
-import brandingImage from '../../assets/images/updatedimages/branding.jpg'
+import franchisingImage from '../../assets/images/updatedimages/load-monitoring-pic.jpg'
+import brandingImage from '../../assets/images/updatedimages/branding-pic.jpg'
 import techSupportImage from '../../assets/images/updatedimages/tech-support.jpg'
-import trackingSoftwareImage from '../../assets/images/updatedimages/tracking-software.jpg'
-import trackingVehicleImage from '../../assets/images/updatedimages/tracking-vehicle.jpg'
+import trackingSoftwareImage from '../../assets/images/updatedimages/gps-pic.jpg'
+import trackingVehicleImage from '../../assets/images/updatedimages/geo-fencing-pic.jpg'
 import webDevelopmentImage from '../../assets/images/updatedimages/web-development.webp'
-import crmImage from '../../assets/images/updatedimages/crm.webp'
+import crmImage from '../../assets/images/updatedimages/crm-pci.jpg'
 import marketingMaterialImage from '../../assets/images/updatedimages/marketing-material.jpg'
 
 const Franchising = () => {
@@ -93,11 +93,7 @@ const Franchising = () => {
         <div className="opportunity franchising">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={franchisingImage}
-              alt=""
-            />
+            <img className="target-img" src={franchisingImage} alt="" />
           </div>
 
           <div className="description">
@@ -135,11 +131,7 @@ const Franchising = () => {
         <div className="opportunity distribution">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={techSupportImage}
-              alt=""
-            />
+            <img className="target-img" src={techSupportImage} alt="" />
           </div>
 
           <div className="description">
@@ -157,10 +149,7 @@ const Franchising = () => {
 
         <div className="opportunity distribution">
           <div className="image fourth-image">
-            <img
-              src={trackingSoftwareImage}
-              alt=""
-            />
+            <img src={trackingSoftwareImage} alt="" />
           </div>
 
           <div className="description">
@@ -175,11 +164,7 @@ const Franchising = () => {
         <div className="opportunity distribution">
           <div className="image fifth-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={trackingVehicleImage}
-              alt=""
-            />
+            <img className="target-img" src={trackingVehicleImage} alt="" />
           </div>
 
           <div className="description">
@@ -197,10 +182,7 @@ const Franchising = () => {
 
         <div className="opportunity distribution">
           <div className="image sixth-image">
-            <img
-              src={webDevelopmentImage}
-              alt=""
-            />
+            <img src={webDevelopmentImage} alt="" />
           </div>
 
           <div className="description">
@@ -216,11 +198,7 @@ const Franchising = () => {
         <div className="opportunity distribution">
           <div className="image seventh-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={crmImage}
-              alt=""
-            />
+            <img className="target-img" src={crmImage} alt="" />
           </div>
 
           <div className="description">
@@ -238,10 +216,7 @@ const Franchising = () => {
 
         <div className="opportunity distribution">
           <div className="image eigth-image">
-            <img
-              src={marketingMaterialImage}
-              alt=""
-            />
+            <img src={marketingMaterialImage} alt="" />
           </div>
 
           <div className="description">

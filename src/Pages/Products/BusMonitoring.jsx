@@ -3,10 +3,10 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import fuelMonitoringImage from '../../assets/images/updatedimages/fuel-monitoring2.jpg'
-import speedGovernorImage from '../../assets/images/updatedimages/speed-governor.jpg'
-import crmImage from '../../assets/images/updatedimages/crm.webp'
-import whiteLabelImage from '../../assets/images/updatedimages/White-label.jpg'
+import fuelMonitoringImage from '../../assets/images/updatedimages/fuel-mngmt-pic.jpg'
+import speedGovernorImage from '../../assets/images/updatedimages/speed-monitoring-pic.jpg'
+import crmImage from '../../assets/images/updatedimages/data-reports-pic.jpg'
+import whiteLabelImage from '../../assets/images/updatedimages/dashboard-pic.jpg'
 
 function BusMonitoring() {
   const animate = useContext(CurrentAnimationContext)
@@ -114,11 +114,7 @@ function BusMonitoring() {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={fuelMonitoringImage}
-              alt=""
-            />
+            <img className="target-img" src={fuelMonitoringImage} alt="" />
           </div>
           <div className="description">
             <h3>Fuel Calibration</h3>
@@ -136,10 +132,7 @@ function BusMonitoring() {
 
         <div className="highlight">
           <div className="image second-image">
-            <img
-              src={speedGovernorImage}
-              alt=""
-            />
+            <img src={speedGovernorImage} alt="" />
           </div>
           <div className="description">
             <h3>Dangerous Driving</h3>
@@ -158,11 +151,7 @@ function BusMonitoring() {
         <div className="highlight">
           <div className="image third-image">
             <SvgWrapper />
-            <img
-              className="target-img"
-              src={crmImage}
-              alt=""
-            />
+            <img className="target-img" src={crmImage} alt="" />
           </div>
           <div className="description">
             <h3>Predictive maintenance</h3>
@@ -180,10 +169,7 @@ function BusMonitoring() {
 
         <div className="highlight">
           <div className="image fourth-image">
-            <img
-              src={whiteLabelImage}
-              alt=""
-            />
+            <img src={whiteLabelImage} alt="" />
           </div>
           <div className="description">
             <h3>Operation Monitoring</h3>
