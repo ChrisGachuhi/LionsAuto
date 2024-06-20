@@ -5,7 +5,7 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
-import geofencing from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import geofencing from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import dashboard from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 import api from '/src/assets/images/updatedimages/API-pic.jpg'
 import dataprotection from '/src/assets/images/updatedimages/training-pic.jpg'

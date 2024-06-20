@@ -5,7 +5,7 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 import advancedFleetManagementImg from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
 import trackingVehicleImg from '/src/assets/images/updatedimages/dashboard-pic.jpg'
-import mapsImg from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import mapsImg from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import predictivemaintenance from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
 
 function TankerTruck() {

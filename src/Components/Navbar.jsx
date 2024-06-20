@@ -1,6 +1,6 @@
 import { faBars, faClose } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import logo from '../assets/images/logo.png'
 
@@ -10,6 +10,27 @@ export const Navbar = () => {
   const handleLinkClick = () => {
     setMenuIsOpen(false)
   }
+
+  const handleOutsideClick = event => {
+    if (menuIsOpen && !event.target.closest('.navbar')) {
+      setMenuIsOpen(false)
+    }
+  }
+
+  useEffect(() => {
+    document.addEventListener('click', handleOutsideClick)
+    return () => {
+      document.removeEventListener('click', handleOutsideClick)
+    }
+  }, [menuIsOpen])
+
+  useEffect(() => {
+    if (menuIsOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'auto'
+    }
+  }, [menuIsOpen])
 
   return (
     <nav className="navbar">
@@ -53,14 +74,25 @@ export const Navbar = () => {
             Contact
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to={'http://tracking.lionsautogps.com'}
+            onClick={handleLinkClick}
+          >
+            Login
+          </NavLink>
+        </li>
       </ul>
 
       <div
         className="hamburger-menu"
         onClick={() => setMenuIsOpen(!menuIsOpen)}
       >
-        {!menuIsOpen && <FontAwesomeIcon icon={faBars} />}
-        {menuIsOpen && <FontAwesomeIcon icon={faClose} />}
+        {!menuIsOpen ? (
+          <FontAwesomeIcon icon={faBars} />
+        ) : (
+          <FontAwesomeIcon icon={faClose} />
+        )}
       </div>
     </nav>
   )

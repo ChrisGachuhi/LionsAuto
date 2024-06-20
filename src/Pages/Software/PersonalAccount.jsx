@@ -6,7 +6,7 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 import lowcost from '/src/assets/images/updatedimages/savings.jpg'
 import dashboard from '/src/assets/images/updatedimages/dashboard-pic.jpg'
-import geofencing from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import geofencing from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import maps from '/src/assets/images/updatedimages/maps.jpg'
 
 const PersonalAccount = () => {

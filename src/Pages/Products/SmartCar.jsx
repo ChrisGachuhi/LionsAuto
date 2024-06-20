@@ -3,7 +3,7 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import driverBehaviorImg from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import driverBehaviorImg from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import whiteLabelImg from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
 
 function SmartCar() {

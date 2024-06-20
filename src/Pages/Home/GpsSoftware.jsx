@@ -5,7 +5,7 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 
 import whitelabel from '/src/assets/images/updatedimages/White-label.jpg'
-import trackingsoftware from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import trackingsoftware from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import franchising from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
 import trackingVehicle from '/src/assets/images/updatedimages/dashboard-pic.jpg' // Added import for tracking-vehicle.jpg
 

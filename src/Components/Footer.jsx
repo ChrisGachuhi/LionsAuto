@@ -27,10 +27,14 @@ export const Footer = () => {
             <Link to={'/Software'}>Software</Link>
           </li>
           <li>
-            <Link>Privacy Policy</Link>
+            <Link to={'https://www.lionsautogps.com/privacy-policy'}>
+              Privacy Policy
+            </Link>
           </li>
           <li>
-            <Link>Terms & Conditions</Link>
+            <Link to={'https://www.lionsautogps.com/terms-conditions'}>
+              Terms & Conditions
+            </Link>
           </li>
         </ul>
       </div>

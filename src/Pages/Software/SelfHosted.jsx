@@ -6,7 +6,7 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 
 import supportedGPS from '/src/assets/images/updatedimages/training-pic.jpg'
-import geofencing from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import geofencing from '/src/assets/images/updatedimages/geo-fencing.jpg'
 
 const SelfHosted = () => {
   const animate = useContext(CurrentAnimationContext)

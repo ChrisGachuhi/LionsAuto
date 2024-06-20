@@ -35,7 +35,6 @@ p {
   }
 }
 
-// Navbar Styles
 .Page {
   height: 100%;
   min-width: 100%;
@@ -45,6 +44,7 @@ p {
   border-bottom: solid 1px #2bae49;
   border-radius: 0.2rem;
 }
+// Navbar Styles
 
 .navbar {
   display: flex;
@@ -52,11 +52,14 @@ p {
   align-items: center;
   position: sticky;
   top: 0;
-  z-index: 100;
+  padding: 0 2rem;
+  z-index: 1000; /* Ensure the navbar itself is above most content */
 
   .logo {
     img {
-      width: 10rem;
+      width: 15rem;
+      height: 130px;
+      transition: transform 0.3s ease;
     }
   }
 
@@ -71,91 +74,109 @@ p {
         text-decoration: none;
         margin: 0 0.5rem;
         padding: 0.3rem 0.5rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
         color: #363636;
+        transition: border-bottom 0.3s ease;
       }
+
       a:not(.active):hover {
-        border-bottom: solid 1px #2bae49;
+        border-bottom: solid 2px #2bae49;
       }
     }
   }
 
   .hamburger-menu {
     font-size: 1.5rem;
-    position: absolute;
-    top: 2.75rem;
-    right: 1rem;
+    cursor: pointer;
     display: none;
   }
 
   @media screen and (max-width: 1200px) {
-    padding: 1.5rem 0;
+    padding: 0;
+
+    .logo {
+      img {
+        width: 14rem;
+        height: 110px;
+        transform: translate(-10%, 2%);
+      }
+    }
 
     ul {
       li {
         a {
-          padding: 0.5rem;
-          font-size: 0.8rem;
+          font-size: 0.75rem;
         }
       }
     }
   }
 
   @media screen and (max-width: 820px) {
-    padding: 1rem 0rem;
-
     .logo {
       img {
-        width: 35%;
+        width: 10rem;
       }
     }
 
     ul {
       li {
         a {
-          padding: 0 0.2rem;
-          font-size: 1rem;
+          font-size: 0.7rem;
         }
       }
     }
   }
 
   @media screen and (max-width: 768px) {
-    padding: 1rem 0rem;
+    align-items: flex-start;
+    position: relative;
 
-    flex-direction: column;
-    align-items: start;
+    .logo {
+      img {
+        width: 10rem;
+      }
+    }
 
     ul {
       display: none;
       flex-direction: column;
-      width: 95%;
-      margin-bottom: 0.25rem;
-      margin-left: 2.5%;
+      width: 80%;
+      margin-left:20% ;
+      height: 100vh;
+      background: white;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      padding: 2rem;
+      z-index: 1001; /* Ensure the menu is above the navbar and other content */
+
       li {
         width: 100%;
-        text-align: center;
-        height: 30px;
-        padding: 1rem 0;
-        box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
-        -webkit-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
+        text-align: left;
+        padding: 1rem 1.5rem;
+        border-bottom: 1px solid #eaeaea;
 
         a {
-          font-size: 1.2rem;
+          font-size: 1.1rem;
         }
       }
     }
 
     ul.menuOpen {
-      display: block;
+      display: flex;
     }
 
     .hamburger-menu {
       display: block;
+      position: absolute;
+      top: 40px;
+      right: 1.5rem;
+      z-index: 1002; /* Ensure the hamburger icon is above the menu */
     }
   }
 }
+
+
 
 .Section {
   padding: 0 1rem;
@@ -308,6 +329,16 @@ p {
   .title h1 {
     z-index: 1;
     background-color: transparent;
+  }
+
+  .title {
+    img {
+      height: auto;
+      border-radius: 20px;
+      position: absolute;
+      transform: translate(-70%, -45%);
+      opacity: 0.095;
+    }
   }
 
   .background-animations {
@@ -2604,7 +2635,7 @@ p {
     height: 15rem;
     width: 70%;
     margin: auto;
-    padding: 2rem .5rem;
+    padding: 2rem 0.5rem;
     box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: -2px 6px 17px -4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
@@ -2630,7 +2661,7 @@ p {
     height: 30rem;
     padding: 0;
 
-    p{
+    p {
       margin-bottom: 30px;
     }
   }
@@ -2654,13 +2685,13 @@ p {
     gap: 50px;
     padding: 0 0 6rem;
 
-    .card{
+    .card {
       grid-column: 1;
       width: 100%;
       padding: 0;
     }
 
-    .address{
+    .address {
       height: 20rem;
     }
   }

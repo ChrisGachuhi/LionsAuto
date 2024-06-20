@@ -7,7 +7,7 @@ import franchisingImage from '../../assets/images/updatedimages/load-monitoring-
 import brandingImage from '../../assets/images/updatedimages/branding-pic.jpg'
 import techSupportImage from '../../assets/images/updatedimages/tech-support.jpg'
 import trackingSoftwareImage from '../../assets/images/updatedimages/gps-pic.jpg'
-import trackingVehicleImage from '../../assets/images/updatedimages/geo-fencing-pic.jpg'
+import trackingVehicleImage from '../../assets/images/updatedimages/geo-fencing.jpg'
 import webDevelopmentImage from '../../assets/images/updatedimages/web-development.webp'
 import crmImage from '../../assets/images/updatedimages/crm-pci.jpg'
 import marketingMaterialImage from '../../assets/images/updatedimages/marketing-material.jpg'

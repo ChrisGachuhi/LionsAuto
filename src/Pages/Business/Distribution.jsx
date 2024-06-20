@@ -83,6 +83,16 @@ const Distribution = () => {
               requirements.
             </p>
           </div>
+
+          <div className="feature technology">
+            <h3>Admin Panel</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur eius cupiditate quibusdam perspiciatis unde.
+              Consequuntur, nesciunt explicabo culpa, tenetur quidem, ipsum
+             
+            </p>
+          </div>
         </div>
       </div>
 

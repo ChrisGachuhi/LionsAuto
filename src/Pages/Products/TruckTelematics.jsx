@@ -5,7 +5,7 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 import fuelSensorsImage from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
 import whiteLabelImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
-import mapsImage from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import mapsImage from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import loadmonitoringpic from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
 
 function TruckTelematics() {

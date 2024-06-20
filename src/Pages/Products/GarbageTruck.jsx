@@ -5,7 +5,7 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 import fuelTankMonitoringImage from '/src/assets/images/updatedimages/savings.jpg'
-import trackingVehicleImage from '/src/assets/images/updatedimages/geo-fencing-pic.jpg'
+import trackingVehicleImage from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import driverBehaviorImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 import predictivemaintenance from '/src/assets/images/updatedimages/training-pic.jpg'
 
