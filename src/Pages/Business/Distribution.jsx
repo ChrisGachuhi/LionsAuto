@@ -40,38 +40,39 @@ const Distribution = () => {
         </div>
 
         <p>
-          LionsAuto distribution solution is the easiest way to start your GPS
-          tracking Business at very low investment . You can become distributor
-          of our international brand Speedorack GPS which is one of the leading
-          GPS tracking software. You will get Wholesale price if you become
-          distributor of LionsAuto GPS so that to maximize your profit on per
-          sale. If you become LionsAuto distributor partner you will get 24/7
-          support on any issue to run your business smoothly. our pricing
-          contains entry fee plus connection fee for every tracking unit.
+          Lions Auto GPS distribution solution is the easiest way to start your
+          GPS tracking Business at very low investment . You can become
+          distributor of our international brand Speedorack GPS which is one of
+          the leading GPS tracking software. You will get Wholesale price if you
+          become distributor of Lions Auto GPS GPS so that to maximize your
+          profit on per sale. If you become Lions Auto GPS distributor partner
+          you will get 24/7 support on any issue to run your business smoothly.
+          our pricing contains entry fee plus connection fee for every tracking
+          unit.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 
       <div className="features">
-        <h2>Why to Choose LionsAuto</h2>
+        <h2>Why to Choose Lions Auto GPS</h2>
 
         <div className="features-container">
           <div className="feature reach">
             <h3>We offer fair prices</h3>
             <p>
-              LionsAuto provides fair and optimum price to our distributor to
-              maximize their profit. The more connected devices, the lower the
-              unit cost for you.
+              Lions Auto GPS provides fair and optimum price to our distributor
+              to maximize their profit. The more connected devices, the lower
+              the unit cost for you.
             </p>
           </div>
 
           <div className="feature reliability">
             <h3>We provide support</h3>
             <p>
-              Distributor are our real backbone of LionsAuto therefore We
-              provide reliable round-the-clock tech support to all partners. And
-              we solve problems quickly.
+              Distributor are our real backbone of Lions Auto GPSo GPS therefore
+              We provide reliable round-the-clock tech support to all partners.
+              And we solve problems quickly.
             </p>
           </div>
 
@@ -90,7 +91,6 @@ const Distribution = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Consectetur eius cupiditate quibusdam perspiciatis unde.
               Consequuntur, nesciunt explicabo culpa, tenetur quidem, ipsum
-             
             </p>
           </div>
         </div>
@@ -128,17 +128,18 @@ const Distribution = () => {
           </div>
 
           <div className="description">
-            <h3>Partner of LionsAuto GPS</h3>
+            <h3>Partner of Lions Auto GPS GPS</h3>
             <p>
-              LionsAuto GPS a leading provider of GPS vehicle tracking systems
-              aims at offering innovative and cost-effective vehicle tracking
-              solutions comprising of hardware as well as software. GPS tracking
-              solution is a unique way for companies and individuals to monitor
-              and control their cars, jeeps, trucks and other vehicles to their
-              precise details by sitting in the office. Whether you own one
-              truck or a fleet of thousands of vehicles, our highly skilled GPS
-              fleet consultants will assist you in selecting the right type of
-              vehicle tracking system that will give an edge to your company.
+              Lions Auto GPSo GPSo GPSo GPS GPS a leading provider of GPS
+              vehicle tracking systems aims at offering innovative and
+              cost-effective vehicle tracking solutions comprising of hardware
+              as well as software. GPS tracking solution is a unique way for
+              companies and individuals to monitor and control their cars,
+              jeeps, trucks and other vehicles to their precise details by
+              sitting in the office. Whether you own one truck or a fleet of
+              thousands of vehicles, our highly skilled GPS fleet consultants
+              will assist you in selecting the right type of vehicle tracking
+              system that will give an edge to your company.
             </p>
           </div>
         </div>

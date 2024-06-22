@@ -27,23 +27,23 @@ const SelfHosted = () => {
         <LandingAnimation />
         <div className="title">
           <h1>GPS Tracking Software (Self Hosted)</h1> <br />
-          <span>Grow your business & boost up sale with LionsAuto</span>
+          <span>Grow your business & boost up sale with Lions Auto GPS</span>
         </div>
 
         {/* in page navigation */}
 
         <p>
-          Self Hosted GPS Tracking Software 01 | LionsAuto GPS GPS Tracking
-          Software (Self Hosted) Grow your business & boost up sale with
-          LionsAuto Get Started NowSee live demo. shape 66 | LionsAuto GPSshape
-          56 | LionsAuto GPS LionsAuto team developed unique GPS tracking
-          platform - tracking software which is designed to build independent
-          tracking server. GPS tracking platform is web based application which
-          can operate globally. One physical GPS tracking server allows
-          simultaneously monitor thousands of GPS trackers and smartphones,
-          display their location on map, generate reports and alerts. GPS
-          tracking platform has billing system which allows to charge customers
-          for services.
+          Self Hosted GPS Tracking Software 01 | Lions Auto GPS GPS GPS Tracking
+          Software (Self Hosted) Grow your business & boost up sale with Lions
+          Auto GPS Get Started NowSee live demo. shape 66 | Lions Auto GPS
+          GPSshape 56 | Lions Auto GPS GPS Lions Auto GPS team developed unique
+          GPS tracking platform - tracking software which is designed to build
+          independent tracking server. GPS tracking platform is web based
+          application which can operate globally. One physical GPS tracking
+          server allows simultaneously monitor thousands of GPS trackers and
+          smartphones, display their location on map, generate reports and
+          alerts. GPS tracking platform has billing system which allows to
+          charge customers for services.
         </p>
 
         <p>
@@ -205,9 +205,9 @@ const SelfHosted = () => {
             <p>
               Our GPS tracking software comes with latest GPS tracking
               technology and supports all major GPS tracking devices available
-              in the market and works seamlessly. LionsAuto tracking platform
-              software communicates with a wide variety of GPS trackers, it
-              gives more freedom to use hardware you prefer.
+              in the market and works seamlessly. Lions Auto GPS tracking
+              platform software communicates with a wide variety of GPS
+              trackers, it gives more freedom to use hardware you prefer.
             </p>
           </div>
         </div>

@@ -30,7 +30,7 @@ const PersonalAccount = () => {
         <LandingAnimation />
         <div className="title">
           <h1>GPS Tracking Software (Personal Account)</h1> <br />
-          <span>Grow your business & boost up sale with LionsAuto</span>
+          <span>Grow your business & boost up sale with Lions Auto GPS</span>
         </div>
 
         {/* in page navigation */}
@@ -180,12 +180,12 @@ const PersonalAccount = () => {
           <div className="description">
             <h3>Low Cost Tracking</h3>
             <p>
-              With LionsAuto GPS tracking Solution it is very easy to start GPS
-              tracking business at very affordable cost. We provides all support
-              to our partner like CRM solution, dedicated website and marketing
-              material to kick start GPS tracking business. With our GPS
-              tracking software you will have peace of mind and keep rest on us
-              and focus on growing your GPS tracking business.
+              With Lions Auto GPS GPS tracking Solution it is very easy to start
+              GPS tracking business at very affordable cost. We provides all
+              support to our partner like CRM solution, dedicated website and
+              marketing material to kick start GPS tracking business. With our
+              GPS tracking software you will have peace of mind and keep rest on
+              us and focus on growing your GPS tracking business.
             </p>
           </div>
         </div>

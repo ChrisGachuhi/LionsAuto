@@ -19,7 +19,7 @@ export const Form = () => {
       const templateParams = {
         from_name: clientName,
         from_email: clientEmail,
-        to_name: 'LionsAuto',
+        to_name: '',
         clientPhone,
         clientProduct,
         message: clientMessage,

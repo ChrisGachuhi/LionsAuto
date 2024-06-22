@@ -7,7 +7,7 @@ export const Footer = () => {
   return (
     <footer className="Section Footer">
       <div className="column address">
-        <h3>LionsAuto</h3>
+        <h3></h3>
         <p>
           Speedotrack GPS Private Limited, Sector-II Market, H.E.C Colony, Near
           Vidhan Sabha, Ranchi, Jharkhand, 834004, India

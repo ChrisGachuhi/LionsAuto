@@ -49,7 +49,7 @@ const Pricing = () => {
       </div> */}
 
       <div className="price">
-        <h2>LionsAuto GPS Tracker Pricing</h2>
+        <h2>Lions Auto GPS GPS Tracker Pricing</h2>
 
         <div className="catalogue">
           <div className="option standard">

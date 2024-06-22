@@ -35,7 +35,7 @@ export const Navbar = () => {
   return (
     <nav className="navbar">
       <Link to={'/'} className="logo" onClick={handleLinkClick}>
-        <img src={logo} alt="LionsAuto" />
+        <img src={logo} alt="" />
       </Link>
 
       <ul className={menuIsOpen ? 'menuOpen' : ''}>

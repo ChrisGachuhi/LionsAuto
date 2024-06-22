@@ -12,7 +12,7 @@ function VT05S() {
           <br />
 
           <h1>VT05S-Vehicle GPS Tracker</h1>
-          <span>Grow your business & boost up sale with LionsAuto</span>
+          <span>Grow your business & boost up sale with Lions Auto GPS</span>
         </div>
 
         <p>

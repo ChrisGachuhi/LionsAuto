@@ -1,4 +1,3 @@
-
 function GT06N() {
   return (
     <div className="Page Business SubPage-Device">
@@ -10,7 +9,7 @@ function GT06N() {
           <br />
 
           <h1>GT06N GPS Tracking Device</h1>
-          <span>Grow your business & boost up sale with LionsAuto</span>
+          <span>Grow your business & boost up sale with Lions Auto GPS</span>
         </div>
 
         <p>

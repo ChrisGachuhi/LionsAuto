@@ -48,16 +48,16 @@ const Software = () => {
         </div>
 
         <p>
-          LionsAuto Vehicle Tracking Solutions combine sophisticated GPS
+          Lions Auto GPS Vehicle Tracking Solutions combine sophisticated GPS
           tracking technology with flexible, advanced mapping and reporting
           software. A GPS-enabled Vehicle Tracking Device is installed on each
           vehicle to collect and transmit tracking data via a cellular and
           satellite network, whichever works best for your operations. The
-          device then delivers the data to the LionsAuto hosted application,
-          which you can access through the Web at any time. You will receive
-          real-time vehicle tracking updates, including location, direction,
-          speed, idle time, start/stop and more, allowing you to manage a
-          tighter schedule and more efficient fleet.
+          device then delivers the data to the Lions Auto GPS hosted
+          application, which you can access through the Web at any time. You
+          will receive real-time vehicle tracking updates, including location,
+          direction, speed, idle time, start/stop and more, allowing you to
+          manage a tighter schedule and more efficient fleet.
         </p>
       </div>
 
@@ -68,15 +68,15 @@ const Software = () => {
           </div>
 
           <div className="description">
-            <h3>LionsAuto GPS Software</h3>
+            <h3>Lions Auto GPS GPS Software</h3>
             <p>
-              LionsAuto support our partners & distributors by providing GPS
-              tracking system and fleet management system. All LionsAuto
-              applications can be white-labeled and customized depending on your
-              business needs. So, if you want to start your own white label GPS
-              tracking business or expand the existing one—you’ve come to the
-              right place. Let’s start tracking with our advanced GPS tracking
-              platform.
+              Lions Auto GPS support our partners & distributors by providing
+              GPS tracking system and fleet management system. All Lions Auto
+              GPS applications can be white-labeled and customized depending on
+              your business needs. So, if you want to start your own white label
+              GPS tracking business or expand the existing one—you’ve come to
+              the right place. Let’s start tracking with our advanced GPS
+              tracking platform.
             </p>
             <Link to={'/GPS-Software'} target="_blank">
               Know More
@@ -93,7 +93,7 @@ const Software = () => {
           </div>
 
           <div className="description">
-            <h3>LionsAuto Speed Governor</h3>
+            <h3>Lions Auto GPS Speed Governor</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.
@@ -119,7 +119,7 @@ const Software = () => {
           </div>
 
           <div className="description">
-            <h3>LionsAuto Fuel Monitoring</h3>
+            <h3>Lions Auto GPS Fuel Monitoring</h3>
             <p>
               Fuel costs can amount up to 30% of all fleet management expenses,
               therefore affecting operating costs and company's profit in
@@ -141,7 +141,7 @@ const Software = () => {
           </div>
 
           <div className="description">
-            <h3>LionsAuto Driver Behavior</h3>
+            <h3>Lions Auto GPS Driver Behavior</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.

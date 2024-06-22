@@ -24,9 +24,9 @@ function AssetTracker() {
           Have you ever worried about the security safety of your house and
           belongings in the event that the house is empty without anyone in? Or
           have you ever come across trespasses like your house, office, or
-          garage is robbed by someone unfriendly? Then, LionsAuto Asset Tracker
-          Solution is for you to safe guard your asset—It is your own DIY home
-          security alarm and very easy to setup and use.
+          garage is robbed by someone unfriendly? Then, Lions Auto GPS Asset
+          Tracker Solution is for you to safe guard your asset—It is your own
+          DIY home security alarm and very easy to setup and use.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
@@ -34,7 +34,7 @@ function AssetTracker() {
 
       <div className="solution-container gps">
         <div className="features">
-          <h2>Benefits of LionsAuto Asset Tracker</h2>
+          <h2>Benefits of Lions Auto GPS Asset Tracker</h2>
           <div className="features-container">
             <div className="feature label">
               <h3>GPS+LBS positioning</h3>
@@ -48,9 +48,9 @@ function AssetTracker() {
             <div className="feature access">
               <h3>Listen-in Surrounding</h3>
               <p>
-                LionsAuto Asset Tracking solution allows you to Listen to the
-                surroundings by sending a text message via your phone to know
-                any problem around your asset to take any further action.
+                Lions Auto GPS Asset Tracking solution allows you to Listen to
+                the surroundings by sending a text message via your phone to
+                know any problem around your asset to take any further action.
               </p>
             </div>
 
@@ -67,7 +67,7 @@ function AssetTracker() {
             <div className="feature software">
               <h3>IPX5 Water Proof</h3>
               <p>
-                LionsAuto Personal Tracker is Water proof with IPX5 Global
+                Lions Auto GPS Personal Tracker is Water proof with IPX5 Global
                 Standard to ensure stable operation in tough environment
                 especially in rainy season for smooth tracking.
               </p>
@@ -76,7 +76,7 @@ function AssetTracker() {
             <div className="feature management">
               <h3>10,000mAh Battery</h3>
               <p>
-                LionsAuto Personal Tracker comes with long lasting battery
+                Lions Auto GPS Personal Tracker comes with long lasting battery
                 capacity so that you have no need to frequent charging. Which
                 result solid tracking for long duration for your asset.
               </p>
@@ -94,9 +94,9 @@ function AssetTracker() {
             <div className="feature easy">
               <h3>Strong Magnet</h3>
               <p>
-                LionsAuto Personal tracker comes with Strong magnetic cover so
-                that you can easily mount it on any vehicle or on an any asset
-                and track your asset wherever you go.
+                Lions Auto GPS Personal tracker comes with Strong magnetic cover
+                so that you can easily mount it on any vehicle or on an any
+                asset and track your asset wherever you go.
               </p>
             </div>
 
@@ -112,9 +112,9 @@ function AssetTracker() {
             <div className="feature easy">
               <h3>Multiple Tracking</h3>
               <p>
-                LionsAuto personal Tracking device offers multiple tracking. you
-                can track using sending SMS, using Mobile App and via web app
-                also.
+                Lions Auto GPS personal Tracking device offers multiple
+                tracking. you can track using sending SMS, using Mobile App and
+                via web app also.
               </p>
             </div>
           </div>
@@ -125,4 +125,3 @@ function AssetTracker() {
 }
 
 export default AssetTracker
-

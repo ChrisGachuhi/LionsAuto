@@ -16,11 +16,10 @@ import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentA
 import SvgWrapper from '../Components/SvgWrapper'
 // import { element } from 'prop-types'
 
-import trackvehicle from '/src/assets/images/updatedimages/track-vehicle.jpg'
+import trackvehicle from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import loadmonitoring from '/src/assets/images/updatedimages/load-monitoring.jpg'
 import fuelmonitoring from '/src/assets/images/updatedimages/fuel-monitoring2.jpg'
 import generatormonitoring from '/src/assets/images/updatedimages/generator-monitoring (2).jpg'
-import miningtools from '/src/assets/images/updatedimages/mining-tools.jpg'
 import miningtruck from '/src/assets/images/updatedimages/mining-trucks-pic.jpg'
 
 const Home = () => {
@@ -105,16 +104,16 @@ const Home = () => {
       </div>
 
       <p className="Description">
-        LionsAuto Vehicle Tracking Solutions combine sophisticated GPS tracking
-        technology with flexible, advanced mapping and reporting software. A
-        GPS-enabled Vehicle Tracking Device is installed on each vehicle to
-        collect and transmit tracking data via a cellular and satellite network,
-        whichever works best for your operations. The device then delivers the
-        data to the LionsAuto hosted application, which you can access through
-        the Web at any time. You will receive real-time vehicle tracking
-        updates, including location, direction, speed, idle time, start/stop and
-        more, allowing you to manage a tighter schedule and more efficient
-        fleet.
+        Lions Auto GPS Vehicle Tracking Solutions combine sophisticated GPS
+        tracking technology with flexible, advanced mapping and reporting
+        software. A GPS-enabled Vehicle Tracking Device is installed on each
+        vehicle to collect and transmit tracking data via a cellular and
+        satellite network, whichever works best for your operations. The device
+        then delivers the data to the Lions Auto GPS hosted application, which
+        you can access through the Web at any time. You will receive real-time
+        vehicle tracking updates, including location, direction, speed, idle
+        time, start/stop and more, allowing you to manage a tighter schedule and
+        more efficient fleet.
       </p>
 
       <div className="benefits">

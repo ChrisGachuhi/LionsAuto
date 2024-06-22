@@ -12,7 +12,7 @@ function FMB125() {
           <br />
 
           <h1>FMB125-Vehicle GPS Tracker</h1>
-          <span>Grow your business & boost up sale with LionsAuto</span>
+          <span>Grow your business & boost up sale with Lions Auto GPS</span>
         </div>
 
         <p>

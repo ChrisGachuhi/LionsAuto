@@ -1,0 +1,422 @@
+# Query: LionsAuto
+# ContextLines: 1
+
+107 results - 30 files
+
+.firebaserc:
+  2    "projects": {
+  3:     "default": "lionsauto-51c92"
+  4    }
+
+firebase.js:
+  10    apiKey: 'AIzaSyA0noswF641qnPbzfVEM7mYmCKXHa9Bs6w',
+  11:   authDomain: 'lionsauto-51c92.firebaseapp.com',
+  12:   projectId: 'lionsauto-51c92',
+  13:   storageBucket: 'lionsauto-51c92.appspot.com',
+  14    messagingSenderId: '392719940205',
+
+package-lock.json:
+  1  {
+  2:   "name": "lionsauto",
+  3    "version": "0.0.0",
+
+  7      "": {
+  8:       "name": "lionsauto",
+  9        "version": "0.0.0",
+
+package.json:
+  1  {
+  2:   "name": "lionsauto",
+  3    "private": true,
+
+src/Components/Footer.jsx:
+   9        <div className="column address">
+  10:         <h3>Lions Auto GPS</h3>
+  11          <p>
+
+  29            <li>
+  30:             <Link to={'https://www.lionsautogps.com/privacy-policy'}>
+  31                Privacy Policy
+
+  34            <li>
+  35:             <Link to={'https://www.lionsautogps.com/terms-conditions'}>
+  36                Terms & Conditions
+
+  59                <FontAwesomeIcon icon={faEnvelope} className="icon" />
+  60:               info@lionsauto.co.ke
+  61              </Link>
+
+  69            <li className="socials">
+  70:             <Link to={'https://facebook.com/LionsAuto'} target="_blank">
+  71                <FontAwesomeIcon icon={faFacebookF} className="icon" />
+
+  73  
+  74:             <Link to={'https://x.com/LionsautoKE'} target="_blank">
+  75                <FontAwesomeIcon icon={faXTwitter} className="icon" />
+
+src/Components/Form.jsx:
+  21          from_email: clientEmail,
+  22:         to_name: 'Lions Auto GPS',
+  23          clientPhone,
+
+src/Components/Navbar.jsx:
+  37        <Link to={'/'} className="logo" onClick={handleLinkClick}>
+  38:         <img src={logo} alt="Lions Auto GPS" />
+  39        </Link>
+
+  78            <NavLink
+  79:             to={'http://tracking.lionsautogps.com'}
+  80              onClick={handleLinkClick}
+
+src/Pages/Contact.jsx:
+  20          <p>
+  21:           <FontAwesomeIcon icon={faEnvelope} /> info@lionsauto.co.ke <br />
+  22            <FontAwesomeIcon icon={faPhone} /> +254715132828
+
+src/Pages/Home.jsx:
+  107        <p className="Description">
+  108:         Lions Auto GPS Vehicle Tracking Solutions combine sophisticated GPS tracking
+  109          technology with flexible, advanced mapping and reporting software. A
+
+  112          whichever works best for your operations. The device then delivers the
+  113:         data to the Lions Auto GPS hosted application, which you can access through
+  114          the Web at any time. You will receive real-time vehicle tracking
+
+src/Pages/Pricing.jsx:
+  51        <div className="price">
+  52:         <h2>Lions Auto GPS GPS Tracker Pricing</h2>
+  53  
+
+src/Pages/Software.jsx:
+   50          <p>
+   51:           Lions Auto GPS Vehicle Tracking Solutions combine sophisticated GPS
+   52            tracking technology with flexible, advanced mapping and reporting
+
+   55            satellite network, whichever works best for your operations. The
+   56:           device then delivers the data to the Lions Auto GPS hosted application,
+   57            which you can access through the Web at any time. You will receive
+
+   70            <div className="description">
+   71:             <h3>Lions Auto GPS GPS Software</h3>
+   72              <p>
+   73:               Lions Auto GPS support our partners & distributors by providing GPS
+   74:               tracking system and fleet management system. All Lions Auto GPS
+   75                applications can be white-labeled and customized depending on your
+
+   95            <div className="description">
+   96:             <h3>Lions Auto GPS Speed Governor</h3>
+   97              <p>
+
+  121            <div className="description">
+  122:             <h3>Lions Auto GPS Fuel Monitoring</h3>
+  123              <p>
+
+  143            <div className="description">
+  144:             <h3>Lions Auto GPS Driver Behavior</h3>
+  145              <p>
+
+src/Pages/Business/Distribution.jsx:
+   42          <p>
+   43:           Lions Auto GPS distribution solution is the easiest way to start your GPS
+   44            tracking Business at very low investment . You can become distributor
+
+   46            GPS tracking software. You will get Wholesale price if you become
+   47:           distributor of Lions Auto GPS GPS so that to maximize your profit on per
+   48:           sale. If you become Lions Auto GPS distributor partner you will get 24/7
+   49            support on any issue to run your business smoothly. our pricing
+
+   56        <div className="features">
+   57:         <h2>Why to Choose Lions Auto GPS</h2>
+   58  
+
+   62              <p>
+   63:               Lions Auto GPS provides fair and optimum price to our distributor to
+   64                maximize their profit. The more connected devices, the lower the
+
+   71              <p>
+   72:               Distributor are our real backbone of Lions Auto GPS therefore We
+   73                provide reliable round-the-clock tech support to all partners. And
+
+  130            <div className="description">
+  131:             <h3>Partner of Lions Auto GPS GPS</h3>
+  132              <p>
+  133:               Lions Auto GPS GPS a leading provider of GPS vehicle tracking systems
+  134                aims at offering innovative and cost-effective vehicle tracking
+
+src/Pages/Business/Franchising.jsx:
+  46          <p>
+  47:           Start your own vehicle tracking business – franchise the Lions Auto GPS GPS
+  48            platform. Don’t miss the opportunity to franchise the most user
+
+  56        <div className="features">
+  57:         <h2>Features of Lions Auto GPS Franchising</h2>
+  58  
+
+  86        <div className="opportunities">
+  87:         <h2>Benefit of Lions Auto GPS Franchising</h2>
+  88          <img
+
+src/Pages/Business/WhiteLabel.jsx:
+   40            Are you already in the vehicle tracking business but want to bring the
+   41:           best to your customers? Lions Auto GPS white label platform might be just
+   42            what you need. Advanced, reliable and incredibly user friendly GPS
+
+   56        <div className="features">
+   57:         <h2>Why to Choose Lions Auto GPS</h2>
+   58  
+
+   72              <p>
+   73:               Lions Auto GPS customer support is awesome for their White Label
+   74                Business Partner and we are available for your 24/7 for any help.
+
+   82              <p>
+   83:               Lions Auto GPS GPS tracking platform is very flexible, In case of any
+   84                customize module we are commited to deliver it.In need of a new
+
+  107              <p>
+  108:               At Lions Auto GPS, we often get requests from enterprise clients who
+  109                are looking to develop GPS solutions for tracking the location of
+
+src/Pages/Devices/FMB120.jsx:
+  14            <h1>FMB120-Vehicle GPS Tracker</h1>
+  15:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+  16          </div>
+
+src/Pages/Devices/FMB125.jsx:
+  14            <h1>FMB125-Vehicle GPS Tracker</h1>
+  15:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+  16          </div>
+
+src/Pages/Devices/FMB920.jsx:
+  14            <h1>FMB920-Vehicle GPS Tracker</h1>
+  15:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+  16          </div>
+
+src/Pages/Devices/GT06N.jsx:
+  12            <h1>GT06N GPS Tracking Device</h1>
+  13:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+  14          </div>
+
+src/Pages/Devices/S102.jsx:
+  14            <h1>S102-Vehicle GPS Tracker</h1>
+  15:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+  16          </div>
+
+src/Pages/Devices/VT05S.jsx:
+  14            <h1>VT05S-Vehicle GPS Tracker</h1>
+  15:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+  16          </div>
+
+src/Pages/Devices/VT08S.jsx:
+  14            <h1>VT08S-Vehicle GPS Tracker</h1>
+  15:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+  16          </div>
+
+src/Pages/Home/FuelMonitoring.jsx:
+   43            therefore affecting operating costs and company’s profit in general.
+   44:           Among the major fuel related challenges experts define: Lions Auto GPS GPS
+   45            tracking and telematics platform can help you cope with the major
+
+   66            <div className="feature reliability">
+   67:             <h3>Lions Auto GPS Cloud</h3>
+   68              <p>
+
+   78              <p>
+   79:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+   80                passenger inside the bus so that it will help to know the owner
+
+   88              <p>
+   89:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+   90                passenger inside the bus so that it will help to know the owner
+
+   98              <p>
+   99:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  100                passenger inside the bus so that it will help to know the owner
+
+  108              <p>
+  109:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  110                passenger inside the bus so that it will help to know the owner
+
+  118              <p>
+  119:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  120                passenger inside the bus so that it will help to know the owner
+
+  128              <p>
+  129:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  130                passenger inside the bus so that it will help to know the owner
+
+  138              <p>
+  139:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  140                passenger inside the bus so that it will help to know the owner
+
+  148              <p>
+  149:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  150                passenger inside the bus so that it will help to know the owner
+
+  158              <p>
+  159:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  160                passenger inside the bus so that it will help to know the owner
+
+  168              <p>
+  169:               Lions Auto GPS Bus Monitoring Solution help to measure load of
+  170                passenger inside the bus so that it will help to know the owner
+
+  198                Fuel tank calibration is essential in order to create an accurate
+  199:               fuel chart for each vehicle. A well-trained Lions Auto GPS technician
+  200                who is versed in the correct safety procedures will be dispatched
+
+  233              <p>
+  234:               All parameters are entered into the Lions Auto GPS’s fleet system
+  235                allowing you to view the completed fuel chart. As you learn more
+
+  242          <p className="telematics">
+  243:           Truck telematics solution by Lions Auto GPS is aimed on monitoring cargo
+  244            status and performance of a freight truck and helps to improve fleet
+
+  251            order to create an accurate fuel chart for each vehicle. A
+  252:           well-trained Lions Auto GPS technician who is versed in the correct safety
+  253            procedures will be dispatched to perform the fuel tank calibration.
+
+src/Pages/Home/GpsSoftware.jsx:
+   48          <p>
+   49:           Lions Auto GPS GPS Software Solutions combine sophisticated GPS tracking
+   50            technology with flexible, advanced mapping and reporting software. A
+
+   53            network, whichever works best for your operations. The device then
+   54:           delivers the data to the Lions Auto GPS hosted application, which you can
+   55            access through the Web at any time. You will receive real-time vehicle
+
+   70            <div className="description">
+   71:             <h3>Lions Auto GPS GPS Software (Cloud Hosted)</h3>
+   72              <p>
+
+   74                helps to avoid extra expenses when hosting GPS tracking software
+   75:               in own server. Server with software resides in Lions Auto GPS Data
+   76                Center and we undertake all technical aspects, while you will be
+
+   93            <div className="description">
+   94:             <h3>Lions Auto GPS GPS Software (Self Hosted)</h3>
+   95              <p>
+   96:               Lions Auto GPS team developed unique GPS tracking platform - tracking
+   97                software which is designed to build independent tracking server.
+
+  118            <div className="description">
+  119:             <h3>Lions Auto GPS GPS Software (Personal Account)</h3>
+  120              <p>
+
+src/Pages/Products/AssetTracker.jsx:
+   26            have you ever come across trespasses like your house, office, or
+   27:           garage is robbed by someone unfriendly? Then, Lions Auto GPS Asset Tracker
+   28            Solution is for you to safe guard your asset—It is your own DIY home
+
+   36          <div className="features">
+   37:           <h2>Benefits of Lions Auto GPS Asset Tracker</h2>
+   38            <div className="features-container">
+
+   50                <p>
+   51:                 Lions Auto GPS Asset Tracking solution allows you to Listen to the
+   52                  surroundings by sending a text message via your phone to know
+
+   69                <p>
+   70:                 Lions Auto GPS Personal Tracker is Water proof with IPX5 Global
+   71                  Standard to ensure stable operation in tough environment
+
+   78                <p>
+   79:                 Lions Auto GPS Personal Tracker comes with long lasting battery
+   80                  capacity so that you have no need to frequent charging. Which
+
+   96                <p>
+   97:                 Lions Auto GPS Personal tracker comes with Strong magnetic cover so
+   98                  that you can easily mount it on any vehicle or on an any asset
+
+  114                <p>
+  115:                 Lions Auto GPS personal Tracking device offers multiple tracking. you
+  116                  can track using sending SMS, using Mobile App and via web app
+
+src/Pages/Products/BusMonitoring.jsx:
+   34          <p>
+   35:           Lions Auto GPS Bus monitoring system includes monitoring of technical
+   36            condition of fleet, tracking real route of buses, monitoring driving
+   37            behavior, additionally, the system allows to plan maintenance based on
+   38:           actual condition of the equipment. Lions Auto GPS Monitoring system for bus
+   39            can significantly reduce fuel costs and operating costs by optimizing
+
+   74                <p>
+   75:                 Lions Auto GPS Bus Monitoring Solution help to measure load of
+   76                  passenger inside the bus so that it will help to know the owner
+
+  104                <p>
+  105:                 Lions Auto GPS Bus Monitoring Solution is easy to install and setup.
+  106:                 You will get all essential support from Lions Auto GPS from
+  107:                 installation to live tracking. using Lions Auto GPS GPS solution is
+  108                  very simple and also cost effective.
+
+  121              <p>
+  122:               Using Lions Auto GPS Bus Monitoring Solution you will be ale to measure
+  123                Precise measurement of remaining fuel in tank and fuel
+
+  125                know actual mileage of bus or your Bus driver doing any misleading
+  126:               activity behind you. Lions Auto GPS Bus monitoring Solution helped many
+  127                customer in India and Abroad to reduce their operating cost and
+
+  162                savings over routine or time-based preventive maintenance, because
+  163:               tasks are performed only when warranted. Lions Auto GPS Bus Monitoring
+  164                Solution helps to reduce your maintenance cost and help to
+
+  176              <p>
+  177:               Using Lions Auto GPS Bus Monitoring Solution you can track and optimize
+  178                overall operation time of your Bus. You can use intelligent route
+
+src/Pages/Products/SchoolBusTracker.jsx:
+  110                cost-efficient route. It&apos;s more complex than simply finding
+  111:               the shortest path between two points. Using Lions Auto GPS School bus
+  112                monitoring solution, the school administrator will be able to
+
+  132                stop, pick up and drop off of students and alerting if buses are
+  133:               running late. Lions Auto GPS School bus Monitoring Solution provides
+  134                peace of mind to the parents after onboarding their childeren on
+
+src/Pages/Products/SmartCar.jsx:
+  56        <div className="solution-container gps">
+  57:         <h2>Lions Auto GPS Smart Car Solution</h2>
+  58          <img
+
+src/Pages/Products/TruckTelematics.jsx:
+   42          <p>
+   43:           Truck telematics solution by Lions Auto GPS is aimed on monitoring cargo
+   44            status and performance of a freight truck and helps to improve fleet
+   45:           management system of a business. By equipping trucks with Lions Auto GPS’s
+   46            telematics hardware, fleet manage/company owner gets an opportunity
+
+  171              <p>
+  172:               Lions Auto GPS Vehicle Tracking Solutions combine sophisticated GPS
+  173                tracking technology with flexible, advanced mapping and reporting
+
+  176                and satellite network, whichever works best for your operations.
+  177:               The device then delivers the data to the Lions Auto GPS hosted
+  178                application, which you can access through the Web at any time.
+
+src/Pages/Software/PersonalAccount.jsx:
+   32            <h1>GPS Tracking Software (Personal Account)</h1> <br />
+   33:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+   34          </div>
+
+  182              <p>
+  183:               With Lions Auto GPS GPS tracking Solution it is very easy to start GPS
+  184                tracking business at very affordable cost. We provides all support
+
+src/Pages/Software/SelfHosted.jsx:
+   29            <h1>GPS Tracking Software (Self Hosted)</h1> <br />
+   30:           <span>Grow your business & boost up sale with Lions Auto GPS</span>
+   31          </div>
+
+   35          <p>
+   36:           Self Hosted GPS Tracking Software 01 | Lions Auto GPS GPS GPS Tracking
+   37            Software (Self Hosted) Grow your business & boost up sale with
+   38:           Lions Auto GPS Get Started NowSee live demo. shape 66 | Lions Auto GPS GPSshape
+   39:           56 | Lions Auto GPS team developed unique GPS tracking
+   40            platform - tracking software which is designed to build independent
+
+  207                technology and supports all major GPS tracking devices available
+  208:               in the market and works seamlessly. Lions Auto GPS tracking platform
+  209                software communicates with a wide variety of GPS trackers, it

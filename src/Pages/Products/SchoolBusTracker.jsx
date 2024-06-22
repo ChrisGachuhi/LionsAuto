@@ -108,8 +108,8 @@ function SchoolBusTracker() {
             <p>
               Route optimization is the process of determining the most
               cost-efficient route. It&apos;s more complex than simply finding
-              the shortest path between two points. Using LionsAuto School bus
-              monitoring solution, the school administrator will be able to
+              the shortest path between two points. Using Lions Auto GPS School
+              bus monitoring solution, the school administrator will be able to
               monitor the entire fleet of buses. They can also optimize the
               route to avoid traffic. Both parents and school authorities can
               monitor bus route violation, over speed incidents, unscheduled
@@ -130,11 +130,11 @@ function SchoolBusTracker() {
               the school buses along with arrival and departure times at every
               stop along the route, including how long the bus spent at any
               stop, pick up and drop off of students and alerting if buses are
-              running late. LionsAuto School bus Monitoring Solution provides
-              peace of mind to the parents after onboarding their childeren on
-              school bus.Both Parent and school authorities can monitor bus
-              route violation, over speed incidents, unscheduled stops and
-              driver information.
+              running late. Lions Auto GPSo GPS School bus Monitoring Solution
+              provides peace of mind to the parents after onboarding their
+              childeren on school bus.Both Parent and school authorities can
+              monitor bus route violation, over speed incidents, unscheduled
+              stops and driver information.
             </p>
           </div>
         </div>

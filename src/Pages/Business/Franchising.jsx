@@ -44,17 +44,17 @@ const Franchising = () => {
           <h1>Franchising Opportunity</h1>
         </div>
         <p>
-          Start your own vehicle tracking business – franchise the LionsAuto GPS
-          platform. Don’t miss the opportunity to franchise the most user
-          friendly GPS tracking platform on the market. Start making money from
-          day one.
+          Start your own vehicle tracking business – franchise the Lions Auto
+          GPS GPS platform. Don’t miss the opportunity to franchise the most
+          user friendly GPS tracking platform on the market. Start making money
+          from day one.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 
       <div className="features">
-        <h2>Features of LionsAuto Franchising</h2>
+        <h2>Features of Lions Auto GPS Franchising</h2>
 
         <div className="features-container">
           <div className="feature reach">
@@ -84,7 +84,7 @@ const Franchising = () => {
       </div>
 
       <div className="opportunities">
-        <h2>Benefit of LionsAuto Franchising</h2>
+        <h2>Benefit of Lions Auto GPS Franchising</h2>
         <img
           src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
           alt=""

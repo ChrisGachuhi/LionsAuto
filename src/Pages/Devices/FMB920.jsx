@@ -12,7 +12,10 @@ function FMB920() {
           <br />
 
           <h1>FMB920-Vehicle GPS Tracker</h1>
-          <span>Grow your business & boost up sale with LionsAuto</span>
+          <span>
+            Lions Auto GPS Lions Auto GPS Grow your business & boost up sale
+            with Lions Auto GPSo GPS
+          </span>
         </div>
 
         <p>
@@ -54,10 +57,9 @@ function FMB920() {
         </div>
       </div>
 
-      
       <div className="Performance">
         <h3>Performance & Parameter of FMB920</h3>
-      
+
         <div className="parameter">
           <p>Product Type</p>
           <p>Vehicle GPS Tracker</p>
