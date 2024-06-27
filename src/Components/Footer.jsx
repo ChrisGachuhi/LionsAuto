@@ -4,13 +4,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 
 export const Footer = () => {
+  const year = new Date().getFullYear()
   return (
     <footer className="Section Footer">
       <div className="column address">
         <h3></h3>
         <p>
-          Speedotrack GPS Private Limited, Sector-II Market, H.E.C Colony, Near
-          Vidhan Sabha, Ranchi, Jharkhand, 834004, India
+          Lions Auto, Outer Ring Rd, Nairobi, OLA Energy Baba Dogo, <br />3
+          <sup>rd</sup> floor
         </p>
       </div>
 
@@ -57,7 +58,7 @@ export const Footer = () => {
           <li>
             <Link>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />
-              info@lionsauto.co.ke
+              info@lionsautogps.com
             </Link>
             <br />
             <Link>
@@ -78,7 +79,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <span>&copy; copyright 2024 powered by Lions Auto </span>
+      <span>&copy; copyright {year} powered by Lions Auto GPS </span>
     </footer>
   )
 }

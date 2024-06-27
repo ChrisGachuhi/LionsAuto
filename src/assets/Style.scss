@@ -141,7 +141,7 @@ p {
       display: none;
       flex-direction: column;
       width: 80%;
-      margin-left:20% ;
+      margin-left: 20%;
       height: 100vh;
       background: white;
       position: absolute;
@@ -175,8 +175,6 @@ p {
     }
   }
 }
-
-
 
 .Section {
   padding: 0 1rem;
@@ -229,13 +227,13 @@ p {
     padding: 0 1rem;
     grid-area: partner;
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
 
     img {
       // min-width: 100%;
       width: 200px;
-      height: 150px;
+      height: 160px;
       box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
       -webkit-box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
