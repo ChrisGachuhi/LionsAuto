@@ -26,6 +26,7 @@ import neuce from '../assets/images/clients/logo 2_Page_8.png'
 import hebatullah from '../assets/images/clients/logos_Page_01.jpg'
 import royalfresh from '../assets/images/clients/logos_Page_02.jpg'
 import kijabe from '../assets/images/clients/logos_Page_03.jpg'
+import faholo from '../assets/images/clients/faholo.png'
 
 export const Partners = () => {
   const [countState, setCountState] = useState(false)
@@ -56,6 +57,7 @@ export const Partners = () => {
         <img src={dellochem} alt="" />
         <img src={frontier} alt="" />
         <img src={coopbank} alt="" />
+        <img src={faholo} alt="" />
       </div>
 
       <ScrollTrigger
