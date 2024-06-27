@@ -76,7 +76,7 @@ export const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to={'http://tracking.lionsautogps.com'}
+            to={'https://tracking.lionsautogps.com'}
             onClick={handleLinkClick}
           >
             Login
