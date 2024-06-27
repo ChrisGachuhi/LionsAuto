@@ -46,7 +46,7 @@ export const Form = () => {
         <span>Information</span>
 
         <p>Call us for immediate support on this number</p>
-        <span>+254 712345678</span>
+        <span>+254 715132828</span>
       </div>
 
       <form className="form-submit" onSubmit={handleForm}>

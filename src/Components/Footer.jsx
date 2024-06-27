@@ -44,10 +44,10 @@ export const Footer = () => {
         <h3>Useful Contacts</h3>
         <ul>
           <li>
-            <Link>Accounts & Billing: +254 712345678</Link>
+            <Link>Accounts & Billing: +254 715132828</Link>
           </li>
           <li>
-            <Link>Customer Support: +254 712345678</Link>
+            <Link>Customer Support: +254 715132828</Link>
           </li>
         </ul>
       </div>
@@ -63,7 +63,7 @@ export const Footer = () => {
             <br />
             <Link>
               <FontAwesomeIcon icon={faPhone} className="icon" />
-              +254 712345678
+              +254 715132828
             </Link>
           </li>
 
