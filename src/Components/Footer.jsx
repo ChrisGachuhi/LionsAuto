@@ -10,8 +10,9 @@ export const Footer = () => {
       <div className="column address">
         <h3></h3>
         <p>
-          Lions Auto, Outer Ring Rd, Nairobi, OLA Energy Baba Dogo, <br />3
-          <sup>rd</sup> floor
+          LionsAutoGPS <br /> Gym Plaza <br /> Outer Ring Rd, Ruaraka <br />
+          Nairobi
+          <br />
         </p>
       </div>
 
@@ -44,10 +45,13 @@ export const Footer = () => {
         <h3>Useful Contacts</h3>
         <ul>
           <li>
-            <Link>Accounts & Billing: +254 715132828</Link>
+            <Link>Accounts & Billing: +254 704 20 21 21</Link>
           </li>
           <li>
-            <Link>Customer Support: +254 715132828</Link>
+            <Link>Customer Support: +254 702 91 61 91</Link>
+          </li>
+          <li>
+            <Link>Sales: +254 715 13 28 28</Link>
           </li>
         </ul>
       </div>
@@ -63,23 +67,23 @@ export const Footer = () => {
             <br />
             <Link>
               <FontAwesomeIcon icon={faPhone} className="icon" />
-              +254 715132828
+              +254 715 13 28 28
             </Link>
           </li>
 
           <li className="socials">
-            <Link to={'https://facebook.com/LionsAuto'} target="_blank">
+            <Link to={'https://facebook.com/LionsAutoGPS'} target="_blank">
               <FontAwesomeIcon icon={faFacebookF} className="icon" />
             </Link>
 
-            <Link to={'https://x.com/LionsautoKE'} target="_blank">
+            <Link to={'https://x.com/LionsAutoGPS'} target="_blank">
               <FontAwesomeIcon icon={faXTwitter} className="icon" />
             </Link>
           </li>
         </ul>
       </div>
 
-      <span>&copy; copyright {year} powered by Lions Auto GPS </span>
+      <span>&copy; copyright {year} powered by LionsAutoGPS </span>
     </footer>
   )
 }

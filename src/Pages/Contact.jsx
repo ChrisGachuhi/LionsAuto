@@ -1,6 +1,5 @@
 import {
   faFacebookF,
-  faInstagram,
   faXTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import {
@@ -10,27 +9,31 @@ import {
   faRecycle,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
 
 const Contact = () => {
   return (
     <div className="Page Contact">
       <div className="card contacts">
-        <FontAwesomeIcon icon={faContactBook} />
+        <FontAwesomeIcon className='icon_header' icon={faContactBook} />
         <h3>Email & Phone</h3>
         <p>
-          <FontAwesomeIcon icon={faEnvelope} /> info@lionsauto.co.ke <br />
-          <FontAwesomeIcon icon={faPhone} /> +254715132828
+          <FontAwesomeIcon icon={faEnvelope} /> info@lionsautogps.com <br />
+          <FontAwesomeIcon icon={faPhone} /> +254 715 13 28 28
         </p>
       </div>
 
       <div className="card socials">
-        <FontAwesomeIcon icon={faRecycle} />
+        <FontAwesomeIcon className='icon_header' icon={faRecycle} />
         <h3>Get In Touch</h3>
         <p>Also find us social media below</p>
         <p>
-          <FontAwesomeIcon icon={faFacebookF} />
-          <FontAwesomeIcon icon={faInstagram} />
-          <FontAwesomeIcon icon={faXTwitter} />
+          <Link to={'https://facebook.com/LionsAutoGPS'} target="_blank">
+            <FontAwesomeIcon icon={faFacebookF} className="icon" />
+          </Link>
+          <Link to={'https://x.com/LionsAutoGPS'} target="_blank">
+            <FontAwesomeIcon icon={faXTwitter} className="icon" />
+          </Link>
         </p>
       </div>
 

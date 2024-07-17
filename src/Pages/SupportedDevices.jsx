@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import fmc003 from '../assets/images/updatedimages/fmc003.webp'
 
 const SupportedDevices = () => {
   return (
@@ -47,7 +48,7 @@ const SupportedDevices = () => {
 
       <Link to={'/FMC003-Vehicle-GPS-Tracker'} className="solution">
         <div className="image">
-          <img src="" alt="Image not found" />
+          <img src={fmc003} alt="Image not found" />
         </div>
         <p>
           <span>FMC003</span>

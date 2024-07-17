@@ -20,14 +20,14 @@ function GpsTracker() {
       <div className="landing">
         <LandingAnimation />
         <div className="title">
-          <h1>AIS 140 GPS TRACKER</h1>
+          <h1>Realtime Vehicle Tracking</h1>
         </div>
 
         <p>
           Tracking of multiple school bus, truck or cab’s driver activity, fuel
           tracking, and speed tracking is a most complicated work for school
           admin staff and transport manager. Speedotrack GPS make your work
-          simple by using AIS 140 GPS tracker for the school bus with RFID
+          simple by using Realtime Vehicle Tracking for the school bus with RFID
           Attendance System. Our RFID attendance system sends auto SMS
           notification to parents as well as school admin staff.
           <br />
@@ -35,7 +35,7 @@ function GpsTracker() {
         </p>
 
         <div className="title">
-          <h2>What is AIS 140 GPS Tracker</h2>
+          <h2>What is Realtime Vehicle Tracking</h2>
         </div>
         <img
           src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/AIS-140-GPS-Tracker.png?w=684&ssl=1"
@@ -68,14 +68,14 @@ function GpsTracker() {
 
       <div className="solution-container">
         <div className="features">
-          <h2>The Benefits of AIS 140 GPS tracker</h2>
+          <h2>The Benefits of Realtime Vehicle Tracking</h2>
           <div className="features-container">
             <div className="feature label">
               <h3>Simplify operation</h3>
               <p>
-                AIS 140 GPS tracker lays behind the tutor for the action and
-                systems in many kinds of the public transport network in many
-                ways. Either there any alternatives to be made there is a
+                Realtime Vehicle Tracking lays behind the tutor for the action
+                and systems in many kinds of the public transport network in
+                many ways. Either there any alternatives to be made there is a
                 regulation form for the same too.
               </p>
             </div>
@@ -133,8 +133,9 @@ function GpsTracker() {
               <h3>Crew Management</h3>
               <p>
                 A transport system is nothing without its well-managed crew. The
-                AIS 140 GPS tracker verifies the assertion of crew an in the
-                proper segment of transportation mode and helps to reduce cost.
+                Realtime Vehicle Tracking verifies the assertion of crew an in
+                the proper segment of transportation mode and helps to reduce
+                cost.
               </p>
             </div>
           </div>
@@ -184,8 +185,8 @@ function GpsTracker() {
         <div className="extra">
           <h3>Real-time GPS Tracking</h3>
           <p>
-            Using our AIS 140 GPS tracker for your school buses you can check
-            the real-time position of your vehicle.
+            Using our Realtime Vehicle Tracking for your school buses you can
+            check the real-time position of your vehicle.
           </p>
         </div>
 
@@ -208,8 +209,8 @@ function GpsTracker() {
         <div className="extra">
           <h3>Dust & Water Proof</h3>
           <p>
-            Our AIS 140 GPS tracker device is able to fight with dust & water.
-            It’s completely dust & waterproof device.
+            Our Realtime Vehicle Tracking device is able to fight with dust &
+            water. It’s completely dust & waterproof device.
           </p>
         </div>
 
@@ -240,8 +241,8 @@ function GpsTracker() {
         <div className="extra">
           <h3>Theft Protection</h3>
           <p>
-            Using our AIS 140 GPS tracker for your school buses you can check
-            the real-time position of your vehicle.
+            Using our Realtime Vehicle Tracking for your school buses you can
+            check the real-time position of your vehicle.
           </p>
         </div>
       </div>
