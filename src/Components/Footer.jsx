@@ -20,21 +20,15 @@ export const Footer = () => {
         <h3>Quick Link</h3>
         <ul>
           <li>
-            <Link>FAQ</Link>
-          </li>
-          <li>
             <Link to={'/Products'}>Products & Services</Link>
           </li>
           <li>
-            <Link to={'/Software'}>Software</Link>
-          </li>
-          <li>
-            <Link to={'https://www.lionsautogps.com/privacy-policy'}>
+            <Link to={'/PrivacyPolicy'}>
               Privacy Policy
             </Link>
           </li>
           <li>
-            <Link to={'https://www.lionsautogps.com/terms-conditions'}>
+            <Link to={'/Terms&Conditions'}>
               Terms & Conditions
             </Link>
           </li>

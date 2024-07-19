@@ -50,6 +50,8 @@ import VT05S from './Pages/Devices/VT05S'
 // Animation logic
 import { CurrentAnimationContext } from './Components/AnimationContext/CurrentAnimationContext'
 import gsap from 'gsap'
+import Terms from './Pages/Terms'
+import Privacy from './Pages/Privacy'
 
 function App() {
   const animate = {
@@ -186,6 +188,9 @@ function App() {
           <Route path="/GT06N-GPS-Tracker" element={<GT06N />} />
           <Route path="/VT08S-Vehicle-GPS-Tracker" element={<VT08S />} />
           <Route path="/VT05S-Vehicle-GPS-Tracker" element={<VT05S />} />
+
+          <Route path='/Terms&Conditions' element={<Terms/> } />
+          <Route path='/PrivacyPolicy' element={<Privacy/> } />
         </Routes>
       </CurrentAnimationContext.Provider>
 
