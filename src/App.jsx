@@ -189,8 +189,8 @@ function App() {
           <Route path="/VT08S-Vehicle-GPS-Tracker" element={<VT08S />} />
           <Route path="/VT05S-Vehicle-GPS-Tracker" element={<VT05S />} />
 
-          <Route path='/Terms&Conditions' element={<Terms/> } />
-          <Route path='/PrivacyPolicy' element={<Privacy/> } />
+          <Route path="/Terms&Conditions" element={<Terms />} />
+          <Route path="/PrivacyPolicy" element={<Privacy />} />
         </Routes>
       </CurrentAnimationContext.Provider>
 
