@@ -5,6 +5,7 @@ const Pricing = () => {
 
       <div className="price">
         <h2>LionsAutoGPS Pricing</h2>
+        
       </div>
     </div>
   )

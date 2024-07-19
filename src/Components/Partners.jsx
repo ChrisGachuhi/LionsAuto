@@ -32,6 +32,7 @@ export const Partners = () => {
   const [countState, setCountState] = useState(false)
   return (
     <div className="Partners">
+      <h2>Client Portfolio</h2>
       <div className="partner">
         <img src={hebatullah} alt="" />
         <img src={royalfresh} alt="" />
