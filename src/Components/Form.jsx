@@ -53,8 +53,7 @@ export const Form = () => {
         <span>+254 702 91 61 91</span>
       </div>
 
-      {!isPricingPage &&
-      (
+      {!isPricingPage && (
         <form className="form-submit" onSubmit={handleForm}>
           <input
             type="text"
@@ -96,9 +95,7 @@ export const Form = () => {
         </form>
       )}
 
-      
-      {isPricingPage &&
-      (
+      {isPricingPage && (
         <form className="form-submit" onSubmit={handleForm}>
           <input
             type="text"
