@@ -36,16 +36,16 @@ function GarbageTruck() {
           Some of the main difficulties in waste management are illegal dumping
           of solid household waste (SHW) in forbidden places (away from
           landfill) and inefficient collection and transportation of
-          garbage.That’s why first and foremost, garbage truck monitoring system
-          is focused on truck location tracking and monitoring of operation of
-          its attached equipment (blade, plate, etc).
+          garbage.That&apos;s why first and foremost, garbage truck monitoring
+          system is focused on truck location tracking and monitoring of
+          operation of its attached equipment (blade, plate, etc).
         </p>
 
         <p>
           Garbage truck monitoring system allows to monitor garbage level in
-          truck’s body, track places of SHW (waste) loading and unloading using
-          axle load data and GPS coordinates, also helps to detect and prevent
-          any attempts of unauthorized unloading of garbage.
+          truck&apos;s body, track places of SHW (waste) loading and unloading
+          using axle load data and GPS coordinates, also helps to detect and
+          prevent any attempts of unauthorized unloading of garbage.
         </p>
 
         <p>

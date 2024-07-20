@@ -35,8 +35,8 @@ function TankerTruck() {
           Truck tanker monitoring system provides precise fuel level and volume
           measurement in each compartment of cistern, also measurement of truck
           operating parameters, geolocation and route tracking using GPS/GLONASS
-          , as well as driver’s behavior – accelerations, harsh breaking and
-          turning, speeding, high RPMs.
+          , as well as driver&apos;s behavior – accelerations, harsh breaking
+          and turning, speeding, high RPMs.
         </p>
 
         <p>

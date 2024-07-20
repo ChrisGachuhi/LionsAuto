@@ -45,9 +45,9 @@ const Franchising = () => {
         </div>
         <p>
           Start your own vehicle tracking business – franchise the Lions Auto
-          GPS GPS platform. Don’t miss the opportunity to franchise the most
-          user friendly GPS tracking platform on the market. Start making money
-          from day one.
+          GPS GPS platform. Don&apos;t miss the opportunity to franchise the
+          most user friendly GPS tracking platform on the market. Start making
+          money from day one.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
@@ -188,8 +188,8 @@ const Franchising = () => {
           <div className="description">
             <h3>Website Development</h3>
             <p>
-              A flawless web experience is crucial. We’ll make sure that your
-              customers will get one. As our partner, you will receive our
+              A flawless web experience is crucial. We&apos;ll make sure that
+              your customers will get one. As our partner, you will receive our
               assistance with your website development.
             </p>
           </div>
@@ -222,8 +222,8 @@ const Franchising = () => {
           <div className="description">
             <h3>Marketing Material</h3>
             <p>
-              A flawless web experience is crucial. We’ll make sure that your
-              customers will get one. As our partner, you will receive our
+              A flawless web experience is crucial. We&apos;ll make sure that
+              your customers will get one. As our partner, you will receive our
               assistance with your website development.
             </p>
           </div>

@@ -112,12 +112,12 @@ const Distribution = () => {
               businesses. The GPS tracking market is rapidly growing and has an
               amazing potential in the future. People are becoming more and more
               concerned about their safety and the safety of their valuables.
-              That’s why families are starting to use mobile tracking apps and
-              GPS trackers for their children and other loved ones. Companies
-              are also tracking and managing their vehicles, delivery trucks,
-              cargo or employees. According to Global Market Insights, “the
-              vehicle tracking market size was valued at $8 billion in 2015 and
-              is anticipated to exceed $22 billion by 2022.”
+              That&apos;s why families are starting to use mobile tracking apps
+              and GPS trackers for their children and other loved ones.
+              Companies are also tracking and managing their vehicles, delivery
+              trucks, cargo or employees. According to Global Market Insights,
+              “the vehicle tracking market size was valued at $8 billion in 2015
+              and is anticipated to exceed $22 billion by 2022.”
             </p>
           </div>
         </div>
@@ -156,13 +156,13 @@ const Distribution = () => {
               Providing you the best range of GPS tracking and GPS tracking
               system with effective & timely delivery. our solution is backed by
               a team of dexterous professionals, we are engaged in providing a
-              quality approved GPS Tracking System. Our vendors’ professionals
-              manufacture this tracking system using superior quality components
-              and modern technology in line with industry standards. our
-              provided tracking system is highly acknowledged in the market
-              owing to its various quality attributes. We offers Wholesale price
-              to our partner to grow their GPS tracking business and maximize
-              their profits.
+              quality approved GPS Tracking System. Our vendors&apos;
+              professionals manufacture this tracking system using superior
+              quality components and modern technology in line with industry
+              standards. our provided tracking system is highly acknowledged in
+              the market owing to its various quality attributes. We offers
+              Wholesale price to our partner to grow their GPS tracking business
+              and maximize their profits.
             </p>
           </div>
         </div>

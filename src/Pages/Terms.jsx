@@ -9,15 +9,15 @@ function Terms() {
         <h1>Please Read These Privacy Policy Carefully</h1>
 
         <p>
-          This Privacy Policy was last modified on April 4, 2017. Autonemo GPS
-          (“Autonemo GPS,” “we,” or “us”) are committed to protecting your
+          This Privacy Policy was last modified on April 4, 2017. Lions Auto GPS
+          (“Lions Auto GPS,” “we,” or “us”) are committed to protecting your
           privacy. This Privacy Policy explains how our practices work regarding
           the collection, use, disclosure, and protection of information that is
           collected through our mobile app and our website (collectively, our
           “Service”), as well as the choices you make regarding the collection
           and use of information. Capitalized terms that are not defined in this
-          Privacy Policy have the meaning given them in our Terms of Use.
-          Autonemo GPS is a GPS Tracking Service using GPS Tracking Devices
+          Privacy Policy have the meaning given them in our Terms of Use. Lions
+          Auto GPS is a GPS Tracking Service using GPS Tracking Devices
           installed in vehicles or used by the customer for monitoring their
           concerned Physical Assets. This App or application is used for
           Tracking the physical devices only, and the data collected through the
@@ -34,8 +34,9 @@ function Terms() {
           of the service, we may collect your personal information such as your
           username, first and last name, email address, mobile phone number. If
           you want to add another member to your account, we collect the
-          member’s name, email address, and mobile phone number. We may also
-          collect billing information when you sign up for the Paid Service.
+          member&apos;s name, email address, and mobile phone number. We may
+          also collect billing information when you sign up for the Paid
+          Service.
         </p>
         <p>
           After you set up your account, we may ask for other profile and
@@ -47,7 +48,7 @@ function Terms() {
           or physical devices bought by the customer of this Application. We
           will collect Geolocation from the App only for showing the current
           location of the user in the map to show distance from a specific
-          vehicle using Autonemo GPS Devices.
+          vehicle using Lions Auto GPS Devices.
         </p>
         <p>
           Driving Event Data. We collect sensory and motion data from your
@@ -66,8 +67,8 @@ function Terms() {
           We use this information to operate, maintain, and provide the features
           and functionality of the Service and to communicate directly with the
           customer, such as to send the customer alerts on the movements of the
-          (customer) user’s vehicles or assets which is only related to the
-          concerned customer’s vehicles or assets. The customer or user can
+          (customer) user&apos;s vehicles or assets which is only related to the
+          concerned customer&apos;s vehicles or assets. The customer or user can
           control the receipt of email and text alerts by visiting “Settings”
           within the mobile app or email. We may also send Service-related
           emails (e.g., account verification, order confirmations, change or
@@ -86,8 +87,8 @@ function Terms() {
           network to share with third parties. The data we receive is dependent
           upon your privacy settings with the social network. You should always
           review, and if necessary, adjust your privacy settings on third-party
-          websites and services before linking or connecting them to Autonemo
-          GPS’s website or Service.
+          websites and services before linking or connecting them to Lions Auto
+          GPS&apos;s website or Service.
         </p>
         <p>
           Information we collect automatically through the use of technology.
@@ -143,7 +144,7 @@ function Terms() {
         <p>
           We share your personal information, including name, email, location
           and driving event data, with others only within the organization or
-          group used in Autonemo GPS services.
+          group used in Lions Auto GPS services.
         </p>
         <p>
           We may at any time buy or sell/divest the company, or any combination
@@ -163,13 +164,13 @@ function Terms() {
           enforce our Terms of Use, take precautions against liability, to
           investigate and defend ourselves against any claims or allegations, or
           to protect the security or integrity of our site; and/or (c) to
-          exercise or protect the rights, property, or personal safety of
-          Autonemo GPS, our Users or others.
+          exercise or protect the rights, property, or personal safety of Lions
+          Auto GPS, our Users or others.
         </p>
 
         <h2>3. How We Protect Your Information</h2>
         <p>
-          Autonemo GPS cares about the security of your information and uses
+          Lions Auto GPS cares about the security of your information and uses
           commercially reasonable physical, administrative, and technological
           safeguards to preserve the integrity and security of all information
           we collect and that we share with our service providers. However, no
@@ -179,16 +180,16 @@ function Terms() {
           take reasonable steps to investigate the situation and where
           appropriate, notify those individuals whose information may have been
           compromised and take other steps, in accordance with any applicable
-          laws and regulations. Autonemo GPS maintains proper backup of your
+          laws and regulations. Lions Auto GPS maintains proper backup of your
           data, but not everything or related data can be guaranteed, so if upon
-          any unforeseeable reason the data backups fail then Autonemo GPS will
-          notify the user but cannot do anything more than that.
+          any unforeseeable reason the data backups fail then Lions Auto GPS
+          will notify the user but cannot do anything more than that.
         </p>
 
         <h2>4. Your Choices About Your Information</h2>
         <p>
           You may, of course, decline to submit any personal information through
-          the Service, in which case Autonemo GPS may or may not be able to
+          the Service, in which case Lions Auto GPS may or may not be able to
           provide its Services to you depending on the extent of the service.
           Modifying Your Account Information and Settings: You may modify your
           account information, update or amend your personal information, or
@@ -199,11 +200,11 @@ function Terms() {
           parental consent notification, order confirmations, change or updates
           to features of the Service, technical and security notices). If you
           have any questions about reviewing or modifying your account
-          information, you can contact us directly at info@speedotrack.com
+          information, you can contact us directly at info@lionsautogps.com
           Delete Your Account and Personal Information: We will retain your
           information for as long as your account is active or as needed to
           provide you services. If you wish to cancel your account, please
-          contact us at info@speedotrack.com
+          contact us at info@lionsautogps.com
         </p>
 
         <h2>5. Customized Privacy</h2>
@@ -223,33 +224,33 @@ function Terms() {
           the Service to another website, our Privacy Policy does not apply to
           third-party websites or services. Your browsing and interaction on any
           third-party website or service, including those that have a link on
-          our website, are subject to that third party’s own rules and policies.
-          Please read over those rules and policies before proceeding.
+          our website, are subject to that third party&apos;s own rules and
+          policies. Please read over those rules and policies before proceeding.
         </p>
 
         <h2>7. Changes To Our Privacy Policy</h2>
         <p>
-          Autonemo GPS may, in its sole discretion, modify or update this
+          Lions Auto GPS may, in its sole discretion, modify or update this
           Privacy Policy from time to time, and so you should review this page
           periodically. When we change the policy, we will update the ‘last
-          modified’ date at the top of this page. If there are material changes
-          to this Privacy Policy or in how AUTINEMO will use your personal
-          information, we will notify you either by prominently posting a notice
-          of such changes prior to implementing the change or by directly
-          sending you a notification.
+          modified&apos; date at the top of this page. If there are material
+          changes to this Privacy Policy or in how AUTINEMO will use your
+          personal information, we will notify you either by prominently posting
+          a notice of such changes prior to implementing the change or by
+          directly sending you a notification.
         </p>
 
         <h2>8. Your Privacy Rights As In India</h2>
         <p>
-          AUTONEMO collects various types of personal information about you both
-          online and offline, as described in this privacy policy. Under the law
-          of Bangladesh, AUTONEMO customers who are residents of Bangladesh or
-          we the service of AUTONEMO, may have to disclose their data or
-          information till the last available or retained data to third parties
-          including government entities according to the law of the land as
-          required. We will comply with such request which will be applicable
+          Lions Auto collects various types of personal information about you
+          both online and offline, as described in this privacy policy. Under
+          the law of Bangladesh, Lions Auto customers who are residents of
+          Bangladesh or we the service of Lions Auto, may have to disclose their
+          data or information till the last available or retained data to third
+          parties including government entities according to the law of the land
+          as required. We will comply with such request which will be applicable
           based on the law of the country. You May Send Us An Email At
-          info@speedotrack.com With The Words “Privacy Policy In Bangladesh” In
+          info@lionsautogps.com With The Words “Privacy Policy In Bangladesh” In
           The Subject Line.
         </p>
       </div>

@@ -43,8 +43,8 @@ function TruckTelematics() {
           Truck telematics solution by Lions Auto GPS is aimed on monitoring
           cargo status and performance of a freight truck and helps to improve
           fleet management system of a business. By equipping trucks with Lions
-          Auto GPS’s telematics hardware, fleet manage/company owner gets an
-          opportunity to:
+          Auto GPS&apos;s telematics hardware, fleet manage/company owner gets
+          an opportunity to:
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
@@ -126,7 +126,7 @@ function TruckTelematics() {
             <h3>Fuel Volume Monitoring</h3>
             <p>
               Fuel costs can amount up to 30% of all fleet management expenses,
-              therefore affecting operating costs and company’s profit in
+              therefore affecting operating costs and company&apos;s profit in
               general. Among the major fuel related challenges experts define:
               Fuel theft, Increasing fuel costs.
             </p>

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
-import gsap from 'gsap'
-import ScrollTrigger from 'gsap/ScrollTrigger'
+// import gsap from 'gsap'
+// import ScrollTrigger from 'gsap/ScrollTrigger'
 import { useContext, useEffect } from 'react'
 import LandingAnimation from '../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentAnimationContext'
@@ -74,9 +74,9 @@ const Software = () => {
               GPS tracking system and fleet management system. All Lions Auto
               GPS applications can be white-labeled and customized depending on
               your business needs. So, if you want to start your own white label
-              GPS tracking business or expand the existing one—you’ve come to
-              the right place. Let’s start tracking with our advanced GPS
-              tracking platform.
+              GPS tracking business or expand the existing one—you&apos;ve come
+              to the right place. Let&apos;s start tracking with our advanced
+              GPS tracking platform.
             </p>
             <Link to={'/GPS-Software'} target="_blank">
               Know More
@@ -122,7 +122,7 @@ const Software = () => {
             <h3>Lions Auto GPS Fuel Monitoring</h3>
             <p>
               Fuel costs can amount up to 30% of all fleet management expenses,
-              therefore affecting operating costs and company's profit in
+              therefore affecting operating costs and company&apos;s profit in
               general. Lions Auto GPS tracking and telematics platform can help
               you cope with the major challenges related to fuel monitoring and
               management in the most user-friendly way.

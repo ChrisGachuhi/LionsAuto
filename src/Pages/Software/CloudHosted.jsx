@@ -183,11 +183,11 @@ const CloudHosted = () => {
           <div className="description">
             <h3>White label GPS Tracking Software</h3>
             <p>
-              Already in the business? Step on our platform. It’s fast and easy.
-              A white-label product is a product or service produced by one
-              company that other companies rebrand to make it appear as if they
-              had made it. The name derives from the image of a white label on
-              the packaging that can be filled in with the marketer's trade
+              Already in the business? Step on our platform. It&apos;s fast and
+              easy. A white-label product is a product or service produced by
+              one company that other companies rebrand to make it appear as if
+              they had made it. The name derives from the image of a white label
+              on the packaging that can be filled in with the marketer's trade
               dress.. Our templating is flexible unlike any other. We provide
               our cloud based GPS tracking platform incl. API for connecting all
               your running units. We provide 24/7 support for our client. our

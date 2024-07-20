@@ -24,11 +24,11 @@ function GpsTracker() {
         </div>
 
         <p>
-          Tracking of multiple school bus, truck or cab’s driver activity, fuel
-          tracking, and speed tracking is a most complicated work for school
-          admin staff and transport manager. Speedotrack GPS make your work
-          simple by using Realtime Vehicle Tracking for the school bus with RFID
-          Attendance System. Our RFID attendance system sends auto SMS
+          Tracking of multiple school bus, truck or cab&apos;s driver activity,
+          fuel tracking, and speed tracking is a most complicated work for
+          school admin staff and transport manager. Speedotrack GPS make your
+          work simple by using Realtime Vehicle Tracking for the school bus with
+          RFID Attendance System. Our RFID attendance system sends auto SMS
           notification to parents as well as school admin staff.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
@@ -102,17 +102,17 @@ function GpsTracker() {
             <div className="feature software">
               <h3>Driver Behavior</h3>
               <p>
-                For maintaining the vehicle’s health it’s very important to to
-                have goo driver. Our tracking solutions help you manage all the
-                driver information of your fleet and also assign drivers and get
-                driver specific reports to your inbox everyday.
+                For maintaining the vehicle&apos;s health it&apos;s very
+                important to to have goo driver. Our tracking solutions help you
+                manage all the driver information of your fleet and also assign
+                drivers and get driver specific reports to your inbox everyday.
               </p>
             </div>
 
             <div className="feature management">
               <h3>Simplify Route Management</h3>
               <p>
-                It’s very important to maintain the schedule of vehicles.
+                It&apos;s very important to maintain the schedule of vehicles.
                 AIS-140 GPS tracking system is very valuable for the identity of
                 a right route in right time. This is done to ensure that the
                 shortest and less fuel path for the vehicle.
@@ -201,7 +201,7 @@ function GpsTracker() {
         <div className="extra">
           <h3>SOS call & panic bottom</h3>
           <p>
-            SOS call & Panic bottom use for your student’s safety, if feel
+            SOS call & Panic bottom use for your student&apos;s safety, if feel
             unwell in school bus then they can use this for quick.
           </p>
         </div>
@@ -210,7 +210,7 @@ function GpsTracker() {
           <h3>Dust & Water Proof</h3>
           <p>
             Our Realtime Vehicle Tracking device is able to fight with dust &
-            water. It’s completely dust & waterproof device.
+            water. It&apos;s completely dust & waterproof device.
           </p>
         </div>
 
@@ -225,8 +225,8 @@ function GpsTracker() {
         <div className="extra">
           <h3>Two Way Communications</h3>
           <p>
-            With MIC and speaker connected, it’s easy to realize voice-monitor
-            or two-way audio.
+            With MIC and speaker connected, it&apos;s easy to realize
+            voice-monitor or two-way audio.
           </p>
         </div>
 

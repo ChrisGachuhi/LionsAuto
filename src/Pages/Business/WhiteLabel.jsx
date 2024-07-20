@@ -129,7 +129,7 @@ const WhiteLabel = () => {
               Providing you the best range of gps tracking and gps tracking
               system with effective & timely delivery. Backed by a team of
               dexterous professionals, we are engaged in providing a quality
-              approved GPS Tracking System. Our vendors’ professionals
+              approved GPS Tracking System. Our vendors&apos; professionals
               manufacture this tracking system using superior quality components
               and modern technology in line with industry standards. Our
               tracking system is highly acclaimed in the market due to its
@@ -158,12 +158,12 @@ const WhiteLabel = () => {
               with a professional and intuitive interface that reflects your
               brand identity. In the complex telematics market, our solution
               simplifies the user experience, enabling you to concentrate on
-              expanding your business. market can be complicated, and you don’t
-              want to spend all your time training and supporting your
-              customers, that’s why we created something that looks amazing, but
-              is very simple to use. All our clients comment they spend very
-              little to no time training new users, and are free to focus on
-              building their tracking business.
+              expanding your business. market can be complicated, and you
+              don&apos;t want to spend all your time training and supporting
+              your customers, that&apos;s why we created something that looks
+              amazing, but is very simple to use. All our clients comment they
+              spend very little to no time training new users, and are free to
+              focus on building their tracking business.
             </p>
           </div>
         </div>

@@ -69,16 +69,16 @@ const Business = () => {
         </p>
 
         <p>
-          That’s why families are starting to use mobile tracking apps and GPS
-          trackers for their children and other loved ones. Companies are also
-          tracking and managing their vehicles, delivery trucks, cargo or
+          That&apos;s why families are starting to use mobile tracking apps and
+          GPS trackers for their children and other loved ones. Companies are
+          also tracking and managing their vehicles, delivery trucks, cargo or
           employees.
         </p>
 
         <p>
           According to Global Market Insights, “the vehicle tracking market size
           was valued at $8 billion in 2015 and is anticipated to exceed $22
-          billion by 2022.” Really, there’s no doubt you should start GPS
+          billion by 2022.” Really, there&apos;s no doubt you should start GPS
           tracking business today! <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>

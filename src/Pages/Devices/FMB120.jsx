@@ -23,7 +23,7 @@ function FMB120() {
           remote objects is needed: fleet management, car rental companies, taxi
           companies, public transport, logistics companies, personal cars and so
           on. FMB120 can perform tasks on remote objects, such as monitoring
-          engine status, controlling truck’s door etc.
+          engine status, controlling truck&apos;s door etc.
         </p>
       </div>
 

@@ -6,16 +6,16 @@ function Privacy() {
       <div className="landing">
         <LandingAnimation />
 
-        <h1>Speedotrack Terms & Conditions</h1>
+        <h1>Terms & Conditions</h1>
 
         <p>
           The subscriber as mentioned in the registration form agrees to
-          subscribe the ‘Vehicle Tracking Solution’ from Speedotrack GPS
+          subscribe the ‘Vehicle Tracking Solution&apos; from Lions Auto GPS
           Providing such services in Bangladesh under the following terms &
           conditions
         </p>
 
-        <p>“Speedotrack GPS” Service Agreement</p>
+        <p>“Lions Auto GPS” Service Agreement</p>
 
         <h2>Article 1: Introduction</h2>
         <p>
@@ -23,8 +23,8 @@ function Privacy() {
           This agreement is between you (“you”) or “customer” are the original,
           end user purchaser of the GPS tracking device (“device”) that works in
           conjunction with our web site and the services associated with it (the
-          “services”) and us (we are Autonemo GPS Limited, the company that sold
-          the device to you). This agreement contains important terms,
+          “services”) and us (we are Lions Auto GPS Limited, the company that
+          sold the device to you). This agreement contains important terms,
           conditions, allocations of risk between you and us, and limitations of
           our liability to you that we want you to know about and applies to all
           of past, present, and future use of your device and the services,
@@ -75,10 +75,10 @@ function Privacy() {
         <h2>Article 4: Cancellation</h2>
         <p>
           Most service plans do not provide for pro rata refunds of unused
-          services. You won’t be entitled to a refund of the purchase price of
-          your device, subject to your product warranty. If you have your device
-          deactivated, there may be a charge to reactivate it if you later
-          decide to use it again.
+          services. You won&apos;t be entitled to a refund of the purchase price
+          of your device, subject to your product warranty. If you have your
+          device deactivated, there may be a charge to reactivate it if you
+          later decide to use it again.
         </p>
 
         <h2>Article 5: Usage Limitations</h2>
@@ -203,9 +203,10 @@ function Privacy() {
 
         <p>
           Because we provide service through wireless and other common carrier
-          networks, we can’t promise that your communications won’t be
-          intercepted by others. You agree we won’t be liable for any damages
-          for any loss of privacy occurring in communication over such networks.
+          networks, we can&apos;t promise that your communications won&apos;t be
+          intercepted by others. You agree we won&apos;t be liable for any
+          damages for any loss of privacy occurring in communication over such
+          networks.
         </p>
 
         <h2>Article 9: Lost or Stolen Vehicles</h2>
@@ -233,9 +234,9 @@ function Privacy() {
           affiliates, subsidiaries, employees, agents, and service providers
           harmless from and against any and all claims, demands, actions, causes
           of action, suits, proceedings, losses, damages, costs and expenses,
-          including reasonable attorneys’ fees, arising from or relating to your
-          use of the services, breach of this agreement, or any act, error, or
-          omission on your part or that of anyone who uses the services. This
+          including reasonable attorneys&apos; fees, arising from or relating to
+          your use of the services, breach of this agreement, or any act, error,
+          or omission on your part or that of anyone who uses the services. This
           provision will continue to apply after the termination or cancellation
           of this agreement.
         </p>
@@ -244,8 +245,8 @@ function Privacy() {
         <p>
           Your device is covered by 7 Days to 1 year full replacement warranty
           from the date you install based on product models. This includes
-          protection from Speedotrack GPS’ s to check your device properly and
-          replace if needed.
+          protection from Lions Auto GPS&apos; s to check your device properly
+          and replace if needed.
         </p>
 
         <h2>Article 12: limitations of the Services</h2>
@@ -261,16 +262,16 @@ function Privacy() {
           person other than our authorized representative, or combined with
           equipment, services, or software not expressly approved by us. Certain
           elements of the services, such as the ability to remotely unlock or
-          disable your vehicle, may simply be incompatible with your vehicle’s
-          design. There are other problems beyond our control that may prevent
-          us from providing the services to you at any given time, such as
-          damage to your vehicle in an accident, abuse or neglect of your
-          device, terrain (hills, mountains, dips, valleys), buildings, bridges,
-          tunnels, weather, the design of your vehicle, defects (including
-          hidden defects) in your vehicle, localized “gaps” in cellular
-          telephone network coverage, cellular telephone network congestion, and
-          interference with the satellite transmissions that help supply the GPS
-          data used by us in providing the services.
+          disable your vehicle, may simply be incompatible with your
+          vehicle&apos;s design. There are other problems beyond our control
+          that may prevent us from providing the services to you at any given
+          time, such as damage to your vehicle in an accident, abuse or neglect
+          of your device, terrain (hills, mountains, dips, valleys), buildings,
+          bridges, tunnels, weather, the design of your vehicle, defects
+          (including hidden defects) in your vehicle, localized “gaps” in
+          cellular telephone network coverage, cellular telephone network
+          congestion, and interference with the satellite transmissions that
+          help supply the GPS data used by us in providing the services.
         </p>
 
         <h2>Article 13: Important Limitations of our Liability</h2>
@@ -301,8 +302,8 @@ function Privacy() {
         </p>
 
         <p>
-          Two, our and our service providers’ maximum, cumulative liability to
-          you under any theory (including but not limited to fraud,
+          Two, our and our service providers&apos; maximum, cumulative liability
+          to you under any theory (including but not limited to fraud,
           misrepresentation, breach of contract, personal injury, or products
           liability) for any one or more related or unrelated claims is limited
           to an amount equal to three times what you paid for the services under
@@ -315,10 +316,10 @@ function Privacy() {
           fullest allowed by law, any claims for (1) punitive damages, (2)
           treble, consequential, indirect, lost profits, incidental or special
           damages regardless of whether or not either party was advised of the
-          possibility of such damages, or (3) attorney’s fees. We both agree not
-          to make, and to waive to the fullest extent allowed by law, any claim
-          for damages other than direct, compensatory damages as limited in this
-          agreement.
+          possibility of such damages, or (3) attorney&apos;s fees. We both
+          agree not to make, and to waive to the fullest extent allowed by law,
+          any claim for damages other than direct, compensatory damages as
+          limited in this agreement.
         </p>
 
         <p>
@@ -387,10 +388,11 @@ function Privacy() {
         <p>
           To the fullest extent permitted by law, and except as explicitly
           provided otherwise, this agreement and any disputes arising out of or
-          relating to it will be governed by the laws of the people’s republic
-          of Bangladesh without regard to its conflict of law principles, and by
-          any applicable tariffs, wherever filed. The UN Convention on contracts
-          for the international sale of goods will not apply.
+          relating to it will be governed by the laws of the people&apos;s
+          republic of Bangladesh without regard to its conflict of law
+          principles, and by any applicable tariffs, wherever filed. The UN
+          Convention on contracts for the international sale of goods will not
+          apply.
         </p>
 
         <h2>Article 15: Resolution of Disputes</h2>
@@ -432,17 +434,17 @@ function Privacy() {
         </p>
 
         <p>
-          You agree not to hold the dealer, Autonemo GPS Limited, its owners or
-          partners in any way liable for the use or misuse of this device. This
-          device is not to be used as a “stalking” device. Autonemo GPS Limited
-          also does not provide the satellite equipment or map service directly
-          and cannot be held liable in any way for this device as a dealer. This
-          device and service is not designed to be a life saving device in any
-          way. This device is used for informational purpose.
+          You agree not to hold the dealer, Lions Auto GPS Limited, its owners
+          or partners in any way liable for the use or misuse of this device.
+          This device is not to be used as a “stalking” device. Lions Auto GPS
+          Limited also does not provide the satellite equipment or map service
+          directly and cannot be held liable in any way for this device as a
+          dealer. This device and service is not designed to be a life saving
+          device in any way. This device is used for informational purpose.
         </p>
 
         <p>
-          By their signatures below, customer and Autonemo GPS Limited have
+          By their signatures below, customer and Lions Auto GPS Limited have
           read, understood, and executed this agreement in one or more
           counterparts, each of which constitutes an original but all of which
           together constitute one agreement. Transmission of signature pages by
@@ -469,9 +471,9 @@ function Privacy() {
             other factors and conditions.
           </li>
           <li>
-            Services may be affected by inherent limitations of your vehicle’s
-            electrical problems and architecture or if any of the components of
-            your vehicle’s service limitations.
+            Services may be affected by inherent limitations of your
+            vehicle&apos;s electrical problems and architecture or if any of the
+            components of your vehicle&apos;s service limitations.
           </li>
           <li>
             Services are not available if the GPS system is not working properly
@@ -480,8 +482,8 @@ function Privacy() {
           <li>
             Services may be affected by the natural calamity e.g. earthquake,
             hurricane, floods, labor strikes, civil commotion, riots, war: or
-            any other act or event that is beyond reasonable control of
-            Speedotrack GPS.
+            any other act or event that is beyond reasonable control of Lions
+            Auto GPS.
           </li>
           <li>
             Services may be limited in certain situations to some geographic
@@ -498,9 +500,9 @@ function Privacy() {
           </li>
           <li>
             If the Subscriber is unable to pay the yearly subscription bill
-            within due date, the service will be suspended immediately and
-            Speedotrack GPS will not be liable for any kind of accident/theft of
-            the vehicle during the suspended period of service.
+            within due date, the service will be suspended immediately and Lions
+            Auto GPS will not be liable for any kind of accident/theft of the
+            vehicle during the suspended period of service.
           </li>
           <li>Mileage report may defer from +- 10 to 15 %</li>
           <li>
@@ -508,7 +510,7 @@ function Privacy() {
             and environment
           </li>
           <li>
-            Speedotrack GPS Ltd. cannot ensure 100% Server uptime, but we will
+            Lions Auto GPS Ltd. cannot ensure 100% Server uptime, but we will
             try to ensure 99% server up time
           </li>
           <li>
@@ -516,15 +518,15 @@ function Privacy() {
             server or platform features
           </li>
           <li>
-            Speedotrack GPS Ltd. recommend remote support for any software
+            Lions Auto GPS Ltd. recommend remote support for any software
             related after sales service
           </li>
           <li>
-            Speedotrack GPS Ltd. cannot ensure 100% device online due to Mobile
+            Lions Auto GPS Ltd. cannot ensure 100% device online due to Mobile
             operator network availability
           </li>
           <li>
-            Speedotrack GPS Ltd. do not recommend voice feature for your
+            Lions Auto GPS Ltd. do not recommend voice feature for your
             organization as there might be privacy concerns, we will not be
             liable for any legal obligations
           </li>
@@ -542,7 +544,7 @@ function Privacy() {
             2-3 minutes.
           </li>
           <li>
-            Speedotrack GPS do not offer sms alerts, we only offer email / push
+            Lions Auto GPS do not offer sms alerts, we only offer email / push
             notifications/ Telegram Bot for alerts. But these alerts are not
             guaranteed 100% due to network congestion and other factors. In some
             cases it might be delayed up to some minutes.

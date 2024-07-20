@@ -287,9 +287,9 @@ const Home = () => {
               Monitoring of fuel consumption and operation modes of mining and
               quarrying equipment (rock trucks, bulldozers, crawler tractors,
               loaders, power units) allows to reduce operation costs, prevent
-              fuel theft and equipment breakdown. The main feature of
-              Technoton’s solutions for quarry equipment is using DFM Marine
-              fuel flow meters, which were designed for equipment with fuel
+              fuel theft and equipment breakdown. The main feature of Lions Auto
+              GPS&apos;s solutions for quarry equipment is using DFM Marine fuel
+              flow meters, which were designed for equipment with fuel
               consumption up to 4000 L/h.
             </p>
             <Link

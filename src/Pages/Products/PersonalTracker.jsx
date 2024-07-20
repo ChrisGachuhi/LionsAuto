@@ -22,11 +22,11 @@ function PersonalTracker() {
 
         <p>
           How many times have you worried about certain members of your family
-          when you weren’t around? What about when that person left the house
-          for something? This can be an elderly member of your family or a
+          when you weren&apos;t around? What about when that person left the
+          house for something? This can be an elderly member of your family or a
           child. How much better would you feel if you knew you could keep tabs
           on them and they could easily notify you if something was wrong? Well
-          that’s what personal GPS trackers can provide you with.
+          that&apos;s what personal GPS trackers can provide you with.
           <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>

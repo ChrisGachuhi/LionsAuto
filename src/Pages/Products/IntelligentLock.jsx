@@ -193,12 +193,12 @@ function IntelligentLock() {
             <p>
               Our GPS Electronic lock controlable with Programmable events can
               be defined to both transmit and act on complex events. For
-              example, you’ll be alerted if the lock rope is cut.Geo-fencing
-              alerts when a container is entering/leaving a specified designated
-              area at a specified time.Geo-fencing alerts when a container is
-              entering/leaving a specified designated area at a specified
-              time.he unit can be unlocked by sending SMS or GPRS commands, or
-              swipping RFID card.
+              example, you&apos;ll be alerted if the lock rope is
+              cut.Geo-fencing alerts when a container is entering/leaving a
+              specified designated area at a specified time.Geo-fencing alerts
+              when a container is entering/leaving a specified designated area
+              at a specified time.he unit can be unlocked by sending SMS or GPRS
+              commands, or swipping RFID card.
             </p>
           </div>
         </div>

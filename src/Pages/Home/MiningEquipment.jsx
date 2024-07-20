@@ -40,15 +40,15 @@ function MiningEquipment() {
         </p>
 
         <p>
-          The main feature of Technoton’s solutions for quarry equipment is
-          using DFM Marine fuel flow meters, which were designed for equipment
-          with fuel consumption up to 4000 L/h. Also solution can include DUT-E
-          fuel level sensors, which are installed in fuel tanks and determine
-          accurate fuel level. The solution can be extended with axle load
-          and/or bucket position monitoring by adding GNOM axle load/shift
-          sensor. All received data is proceed by CANUp telematics gateway and
-          sent to the web-based ORF4 telematics service, or directly by SMS,
-          e-mail or messenger. <br />
+          The main feature of Lions Auto GPS&apos;s solutions for quarry
+          equipment is using DFM Marine fuel flow meters, which were designed
+          for equipment with fuel consumption up to 4000 L/h. Also solution can
+          include DUT-E fuel level sensors, which are installed in fuel tanks
+          and determine accurate fuel level. The solution can be extended with
+          axle load and/or bucket position monitoring by adding GNOM axle
+          load/shift sensor. All received data is proceed by CANUp telematics
+          gateway and sent to the web-based ORF4 telematics service, or directly
+          by SMS, e-mail or messenger. <br />
           <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>

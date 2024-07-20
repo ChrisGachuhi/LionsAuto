@@ -31,13 +31,13 @@ const Payment = () => {
         <div className="card">
           <img src={mpesa} alt="" />
           <div className="details">
-            <p>MPESA Paybill: 522533</p>
-            <p>Account Name: KCB</p>
-            <p>Account No: 7574304 </p>
+            <p>Kenya Commercial Bank Ltd</p>
+            <p>Paybill No. 522533</p>
+            <p>Account No. 7574304 </p>
             <p>-OR-</p>
-            <p>MPESA Paybill: 880100</p>
-            <p>Account Name: NCBA</p>
-            <p>Account No: 7574304 </p>
+            <p>NCBA Bank PLC</p>
+            <p>Paybill No. 880100</p>
+            <p>Account No. 6853100018 </p>
           </div>
         </div>
       </div>
