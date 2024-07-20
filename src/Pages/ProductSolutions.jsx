@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom'
 import realtime_tracking from '../assets/images/updatedimages/driver-behavior.jpg'
 import motorcycle_tracking from '../assets/images/updatedimages/motorcycle-tracking.webp'
+import fuelproduct from '../assets/images/updatedimages/FuelProduct.jpg'
+import garbageproduct from '../assets/images/updatedimages/garbageproduct.png'
 
 const ProductSolutions = () => {
   return (
@@ -27,10 +29,7 @@ const ProductSolutions = () => {
       </div>
 
       <div className="solution">
-        <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/02/Fuel-Monitoring-Solution__01.png?w=500&ssl=1"
-          alt=""
-        />
+        <img src={fuelproduct} alt="" />
         <Link to={'/Fuel-Monitoring'}>Fuel Monitoring</Link>
       </div>
 
@@ -82,10 +81,7 @@ const ProductSolutions = () => {
       </div>
 
       <div className="solution">
-        <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2021/12/monitoring-musorovozov-1.png?w=500&ssl=1"
-          alt=""
-        />
+        <img src={garbageproduct} alt="" />
         <Link to={'/Garbage-Truck-Monitoring'}>Garbage truck Monitoring</Link>
       </div>
 

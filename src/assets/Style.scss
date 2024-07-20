@@ -235,6 +235,7 @@ p {
     //   width: 120px;
     // }
   }
+
   .stats {
     grid-area: stats;
     display: grid;
@@ -248,7 +249,7 @@ p {
       align-items: center;
       span {
         font-size: 4rem;
-        color: #fd4355;
+        color: #2bae49;
       }
       span:nth-of-type(2) {
         font-size: 1.5rem;
@@ -1003,7 +1004,6 @@ p {
 
         span {
           font-size: 3rem;
-          font-weight: 100;
           color: #4b4b4b;
         }
       }

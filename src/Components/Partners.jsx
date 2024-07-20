@@ -69,27 +69,27 @@ export const Partners = () => {
           <p className="stat">
             <span>
               {countState && (
-                <CountUp start={0} end={18} duration={4}></CountUp>
+                <CountUp start={0} end={5650} duration={4}></CountUp>
               )}
               +
             </span>
-            <span>Language</span>
+            <span>Clients</span>
           </p>
 
           <p className="stat">
             <span>
               {countState && (
-                <CountUp start={0} end={502} duration={4}></CountUp>
+                <CountUp start={0} end={3500} duration={4}></CountUp>
               )}
               +
             </span>
-            <span>Partners</span>
+            <span>Dealers</span>
           </p>
 
           <p className="stat">
             <span>
               {countState && (
-                <CountUp start={0} end={13} duration={4}></CountUp>
+                <CountUp start={0} end={10} duration={4}></CountUp>
               )}
               +
             </span>
@@ -99,7 +99,7 @@ export const Partners = () => {
           <p className="stat">
             <span>
               {countState && (
-                <CountUp start={0} end={703} duration={4}></CountUp>
+                <CountUp start={0} end={85100} duration={4}></CountUp>
               )}
               +
             </span>
@@ -109,7 +109,7 @@ export const Partners = () => {
           <p className="stat">
             <span>
               {countState && (
-                <CountUp start={0} end={114} duration={4}></CountUp>
+                <CountUp start={0} end={15} duration={4}></CountUp>
               )}
               +
             </span>
@@ -119,11 +119,11 @@ export const Partners = () => {
           <p className="stat">
             <span>
               {countState && (
-                <CountUp start={0} end={50} duration={4}></CountUp>
+                <CountUp start={0} end={18} duration={4}></CountUp>
               )}
               +
             </span>
-            <span>Developers</span>
+            <span>Languages</span>
           </p>
         </div>
       </ScrollTrigger>

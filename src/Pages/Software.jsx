@@ -7,7 +7,7 @@ import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentA
 import SvgWrapper from '../Components/SvgWrapper'
 import { HashLink } from 'react-router-hash-link'
 
-import trackingsoftware from '/src/assets/images/updatedimages/geo-fencing.jpg'
+import trackingsoftware from '/src/assets/images/updatedimages/TrackingSoftware.png'
 import speedgovernor from '/src/assets/images/updatedimages/speed-monitoring-pic.jpg'
 import driverbehaviour from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 import fuelmonitoring from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
@@ -67,7 +67,7 @@ const Software = () => {
           </div>
 
           <div className="description">
-            <h3>Lions Auto GPS GPS Software</h3>
+            <h3>Lions Auto GPS Software</h3>
             <p>
               Lions Auto GPS support our partners & distributors by providing
               GPS tracking system and fleet management system. All Lions Auto

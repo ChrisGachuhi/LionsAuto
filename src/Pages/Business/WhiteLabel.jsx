@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -7,6 +5,7 @@ import SvgWrapper from '../../Components/SvgWrapper'
 import franchisingImage from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
 import advancedFleetManagementImage from '/src/assets/images/updatedimages/savings.jpg'
 import webDevelopmentImage from '/src/assets/images/updatedimages/branding-pic.jpg'
+import whitelabelbusiness from '/src/assets/images/updatedimages/whitelabelbusiness.jpg'
 
 const WhiteLabel = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -22,6 +21,7 @@ const WhiteLabel = () => {
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
   }, [])
+  
   return (
     <div className="Page Business SubPage-Software">
       <div className="landing">
@@ -33,7 +33,6 @@ const WhiteLabel = () => {
           <br />
 
           <h1>White Label</h1>
-          {/* <span>Vehicle Load Monitoring Solution</span> */}
         </div>
 
         <p>
@@ -91,7 +90,7 @@ const WhiteLabel = () => {
       <div className="opportunities">
         <h2>White Label Business opportunity</h2>
         <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+          src={whitelabelbusiness}
           alt=""
         />
 
