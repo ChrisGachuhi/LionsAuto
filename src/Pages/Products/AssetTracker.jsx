@@ -28,7 +28,6 @@ function AssetTracker() {
           Tracker Solution is for you to safe guard your asset—It is your own
           DIY home security alarm and very easy to setup and use.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

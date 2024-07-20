@@ -1,6 +1,4 @@
 import { useContext, useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
@@ -36,7 +34,6 @@ const FuelMonitoring = () => {
           </span>
           <br />
           <h1>Fuel Monitoring Solution</h1>
-          {/* <span>Vehicle Load Monitoring Solution</span> */}
         </div>
         <p>
           Fuel costs can amount up to 30% of all fleet management expenses,
@@ -46,130 +43,56 @@ const FuelMonitoring = () => {
           the major challenges related to fuel monitoring and management in the
           most user-friendly way.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 
       <div className="features">
-        <h2>Task of Fuel Monitoring Solution</h2>
+        <h2>Benefits of Our Fuel Monitoring Solution</h2>
         <div className="features-container">
           <div className="feature reach">
-            <h3>Robust GPS Tracking</h3>
+            <h3>See amount fueled in litres</h3>
             <p>
-              Track individual drivers by measuring their driving pattern
-              exceptions such as over-speeding, idling etc. Tracking an
-              individual driver helps in customizing the dedicated training
-              program to ensure safe driving environment.
+              Monitor the amount of fuel added in for each tank in litres as it
+              happens
             </p>
           </div>
 
           <div className="feature reliability">
-            <h3>Lions Auto GPS Cloud</h3>
+            <h3>Monitor Fuel Consumption Rate </h3>
             <p>
-              Maintenance optimization help to minimize the downtime while
-              providing the most effective use of systems in order to secure the
-              desired results at the lowest possible costs, considering all
-              possible constraints.
-            </p>
-          </div>
-
-          <div className="feature technology">
-            <h3>Useful graphs</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
-            </p>
-          </div>
-
-          <div className="feature ux">
-            <h3>Regular Reports</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
-            </p>
-          </div>
-
-          <div className="feature ux">
-            <h3>User-Friendly</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
-            </p>
-          </div>
-
-          <div className="feature technology">
-            <h3>Cross-Platform</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
-            </p>
-          </div>
-
-          <div className="feature technology">
-            <h3>Fuel Monitoring</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
-            </p>
-          </div>
-
-          <div className="feature technology">
-            <h3>Air Notification</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
-            </p>
-          </div>
-
-          <div className="feature technology">
-            <h3>Remote Engine Shutdown</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
-            </p>
-          </div>
-
-          <div className="feature technology">
-            <h3>Fuel Graph Monitoring</h3>
-            <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
+              Keep track of the amount of fuel consumed per kilometer covered.
             </p>
           </div>
 
           <div className="feature technology">
             <h3>Prevent Fuel Theft</h3>
             <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
+              Get the ability to see the amount of fuel stolen in litres
+              including the time and location where it happened.
+            </p>
+          </div>
+
+          <div className="feature ux">
+            <h3>Fuel Reports</h3>
+            <p>
+              Easily generate timely fueling reports, which show any fueling
+              done, fuel consumed, distance covered etc
+            </p>
+          </div>
+
+          <div className="feature ux">
+            <h3>Fuel Wastage</h3>
+            <p>
+              With our assistance, you will be able to see the amount of fuel
+              wasted during idling
             </p>
           </div>
 
           <div className="feature technology">
-            <h3>Managed 24/7 Monitoring</h3>
+            <h3>Total Fuel Used</h3>
             <p>
-              Lions Auto GPS Bus Monitoring Solution help to measure load of
-              passenger inside the bus so that it will help to know the owner
-              weather driver violating the Government law for overloading the
-              passenger vehicle or any traffic law.
+              Easily monitor the total amount of fuel used and the total
+              distance covered for every vehicle
             </p>
           </div>
         </div>
@@ -177,10 +100,6 @@ const FuelMonitoring = () => {
 
       <div className="opportunities">
         <h2>How our Fuel Monitoring Works</h2>
-        <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
-          alt=""
-        />
 
         <div className="opportunity franchising">
           <div className="image first-image">
@@ -211,9 +130,10 @@ const FuelMonitoring = () => {
           <div className="description">
             <h3>Tracking and Training</h3>
             <p>
-              While graph monitoring can appear to be an intimidating prospect,
-              you will find that it is simple to understand and interpret these
-              graphs thanks to regular in-house and on-site training for users.
+              Graphs and fuel reports are easy to read and understand. As such,
+              our customers are able to know ata glimpse, how much fueling was
+              done, and how much was used, and the distance covered in
+              kilometers.
             </p>
           </div>
         </div>
@@ -238,23 +158,6 @@ const FuelMonitoring = () => {
             </p>
           </div>
         </div>
-
-        <p className="telematics">
-          Truck telematics solution by Lions Auto GPS is aimed on monitoring
-          cargo status and performance of a freight truck and helps to improve
-          fleet management system of a business. Truck telematics helps to
-          reduce expenses on vehicle maintenance by using predictive maintenance
-          approach – i.e. carrying out truck maintenance depending on real
-          operation modes of engine, replacing fuel filters, tires and other
-          consumable items when they are really actually worn out, rather than
-          using schedule-based approach. Fuel tank calibration is essential in
-          order to create an accurate fuel chart for each vehicle. A
-          well-trained Lions Auto GPS technician who is versed in the correct
-          safety procedures will be dispatched to perform the fuel tank
-          calibration.
-          <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
-        </p>
       </div>
     </div>
   )

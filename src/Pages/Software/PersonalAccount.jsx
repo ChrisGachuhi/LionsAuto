@@ -48,7 +48,6 @@ const PersonalAccount = () => {
           interface and is designed to communicate with a wide variety of GPS
           tracking devices including mobile phones and tablets.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

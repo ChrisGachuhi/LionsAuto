@@ -28,7 +28,6 @@ function PersonalTracker() {
           on them and they could easily notify you if something was wrong? Well
           that&apos;s what personal GPS trackers can provide you with.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

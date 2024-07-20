@@ -30,7 +30,6 @@ function MotorcycleTracker() {
           not only basic tracking but SOS call, tele-cutoff fuel, geo-fence,
           over-speed alert, historical data upload and more.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

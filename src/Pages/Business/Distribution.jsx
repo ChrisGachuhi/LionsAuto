@@ -50,7 +50,6 @@ const Distribution = () => {
           our pricing contains entry fee plus connection fee for every tracking
           unit.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

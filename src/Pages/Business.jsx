@@ -80,12 +80,11 @@ const Business = () => {
           was valued at $8 billion in 2015 and is anticipated to exceed $22
           billion by 2022.” Really, there&apos;s no doubt you should start GPS
           tracking business today! <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 
       <div className="features">
-        <h2>Features Lions Auto of Business Model</h2>
+        <h2>Features Lions Auto GPS Business Model</h2>
 
         <div className="features-container">
           <div className="feature reach">

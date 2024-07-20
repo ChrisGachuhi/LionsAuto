@@ -49,7 +49,6 @@ function SmartCar() {
           choose to subscribe to access all functions of our platform
           (app/web)and get better services.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

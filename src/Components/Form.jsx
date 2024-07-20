@@ -50,7 +50,7 @@ export const Form = () => {
         <span>Information</span>
 
         <p>Call us for immediate support on this number</p>
-        <span>+254 702 91 61 91</span>
+        <span>+254 715 13 28 28</span>
       </div>
 
       {!isPricingPage && (

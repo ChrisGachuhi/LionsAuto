@@ -55,7 +55,6 @@ function GarbageTruck() {
           operation, e.g. underload, idling, speeding, harsh braking, fuel theft
           etc.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

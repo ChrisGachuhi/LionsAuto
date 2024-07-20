@@ -45,7 +45,6 @@ function TruckTelematics() {
           fleet management system of a business. By equipping trucks with Lions
           Auto GPS&apos;s telematics hardware, fleet manage/company owner gets
           an opportunity to:
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

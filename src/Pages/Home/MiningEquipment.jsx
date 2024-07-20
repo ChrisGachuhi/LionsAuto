@@ -49,7 +49,6 @@ function MiningEquipment() {
           load/shift sensor. All received data is proceed by CANUp telematics
           gateway and sent to the web-based ORF4 telematics service, or directly
           by SMS, e-mail or messenger. <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

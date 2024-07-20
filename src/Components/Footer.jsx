@@ -8,9 +8,9 @@ export const Footer = () => {
   return (
     <footer className="Section Footer">
       <div className="column address">
-        <h3></h3>
+        <h3>Office Location</h3>
         <p>
-          LionsAutoGPS <br /> Gym Plaza <br /> Outer Ring Rd, Ruaraka <br />
+          Lions Auto GPS <br /> Gym Plaza <br /> Outer Ring Rd, Ruaraka <br />
           Nairobi
           <br />
         </p>
@@ -23,14 +23,10 @@ export const Footer = () => {
             <Link to={'/Products'}>Products & Services</Link>
           </li>
           <li>
-            <Link to={'/PrivacyPolicy'}>
-              Privacy Policy
-            </Link>
+            <Link to={'/PrivacyPolicy'}>Privacy Policy</Link>
           </li>
           <li>
-            <Link to={'/Terms&Conditions'}>
-              Terms & Conditions
-            </Link>
+            <Link to={'/Terms&Conditions'}>Terms & Conditions</Link>
           </li>
         </ul>
       </div>
@@ -60,6 +56,11 @@ export const Footer = () => {
             </Link>
             <br />
             <Link>
+              <FontAwesomeIcon icon={faEnvelope} className="icon" />
+              support@lionsautogps.com
+            </Link>
+            <br />
+            <Link>
               <FontAwesomeIcon icon={faPhone} className="icon" />
               +254 715 13 28 28
             </Link>
@@ -77,7 +78,7 @@ export const Footer = () => {
         </ul>
       </div>
 
-      <span>&copy; copyright {year} powered by LionsAutoGPS </span>
+      <span>&copy; copyright {year} powered by Lions Auto GPS </span>
     </footer>
   )
 }

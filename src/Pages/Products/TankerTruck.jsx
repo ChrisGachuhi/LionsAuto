@@ -50,7 +50,6 @@ function TankerTruck() {
           more than 250 operating parameters of fuel transportation and
           performance of truck.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -41,13 +40,12 @@ function BusMonitoring() {
           precious fuel. Monitoring system is suitable for city transport,
           inter-city buses, school buses, shuttle buses, airport buses etc.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 
       <div className="solution-container gps">
         <div className="features">
-          <h2>Task of Bus Monitoring Solution</h2>
+          <h2>Aspects of Our Bus Monitoring Solution</h2>
           <div className="features-container">
             <div className="feature label">
               <h3>Driver Behaviour Monitoring</h3>
@@ -137,7 +135,7 @@ function BusMonitoring() {
           <div className="description">
             <h3>Dangerous Driving</h3>
             <p>
-              Dangerous driving is defined as when an individual's driving falls
+              Dangerous driving is defined as when an individual&apos;s driving falls
               below the expected level of a careful and competent driver.
               Examples of dangerous driving would include racing or aggressive
               driving, driving while tired, or being involved in a police chase.

@@ -38,7 +38,6 @@ function SchoolBusTracker() {
           their child board and board from the school bus. The school admin
           staff can generate the bus attendance report online.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

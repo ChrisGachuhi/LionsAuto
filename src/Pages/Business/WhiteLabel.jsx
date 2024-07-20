@@ -49,7 +49,6 @@ const WhiteLabel = () => {
           crafted these features to perfection Quick map overview on main
           screen, interactive log book, calendar view for all vehicles.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

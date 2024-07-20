@@ -55,7 +55,6 @@ function IntelligentLock() {
           maintenance, which enable this unit one of the best choice for
           valuable mobile assets monitoring.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

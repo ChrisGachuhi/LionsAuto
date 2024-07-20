@@ -55,7 +55,6 @@ const SelfHosted = () => {
           own GPS tracking business and earn as much profit as possible, become
           independent GPS service provider.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

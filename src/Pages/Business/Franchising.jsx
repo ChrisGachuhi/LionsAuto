@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -49,7 +48,6 @@ const Franchising = () => {
           most user friendly GPS tracking platform on the market. Start making
           money from day one.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

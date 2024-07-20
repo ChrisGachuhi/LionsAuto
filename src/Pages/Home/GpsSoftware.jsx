@@ -56,7 +56,6 @@ const GpsSoftware = () => {
           will receive real-time vehicle tracking updates, including location,
           direction, speed, idle time, start/stop and more, allowing you to
           manage a tighter schedule and more efficient fleet. <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
       </div>
 

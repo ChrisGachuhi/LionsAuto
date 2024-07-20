@@ -11,7 +11,6 @@ import trackingsoftware from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import speedgovernor from '/src/assets/images/updatedimages/speed-monitoring-pic.jpg'
 import driverbehaviour from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 import fuelmonitoring from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
-// import fuelmonitoring from
 
 const Software = () => {
   const animate = useContext(CurrentAnimationContext)

@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 
 import { useContext, useEffect } from 'react'
@@ -24,14 +22,15 @@ function GpsTracker() {
         </div>
 
         <p>
-          Tracking of multiple school bus, truck or cab&apos;s driver activity,
-          fuel tracking, and speed tracking is a most complicated work for
-          school admin staff and transport manager. Speedotrack GPS make your
-          work simple by using Realtime Vehicle Tracking for the school bus with
-          RFID Attendance System. Our RFID attendance system sends auto SMS
-          notification to parents as well as school admin staff.
+          Our live vehicle tracking systems puts you in total control of your
+          vehicles. We offer an array of benefits from viewing vehicle progress
+          in real time to increasing overall fleet productivity. Our state of
+          the art Live GPS fleet tracking devices will enable you to gain a full
+          understanding and stay on top of your fleet&apos;s daily operations,
+          helping you to reduce costs, stay ahead of vehicle maintenance and
+          enhance the overall efficiency of operations. Each real-time GPS
+          tracking vehicle device comes with extended warranty.
           <br />
-          <Link>Please get in touch and our expert team will contact you.</Link>
         </p>
 
         <div className="title">
@@ -43,26 +42,11 @@ function GpsTracker() {
         />
         <p>
           <br />
-          The transport system the government of India as designed an
-          Intelligent Transport System (ITS) under the Automotive Industry
-          Standard – AIS 140. The ITS is globally vindicated to optimize the
-          utilization of existing transport infrastructure to the best of its
-          retention. The AIS 140 GPS helps in flourishing the transportation
-          system in terms of proficiency, attribute, solace, and safety.
-        </p>
-
-        <p>
-          AIS 140 is not being accomplished across the country. There are
-          various parts of AIS 140 which encompass the several aspects of
-          vehicle regulation and patronage of safety standards since the
-          elementary aim of designing the system is to augment the vehicle
-          safety there are many subdivisions to the ITS and these include AIS
-          140 GPS tracker for Truck, Taxi, Ambulance & School bus.
+          Real-time vehicle tracking involves using GPS technology to monitor
+          the location, movement, and status of vehicles in real-time. This
+          system typically consists of GPS devices installed in our clients
+          vehicles, which transmit data to a our central server.
           <br />
-          <Link>
-            Please get in touch and our expert support team will answer all your
-            question.
-          </Link>
         </p>
       </div>
 
@@ -71,71 +55,66 @@ function GpsTracker() {
           <h2>The Benefits of Realtime Vehicle Tracking</h2>
           <div className="features-container">
             <div className="feature label">
-              <h3>Simplify operation</h3>
+              <h3>Fleet Management</h3>
               <p>
-                Realtime Vehicle Tracking lays behind the tutor for the action
-                and systems in many kinds of the public transport network in
-                many ways. Either there any alternatives to be made there is a
-                regulation form for the same too.
+                Manage from 1 to thousands of your company vehicles all from the
+                same account. Our platform offers total visibility of your
+                vehicle movements and statuses in real-time.
               </p>
             </div>
 
             <div className="feature access">
-              <h3>Real time tracking system</h3>
+              <h3>Realtime Tracking System</h3>
               <p>
-                AIS-140 GPS tracking system is the most valuable aspects
-                automatic location tracking. it work as a tutor it monitors the
-                vehicle, which route has to be taken and helpful to fuel
-                optimization and cost effective and time saving.
+                Our robust vehicle tracking system ensures accurate vehicle
+                locations and movements ensuring safety and real time monitoring
+                of your assets.
               </p>
             </div>
 
-            <div className="feature business">
+            {/* <div className="feature business">
               <h3>GPS Business</h3>
               <p>
                 With our White Label business opportunity and Distribution
                 solution you can easily build Profitable GPS tracking business
                 with your own with our 24/7 support.
               </p>
-            </div>
+            </div> */}
 
             <div className="feature software">
               <h3>Driver Behavior</h3>
               <p>
-                For maintaining the vehicle&apos;s health it&apos;s very
-                important to to have goo driver. Our tracking solutions help you
-                manage all the driver information of your fleet and also assign
-                drivers and get driver specific reports to your inbox everyday.
+                Drivers are a vital part of fleet operations. With our systems,
+                our clients are able to monitor a driver&apos;s driving
+                behaviors such as harsh braking, harsh cornering, harsh
+                acceleration, speeding, etc.
               </p>
             </div>
 
             <div className="feature management">
-              <h3>Simplify Route Management</h3>
+              <h3>Route Optimization</h3>
               <p>
-                It&apos;s very important to maintain the schedule of vehicles.
-                AIS-140 GPS tracking system is very valuable for the identity of
-                a right route in right time. This is done to ensure that the
-                shortest and less fuel path for the vehicle.
+                Lions Auto GPS tracking system ensures vehicles are driven on
+                the shortest route and in the safest way possible. Its very
+                possible to monitor routes taken and hold drivers accountable.
               </p>
             </div>
 
             <div className="feature easy">
-              <h3>Service Management</h3>
+              <h3>Service and Maitenance</h3>
               <p>
-                Intelligent Transport System (ITS) is also very helpful to
-                conduction and service management of the total system. This
-                system makes a simple bridge connection between vehicle and
-                service station.
+                Use our system to plan, record and notify you of your vehicles
+                service and maintenace schedules to ensure services are not
+                missed nor delayed.
               </p>
             </div>
 
             <div className="feature update">
-              <h3>Crew Management</h3>
+              <h3> Remote Engine Immobilazation</h3>
               <p>
-                A transport system is nothing without its well-managed crew. The
-                Realtime Vehicle Tracking verifies the assertion of crew an in
-                the proper segment of transportation mode and helps to reduce
-                cost.
+                Easily send commands from both the app and web to immobilize
+                your vehicle. This gives you total control of your assets and
+                your drivers.
               </p>
             </div>
           </div>
@@ -150,32 +129,33 @@ function GpsTracker() {
           </div>
 
           <div className="description">
-            <h4>AIS 140 GPS FOR TRUCK</h4>
+            <h4>PSV Tracking</h4>
             <p>
-              According to new regulation of Indian Government AIS 140 GPS
-              tracker required for all the trucks. After installing the device
-              they can simplify their fleet management service.
+              Monitor and track locations and movements of your matatus in real
+              time using our advanced vehicle tracking system.
             </p>
 
-            <h4>AIS 140 GPS FOR AMBULANCE</h4>
+            <h4>AMBULANCE Tracking</h4>
             <p>
-              The idea of implementing AIS 140 GPS for ambulance is to move the
-              patient quickly to a hospital or nursing home. The ambulance can
-              use the panic bottom to get instant help of local police station.
+              Our system can be optimized for ambulance tracking to ensure
+              timely arrival and evacutaion of the persons in need of medical
+              assistance.
             </p>
 
-            <h4>AIS 140 GPS FOR TAXI</h4>
+            <h4>TAXI Tracking</h4>
             <p>
-              Empower your team to follow a more standardized process. Bytepaper
-              gives a clear view of planned tasks and shows their daily
-              performances, helps them to achieve the given targets.
+              use our tracking system to track and monitor locations and
+              distance travelled by your assigned taxi driver to ensure they do
+              not cheat on you. At the same time, the system ensures security of
+              the vehicles.
             </p>
 
-            <h4>AIS 140 GPS FOR SCHOOL BUS</h4>
+            <h4>SCHOOL BUS</h4>
             <p>
-              Empower your team to follow a more standardized process. Bytepaper
-              gives a clear view of planned tasks and shows their daily
-              performances, helps them to achieve the given targets.
+              Our school bus tracking system ensures accurate location
+              monitoring of your school buses. The system can notify the school
+              managers and parents when the students are picked and dropped at
+              school.
             </p>
           </div>
         </div>
@@ -185,24 +165,26 @@ function GpsTracker() {
         <div className="extra">
           <h3>Real-time GPS Tracking</h3>
           <p>
-            Using our Realtime Vehicle Tracking for your school buses you can
-            check the real-time position of your vehicle.
+            Using our Realtime Vehicle Tracking service for your vehicles you
+            can check locations, fuel level, parking statuses, distance covered,
+            etc.
           </p>
         </div>
 
         <div className="extra">
           <h3>Unlimited Data Storage</h3>
           <p>
-            Our advanced software keeps all the record up to 60 days, you can
-            check the report whenever you want.
+            Our advanced software keeps all the records up to 12 months whci can
+            be downloaded via PDF or xlsx formats
           </p>
         </div>
 
         <div className="extra">
           <h3>SOS call & panic bottom</h3>
           <p>
-            SOS call & Panic bottom use for your student&apos;s safety, if feel
-            unwell in school bus then they can use this for quick.
+            SOS call & Panic bottom use for your driver and passenger&apos;s
+            safety, if feel unwell in school bus then they can use this for
+            quick.
           </p>
         </div>
 
