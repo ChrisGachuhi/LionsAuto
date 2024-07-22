@@ -52,6 +52,8 @@ import { CurrentAnimationContext } from './Components/AnimationContext/CurrentAn
 import gsap from 'gsap'
 import Terms from './Pages/Terms'
 import Privacy from './Pages/Privacy'
+import SpeedGovernor from './Pages/Software/SpeedGovernor'
+import DriverBehavior from './Pages/Software/DriverBehavior'
 
 function App() {
   const animate = {
@@ -176,6 +178,9 @@ function App() {
           <Route path="/Business/White-Label" element={<WhiteLabel />} />
           <Route path="/Business/Distribution" element={<Distribution />} />
           <Route path="/Software" element={<Software />} />
+          <Route path="/Speed-Governor" element={< SpeedGovernor/>} />
+          <Route path="/Driver-Behavior" element={< DriverBehavior/>} />
+
           <Route path="/Devices" element={<SupportedDevices />} />
           <Route path="/Pricing" element={<Pricing />} />
           <Route path="/Payment" element={<Payment />} />

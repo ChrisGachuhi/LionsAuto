@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -9,6 +7,7 @@ import geofencing from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import dashboard from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 import api from '/src/assets/images/updatedimages/API-pic.jpg'
 import dataprotection from '/src/assets/images/updatedimages/training-pic.jpg'
+import cloudhosted from '/src/assets/images/updatedimages/cloudhosted.jpg'
 
 const CloudHosted = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -170,7 +169,7 @@ const CloudHosted = () => {
 
         <h2>GPS Tracking Software (Cloud Hosted)</h2>
         <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+          src={cloudhosted}
           alt=""
         />
 
@@ -186,7 +185,7 @@ const CloudHosted = () => {
               easy. A white-label product is a product or service produced by
               one company that other companies rebrand to make it appear as if
               they had made it. The name derives from the image of a white label
-              on the packaging that can be filled in with the marketer's trade
+              on the packaging that can be filled in with the marketer&apos;s trade
               dress.. Our templating is flexible unlike any other. We provide
               our cloud based GPS tracking platform incl. API for connecting all
               your running units. We provide 24/7 support for our client. our
@@ -221,7 +220,7 @@ const CloudHosted = () => {
           <div className="description">
             <h3>API Integration</h3>
             <p>
-              API access is the process of allowing mobile apps, developers'
+              API access is the process of allowing mobile apps, developers&apos;
               frameworks, building management tools, and software applications
               to access and use pertinent data from a given API. Using our API
               Feature you will be able to develop mobile apps, frameworks,

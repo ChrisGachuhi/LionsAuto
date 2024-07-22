@@ -661,6 +661,11 @@ p {
     display: flex;
     justify-content: center;
 
+    background-image: url(./images/updatedimages/landingimage.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+
     .title {
       display: flex;
       flex-direction: column;

@@ -8,7 +8,6 @@ import { HashLink } from 'react-router-hash-link'
 import franchising from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
 import whitelabel from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 import distribution from '/src/assets/images/updatedimages/geo-fencing.jpg'
-import background from '/src/assets/images/updatedimages/business-background.png'
 
 const Business = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -45,7 +44,6 @@ const Business = () => {
           <h1>GPS Tracking for Business</h1>
           <span>Vehicle tracking software for GPS tracking business</span>
 
-          <img src={background} alt="" />
         </div>
 
         <div className="navigation">

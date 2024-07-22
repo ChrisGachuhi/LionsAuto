@@ -9,7 +9,7 @@ import { HashLink } from 'react-router-hash-link'
 
 import trackingsoftware from '/src/assets/images/updatedimages/TrackingSoftware.png'
 import speedgovernor from '/src/assets/images/updatedimages/speed-monitoring-pic.jpg'
-import driverbehaviour from '/src/assets/images/updatedimages/dashboard-pic.jpg'
+import driverbehaviour from '/src/assets/images/updatedimages/Driver-Behavior.png'
 import fuelmonitoring from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
 
 const Software = () => {
@@ -94,18 +94,13 @@ const Software = () => {
           <div className="description">
             <h3>Lions Auto GPS Speed Governor</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.
-              Ipsa nulla aut aliquam, laboriosam doloribus, voluptate dolore,
-              sint amet placeat aliquid quod necessitatibus sunt delectus iste!
-              A tempora voluptatem dignissimos esse praesentium beatae deleniti
-              suscipit eum non delectus doloribus dolore consectetur corporis
-              veniam quaerat, atque est quia explicabo tenetur autem sint
-              aspernatur?
+              Our state-of-the-art Speed Limiter solution, designed to promote road
+              safety, enhance vehicle performance, and ensure regulatory
+              compliance. Our Speed Limiter is a critical tool for fleet
+              managers and individual vehicle owners who prioritize safety and
+              efficiency.
             </p>
-            <Link to={'/Speed-Governor'} target="_blank">
-              Know More
-            </Link>
+            <Link to={'/Speed-Governor'}>Know More</Link>
           </div>
         </div>
       </div>
@@ -142,14 +137,11 @@ const Software = () => {
           <div className="description">
             <h3>Lions Auto GPS Driver Behavior</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem ratione explicabo rem voluptatibus, vel eos error quis.
-              Ipsa nulla aut aliquam, laboriosam doloribus, voluptate dolore,
-              sint amet placeat aliquid quod necessitatibus sunt delectus iste!
-              A tempora voluptatem dignissimos esse praesentium beatae deleniti
-              suscipit eum non delectus doloribus dolore consectetur corporis
-              veniam quaerat, atque est quia explicabo tenetur autem sint
-              aspernatur?
+              At Lions Auto GPS, we are committed to providing top-tier fleet
+              management solutions that prioritize safety, efficiency, and
+              cost-effectiveness. Our Driver Behavior GPS Monitoring system is a
+              testament to our dedication to innovation and excellence in the
+              fleet management industry.
             </p>
             <Link to={'/Driver-Behavior'} target="_blank">
               Know More

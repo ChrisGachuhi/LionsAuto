@@ -16,6 +16,7 @@ import { CurrentAnimationContext } from '../Components/AnimationContext/CurrentA
 import SvgWrapper from '../Components/SvgWrapper'
 // import { element } from 'prop-types'
 
+import landingimage from '../assets/images/updatedimages/landingimage.jpg'
 import trackvehicle from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import loadmonitoring from '/src/assets/images/updatedimages/load-monitoring.jpg'
 import fuelmonitoring from '/src/assets/images/updatedimages/fuel-monitoring2.jpg'
@@ -90,6 +91,7 @@ const Home = () => {
         </div>
 
         <div className="image">
+          {/* <img src={landingimage} alt="" /> */}
           {/* <img
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Untitled-design-22.png?w=225&ssl=1"
             alt=""

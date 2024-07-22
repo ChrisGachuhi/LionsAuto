@@ -1,11 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
-import supportedGPS from '/src/assets/images/updatedimages/training-pic.jpg'
+import supportedGPS from '/src/assets/images/updatedimages/supportedGPS.png'
 import geofencing from '/src/assets/images/updatedimages/geo-fencing.jpg'
 
 const SelfHosted = () => {
@@ -21,6 +19,7 @@ const SelfHosted = () => {
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
   }, [])
+
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -29,8 +28,6 @@ const SelfHosted = () => {
           <h1>GPS Tracking Software (Self Hosted)</h1> <br />
           <span>Grow your business & boost up sale with Lions Auto GPS</span>
         </div>
-
-        {/* in page navigation */}
 
         <p>
           Self Hosted GPS Tracking Software 01 | Lions Auto GPS GPS GPS Tracking
@@ -61,10 +58,6 @@ const SelfHosted = () => {
       <div className="solution-container gps">
         <div className="features">
           <h2>Features of GPS Self Hosted Software</h2>
-          <img
-            src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
-            alt=""
-          />
           <div className="features-container">
             <div className="feature label">
               <h3>White Label</h3>
