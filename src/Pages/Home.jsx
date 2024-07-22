@@ -84,13 +84,13 @@ const Home = () => {
         <div className="title">
           <h1 ref={h1Ref}> GPS Fleet Management Platform</h1>
           <span ref={spanRef}>Award-winning GPS Tracking Software.</span>
-          <Link to={'/Contact'} target="_blank" ref={CTARef}>
+          <Link to={'/Contact'} ref={CTARef}>
             Get Started
           </Link>
         </div>
 
         <div className="image">
-          <img
+          {/* <img
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/Untitled-design-22.png?w=225&ssl=1"
             alt=""
             ref={leftImgRef}
@@ -99,7 +99,7 @@ const Home = () => {
             src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2020/08/shoot2.png?w=312&ssl=1"
             alt=""
             ref={rightImgRef}
-          />
+          /> */}
         </div>
       </div>
 
@@ -183,6 +183,7 @@ const Home = () => {
           <div className="image">
             <img src={trackvehicle} alt="" />
           </div>
+          
           <div className="description">
             <h3>Lions Auto Vehicle Tracking Software</h3>
             <p>
@@ -287,10 +288,10 @@ const Home = () => {
               Monitoring of fuel consumption and operation modes of mining and
               quarrying equipment (rock trucks, bulldozers, crawler tractors,
               loaders, power units) allows to reduce operation costs, prevent
-              fuel theft and equipment breakdown. The main feature of Lions Auto
-              GPS&apos;s solutions for quarry equipment is using DFM Marine fuel
-              flow meters, which were designed for equipment with fuel
-              consumption up to 4000 L/h.
+              fuel theft and equipment breakdown. The main feature of
+              Technoton&apos;s solutions for quarry equipment is using DFM
+              Marine fuel flow meters, which were designed for equipment with
+              fuel consumption up to 4000 L/h.
             </p>
             <Link
               to={'/Mining-Equipment-Monitoring'}

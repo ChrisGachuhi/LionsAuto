@@ -23,15 +23,13 @@ p {
 }
 
 .App {
-  // background-color: #fbfcfe;
   background-color: #fcfcfd;
   overflow: hidden;
   height: 100%;
-  padding: 0 3.5rem;
-  // position: relative;
+  padding: 0 2rem;
 
   @media screen and (max-width: 768px) {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
   }
 }
 
@@ -50,10 +48,10 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
-  top: 0;
-  padding: 0 2rem;
-  z-index: 1000; /* Ensure the navbar itself is above most content */
+  // position: sticky;
+  // top: 0;
+  // padding: 0 rem;
+  // z-index: 1000; /* Ensure the navbar itself is above most content */
 
   .logo {
     img {
@@ -202,9 +200,6 @@ p {
 .Partners {
   padding: 2rem 0 4rem;
   display: grid;
-  grid-template-areas:
-    'partner'
-    'stats';
   gap: 5rem;
 
   h2 {
@@ -216,13 +211,12 @@ p {
 
   .partner {
     padding: 0 1rem;
-    grid-area: partner;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 2rem;
 
     img {
-      // min-width: 100%;
+      min-width: 100%;
       width: 200px;
       height: 130px;
       box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
@@ -230,17 +224,12 @@ p {
       -moz-box-shadow: 2px 6px 27px 0px rgba(0, 0, 0, 0.75);
       border-radius: 5px;
     }
-    // img:nth-of-type(even) {
-    //   height: 120px;
-    //   width: 120px;
-    // }
   }
 
   .stats {
-    grid-area: stats;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 100px;
+    gap: 20px;
 
     .stat {
       display: flex;
@@ -259,12 +248,16 @@ p {
   }
 
   @media screen and (max-width: 999px) {
-    padding: 2rem 0;
+    padding: 5rem 0;
     gap: 5rem;
 
     .partner {
       padding: 2rem 3rem;
       grid-template-columns: repeat(3, 1fr);
+
+      h2 {
+        grid-column: 1 / span 3;
+      }
     }
 
     .stats {
@@ -273,14 +266,14 @@ p {
   }
 
   @media screen and (max-width: 570px) {
-    padding: 5rem 0;
+    padding: 2rem 0;
 
     .partner {
       grid-template-columns: 1fr;
 
-      img {
-        min-width: 50%;
-        margin: 0 25%;
+      h2 {
+        grid-column: 1;
+        font-size: 2rem;
       }
     }
 
@@ -379,28 +372,28 @@ p {
 
 // for background svg
 
-.image {
-  position: relative;
+// .image {
+//   position: relative;
 
-  .Svg-wrapper {
-    height: 150%;
-    width: 100%;
-    z-index: 0;
-    background-image: url(./icons/updated-bg.png);
-    background-repeat: no-repeat;
-    background-size: 130% 130%;
-    background-position: right;
-    transform: scaleX(-1);
-    position: absolute;
-    top: -10%;
-    left: 10%;
-  }
-}
+//   .Svg-wrapper {
+//     height: 150%;
+//     width: 100%;
+//     z-index: 0;
+//     background-image: url(./icons/updated-bg.png);
+//     background-repeat: no-repeat;
+//     background-size: 130% 130%;
+//     background-position: right;
+//     transform: scaleX(-1);
+//     position: absolute;
+//     top: -10%;
+//     left: 10%;
+//   }
+// }
 
 .Form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 4rem;
+  padding: 4rem 0;
 
   .contact-center {
     display: flex;
@@ -661,50 +654,12 @@ p {
 // COMPONENTS END STYLING
 
 .Home {
-  display: grid;
-  grid-template-areas:
-    'Landing'
-    'Description'
-    'Benefits'
-    'Solutions'
-    'Partners'
-    'Features'
-    'Services';
-  justify-content: center;
-  align-items: center;
+  // display: grid;
 
   .landing {
-    grid-area: Landing;
-  }
-  .Description {
-    grid-area: Description;
-  }
-  .benefits {
-    grid-area: Benefits;
-  }
-  .solutions {
-    grid-area: Solutions;
-  }
-  .partners {
-    grid-area: Partners;
-  }
-  .features {
-    grid-area: Features;
-  }
-  .services {
-    grid-area: Services;
-  }
-
-  .landing {
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
     display: flex;
     justify-content: center;
-
-    .title,
-    .image {
-      width: 43%;
-      height: 100%;
-    }
 
     .title {
       display: flex;
@@ -732,26 +687,10 @@ p {
         font-size: 1.2rem;
       }
     }
-
-    .image {
-      position: relative;
-
-      img:nth-of-type(1) {
-        position: absolute;
-        z-index: 2;
-        left: 50px;
-      }
-      img:nth-of-type(2) {
-        position: absolute;
-        z-index: 1;
-        top: -50px;
-        right: 30px;
-      }
-    }
   }
 
   .Description {
-    padding: 6rem 4rem 0 3rem;
+    padding: 2rem 0 0;
     text-align: center;
     font-size: 1.1rem;
     line-height: 1.75rem;
@@ -760,10 +699,7 @@ p {
   .benefits {
     padding: 4rem 0;
     display: grid;
-    grid-template-areas:
-      'title title title'
-      'tracking analysis replay'
-      'alerts mapping reports';
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
     justify-content: center;
 
@@ -772,28 +708,10 @@ p {
     }
 
     .title {
-      grid-area: title;
+      grid-column: 1 / span 3;
       text-align: center;
       font-size: 2.5rem;
       color: #284166;
-    }
-    .tracking {
-      grid-area: tracking;
-    }
-    .anlaysis {
-      grid-area: anlaysis;
-    }
-    .replay {
-      grid-area: replay;
-    }
-    .alerts {
-      grid-area: alerts;
-    }
-    .mapping {
-      grid-area: mapping;
-    }
-    .reports {
-      grid-area: reports;
     }
 
     .benefit {
@@ -817,32 +735,14 @@ p {
   .solutions {
     padding: 4rem 0;
     display: grid;
-    grid-template-areas:
-      'track'
-      'load'
-      'fuel'
-      'generator'
-      'mining'
-      'battery';
     gap: 6rem;
 
     .solution {
-      height: fit-content;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 3rem;
-
+      gap: 20px;
       .image {
         height: 100%;
         width: 50%;
-
-        // img {
-        //   background-image: url(../assets/images/updatedimages/FuelMonitoring.jpg);
-        //   background-position: center;
-        //   background-size: contain;
-        //   background-repeat: no-repeat;
-        // }
       }
       .description {
         height: 100%;
@@ -852,11 +752,11 @@ p {
       img {
         height: 25rem;
         width: 100%;
+        object-fit: cover;
         border-radius: 1rem;
       }
 
       .description {
-        // padding: 2rem;
         h3 {
           font-size: 1.75rem;
           margin-bottom: 0.75rem;
@@ -881,25 +781,6 @@ p {
       }
     }
 
-    .track {
-      grid-area: track;
-    }
-    .load {
-      grid-area: load;
-    }
-    .fuel {
-      grid-area: fuel;
-    }
-    .generator {
-      grid-area: generator;
-    }
-    .mining {
-      grid-area: mining;
-    }
-    .battery {
-      grid-area: battery;
-    }
-
     .solution:nth-of-type(even) {
       flex-direction: row-reverse;
     }
@@ -908,33 +789,12 @@ p {
   .Features {
     padding: 4rem 0;
     display: grid;
-    grid-template-areas:
-      'title playback alerts'
-      'tracking apps multiple';
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     justify-content: center;
 
     div {
       border-radius: 7px;
-    }
-
-    h2 {
-      grid-area: title;
-    }
-    .playback {
-      grid-area: playback;
-    }
-    .alerts {
-      grid-area: alerts;
-    }
-    .tracking {
-      grid-area: tracking;
-    }
-    .apps {
-      grid-area: apps;
-    }
-    .multiple {
-      grid-area: multiple;
     }
 
     h2 {
@@ -944,9 +804,8 @@ p {
       font-size: 3rem;
       color: #264065;
     }
+
     .card {
-      // height: fit-content;
-      width: 18rem;
       padding: 2rem;
       display: flex;
       flex-direction: column;
@@ -1004,6 +863,7 @@ p {
 
         span {
           font-size: 3rem;
+          font-weight: 100;
           color: #4b4b4b;
         }
       }
@@ -1065,19 +925,6 @@ p {
   @media screen and (max-width: 1200px) {
     .landing {
       padding: 2rem 0rem;
-
-      .title {
-        width: auto;
-      }
-
-      .image {
-        img:nth-of-type(1) {
-          left: -180px;
-        }
-        img:nth-of-type(2) {
-          right: 0;
-        }
-      }
     }
 
     .Description {
@@ -1100,7 +947,6 @@ p {
         width: auto;
       }
       .card {
-        width: auto;
         padding: 1rem;
       }
     }
@@ -1159,15 +1005,11 @@ p {
 
     .benefits {
       padding: 3rem 0;
-      grid-template-areas:
-        'title'
-        'tracking'
-        'analysis'
-        'replay'
-        'alerts'
-        'mapping'
-        'reports';
-      gap: 2rem;
+      grid-template-columns: repeat(2, 1fr);
+
+      .title {
+        grid-column: 1 / span 2;
+      }
 
       .benefit {
         h3 {
@@ -1190,10 +1032,6 @@ p {
         .description {
           height: 50%;
           width: 100%;
-        }
-
-        img {
-          height: 18rem;
         }
 
         .description {
@@ -1221,11 +1059,7 @@ p {
     .Features {
       align-items: center;
       padding: 5rem 0;
-      grid-template-areas:
-        'title title'
-        'tracking tracking'
-        'playback alerts'
-        'apps multiple';
+      grid-template-columns: 1fr;
       gap: 1rem;
 
       h2 {
@@ -1290,7 +1124,6 @@ p {
 
           .icon {
             font-size: 3rem;
-            color: red;
             margin-bottom: 1rem;
           }
           h3 {
@@ -1306,16 +1139,17 @@ p {
   }
 
   @media screen and (max-width: 768px) {
+    .benefits {
+      grid-template-columns: 1fr;
+
+      .title {
+        grid-column: 1;
+      }
+    }
+
     .Features {
       align-items: center;
       padding: 3rem 0;
-      grid-template-areas:
-        'title'
-        'tracking'
-        'playback'
-        'alerts'
-        'apps'
-        'multiple';
       gap: 2rem;
     }
 
@@ -1337,7 +1171,6 @@ p {
 
   @media screen and (max-width: 420px) {
     .landing {
-      width: 85%;
       padding: 1rem 0;
       .title {
         h1 {
@@ -1351,7 +1184,7 @@ p {
     }
 
     .Description {
-      padding: 2rem 0 0 0;
+      padding: 2rem 0 0;
       line-height: 1.6rem;
     }
 
@@ -1377,7 +1210,7 @@ p {
     .solutions {
       .solution {
         img {
-          height: 12rem;
+          height: 18rem;
         }
 
         .description {
@@ -1420,7 +1253,6 @@ p {
     }
 
     .services {
-      // background-color: #2a2a2a;
       .title {
         width: auto;
         span {
