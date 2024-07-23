@@ -2004,7 +2004,8 @@ p {
 
     img {
       width: 70%;
-      margin: 0 15% 2rem;
+      display: block;
+      margin: 0 auto;
     }
 
     .highlight:nth-of-type(even) {
