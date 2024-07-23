@@ -1481,11 +1481,11 @@ p {
     h2 {
       text-align: center;
       font-size: 2.5rem;
+      margin-bottom: 1rem;
     }
     img {
-      // display: block;
       width: 100%;
-      margin: 0 auto;
+      border-radius: 5px;
     }
 
     .opportunity {
@@ -1679,15 +1679,6 @@ p {
 }
 
 .SubPage-Business {
-  // @media screen and (min-width: 1000px) {
-  //   .features {
-  //     .features-container {
-  //       display: block;
-  //       display: grid;
-  //       grid-template-columns: repeat(4, 1fr);
-  //     }
-  //   }
-  // }
   .landing {
     gap: 0;
     h1 {
@@ -1697,7 +1688,6 @@ p {
     h2 {
       text-align: center;
       font-size: 2rem;
-      // padding: 1rem 0;
     }
     img {
       margin-bottom: 20px;
@@ -1707,7 +1697,6 @@ p {
   .solution-container {
     .features {
       .features-container {
-        // grid-template-columns: repeat(4, 1fr);
         display: flex;
         flex-wrap: wrap;
         gap: 3%;
@@ -1954,12 +1943,7 @@ p {
 
   .landing {
     display: grid;
-    grid-template-areas:
-      'title'
-      'navigation'
-      'description';
     gap: 1rem;
-    justify-content: center;
 
     .title {
       text-align: center;
@@ -2018,6 +2002,7 @@ p {
     }
 
     img {
+      width: 100%;
       display: block;
       margin: 0 auto;
     }

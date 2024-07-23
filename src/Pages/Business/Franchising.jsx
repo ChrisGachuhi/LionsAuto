@@ -10,6 +10,8 @@ import trackingVehicleImage from '../../assets/images/updatedimages/geo-fencing.
 import webDevelopmentImage from '../../assets/images/updatedimages/web-development.webp'
 import crmImage from '../../assets/images/updatedimages/crm-pci.jpg'
 import marketingMaterialImage from '../../assets/images/updatedimages/marketing-material.jpg'
+import franchising from '../../assets/images/updatedimages/landingimage.jpg'
+
 
 const Franchising = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -84,7 +86,7 @@ const Franchising = () => {
       <div className="opportunities">
         <h2>Benefit of Lions Auto GPS Franchising</h2>
         <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+          src={franchising}
           alt=""
         />
 
