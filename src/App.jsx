@@ -54,6 +54,7 @@ import Terms from './Pages/Terms'
 import Privacy from './Pages/Privacy'
 import SpeedGovernor from './Pages/Software/SpeedGovernor'
 import DriverBehavior from './Pages/Software/DriverBehavior'
+import Login from './Pages/Login'
 
 function App() {
   const animate = {
@@ -138,6 +139,7 @@ function App() {
       <CurrentAnimationContext.Provider value={animate}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/Login" element={<Login />} />
           <Route path="/GPS-Software" element={<GpsSoftware />} />
           <Route path="/Load-Monitoring" element={<LoadMonitoring />} />
           <Route path="/Fuel-Monitoring" element={<FuelMonitoring />} />

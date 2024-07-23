@@ -76,7 +76,8 @@ export const Navbar = () => {
         </li>
         <li>
           <NavLink
-            to={'https://tracking.lionsautogps.com'}
+            to='/Login'
+            target='_blank'
             onClick={handleLinkClick}
           >
             Login
