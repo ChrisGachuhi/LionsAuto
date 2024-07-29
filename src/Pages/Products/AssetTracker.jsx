@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -21,13 +19,57 @@ function AssetTracker() {
         </div>
 
         <p>
-          Have you ever worried about the security safety of your house and
-          belongings in the event that the house is empty without anyone in? Or
-          have you ever come across trespasses like your house, office, or
-          garage is robbed by someone unfriendly? Then, Lions Auto GPS Asset
-          Tracker Solution is for you to safe guard your asset—It is your own
-          DIY home security alarm and very easy to setup and use.
-          <br />
+          In the fast-paced world of vehicle lease management and asset finance,
+          the Lions Auto GPS Magnetic Vehicle Asset Tracker offers a
+          revolutionary solution that combines portability, ease of use, and
+          advanced tracking capabilities. This innovative device is designed to
+          provide real-time GPS tracking for vehicles and valuable assets,
+          making it an ideal choice for fleet managers, businesses, and
+          individuals who require reliable tracking with minimal installation
+          hassle.
+        </p>
+
+        <p>
+          The standout feature of the Lions Auto GPS Magnetic Tracker is its
+          powerful magnetic mount, which allows for quick and secure attachment
+          to any metal surface. This design eliminates the need for permanent
+          installation, providing users with the flexibility to move the tracker
+          between different vehicles or assets as needed. Whether it’s a company
+          fleet, construction equipment, or personal vehicles, the magnetic
+          mount ensures the tracker stays firmly in place even in challenging
+          environments.
+        </p>
+
+        <p>
+          With its real-time GPS tracking capabilities, the Lions Auto Tracker
+          offers precise location updates that can be accessed through a
+          user-friendly mobile app or web interface. This feature enables users
+          to monitor their assets’ whereabouts at any given moment, enhancing
+          operational efficiency and security. The device also supports
+          geofencing, allowing users to set up virtual boundaries on a map. If a
+          vehicle or asset moves outside these boundaries, instant alerts are
+          sent, helping to prevent unauthorized use and theft.
+        </p>
+
+        <p>
+          Built to endure harsh conditions, the Lions Auto GPS Magnetic Tracker
+          is housed in a rugged, weather-resistant casing. This durability
+          ensures that the tracker remains functional in various environmental
+          conditions, from extreme temperatures to heavy rain. Additionally, the
+          device’s long-lasting battery provides extended operational periods
+          between charges, minimizing maintenance and ensuring continuous
+          tracking.
+        </p>
+
+        <p>
+          The Lions Auto GPS Magnetic Vehicle Asset Tracker also includes
+          features such as historical data tracking, speed monitoring, and
+          driver behavior analysis. These functionalities help businesses
+          optimize routes, manage fuel consumption, and improve overall fleet
+          efficiency. With its easy installation, reliable performance, and
+          advanced features, the Lions Auto GPS Magnetic Vehicle Asset Tracker
+          is a top choice for anyone looking to enhance their asset security and
+          management capabilities.
         </p>
       </div>
 

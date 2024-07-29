@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -7,7 +5,7 @@ import SvgWrapper from '../../Components/SvgWrapper'
 
 // Import images
 import trackingVehicleImage from '../../assets/images/updatedimages/speed-monitoring-pic.jpg'
-import miningEquipmentImage from '../../assets/images/updatedimages/vehicles-pic.jpg'
+import distribution from '../../assets/images/updatedimages/distribution.jpg'
 import fleetManagementImage from '../../assets/images/updatedimages/savings.jpg'
 
 const Distribution = () => {
@@ -25,6 +23,7 @@ const Distribution = () => {
     // animations for solutions descriptions
     animate.descriptionAnimation('.opportunities', '.description')
   }, [])
+
   return (
     <div className="Page Business SubPage-Software">
       <div className="landing">
@@ -36,7 +35,6 @@ const Distribution = () => {
           <br />
 
           <h1>Distribution Solution</h1>
-          {/* <span>Vehicle Load Monitoring Solution</span> */}
         </div>
 
         <p>
@@ -69,7 +67,7 @@ const Distribution = () => {
           <div className="feature reliability">
             <h3>We provide support</h3>
             <p>
-              Distributor are our real backbone of Lions Auto GPSo GPS therefore
+              Distributor are our real backbone of Lions Auto GPS therefore
               We provide reliable round-the-clock tech support to all partners.
               And we solve problems quickly.
             </p>
@@ -123,13 +121,13 @@ const Distribution = () => {
 
         <div className="opportunity whitelabel">
           <div className="image second-image">
-            <img src={miningEquipmentImage} alt="" />
+            <img src={distribution} alt="" />
           </div>
 
           <div className="description">
-            <h3>Partner of Lions Auto GPS GPS</h3>
+            <h3>Partner with Lions Auto GPS</h3>
             <p>
-              Lions Auto GPSo GPSo GPSo GPS GPS a leading provider of GPS
+              Lions Auto GPS a leading provider of GPS
               vehicle tracking systems aims at offering innovative and
               cost-effective vehicle tracking solutions comprising of hardware
               as well as software. GPS tracking solution is a unique way for

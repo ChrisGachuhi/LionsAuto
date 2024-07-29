@@ -1,9 +1,8 @@
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
-import geoFencingImage from '/src/assets/images/updatedimages/geo-fencing.jpg'
+import schoolbus from '/src/assets/images/updatedimages/School Bus.png'
 import responsibleParentImage from '/src/assets/images/updatedimages/responsible-parent.jpg'
 import trackingVehicleImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 
@@ -30,14 +29,35 @@ function SchoolBusTracker() {
         </div>
 
         <p>
-          Tracking of multiple school bus, driver activity, fuel tracking, and
-          speed tracking is a most complicated work for school admin staff and
-          transport manager. Sppedtrack GPS make your work simple by using AIS
-          140 GPS tracker for the school bus with RFID Attendance System. Our
-          RFID attendance system sends auto SMS notification to parents when
-          their child board and board from the school bus. The school admin
-          staff can generate the bus attendance report online.
-          <br />
+          The Lions Auto GPS School Bus Tracking system is designed to
+          revolutionize the way school transportation is managed, prioritizing
+          both safety and efficiency. This advanced tracking solution offers
+          real-time GPS monitoring of school buses, providing parents, school
+          administrators, and transportation managers with accurate,
+          up-to-the-minute location data. Through a user-friendly mobile app and
+          web interface, stakeholders can easily track bus routes, monitor
+          arrival and departure times, and ensure that students are safely
+          transported to and from school.
+        </p>
+
+        <p>
+          The system enhances safety with features like geofencing, which allows
+          users to set virtual boundaries around school zones and bus stops.
+          Alerts are generated if a bus deviates from its planned route or
+          enters a restricted area, helping to prevent unauthorized detours and
+          ensuring adherence to safe driving practices. Additionally, historical
+          data tracking enables review of past routes and schedules, aiding in
+          route optimization and operational efficiency.
+        </p>
+
+        <p>
+          Durable and reliable, the Lions Auto GPS School Bus Tracker is built
+          to withstand the rigors of daily use in various weather conditions.
+          Its easy installation and low-maintenance design ensure that schools
+          can focus on providing safe, reliable transportation without added
+          logistical burdens. By integrating this advanced tracking system,
+          schools can enhance student safety, streamline transportation
+          operations, and provide peace of mind to parents and guardians.
         </p>
       </div>
 
@@ -100,7 +120,7 @@ function SchoolBusTracker() {
         <div className="highlight">
           <div className="image first-image">
             <SvgWrapper />
-            <img className="target-img" src={geoFencingImage} alt="" />
+            <img className="target-img" src={schoolbus} alt="" />
           </div>
           <div className="description">
             <h3>Route Optimization</h3>

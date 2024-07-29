@@ -370,26 +370,6 @@ p {
   }
 }
 
-// for background svg
-
-// .image {
-//   position: relative;
-
-//   .Svg-wrapper {
-//     height: 150%;
-//     width: 100%;
-//     z-index: 0;
-//     background-image: url(./icons/updated-bg.png);
-//     background-repeat: no-repeat;
-//     background-size: 130% 130%;
-//     background-position: right;
-//     transform: scaleX(-1);
-//     position: absolute;
-//     top: -10%;
-//     left: 10%;
-//   }
-// }
-
 .Form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -654,10 +634,8 @@ p {
 // COMPONENTS END STYLING
 
 .Home {
-  // display: grid;
-
   .landing {
-    padding: 10rem 2rem;
+    padding: 13rem 2rem;
     display: flex;
     justify-content: center;
 
@@ -1508,8 +1486,7 @@ p {
         width: 100%;
 
         img {
-          height: 25rem;
-          width: 95%;
+          height: 17rem;
           border-radius: 1rem;
         }
 
@@ -1914,7 +1891,7 @@ p {
 }
 
 .Software {
-  padding: 2rem 0;
+  padding: 1rem 0;
   display: grid;
   grid-template-areas:
     'landing'
@@ -2005,8 +1982,9 @@ p {
 
     img {
       width: 70%;
+      height: 500px;
       display: block;
-      margin: 0 auto;
+      margin: 0 auto 30px;
     }
 
     .highlight:nth-of-type(even) {

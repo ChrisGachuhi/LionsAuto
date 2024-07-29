@@ -3,10 +3,9 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
-// Importing images
-import fuelSensorsImage from '../../assets/images/updatedimages/fuel-mngmt-pic.jpg'
-import whiteLabelImage from '../../assets/images/updatedimages/branding-pic.jpg'
-import trackingVehicleImage from '../../assets/images/updatedimages/fuel-monitoring2.jpg'
+import fuelcalibration from '../../assets/images/updatedimages/fuelcalibration.jpg'
+import trackingtraining from '../../assets/images/updatedimages/trackingtraining.jpg'
+import fillparameters from '../../assets/images/updatedimages/fillparameters.jpg'
 
 const FuelMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -106,7 +105,7 @@ const FuelMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src={fuelSensorsImage}
+              src={fuelcalibration}
               alt="Fuel Sensors"
             />
           </div>
@@ -124,7 +123,7 @@ const FuelMonitoring = () => {
 
         <div className="opportunity franchising">
           <div className="image second-image">
-            <img src={whiteLabelImage} alt="White Label" />
+            <img src={trackingtraining} alt="White Label" />
           </div>
 
           <div className="description">
@@ -143,7 +142,7 @@ const FuelMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src={trackingVehicleImage}
+              src={fillparameters}
               alt="Tracking Vehicle"
             />
           </div>

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -6,6 +5,7 @@ import SvgWrapper from '../../Components/SvgWrapper'
 import whiteLabelImage from '/src/assets/images/updatedimages/dashboard-pic.jpg'
 import driverBehaviorImage from '/src/assets/images/updatedimages/cellular-connectivity.jpg'
 import crmImage from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
+import electronictracking from '/src/assets/images/updatedimages/ElectronicTracking.jpg'
 
 function IntelligentLock() {
   const animate = useContext(CurrentAnimationContext)
@@ -21,6 +21,7 @@ function IntelligentLock() {
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
   }, [])
+
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -178,7 +179,7 @@ function IntelligentLock() {
 
         <h2>Features of GPS Electronic Lock</h2>
         <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+          src={electronictracking}
           alt=""
         />
 

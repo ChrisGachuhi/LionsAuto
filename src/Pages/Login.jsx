@@ -7,7 +7,7 @@ function Login() {
         <div className="card">Vehicle Tracking</div>
       </Link>
 
-      <Link to={'https://tracking.lionsautogps.com'}>
+      <Link to={'https://fleet.lionsautogps.com'}>
         <div className="card">Fuel Monitoring</div>
       </Link>
     </div>
