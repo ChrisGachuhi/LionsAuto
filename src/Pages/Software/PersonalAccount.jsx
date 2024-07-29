@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -24,6 +22,7 @@ const PersonalAccount = () => {
     // animations for solutions descriptions
     animate.descriptionAnimation('.solution-container', '.description')
   }, [])
+
   return (
     <div className="Page Software SubPage-Software">
       <div className="landing">
@@ -233,10 +232,10 @@ const PersonalAccount = () => {
             <p>
               Our GPS tracking Solution comes with Geo-coding and reverse
               geocoding. Geocoding is the process of converting addresses (like
-              &quot;1600 Amphitheatre Parkway, Mountain View, CA&quot;) into
-              geographic coordinates (like latitude 37.423021 and longitude
-              -122.083739), which you can use to place markers or position the
-              map.
+              &quot;City Square, along, Harambee Ave, Nairobi&quot;) into
+              geographic coordinates (like latitude -1.2835415250551574, and
+              longitude 36.82310269601992), which you can use to place markers
+              or position the map.
             </p>
           </div>
         </div>

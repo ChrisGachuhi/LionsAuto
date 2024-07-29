@@ -1,5 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -23,7 +21,7 @@ function MotorcycleTracker() {
         </div>
 
         <p>
-          WeTrack2 GPS vehicle tracker is designed to meet the needs of various
+          Our motorbike tracking service is designed to meet the needs of various
           peripherals. Its wide voltage range ensures its stable running on
           electro mobiles, motorcycles, cars and trucks. Small but compact, its
           highly reliable electric circuit and internal battery design-functions

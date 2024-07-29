@@ -4,7 +4,6 @@ import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
-import whitelabel from '/src/assets/images/updatedimages/White-label.jpg'
 import trackingsoftware from '/src/assets/images/updatedimages/geo-fencing.jpg'
 import franchising from '/src/assets/images/updatedimages/internal-logging-pic.jpg'
 import trackingVehicle from '/src/assets/images/updatedimages/dashboard-pic.jpg' // Added import for tracking-vehicle.jpg
@@ -46,7 +45,7 @@ const GpsSoftware = () => {
         </div>
 
         <p>
-          Lions Auto GPSo GPSo GPS GPS Software Solutions combine sophisticated
+          Lions Auto GPS Software Solutions combine sophisticated
           GPS tracking technology with flexible, advanced mapping and reporting
           software. A GPS-enabled Vehicle Tracking Device is installed on each
           vehicle to collect and transmit tracking data via a cellular and

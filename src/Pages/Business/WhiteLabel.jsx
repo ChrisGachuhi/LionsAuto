@@ -4,7 +4,7 @@ import { CurrentAnimationContext } from '../../Components/AnimationContext/Curre
 import SvgWrapper from '../../Components/SvgWrapper'
 import franchisingImage from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
 import advancedFleetManagementImage from '/src/assets/images/updatedimages/savings.jpg'
-import webDevelopmentImage from '/src/assets/images/updatedimages/branding-pic.jpg'
+import yourbrand from '/src/assets/images/updatedimages/yourbrand.jpg'
 import whitelabelbusiness from '/src/assets/images/updatedimages/whitelabelbusiness.jpg'
 
 const WhiteLabel = () => {
@@ -141,7 +141,7 @@ const WhiteLabel = () => {
         <div className="opportunity distribution">
           <div className="image third-image">
             <SvgWrapper />
-            <img className="target-img" src={webDevelopmentImage} alt="" />
+            <img className="target-img" src={yourbrand} alt="" />
           </div>
 
           <div className="description">

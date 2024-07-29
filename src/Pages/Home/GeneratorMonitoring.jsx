@@ -1,13 +1,12 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
 import SvgWrapper from '../../Components/SvgWrapper'
 
-import electricalPerformanceImg from '/src/assets/images/updatedimages/generator-pic.jpg'
+import generatorperformance from '/src/assets/images/updatedimages/generatorperformance.jpg'
 import electricalMaintenanceImg from '/src/assets/images/updatedimages/savings.jpg'
-import fuelTankMonitoringImg from '/src/assets/images/updatedimages/fuel-mngmt-pic.jpg'
+import fuelTankMonitoringImg from '/src/assets/images/updatedimages/diesel-generator-monitoring.jpg'
 
 const GeneratorMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -96,7 +95,7 @@ const GeneratorMonitoring = () => {
             <SvgWrapper />
             <img
               className="target-img"
-              src={electricalPerformanceImg}
+              src={generatorperformance}
               alt="Electrical Performance"
             />
           </div>
