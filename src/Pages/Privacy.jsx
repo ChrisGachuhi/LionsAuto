@@ -11,7 +11,7 @@ function Privacy() {
         <p>
           The subscriber as mentioned in the registration form agrees to
           subscribe the ‘Vehicle Tracking Solution&apos; from Lions Auto GPS
-          Providing such services in Bangladesh under the following terms &
+          Providing such services under the following terms &
           conditions
         </p>
 
