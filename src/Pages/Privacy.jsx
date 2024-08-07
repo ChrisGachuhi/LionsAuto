@@ -10,20 +10,19 @@ function Privacy() {
 
         <p>
           The subscriber as mentioned in the registration form agrees to
-          subscribe the ‘Vehicle Tracking Solution&apos; from Lions Auto GPS
-          Providing such services under the following terms &
-          conditions
+          subscribe the ‘Vehicle Tracking Solution&apos; fromLions Auto Services
+          EA Ltd Providing such services under the following terms & conditions
         </p>
 
-        <p>“Lions Auto GPS” Service Agreement</p>
+        <p>“Lions Auto Services EA Ltd” Service Agreement</p>
 
         <h2>Article 1: Introduction</h2>
         <p>
           Please read these terms and conditions (this “agreement”) in full.
           This agreement is between you (“you”) or “customer” are the original,
-          end user purchaser of the GPS tracking device (“device”) that works in
+          end user purchaser of the GPS tracking service that works in
           conjunction with our web site and the services associated with it (the
-          “services”) and us (we are Lions Auto GPS Limited, the company that
+          “services”) and us (we are Lions Auto Services EA Ltd, the company that
           sold the device to you). This agreement contains important terms,
           conditions, allocations of risk between you and us, and limitations of
           our liability to you that we want you to know about and applies to all
@@ -434,18 +433,19 @@ function Privacy() {
         </p>
 
         <p>
-          You agree not to hold the dealer, Lions Auto GPS Limited, its owners
-          or partners in any way liable for the use or misuse of this device.
-          This device is not to be used as a “stalking” device. Lions Auto GPS
-          Limited also does not provide the satellite equipment or map service
-          directly and cannot be held liable in any way for this device as a
-          dealer. This device and service is not designed to be a life saving
-          device in any way. This device is used for informational purpose.
+          You agree not to hold the dealer, Lions Auto Services EA Ltd, its
+          owners or partners in any way liable for the use or misuse of this
+          device. This device is not to be used as a “stalking” device. Lions
+          Auto Services EA Ltd also does not provide the satellite equipment or
+          map service directly and cannot be held liable in any way for this
+          device as a dealer. This device and service is not designed to be a
+          life saving device in any way. This device is used for informational
+          purpose.
         </p>
 
         <p>
-          By their signatures below, customer and Lions Auto GPS Limited have
-          read, understood, and executed this agreement in one or more
+          By their signatures below, customer and Lions Auto Services EA Ltd
+          have read, understood, and executed this agreement in one or more
           counterparts, each of which constitutes an original but all of which
           together constitute one agreement. Transmission of signature pages by
           facsimile or other electronic means is acceptable.
@@ -462,7 +462,7 @@ function Privacy() {
           </li>
           <li>
             Services are available only if you are within operating range of the
-            designated wireless network.
+            gps network.
           </li>
           <li>
             Services may be impaired by any wireless communication problems
@@ -483,7 +483,7 @@ function Privacy() {
             Services may be affected by the natural calamity e.g. earthquake,
             hurricane, floods, labor strikes, civil commotion, riots, war: or
             any other act or event that is beyond reasonable control of Lions
-            Auto GPS.
+            Auto Services EA Ltd
           </li>
           <li>
             Services may be limited in certain situations to some geographic
@@ -495,14 +495,15 @@ function Privacy() {
             or restricts analog and/or digital service.
           </li>
           <li>
-            Services will not be available if Jio, Airtel, or Vodafone network
-            is suspended or terminated due to any unavoidable circumstances.
+            Services will not be available if GSM network is suspended or
+            terminated due to any unavoidable circumstances.
           </li>
           <li>
             If the Subscriber is unable to pay the yearly subscription bill
-            within due date, the service will be suspended immediately and Lions
-            Auto GPS will not be liable for any kind of accident/theft of the
-            vehicle during the suspended period of service.
+            within due date, the service will be suspended immediately andLions
+            Auto Services EA Ltd will not be liable for any kind of
+            accident/theft of the vehicle during the suspended period of
+            service.
           </li>
           <li>Mileage report may defer from +- 10 to 15 %</li>
           <li>
@@ -510,23 +511,23 @@ function Privacy() {
             and environment
           </li>
           <li>
-            Lions Auto GPS Ltd. cannot ensure 100% Server uptime, but we will
-            try to ensure 99% server up time
+            Lions Auto Services EA Ltd cannot ensure 100% Server uptime, but we
+            will try to ensure 99% server up time
           </li>
           <li>
             There might be server issues time to time while we upgrade our
             server or platform features
           </li>
           <li>
-            Lions Auto GPS Ltd. recommend remote support for any software
+            Lions Auto Services EA Ltd recommend remote support for any software
             related after sales service
           </li>
           <li>
-            Lions Auto GPS Ltd. cannot ensure 100% device online due to Mobile
-            operator network availability
+            Lions Auto Services EA Ltd cannot ensure 100% device online due to
+            Mobile operator network availability
           </li>
           <li>
-            Lions Auto GPS Ltd. do not recommend voice feature for your
+            Lions Auto Services EA Ltd do not recommend voice feature for your
             organization as there might be privacy concerns, we will not be
             liable for any legal obligations
           </li>

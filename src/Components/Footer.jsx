@@ -10,7 +10,8 @@ export const Footer = () => {
       <div className="column address">
         <h3>Office Location</h3>
         <p>
-          Lions Auto GPS <br /> Gym Plaza <br /> Outer Ring Rd, Ruaraka <br />
+          Lions Auto Services EA Ltd <br /> Gym Plaza <br /> Outer Ring Rd,
+          Ruaraka <br />
           Nairobi
           <br />
         </p>
@@ -34,14 +35,9 @@ export const Footer = () => {
       <div className="column useful-contact">
         <h3>Useful Contacts</h3>
         <ul>
+
           <li>
-            <Link>Accounts & Billing: +254 704 20 21 21</Link>
-          </li>
-          <li>
-            <Link>Customer Support: +254 702 91 61 91</Link>
-          </li>
-          <li>
-            <Link>Sales: +254 715 13 28 28</Link>
+            <Link>Telephone: +254 715 13 28 28</Link>
           </li>
         </ul>
       </div>
@@ -53,12 +49,7 @@ export const Footer = () => {
             <Link>
               <FontAwesomeIcon icon={faEnvelope} className="icon" />
               info@lionsautogps.com
-            </Link>
-            <br />
-            <Link>
-              <FontAwesomeIcon icon={faEnvelope} className="icon" />
-              support@lionsautogps.com
-            </Link>
+            </Link>         
             <br />
             <Link>
               <FontAwesomeIcon icon={faPhone} className="icon" />

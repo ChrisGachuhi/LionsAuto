@@ -38,7 +38,7 @@ const FuelMonitoring = () => {
           Fuel costs can amount up to 30% of all fleet management expenses,
           therefore affecting operating costs and company&apos;s profit in
           general. Among the major fuel related challenges experts define: Lions
-          Auto GPS GPS tracking and telematics platform can help you cope with
+          Auto GPS tracking and telematics platform can help you cope with
           the major challenges related to fuel monitoring and management in the
           most user-friendly way.
           <br />
@@ -150,7 +150,7 @@ const FuelMonitoring = () => {
           <div className="description">
             <h3>Fill Parameters</h3>
             <p>
-              All parameters are entered into the Lions Auto GPS&apos;s fleet
+              All parameters are entered into the Lions Auto GPS&apos;s fuel monitoring
               system allowing you to view the completed fuel chart. As you learn
               more and better understand the fuel tank and fuel consumption
               parameters, your fuel chart will reflect more accurate records.

@@ -9,22 +9,22 @@ function Terms() {
         <h1>Please Read These Privacy Policy Carefully</h1>
 
         <p>
-          This Privacy Policy was last modified on April 4, 2017. Lions Auto GPS
-          (“Lions Auto GPS,” “we,” or “us”) are committed to protecting your
-          privacy. This Privacy Policy explains how our practices work regarding
-          the collection, use, disclosure, and protection of information that is
-          collected through our mobile app and our website (collectively, our
-          “Service”), as well as the choices you make regarding the collection
-          and use of information. Capitalized terms that are not defined in this
-          Privacy Policy have the meaning given them in our Terms of Use. Lions
-          Auto GPS is a GPS Tracking Service using GPS Tracking Devices
-          installed in vehicles or used by the customer for monitoring their
-          concerned Physical Assets. This App or application is used for
-          Tracking the physical devices only, and the data collected through the
-          physical device. Only the customers and or owners of these IOT devices
-          and or assets will be able to use this service for their Asset
-          Tracking purposes. This is the domain of the service of this
-          Application.
+          This Privacy Policy was last modified on July 7, 2024. Lions Auto
+          Services EA Ltd (referred here as “Lions Auto GPS,”) are committed to
+          protecting your privacy. This Privacy Policy explains how our
+          practices work regarding the collection, use, disclosure, and
+          protection of information that is collected through our mobile app and
+          our website (collectively, our “Service”), as well as the choices you
+          make regarding the collection and use of information. Capitalized
+          terms that are not defined in this Privacy Policy have the meaning
+          given them in our Terms of Use. Lions Auto GPS is a GPS Tracking
+          Service using GPS Tracking Devices installed in vehicles or used by
+          the customer for monitoring their concerned Physical Assets. This App
+          or application is used for Tracking the physical devices only, and the
+          data collected through the physical device. Only the customers and or
+          owners of these IOT devices and or assets will be able to use this
+          service for their Asset Tracking purposes. This is the domain of the
+          service of this Application.
         </p>
 
         <h2>1. How We Collect And Use Information</h2>
@@ -88,13 +88,13 @@ function Terms() {
           upon your privacy settings with the social network. You should always
           review, and if necessary, adjust your privacy settings on third-party
           websites and services before linking or connecting them to Lions Auto
-          GPS&apos;s website or Service.
+          GPS&apos;s tracking portals and mobile apps.
         </p>
         <p>
           Information we collect automatically through the use of technology.
           When you visit our website or use our mobile app, we and the related
           technology providers which we are not directly connected to other than
-          using their analytics software) may collect certain information about
+          using their analytics software may collect certain information about
           your computer or device through technology such as cookies, web
           beacons, log files, or other tracking/recording tools. The information
           we collect through the use of tracking technologies includes, but is
@@ -136,15 +136,15 @@ function Terms() {
           Service.
         </p>
         <p>
-          Data collected via this API will be Governed by Lotadata Privacy
-          Notice (https://lotadata.com/privacy_policy)
+          Data collected via this API will be Governed by Data Protection Act in
+          Kenya.
         </p>
 
         <h2>2. Sharing Of Your Information</h2>
         <p>
           We share your personal information, including name, email, location
           and driving event data, with others only within the organization or
-          group used in Lions Auto GPS services.
+          group used in Lions Auto Services EA Ltd.
         </p>
         <p>
           We may at any time buy or sell/divest the company, or any combination
@@ -165,46 +165,47 @@ function Terms() {
           investigate and defend ourselves against any claims or allegations, or
           to protect the security or integrity of our site; and/or (c) to
           exercise or protect the rights, property, or personal safety of Lions
-          Auto GPS, our Users or others.
+          Auto Services EA Ltd, our Users or others.
         </p>
 
         <h2>3. How We Protect Your Information</h2>
         <p>
-          Lions Auto GPS cares about the security of your information and uses
-          commercially reasonable physical, administrative, and technological
-          safeguards to preserve the integrity and security of all information
-          we collect and that we share with our service providers. However, no
-          security system is impenetrable and we cannot guarantee the security
-          of our systems 100%. In the event that any information under our
-          control is compromised as a result of a breach of security, we will
-          take reasonable steps to investigate the situation and where
-          appropriate, notify those individuals whose information may have been
-          compromised and take other steps, in accordance with any applicable
-          laws and regulations. Lions Auto GPS maintains proper backup of your
-          data, but not everything or related data can be guaranteed, so if upon
-          any unforeseeable reason the data backups fail then Lions Auto GPS
-          will notify the user but cannot do anything more than that.
+          Lions Auto Services EA Ltd cares about the security of your
+          information and uses commercially reasonable physical, administrative,
+          and technological safeguards to preserve the integrity and security of
+          all information we collect and that we share with our service
+          providers. However, no security system is impenetrable and we cannot
+          guarantee the security of our systems 100%. In the event that any
+          information under our control is compromised as a result of a breach
+          of security, we will take reasonable steps to investigate the
+          situation and where appropriate, notify those individuals whose
+          information may have been compromised and take other steps, in
+          accordance with any applicable laws and regulations. Lions Auto
+          Services EA Ltd maintains proper backup of your data, but not
+          everything or related data can be guaranteed, so if upon any
+          unforeseeable reason the data backups fail then Lions Auto Services EA
+          Ltd will notify the user but cannot do anything more than that.
         </p>
 
         <h2>4. Your Choices About Your Information</h2>
         <p>
           You may, of course, decline to submit any personal information through
-          the Service, in which case Lions Auto GPS may or may not be able to
-          provide its Services to you depending on the extent of the service.
-          Modifying Your Account Information and Settings: You may modify your
-          account information, update or amend your personal information, or
-          change your password at any time by logging in to your account. We
-          make every effort to promptly process all unsubscribe requests through
-          our software and/or manual process. As noted above, you may not opt
-          out of Service-related communications (e.g., account verification,
-          parental consent notification, order confirmations, change or updates
-          to features of the Service, technical and security notices). If you
-          have any questions about reviewing or modifying your account
-          information, you can contact us directly at info@lionsautogps.com
-          Delete Your Account and Personal Information: We will retain your
-          information for as long as your account is active or as needed to
-          provide you services. If you wish to cancel your account, please
-          contact us at info@lionsautogps.com
+          the Service, in which case Lions Auto Services EA Ltd may or may not
+          be able to provide its Services to you depending on the extent of the
+          service. Modifying Your Account Information and Settings: You may
+          modify your account information, update or amend your personal
+          information, or change your password at any time by logging in to your
+          account. We make every effort to promptly process all unsubscribe
+          requests through our software and/or manual process. As noted above,
+          you may not opt out of Service-related communications (e.g., account
+          verification, parental consent notification, order confirmations,
+          change or updates to features of the Service, technical and security
+          notices). If you have any questions about reviewing or modifying your
+          account information, you can contact us directly at
+          info@lionsautogps.com Delete Your Account and Personal Information: We
+          will retain your information for as long as your account is active or
+          as needed to provide you services. If you wish to cancel your account,
+          please contact us at info@lionsautogps.com
         </p>
 
         <h2>5. Customized Privacy</h2>
@@ -230,28 +231,28 @@ function Terms() {
 
         <h2>7. Changes To Our Privacy Policy</h2>
         <p>
-          Lions Auto GPS may, in its sole discretion, modify or update this
-          Privacy Policy from time to time, and so you should review this page
-          periodically. When we change the policy, we will update the ‘last
-          modified&apos; date at the top of this page. If there are material
-          changes to this Privacy Policy or in how AUTINEMO will use your
-          personal information, we will notify you either by prominently posting
-          a notice of such changes prior to implementing the change or by
-          directly sending you a notification.
+          Lions Auto Services EA Ltd may, in its sole discretion, modify or
+          update this Privacy Policy from time to time, and so you should review
+          this page periodically. When we change the policy, we will update the
+          ‘last modified&apos; date at the top of this page. If there are
+          material changes to this Privacy Policy or in how Lions Auto Services
+          EA Ltd will use your personal information, we will notify you either
+          by prominently posting a notice of such changes prior to implementing
+          the change or by directly sending you a notification.
         </p>
 
         <h2>8. Your Privacy Rights As In India</h2>
         <p>
-          Lions Auto collects various types of personal information about you
-          both online and offline, as described in this privacy policy. Under
-          the law of Bangladesh, Lions Auto customers who are residents of
-          Bangladesh or we the service of Lions Auto, may have to disclose their
-          data or information till the last available or retained data to third
-          parties including government entities according to the law of the land
-          as required. We will comply with such request which will be applicable
-          based on the law of the country. You May Send Us An Email At
-          info@lionsautogps.com With The Words “Privacy Policy In Bangladesh” In
-          The Subject Line.
+          Lions Auto Services EA Ltd collects various types of personal
+          information about you both online and offline, as described in this
+          privacy policy. Under the law of Bangladesh, Lions Auto customers who
+          are residents of Bangladesh or we the service of Lions Auto, may have
+          to disclose their data or information till the last available or
+          retained data to third parties including government entities according
+          to the law of the land as required. We will comply with such request
+          which will be applicable based on the law of the country. You May Send
+          Us An Email At info@lionsautogps.com With The Words “Privacy Policy In
+          Kenya” In The Subject Line.
         </p>
       </div>
     </div>
