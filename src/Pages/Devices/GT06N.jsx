@@ -79,7 +79,7 @@ function GT06N() {
       </div>
 
       <div className="Performance">
-        <h3>Performance & Parameter of FMB120</h3>
+        <h3>Performance & Parameter of GT06N</h3>
 
         <div className="parameter">
           <p>Product Type</p>

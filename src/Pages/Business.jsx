@@ -37,13 +37,12 @@ const Business = () => {
         <LandingAnimation />
         <div className="title">
           <span>
-            WELCOME TO <span>LIONS AUTO</span>
+            WELCOME TO <span>LIONS AUTO GPS</span>
           </span>
           <br />
 
           <h1>GPS Tracking for Business</h1>
           <span>Vehicle tracking software for GPS tracking business</span>
-
         </div>
 
         <div className="navigation">
@@ -60,17 +59,17 @@ const Business = () => {
         </div>
 
         <p>
-          GPS tracking technology is widely used in personal households and
-          businesses. The GPS tracking market is rapidly growing and has an
+          Lions Auto GPS tracking technology is widely used in personal vehicles
+          and businesses. The GPS tracking market is rapidly growing and has an
           amazing potential in the future. People are becoming more and more
-          concerned about their safety and the safety of their valuables.
+          concerned about their vehicles and the safety of their valuables.
         </p>
 
         <p>
           That&apos;s why families are starting to use mobile tracking apps and
-          GPS trackers for their children and other loved ones. Companies are
-          also tracking and managing their vehicles, delivery trucks, cargo or
-          employees.
+          GPS trackers for their personal vehicles and other loved ones.
+          Companies are also tracking and managing their vehicles, delivery
+          trucks, cargo or employees.
         </p>
 
         <p>

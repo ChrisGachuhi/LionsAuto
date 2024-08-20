@@ -5,6 +5,11 @@
   scroll-behavior: smooth;
 }
 
+html, body {
+  scroll-behavior: smooth; /* For smoother scrolling */
+  scroll-margin-top: 0; /* Adjust as needed */
+}
+
 h1,
 h2 {
   color: #33496c;
@@ -567,6 +572,7 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+  
 
   .column {
     height: 100%;
@@ -577,6 +583,10 @@ p {
       font-size: 1.5rem;
       color: #272a33;
       margin-bottom: 15px;
+    }
+
+    p {
+      color: #272a33;
     }
 
     li {

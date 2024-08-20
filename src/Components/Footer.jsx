@@ -18,7 +18,7 @@ export const Footer = () => {
       </div>
 
       <div className="column quick-links">
-        <h3>Quick Link</h3>
+        <h3>Quick Links</h3>
         <ul>
           <li>
             <Link to={'/Products'}>Products & Services</Link>
@@ -43,7 +43,7 @@ export const Footer = () => {
       </div>
 
       <div className="column get-in-touch">
-        <h3>Get in touch</h3>
+        <h3>Connect with us</h3>
         <ul>
           <li>
             <Link>

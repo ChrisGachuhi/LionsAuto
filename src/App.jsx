@@ -55,6 +55,7 @@ import Privacy from './Pages/Privacy'
 import SpeedGovernor from './Pages/Software/SpeedGovernor'
 import DriverBehavior from './Pages/Software/DriverBehavior'
 import Login from './Pages/Login'
+import ScrollToTop from './Components/Scrolltotop'
 
 function App() {
   const animate = {
@@ -137,6 +138,7 @@ function App() {
     <div className="App">
       <Navbar />
       <CurrentAnimationContext.Provider value={animate}>
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Login" element={<Login />} />
@@ -158,7 +160,7 @@ function App() {
             element={<PersonalAccount />}
           />
           <Route path="/Products" element={<ProductSolutions />} />
-          <Route path="/AIS-140-GPS-Tracker" element={<GpsTracker />} />
+          <Route path="/realtime-tracking" element={<GpsTracker />} />
           <Route path="/School-Bus-Tracker" element={<SchoolBusTracker />} />
           <Route
             path="/Smart-Motorcycle-Tracker"
@@ -180,8 +182,8 @@ function App() {
           <Route path="/Business/White-Label" element={<WhiteLabel />} />
           <Route path="/Business/Distribution" element={<Distribution />} />
           <Route path="/Software" element={<Software />} />
-          <Route path="/Speed-Governor" element={< SpeedGovernor/>} />
-          <Route path="/Driver-Behavior" element={< DriverBehavior/>} />
+          <Route path="/Speed-Governor" element={<SpeedGovernor />} />
+          <Route path="/Driver-Behavior" element={<DriverBehavior />} />
 
           <Route path="/Devices" element={<SupportedDevices />} />
           <Route path="/Pricing" element={<Pricing />} />

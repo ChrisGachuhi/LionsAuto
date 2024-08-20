@@ -45,11 +45,9 @@ export const Form = () => {
     <div className="Section Form">
       <div className="contact-center">
         <span>CONTACT US</span>
-        <span>Don&apos;t Hesitate to</span>
-        <span>Contact us for any</span>
-        <span>Information</span>
-
-        <p>Call us for immediate support on this number</p>
+        <span>Got any inquiries?</span>
+        <span> Call or email us today!</span>
+        <p>info@lionsautogps.com</p>
         <span>+254 715 13 28 28</span>
       </div>
 

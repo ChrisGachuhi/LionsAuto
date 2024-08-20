@@ -9,7 +9,7 @@ const ProductSolutions = () => {
     <div className="Page Product">
       <div className="solution">
         <img src={realtime_tracking} alt="" />
-        <Link to={'/AIS-140-GPS-Tracker'}>Realtime Vehicle Tracking</Link>
+        <Link to={'/realtime-tracking'}>Realtime Vehicle Tracking</Link>
       </div>
 
       <div className="solution">

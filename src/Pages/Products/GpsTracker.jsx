@@ -2,6 +2,7 @@ import LandingAnimation from '../../Components/animated-components/LandingAnimat
 
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
+import realtimetracking from '../../assets/images/updatedimages/realtimetracking.jpeg'
 
 function GpsTracker() {
   const animate = useContext(CurrentAnimationContext)
@@ -37,7 +38,7 @@ function GpsTracker() {
           <h2>What is Realtime Vehicle Tracking</h2>
         </div>
         <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/01/AIS-140-GPS-Tracker.png?w=684&ssl=1"
+          src={realtimetracking}
           alt=""
         />
         <p>

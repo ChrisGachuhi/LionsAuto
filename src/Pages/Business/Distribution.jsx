@@ -42,7 +42,7 @@ const Distribution = () => {
           GPS tracking Business at very low investment . You can become
           distributor of our international brand Speedorack GPS which is one of
           the leading GPS tracking software. You will get Wholesale price if you
-          become distributor of Lions Auto GPS GPS so that to maximize your
+          become distributor of Lions Auto GPS so that to maximize your
           profit on per sale. If you become Lions Auto GPS distributor partner
           you will get 24/7 support on any issue to run your business smoothly.
           our pricing contains entry fee plus connection fee for every tracking

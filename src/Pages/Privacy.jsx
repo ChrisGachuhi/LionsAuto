@@ -388,7 +388,7 @@ function Privacy() {
           To the fullest extent permitted by law, and except as explicitly
           provided otherwise, this agreement and any disputes arising out of or
           relating to it will be governed by the laws of the people&apos;s
-          republic of Bangladesh without regard to its conflict of law
+          republic of Kenya without regard to its conflict of law
           principles, and by any applicable tariffs, wherever filed. The UN
           Convention on contracts for the international sale of goods will not
           apply.

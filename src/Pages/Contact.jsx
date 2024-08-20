@@ -15,7 +15,7 @@ const Contact = () => {
   return (
     <div className="Page Contact">
       <div className="card contacts">
-        <FontAwesomeIcon className='icon_header' icon={faContactBook} />
+        <FontAwesomeIcon className="icon_header" icon={faContactBook} />
         <h3>Email & Phone</h3>
         <p>
           <FontAwesomeIcon icon={faEnvelope} /> info@lionsautogps.com <br />
@@ -24,9 +24,9 @@ const Contact = () => {
       </div>
 
       <div className="card socials">
-        <FontAwesomeIcon className='icon_header' icon={faRecycle} />
+        <FontAwesomeIcon className="icon_header" icon={faRecycle} />
         <h3>Get In Touch</h3>
-        <p>Also find us social media below</p>
+        <p>Our social media handles</p>
         <p>
           <Link to={'https://facebook.com/LionsAutoGPS'} target="_blank">
             <FontAwesomeIcon icon={faFacebookF} className="icon" />
