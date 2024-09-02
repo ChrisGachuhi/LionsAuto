@@ -1482,8 +1482,10 @@ p {
 
     img {
       width: 70%;
+      max-height: 500px;
       margin: 0 15% 2rem;
       border-radius: 5px;
+      object-position: center;
     }
 
     .opportunity {

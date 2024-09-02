@@ -1,4 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
@@ -10,6 +9,7 @@ import dumpTruckImage from '/src/assets/images/updatedimages/dump-truck.jpg'
 import garbageTruckImage from '/src/assets/images/updatedimages/garbage-truck-pic.jpg'
 import speedGovernorImage from '/src/assets/images/updatedimages/savings.jpg'
 import vehiclebalancepic from '/src/assets/images/updatedimages/load-monitoring-pic.jpg'
+import loadmonitoringapplication from '../../assets/images/updatedimages/loadmonitoring-application.webp'
 
 const LoadMonitoring = () => {
   const animate = useContext(CurrentAnimationContext)
@@ -109,7 +109,7 @@ const LoadMonitoring = () => {
       <div className="opportunities">
         <h2>Application of Load Weight Monitoring</h2>
         <img
-          src="https://i0.wp.com/speedotrack.com/wp-content/uploads/2022/06/Speedotrack-Fuel-Monitoring-Solution.png?w=704&ssl=1"
+          src={loadmonitoringapplication}
           alt=""
         />
         <div className="opportunity franchising">

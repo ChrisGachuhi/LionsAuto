@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import LandingAnimation from '../../Components/animated-components/LandingAnimation'
 import { useContext, useEffect } from 'react'
 import { CurrentAnimationContext } from '../../Components/AnimationContext/CurrentAnimationContext'
@@ -46,9 +45,8 @@ function TankerTruck() {
           gasoline or other fuel): volume and temperature of liquid in cistern,
           if there were any manipulations with compartments of cistern (fuel
           theft, mixing with low-quality liquid) and places of liquid fill-up
-          and delivery. Speedotrack telematics solution provides monitoring of
-          more than 250 operating parameters of fuel transportation and
-          performance of truck.
+          and delivery. Lions Auto GPS provides monitoring of more than 250
+          operating parameters of fuel transportation and performance of truck.
           <br />
         </p>
       </div>
@@ -60,60 +58,75 @@ function TankerTruck() {
             <div className="feature label">
               <h3>Fuel monitoring in compartments</h3>
               <p>
-                Allow the location to be pin pointed in the real time or
-                periodically. Allow the location to be pin pointed in the real
-                time or periodically. Allow the location to be pin pointed in
-                the real time or periodically.
+                Keep an Eye on Every Drop with Lions Auto GPS. Our Tanker Fuel
+                Monitoring solution ensures you have full control over your
+                fleet&apos;s fuel usage. Say goodbye to fuel theft and
+                wastage—our real-time monitoring technology tracks every litre,
+                helping you save on costs and boost efficiency.
               </p>
             </div>
 
             <div className="feature access">
               <h3>Fuel temperature monitoring</h3>
               <p>
-                Allow the location to be pin pointed in the real time or
-                periodically. Allow the location to be pin pointed in the real
-                time or periodically. Allow the location to be pin pointed in
-                the real time or periodically.
+                Keep Your Cargo Safe with Advanced Tanker Temperature
+                Monitoring! At Lions Auto GPS, we understand how crucial it is
+                to maintain the right temperature for your valuable cargo.
+                Whether you&apos;re transporting food, chemicals, or
+                pharmaceuticals, we&apos;ve got you covered. With our
+                state-of-the-art Tanker Temperature Monitoring solution, you can
+                rest assured that your perishable and sensitive goods are always
+                in safe hands.
               </p>
             </div>
 
             <div className="feature business">
               <h3>GPS location tracking</h3>
               <p>
-                Allow the location to be pin pointed in the real time or
-                periodically. Allow the location to be pin pointed in the real
-                time or periodically. Allow the location to be pin pointed in
-                the real time or periodically.
+                Never lose sight of your valuable assets again! With our
+                advanced GPS tracking for tanker trucks, you can monitor your
+                fleet in real-time, ensuring safety and efficiency on every
+                journey. Real-time Location Updates,Enhanced Route
+                Optimization,Fuel Usage Monitoring,Geo-Fencing for Security
+                Alerts. Protect your business and ensure peace of mind with the
+                best in GPS tracking technology.
               </p>
             </div>
 
             <div className="feature software">
               <h3>Fuel theft prevention</h3>
               <p>
-                Allow the location to be pin pointed in the real time or
-                periodically. Allow the location to be pin pointed in the real
-                time or periodically. Allow the location to be pin pointed in
-                the real time or periodically.
+                Fuel theft can drain your profits, but with Lions Auto GPS, you
+                can put a stop to it! Our cutting-edge tracking system provides
+                real-time alerts and monitoring to safeguard your fuel supply.
+                Instant Theft Alerts, Precise Location Tracking, Secure Fuel
+                Monitoring, Detailed Usage Reports
               </p>
             </div>
 
             <div className="feature management">
               <h3>Engine health status</h3>
               <p>
-                Allow the location to be pin pointed in the real time or
-                periodically. Allow the location to be pin pointed in the real
-                time or periodically. Allow the location to be pin pointed in
-                the real time or periodically.
+                Keep your fleet running smoothly and avoid costly breakdowns
+                with our OBD tracking technology. Lions Auto GPS provides
+                real-time engine health status, so you can catch issues early
+                and maintain peak performanc, Real-Time Engine Diagnostics,
+                Early Warning Alerts, Detailed Health Reports, Preventive
+                Maintenance Reminders. Stay ahead of engine troubles and ensure
+                your tanker trucks are always in top shape.
               </p>
             </div>
 
             <div className="feature easy">
               <h3>Easy Installation</h3>
               <p>
-                Allow the location to be pin pointed in the real time or
-                periodically. Allow the location to be pin pointed in the real
-                time or periodically. Allow the location to be pin pointed in
-                the real time or periodically.
+                Say goodbye to complicated setups! Our tracking devices are
+                designed for quick and hassle-free installation, so you can
+                start monitoring your tanker trucks in no time. Plug & Play
+                Installation, Get Started in Minutes, Reliable GPS Tracking,
+                Seamless Integration with Fleet Management. Whether you have one
+                truck or an entire fleet,we makes it simple to keep
+                track of your valuable assets.
               </p>
             </div>
           </div>

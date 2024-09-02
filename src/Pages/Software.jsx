@@ -77,9 +77,7 @@ const Software = () => {
               to the right place. Let&apos;s start tracking with our advanced
               GPS tracking platform.
             </p>
-            <Link to={'/GPS-Software'} target="_blank">
-              Know More
-            </Link>
+            <Link to={'/GPS-Software'}>Know More</Link>
           </div>
         </div>
       </div>
@@ -94,8 +92,8 @@ const Software = () => {
           <div className="description">
             <h3>Lions Auto GPS Speed Governor</h3>
             <p>
-              Our state-of-the-art Speed Limiter solution, designed to promote road
-              safety, enhance vehicle performance, and ensure regulatory
+              Our state-of-the-art Speed Limiter solution, designed to promote
+              road safety, enhance vehicle performance, and ensure regulatory
               compliance. Our Speed Limiter is a critical tool for fleet
               managers and individual vehicle owners who prioritize safety and
               efficiency.
@@ -121,9 +119,7 @@ const Software = () => {
               you cope with the major challenges related to fuel monitoring and
               management in the most user-friendly way.
             </p>
-            <Link to={'/Fuel-Monitoring'} target="_blank">
-              Know More
-            </Link>
+            <Link to={'/Fuel-Monitoring'}>Know More</Link>
           </div>
         </div>
       </div>
@@ -143,9 +139,7 @@ const Software = () => {
               testament to our dedication to innovation and excellence in the
               fleet management industry.
             </p>
-            <Link to={'/Driver-Behavior'} target="_blank">
-              Know More
-            </Link>
+            <Link to={'/Driver-Behavior'}>Know More</Link>
           </div>
         </div>
       </div>
